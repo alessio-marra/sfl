@@ -309,65 +309,118 @@ def find_changes(match_id: str, old_data: dict, new_data: dict) -> list[dict]:
 
 
 # ── Email ─────────────────────────────────────────────────────────────────────
-def send_email(changes: list[dict]):
-    lines = []
+def _format_time(min_val, sec_val) -> str:
+    return f"{min_val}'{str(sec_val).zfill(2)}\""
+
+
+def _change_rows_html(changes: list[dict]) -> tuple[str, int]:
+    """Build HTML table rows for all changes. Returns (html, action_count)."""
     action_count = 0
+    rows = []
 
     for c in changes:
-        match_header = (
-            f"{c['description']} | {c['competition']} | {c['date']}"
-        )
-
         if c["change"] == "TIME_CHANGED":
-            old_time = f"{c['old_min']}'{c['old_sec']}\""
-            new_time = f"{c['new_min']}'{c['new_sec']}\""
-            action = "*** ACTION NEEDED ***" if c["min_changed"] else "(seconds only - no action needed)"
+            old_time = _format_time(c["old_min"], c["old_sec"])
+            new_time = _format_time(c["new_min"], c["new_sec"])
             if c["min_changed"]:
                 action_count += 1
-            lines.append(
-                f"Match:  {match_header}\n"
-                f"Team:   {c['teamName']}\n"
-                f"OUT:    {c['playerOff']}\n"
-                f"IN:     {c['playerOn']}\n"
-                f"Change: {old_time} -> {new_time}  {action}\n"
-            )
+                badge = '<span style="background:#dc2626;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">ACTION NEEDED</span>'
+                time_cell = f'<span style="color:#6b7280;text-decoration:line-through">{old_time}</span> &rarr; <strong style="color:#dc2626">{new_time}</strong>'
+            else:
+                badge = '<span style="background:#d1d5db;color:#374151;padding:2px 8px;border-radius:4px;font-size:11px;">seconds only</span>'
+                time_cell = f'<span style="color:#6b7280;text-decoration:line-through">{old_time}</span> &rarr; <strong>{new_time}</strong>'
         elif c["change"] == "NEW":
-            lines.append(
-                f"Match:  {match_header}\n"
-                f"Team:   {c['teamName']}\n"
-                f"OUT:    {c['playerOff']}\n"
-                f"IN:     {c['playerOn']}\n"
-                f"Change: NEW substitution event @ {c['new_min']}'{c['new_sec']}\"\n"
-            )
+            new_time = _format_time(c["new_min"], c["new_sec"])
+            badge = '<span style="background:#2563eb;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">NEW</span>'
+            time_cell = f'<strong style="color:#2563eb">{new_time}</strong>'
         elif c["change"] == "REMOVED":
-            lines.append(
-                f"Match:  {match_header}\n"
-                f"Team:   {c['teamName']}\n"
-                f"OUT:    {c['playerOff']}\n"
-                f"Change: REMOVED (was {c['old_min']}'{c['old_sec']}\")\n"
-            )
+            old_time = _format_time(c["old_min"], c["old_sec"])
+            badge = '<span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">REMOVED</span>'
+            time_cell = f'<span style="color:#6b7280;text-decoration:line-through">{old_time}</span>'
+        else:
+            continue
 
-    separator = "-" * 50
-    body = (
-        f"Stats Perform - Substitution Changes Detected\n"
-        f"{'=' * 50}\n"
-        f"Run time (UTC): {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')}\n"
-        f"Total changes: {len(changes)} "
-        f"({action_count} requiring action, {len(changes)-action_count} seconds-only)\n"
-        f"{'=' * 50}\n\n"
-        + f"\n{separator}\n\n".join(lines)
-        + "\nPlease verify and update the federation system where needed."
+        player_on = c.get("playerOn", "?") if c["change"] != "REMOVED" else "—"
+        rows.append(f"""
+        <tr style="border-bottom:1px solid #e5e7eb;">
+          <td style="padding:10px 12px;font-size:13px;">{c['date']}</td>
+          <td style="padding:10px 12px;font-size:13px;font-weight:600;">{c['description']}</td>
+          <td style="padding:10px 12px;font-size:13px;color:#6b7280;">{c['competition']}</td>
+          <td style="padding:10px 12px;font-size:13px;">{c['teamName']}</td>
+          <td style="padding:10px 12px;font-size:13px;">&#x2B06; {c['playerOff']}<br><span style="color:#059669">&#x2B07; {player_on}</span></td>
+          <td style="padding:10px 12px;font-size:13px;">{time_cell}</td>
+          <td style="padding:10px 12px;">{badge}</td>
+        </tr>""")
+
+    return "\n".join(rows), action_count
+
+
+def send_email(changes: list[dict]):
+    rows_html, action_count = _change_rows_html(changes)
+
+    run_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    seconds_only = len(changes) - action_count
+
+    summary_color = "#dc2626" if action_count else "#374151"
+    summary_text = (
+        f'<strong style="color:{summary_color}">{action_count} requiring action</strong>'
+        + (f", {seconds_only} seconds-only" if seconds_only else "")
     )
 
-    subject = f"Stats Perform - {len(changes)} sub change(s)"
-    if action_count:
-        subject += f" - {action_count} ACTION(S) NEEDED"
+    html_body = f"""<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:0;background:#f3f4f6;font-family:Arial,sans-serif;">
+  <div style="max-width:800px;margin:32px auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.08);">
 
-    msg = MIMEMultipart()
+    <!-- Header -->
+    <div style="background:#1e3a5f;padding:20px 28px;">
+      <p style="margin:0;color:#93c5fd;font-size:12px;text-transform:uppercase;letter-spacing:1px;">Stats Perform Monitor</p>
+      <h1 style="margin:4px 0 0;color:#fff;font-size:20px;">Substitution Changes Detected</h1>
+    </div>
+
+    <!-- Summary bar -->
+    <div style="background:#f8fafc;border-bottom:1px solid #e5e7eb;padding:12px 28px;font-size:13px;color:#374151;">
+      {len(changes)} change(s) found &mdash; {summary_text} &mdash; <span style="color:#9ca3af">{run_time}</span>
+    </div>
+
+    <!-- Table -->
+    <div style="padding:20px 28px;">
+      <table style="width:100%;border-collapse:collapse;">
+        <thead>
+          <tr style="background:#f1f5f9;">
+            <th style="padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;color:#6b7280;letter-spacing:.5px;">Date</th>
+            <th style="padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;color:#6b7280;letter-spacing:.5px;">Match</th>
+            <th style="padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;color:#6b7280;letter-spacing:.5px;">Competition</th>
+            <th style="padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;color:#6b7280;letter-spacing:.5px;">Team</th>
+            <th style="padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;color:#6b7280;letter-spacing:.5px;">Players</th>
+            <th style="padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;color:#6b7280;letter-spacing:.5px;">Time</th>
+            <th style="padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;color:#6b7280;letter-spacing:.5px;">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows_html}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <div style="background:#f8fafc;border-top:1px solid #e5e7eb;padding:12px 28px;font-size:12px;color:#9ca3af;">
+      Please verify and update the federation system where needed.
+    </div>
+
+  </div>
+</body>
+</html>"""
+
+    subject = f"Stats Perform – {len(changes)} substitution change(s)"
+    if action_count:
+        subject += f" – {action_count} ACTION(S) NEEDED"
+
+    msg = MIMEMultipart("alternative")
     msg["From"]    = EMAIL_FROM
     msg["To"]      = EMAIL_TO
     msg["Subject"] = subject
-    msg.attach(MIMEText(body, "plain"))
+    msg.attach(MIMEText(html_body, "html"))
 
     recipients = [e.strip() for e in EMAIL_TO.split(",")]
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
@@ -375,8 +428,6 @@ def send_email(changes: list[dict]):
         smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
 
     print(f"Email sent - {len(changes)} change(s), {action_count} action(s) needed.")
-
-
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     now_utc = datetime.now(timezone.utc)
