@@ -103,7 +103,7 @@ def fetch_match_data(match_id: str) -> dict:
     r.raise_for_status()
 
     # Debug: show raw XML start to verify structure
-    print(f"     XML preview: {r.text[:300].replace(chr(10), ' ')}")
+    print(f"     XML preview: {r.text[:2000].replace(chr(10), ' ')}")
 
     root = ET.fromstring(r.text)
 
