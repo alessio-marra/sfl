@@ -420,7 +420,7 @@ def send_email(changes: list[dict]):
         subject += f" – {action_count} ACTION(S) NEEDED"
 
     msg = MIMEMultipart("alternative")
-    msg["From"]    = EMAIL_FROM
+    msg["From"]    = f"Stats Perform QA - substitution update <{EMAIL_FROM}>"
     msg["To"]      = EMAIL_TO
     msg["Subject"] = subject
     msg.attach(MIMEText(html_body, "html"))
