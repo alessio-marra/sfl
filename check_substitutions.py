@@ -38,6 +38,7 @@ REFERER        = os.environ["SP_REFERER"]
 EMAIL_FROM     = os.environ["EMAIL_FROM"]
 EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
 EMAIL_TO       = os.environ["EMAIL_TO"]
+EMAIL_ADMIN = os.environ["EMAIL_ADMIN"]
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "13"))
 
 BASE_URL   = "https://api.performfeeds.com/soccerdata"
@@ -431,55 +432,104 @@ def send_email(changes: list[dict]):
         smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
 
     print(f"Email sent - {len(changes)} change(s), {action_count} action(s) needed.")
+
+# ── Error email ───────────────────────────────────────────────────────────────
+def send_error_email(error: Exception):
+    import traceback
+    run_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    tb = traceback.format_exc()
+
+    html_body = f"""<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:0;background:#f3f4f6;font-family:Arial,sans-serif;">
+  <div style="max-width:700px;margin:32px auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+    <div style="background:#7f1d1d;padding:20px 28px;">
+      <p style="margin:0;color:#fca5a5;font-size:12px;text-transform:uppercase;letter-spacing:1px;">Stats Perform Monitor</p>
+      <h1 style="margin:4px 0 0;color:#fff;font-size:20px;">&#9888; Script Error</h1>
+    </div>
+    <div style="background:#f8fafc;border-bottom:1px solid #e5e7eb;padding:12px 28px;font-size:13px;color:#374151;">
+      The substitution checker encountered an error &mdash; <span style="color:#9ca3af">{run_time}</span>
+    </div>
+    <div style="padding:20px 28px;">
+      <p style="font-size:13px;color:#374151;margin:0 0 8px;"><strong>Error:</strong> {type(error).__name__}: {error}</p>
+      <p style="font-size:12px;color:#6b7280;margin:16px 0 6px;"><strong>Traceback:</strong></p>
+      <pre style="background:#f1f5f9;padding:12px;border-radius:6px;font-size:11px;color:#374151;overflow-x:auto;white-space:pre-wrap;">{tb}</pre>
+    </div>
+    <div style="background:#f8fafc;border-top:1px solid #e5e7eb;padding:12px 28px;font-size:12px;color:#9ca3af;">
+      Please check the GitHub Actions logs for more details.
+    </div>
+  </div>
+</body>
+</html>"""
+
+    subject = f"Stats Perform – ERROR: {type(error).__name__}"
+
+    msg = MIMEMultipart("alternative")
+    msg["From"]    = f"Stats Perform Monitor <{EMAIL_FROM}>"
+    msg["To"]      = EMAIL_ADMIN
+    msg["Subject"] = subject
+    msg.attach(MIMEText(html_body, "html"))
+
+    recipients = [e.strip() for e in EMAIL_ADMIN.split(",")]
+    with smtplib.SMTP("smtp.office365.com", 587) as smtp:
+        smtp.starttls()
+        smtp.login(EMAIL_FROM, EMAIL_PASSWORD)
+        smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
+
+    print(f"Error email sent: {type(error).__name__}: {error}")
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    now_utc = datetime.now(timezone.utc)
-    since   = (now_utc - timedelta(hours=LOOKBACK_HOURS)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    print(f"Checking MAR since {since} ...")
-
-    state       = load_state()
-    all_changes = []
-
     try:
+        now_utc = datetime.now(timezone.utc)
+        since   = (now_utc - timedelta(hours=LOOKBACK_HOURS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        print(f"Checking MAR since {since} ...")
+
+        state       = load_state()
+        all_changes = []
+
         updated_matches = fetch_mar(since)
-    except Exception as e:
-        print(f"MAR call failed: {e}")
-        raise
+        print(f"   {len(updated_matches)} match(es) updated since {since}")
 
-    print(f"   {len(updated_matches)} match(es) updated since {since}")
+        for match_id in updated_matches:
+            print(f"   Fetching MA3 for match {match_id} ...")
+            try:
+                new_data = fetch_match_data(match_id)
+            except Exception as e:
+                print(f"     MA3 call failed for {match_id}: {e}")
+                continue
 
-    for match_id in updated_matches:
-        print(f"   Fetching MA3 for match {match_id} ...")
-        try:
-            new_data = fetch_match_data(match_id)
-        except Exception as e:
-            print(f"     MA3 call failed for {match_id}: {e}")
-            continue
+            old_data = state.get(match_id, {})
+            changes  = find_changes(match_id, old_data, new_data)
 
-        old_data = state.get(match_id, {})
-        changes  = find_changes(match_id, old_data, new_data)
+            if changes:
+                print(f"     {len(changes)} change(s) detected!")
+                all_changes.extend(changes)
+            else:
+                print(f"     No changes.")
 
-        if changes:
-            print(f"     {len(changes)} change(s) detected!")
-            all_changes.extend(changes)
+            state[match_id] = {
+                "description":   new_data["description"],
+                "competition":   new_data["competition"],
+                "date":          new_data["date"],
+                "substitutions": new_data["substitutions"],
+            }
+
+        save_state(state)
+        print(f"State saved ({len(state)} match(es) tracked).")
+
+        if all_changes:
+            send_email(all_changes)
         else:
-            print(f"     No changes.")
+            print("No substitution changes detected across all matches.")
 
-        # Store full match data (description, competition, date, substitutions)
-        state[match_id] = {
-            "description":   new_data["description"],
-            "competition":   new_data["competition"],
-            "date":          new_data["date"],
-            "substitutions": new_data["substitutions"],
-        }
-
-    save_state(state)
-    print(f"State saved ({len(state)} match(es) tracked).")
-
-    if all_changes:
-        send_email(all_changes)
-    else:
-        print("No substitution changes detected across all matches.")
+    except Exception as e:
+        print(f"FATAL ERROR: {e}")
+        try:
+            send_error_email(e)
+        except Exception as mail_err:
+            print(f"Could not send error email: {mail_err}")
+        raise
 
 
 if __name__ == "__main__":
