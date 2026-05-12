@@ -103,7 +103,7 @@ def fetch_match_data(match_id: str) -> dict:
     r.raise_for_status()
 
     # Debug: show raw XML start to verify structure
-    print(f"     XML preview: {r.text[:2000].replace(chr(10), ' ')}")
+    print(f"     XML preview: {r.text[:300].replace(chr(10), ' ')}")
 
     root = ET.fromstring(r.text)
 
@@ -132,10 +132,11 @@ def fetch_match_data(match_id: str) -> dict:
     live_data = root.find("liveData")
     if live_data is None:
         print(f"     WARNING: no <liveData> element found for match {match_id}")
-        # Try iterating from root as fallback
         event_parent = root
     else:
-        event_parent = live_data
+        # MA3 structure: <liveData><events><event ...>
+        events_el = live_data.find("events")
+        event_parent = events_el if events_el is not None else live_data
 
     for event in event_parent.findall("event"):
         type_id = event.get("typeId")
