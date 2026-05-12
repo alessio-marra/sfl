@@ -327,7 +327,7 @@ def _change_rows_html(changes: list[dict]) -> tuple[str, int]:
                 badge = '<span style="background:#dc2626;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">ACTION NEEDED</span>'
                 time_cell = f'<span style="color:#6b7280;text-decoration:line-through">{old_time}</span> &rarr; <strong style="color:#dc2626">{new_time}</strong>'
             else:
-                badge = '<span style="background:#d1d5db;color:#374151;padding:2px 8px;border-radius:4px;font-size:11px;">seconds only</span>'
+                badge = '<span style="background:#d1d5db;color:#374151;padding:2px 8px;border-radius:4px;font-size:11px;">No action needed</span>'
                 time_cell = f'<span style="color:#6b7280;text-decoration:line-through">{old_time}</span> &rarr; <strong>{new_time}</strong>'
         elif c["change"] == "NEW":
             new_time = _format_time(c["new_min"], c["new_sec"])
@@ -347,7 +347,10 @@ def _change_rows_html(changes: list[dict]) -> tuple[str, int]:
           <td style="padding:10px 12px;font-size:13px;font-weight:600;">{c['description']}</td>
           <td style="padding:10px 12px;font-size:13px;color:#6b7280;">{c['competition']}</td>
           <td style="padding:10px 12px;font-size:13px;">{c['teamName']}</td>
-          <td style="padding:10px 12px;font-size:13px;">&#x2B06; {c['playerOff']}<br><span style="color:#059669">&#x2B07; {player_on}</span></td>
+          <td style="padding:10px 12px;font-size:13px;">
+            <span style="color:#16a34a;">&#x2B06; {player_on}</span><br>
+            <span style="color:#dc2626;">&#x2B07; {c['playerOff']}</span>
+          </td>
           <td style="padding:10px 12px;font-size:13px;">{time_cell}</td>
           <td style="padding:10px 12px;">{badge}</td>
         </tr>""")
@@ -359,12 +362,12 @@ def send_email(changes: list[dict]):
     rows_html, action_count = _change_rows_html(changes)
 
     run_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    seconds_only = len(changes) - action_count
+    no_action = len(changes) - action_count
 
     summary_color = "#dc2626" if action_count else "#374151"
     summary_text = (
         f'<strong style="color:{summary_color}">{action_count} requiring action</strong>'
-        + (f", {seconds_only} seconds-only" if seconds_only else "")
+        + (f", {no_action} no action needed" if no_action else "")
     )
 
     html_body = f"""<!DOCTYPE html>
@@ -405,7 +408,7 @@ def send_email(changes: list[dict]):
 
     <!-- Footer -->
     <div style="background:#f8fafc;border-top:1px solid #e5e7eb;padding:12px 28px;font-size:12px;color:#9ca3af;">
-      Please verify and update the federation system where needed.
+      Please verify and update the NIS system where needed.
     </div>
 
   </div>
