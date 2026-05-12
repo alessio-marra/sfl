@@ -1,1 +1,661 @@
-{}
+{
+  "daohcyibgi9nphk41pm0kn9xw": {
+    "description": "Vaduz vs Aarau",
+    "competition": "Challenge League",
+    "date": "2026-05-11",
+    "substitutions": {
+      "2936796439": {
+        "typeId": "18",
+        "eventIdNum": "604",
+        "timeMin": "74",
+        "timeSec": "39",
+        "playerId": "3rw2xfmzzeor4ebv808wg0vs9",
+        "playerName": "S. Seiler",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "605"
+      },
+      "2936796441": {
+        "typeId": "19",
+        "eventIdNum": "605",
+        "timeMin": "74",
+        "timeSec": "39",
+        "playerId": "2ki38l98zj6rvt2h5iuxoxtrd",
+        "playerName": "M. Hammerich",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "604"
+      },
+      "2936796601": {
+        "typeId": "18",
+        "eventIdNum": "606",
+        "timeMin": "74",
+        "timeSec": "44",
+        "playerId": "10j2hx1vzdt9qfyez48406c16",
+        "playerName": "B. Beyer",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "607"
+      },
+      "2936796609": {
+        "typeId": "19",
+        "eventIdNum": "607",
+        "timeMin": "74",
+        "timeSec": "44",
+        "playerId": "6y210ne1ay7q1lo7k26p4sbqi",
+        "playerName": "Angelo Campos",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "606"
+      },
+      "2936796997": {
+        "typeId": "18",
+        "eventIdNum": "633",
+        "timeMin": "75",
+        "timeSec": "17",
+        "playerId": "4vsw2oypc1jm877iov6v6rtyi",
+        "playerName": "S. Vladi",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "634"
+      },
+      "2936797003": {
+        "typeId": "19",
+        "eventIdNum": "634",
+        "timeMin": "75",
+        "timeSec": "17",
+        "playerId": "2wj81rpl44mgs5xwdvol8tjx0",
+        "playerName": "D. Afriyie",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "633"
+      },
+      "2936797113": {
+        "typeId": "18",
+        "eventIdNum": "635",
+        "timeMin": "75",
+        "timeSec": "24",
+        "playerId": "8ibag83uzcirmb7vycpdxxw5w",
+        "playerName": "L. Frokaj",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "636"
+      },
+      "2936797117": {
+        "typeId": "19",
+        "eventIdNum": "636",
+        "timeMin": "75",
+        "timeSec": "24",
+        "playerId": "bfoijnh2qar1ix6m6cs0ugsiy",
+        "playerName": "H. Koide",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "635"
+      },
+      "2936802593": {
+        "typeId": "18",
+        "eventIdNum": "673",
+        "timeMin": "82",
+        "timeSec": "12",
+        "playerId": "ce5i8rfbgchs9kxd48b3g2u3t",
+        "playerName": "L. Obexer",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "674"
+      },
+      "2936802597": {
+        "typeId": "19",
+        "eventIdNum": "674",
+        "timeMin": "82",
+        "timeSec": "12",
+        "playerId": "8x30lckzno9kb48lewuzcuiqy",
+        "playerName": "V. Petit",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "673"
+      },
+      "2936802635": {
+        "typeId": "18",
+        "eventIdNum": "675",
+        "timeMin": "82",
+        "timeSec": "16",
+        "playerId": "boqm0w70k76fb0uuaougatpwq",
+        "playerName": "M. Dickenmann",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "676"
+      },
+      "2936802643": {
+        "typeId": "19",
+        "eventIdNum": "676",
+        "timeMin": "82",
+        "timeSec": "16",
+        "playerId": "1dq1m46sv0szkxk74g10xf9wp",
+        "playerName": "I. Aliu",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "675"
+      },
+      "2936803151": {
+        "typeId": "18",
+        "eventIdNum": "641",
+        "timeMin": "82",
+        "timeSec": "57",
+        "playerId": "ahz5nhls0d0jo21muuvnbkmj8",
+        "playerName": "M. Cocic",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "642"
+      },
+      "2936803159": {
+        "typeId": "19",
+        "eventIdNum": "642",
+        "timeMin": "82",
+        "timeSec": "57",
+        "playerId": "67t7n47ewg28wb9dfz3xjyrdg",
+        "playerName": "R. Dantas Fernandes",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "641"
+      },
+      "2936805439": {
+        "typeId": "18",
+        "eventIdNum": "702",
+        "timeMin": "85",
+        "timeSec": "52",
+        "playerId": "5c5t927jz7ga1tns77u8i0zkk",
+        "playerName": "E. Filet",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "703"
+      },
+      "2936805441": {
+        "typeId": "19",
+        "eventIdNum": "703",
+        "timeMin": "85",
+        "timeSec": "52",
+        "playerId": "48qvoqom25ngx8ommpbyr09ud",
+        "playerName": "R. Bobadilla",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "702"
+      },
+      "2936810149": {
+        "typeId": "18",
+        "eventIdNum": "715",
+        "timeMin": "92",
+        "timeSec": "31",
+        "playerId": "cilk4jdge6x8rz043g84wistm",
+        "playerName": "M. Monsberger",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "716"
+      },
+      "2936810153": {
+        "typeId": "19",
+        "eventIdNum": "716",
+        "timeMin": "92",
+        "timeSec": "31",
+        "playerId": "3vzoyntrzb32s34aoz96xrm96",
+        "playerName": "J. De Donno",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "715"
+      }
+    }
+  },
+  "da2wk8pect45msi07idgg30no": {
+    "description": "Stade Nyonnais vs Stade-Lausanne-Ouchy",
+    "competition": "Challenge League",
+    "date": "2026-05-11",
+    "substitutions": {
+      "2936767873": {
+        "typeId": "18",
+        "eventIdNum": "424",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "aclrtgk3qx5vljy055oog3ms4",
+        "playerName": "J. Manquant",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "425"
+      },
+      "2936767881": {
+        "typeId": "19",
+        "eventIdNum": "425",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "8lx7ynn9g358g7icf8f0jxjx0",
+        "playerName": "I. Bah Mendes",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "424"
+      },
+      "2936767933": {
+        "typeId": "18",
+        "eventIdNum": "426",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "7lo68gjoos31ciuuh2yrj5lg",
+        "playerName": "Pedro Rodríguez",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "427"
+      },
+      "2936767937": {
+        "typeId": "19",
+        "eventIdNum": "427",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "a9tmd9tjrbbc78uc6qrolz4es",
+        "playerName": "J. Simo",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "426"
+      },
+      "2936767999": {
+        "typeId": "18",
+        "eventIdNum": "428",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "28jcbu3nwb16j9ws4qtf19v1m",
+        "playerName": "R. Correia",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "429"
+      },
+      "2936768007": {
+        "typeId": "19",
+        "eventIdNum": "429",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "arfz2zmxw4corj4rntnh2kzdg",
+        "playerName": "L. Jaquenoud",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "428"
+      },
+      "2936772489": {
+        "typeId": "18",
+        "eventIdNum": "473",
+        "timeMin": "50",
+        "timeSec": "0",
+        "playerId": "dhsek842r7pm80kf0sjxs7wx6",
+        "playerName": "F. Mendy",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "474"
+      },
+      "2936772493": {
+        "typeId": "19",
+        "eventIdNum": "474",
+        "timeMin": "50",
+        "timeSec": "0",
+        "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
+        "playerName": "K. Bah",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "473"
+      },
+      "2936786627": {
+        "typeId": "18",
+        "eventIdNum": "607",
+        "timeMin": "64",
+        "timeSec": "17",
+        "playerId": "1u2enfbw3861mhysj2orp3l2i",
+        "playerName": "N. Garcia",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "608"
+      },
+      "2936786631": {
+        "typeId": "19",
+        "eventIdNum": "608",
+        "timeMin": "64",
+        "timeSec": "17",
+        "playerId": "64jvmkj83anqwrc62zdcmx5nt",
+        "playerName": "L. Nomel",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "607"
+      },
+      "2936785697": {
+        "typeId": "18",
+        "eventIdNum": "594",
+        "timeMin": "64",
+        "timeSec": "18",
+        "playerId": "b0s7hq3s74wcn1hfzwkv5x7f9",
+        "playerName": "H. Fargues",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "595"
+      },
+      "2936785701": {
+        "typeId": "19",
+        "eventIdNum": "595",
+        "timeMin": "64",
+        "timeSec": "18",
+        "playerId": "qm8bwm8dy2u2ez29kmvretxw",
+        "playerName": "M. Sartoretti",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "594"
+      },
+      "2936785777": {
+        "typeId": "18",
+        "eventIdNum": "596",
+        "timeMin": "64",
+        "timeSec": "22",
+        "playerId": "1qqyal6h4sxxcqpe0hml643ro",
+        "playerName": "L. de Oliveira",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "597"
+      },
+      "2936785787": {
+        "typeId": "19",
+        "eventIdNum": "597",
+        "timeMin": "64",
+        "timeSec": "22",
+        "playerId": "ckpl8ict337rocpu9jeyjk93o",
+        "playerName": "V. Tritten",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "596"
+      },
+      "2936787849": {
+        "typeId": "18",
+        "eventIdNum": "620",
+        "timeMin": "66",
+        "timeSec": "48",
+        "playerId": "ehqdkx0ulb08tgufwdy2p8zdg",
+        "playerName": "J. Ghia",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "621"
+      },
+      "2936787857": {
+        "typeId": "19",
+        "eventIdNum": "621",
+        "timeMin": "66",
+        "timeSec": "48",
+        "playerId": "7utzvxy7yn8f5p4436vrb9pwq",
+        "playerName": "F. Hysenaj",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "620"
+      },
+      "2936795923": {
+        "typeId": "18",
+        "eventIdNum": "706",
+        "timeMin": "76",
+        "timeSec": "3",
+        "playerId": "bnerqoyjg86eor1viyi4dyadw",
+        "playerName": "H. Lukembila",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "707"
+      },
+      "2936795931": {
+        "typeId": "19",
+        "eventIdNum": "707",
+        "timeMin": "76",
+        "timeSec": "3",
+        "playerId": "25uikh12frf2jkl2eg09u1hih",
+        "playerName": "B. Conus",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "706"
+      },
+      "2936797599": {
+        "typeId": "18",
+        "eventIdNum": "695",
+        "timeMin": "77",
+        "timeSec": "50",
+        "playerId": "9ei0a1ald9djjgqr4x9tvtc7o",
+        "playerName": "N. Grognuz",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "696"
+      },
+      "2936797609": {
+        "typeId": "19",
+        "eventIdNum": "696",
+        "timeMin": "77",
+        "timeSec": "50",
+        "playerId": "e5gjxdlhxqja1duu6pypyjnys",
+        "playerName": "S. Edougué",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "695"
+      }
+    }
+  },
+  "d8z4ygjmua41hk65n95j5nqc4": {
+    "description": "Bellinzona vs Wil",
+    "competition": "Challenge League",
+    "date": "2026-05-11",
+    "substitutions": {
+      "2936767855": {
+        "typeId": "18",
+        "eventIdNum": "407",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "78q9bvd0sisg12xi9i1fqwnpw",
+        "playerName": "S. Correia",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "408"
+      },
+      "2936767859": {
+        "typeId": "19",
+        "eventIdNum": "408",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "19ifakux3w3z5wipxnvej8nx0",
+        "playerName": "L. Schreiber",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "407"
+      },
+      "2936779111": {
+        "typeId": "18",
+        "eventIdNum": "559",
+        "timeMin": "57",
+        "timeSec": "45",
+        "playerId": "7a9zbg32jtl13o0zxxturvmdw",
+        "playerName": "A. López",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "560"
+      },
+      "2936779115": {
+        "typeId": "19",
+        "eventIdNum": "560",
+        "timeMin": "57",
+        "timeSec": "45",
+        "playerId": "5bq9ex3r6k7dzysjxu9m1b3s9",
+        "playerName": "Aarón Rey",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "559"
+      },
+      "2936779193": {
+        "typeId": "18",
+        "eventIdNum": "561",
+        "timeMin": "57",
+        "timeSec": "50",
+        "playerId": "2mdnv8uaeps2sn3p6gvp7pm2",
+        "playerName": "E. Rossier",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "562"
+      },
+      "2936779201": {
+        "typeId": "19",
+        "eventIdNum": "562",
+        "timeMin": "57",
+        "timeSec": "50",
+        "playerId": "763n47wbt2evbbal3enc8h0r8",
+        "playerName": "F. Lymann",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "561"
+      },
+      "2936780563": {
+        "typeId": "18",
+        "eventIdNum": "513",
+        "timeMin": "59",
+        "timeSec": "16",
+        "playerId": "dcenv8dhqoou24de4zsg5wb11",
+        "playerName": "S. Rapp",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "514"
+      },
+      "2936780567": {
+        "typeId": "19",
+        "eventIdNum": "514",
+        "timeMin": "59",
+        "timeSec": "16",
+        "playerId": "9osknayfcnys07uxgxj6h85ck",
+        "playerName": "M. Diarra",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "513"
+      },
+      "2936780675": {
+        "typeId": "18",
+        "eventIdNum": "515",
+        "timeMin": "59",
+        "timeSec": "23",
+        "playerId": "9iwslq3xhd0jer5hdvotnu221",
+        "playerName": "K. Ndau",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "516"
+      },
+      "2936780677": {
+        "typeId": "19",
+        "eventIdNum": "516",
+        "timeMin": "59",
+        "timeSec": "23",
+        "playerId": "23eqd8rwbppkr7gdm172bf0bu",
+        "playerName": "O. Bunjaku",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "515"
+      },
+      "2936793065": {
+        "typeId": "18",
+        "eventIdNum": "639",
+        "timeMin": "73",
+        "timeSec": "16",
+        "playerId": "8odaeryadskfotghgzjpvboyc",
+        "playerName": "S. Tisch-Rottensteiner",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "640"
+      },
+      "2936793069": {
+        "typeId": "19",
+        "eventIdNum": "640",
+        "timeMin": "73",
+        "timeSec": "16",
+        "playerId": "2pn8sdsirddumo2usvzf9kglw",
+        "playerName": "L. Dalipi",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "639"
+      },
+      "2936793175": {
+        "typeId": "18",
+        "eventIdNum": "676",
+        "timeMin": "73",
+        "timeSec": "23",
+        "playerId": "77wolsrol5ymxblf7e142elg4",
+        "playerName": "F. Bomo",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "677"
+      },
+      "2936793181": {
+        "typeId": "19",
+        "eventIdNum": "677",
+        "timeMin": "73",
+        "timeSec": "23",
+        "playerId": "3jajsjk4hz8ql0w5mkwrglnh0",
+        "playerName": "A. Grano",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "676"
+      },
+      "2936793599": {
+        "typeId": "18",
+        "eventIdNum": "678",
+        "timeMin": "73",
+        "timeSec": "23",
+        "playerId": "7p678jwnwycx0d38g968hk4r8",
+        "playerName": "L. Shala",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "679"
+      },
+      "2936793609": {
+        "typeId": "19",
+        "eventIdNum": "679",
+        "timeMin": "73",
+        "timeSec": "23",
+        "playerId": "dhpmen9p3ja03olj4huesz7ro",
+        "playerName": "M. Rizvanović",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "678"
+      },
+      "2936796361": {
+        "typeId": "18",
+        "eventIdNum": "700",
+        "timeMin": "77",
+        "timeSec": "3",
+        "playerId": "4zu26ju26y23w8hixy203isph",
+        "playerName": "D. Mihajlovic",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "701"
+      },
+      "2936796363": {
+        "typeId": "19",
+        "eventIdNum": "701",
+        "timeMin": "77",
+        "timeSec": "3",
+        "playerId": "c0ldxt9whu18hfp6d0k7ixbf8",
+        "playerName": "P. Moulin",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "700"
+      },
+      "2936798123": {
+        "typeId": "18",
+        "eventIdNum": "701",
+        "timeMin": "79",
+        "timeSec": "9",
+        "playerId": "e3sythuagdprdhgujtpxof2fo",
+        "playerName": "L. Breedijk",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "702"
+      },
+      "2936798127": {
+        "typeId": "19",
+        "eventIdNum": "702",
+        "timeMin": "79",
+        "timeSec": "9",
+        "playerId": "c2o200897whysk03uc1ulshsk",
+        "playerName": "X. Aliu",
+        "teamId": "988hdd0jedgyvm4978w95vma9",
+        "teamName": "Wil",
+        "partnerEventId": "701"
+      }
+    }
+  }
+}
