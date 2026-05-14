@@ -5328,5 +5328,232 @@
         "partnerEventId": "749"
       }
     }
+  },
+  "3rhu0hdtogkptlly8mrtnltzo": {
+    "description": "Lugano vs St.Gallen",
+    "competition": "Super League",
+    "date": "2026-05-10",
+    "substitutions": {
+      "2935930325": {
+        "typeId": "18",
+        "eventIdNum": "251",
+        "timeMin": "31",
+        "timeSec": "31",
+        "playerId": "airs278inzcp06beotk1zgbo4",
+        "playerName": "N. Weibel",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "252"
+      },
+      "2935930335": {
+        "typeId": "19",
+        "eventIdNum": "252",
+        "timeMin": "31",
+        "timeSec": "31",
+        "playerId": "4o8roh953dufflhb1y3wn1kpg",
+        "playerName": "D. Besio",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "251"
+      },
+      "2935958835": {
+        "typeId": "18",
+        "eventIdNum": "387",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "5b3n7shchd7m2a11l5801d2w9",
+        "playerName": "J. Stanić",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "388"
+      },
+      "2935958845": {
+        "typeId": "19",
+        "eventIdNum": "388",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "an0tzhrx6uhf75uper52ta3o4",
+        "playerName": "J. Ruiz",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "387"
+      },
+      "2935959085": {
+        "typeId": "18",
+        "eventIdNum": "389",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "3t31crka9rpryrpazn7m46zo4",
+        "playerName": "A. Vogt",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "390"
+      },
+      "2935959091": {
+        "typeId": "19",
+        "eventIdNum": "390",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "4tk4xx48lydt8rqn58vwn55ka",
+        "playerName": "M. Stevanović",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "389"
+      },
+      "2935985455": {
+        "typeId": "18",
+        "eventIdNum": "641",
+        "timeMin": "68",
+        "timeSec": "58",
+        "playerId": "91g10pv6w3bd0rw6p4t3hcui2",
+        "playerName": "Y. Cimignani",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "642"
+      },
+      "2935985465": {
+        "typeId": "19",
+        "eventIdNum": "642",
+        "timeMin": "68",
+        "timeSec": "58",
+        "playerId": "3g68xop0q3soh8uf8xew8wn2t",
+        "playerName": "E. Alioski",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "641"
+      },
+      "2935985547": {
+        "typeId": "18",
+        "eventIdNum": "643",
+        "timeMin": "68",
+        "timeSec": "59",
+        "playerId": "7424gvk9hiq5up61dj181y66t",
+        "playerName": "K. Behrens",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "644"
+      },
+      "2935985553": {
+        "typeId": "19",
+        "eventIdNum": "644",
+        "timeMin": "68",
+        "timeSec": "59",
+        "playerId": "935srx8zzpfqhkqdl14tohf1m",
+        "playerName": "G. Koutsias",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "643"
+      },
+      "2935992379": {
+        "typeId": "18",
+        "eventIdNum": "683",
+        "timeMin": "76",
+        "timeSec": "55",
+        "playerId": "178x7qayi0zn7c24tkyl02yuh",
+        "playerName": "L. Mai",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "684"
+      },
+      "2935992385": {
+        "typeId": "19",
+        "eventIdNum": "684",
+        "timeMin": "76",
+        "timeSec": "55",
+        "playerId": "dv7c02pkvzceywlml38u8zo45",
+        "playerName": "M. Bottani",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "683"
+      },
+      "2935992453": {
+        "typeId": "18",
+        "eventIdNum": "685",
+        "timeMin": "76",
+        "timeSec": "56",
+        "playerId": "3gh8lw1g9jwt2oljg3l7uihd6",
+        "playerName": "H. Mahmoud",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "686"
+      },
+      "2935992461": {
+        "typeId": "19",
+        "eventIdNum": "686",
+        "timeMin": "76",
+        "timeSec": "56",
+        "playerId": "766yvzfd7u5d7zr4ls8r5m4fd",
+        "playerName": "H. Mahou",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "685"
+      },
+      "2935998275": {
+        "typeId": "18",
+        "eventIdNum": "642",
+        "timeMin": "83",
+        "timeSec": "50",
+        "playerId": "1amx0jc0ey5w1z9g3f3nb9t2i",
+        "playerName": "A. Balde",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "643"
+      },
+      "2935998279": {
+        "typeId": "19",
+        "eventIdNum": "643",
+        "timeMin": "83",
+        "timeSec": "50",
+        "playerId": "2dwb36l3c83msll70wyl16exg",
+        "playerName": "N. Scherrer",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "642"
+      },
+      "2935999355": {
+        "typeId": "18",
+        "eventIdNum": "751",
+        "timeMin": "85",
+        "timeSec": "4",
+        "playerId": "ek3kqsm0h95azznyqctgadej9",
+        "playerName": "A. Grgic",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "752"
+      },
+      "2935999359": {
+        "typeId": "19",
+        "eventIdNum": "752",
+        "timeMin": "85",
+        "timeSec": "4",
+        "playerId": "59dtrk7ly4lepf7s0gywhu51w",
+        "playerName": "E. Pihlström",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "751"
+      },
+      "2936007543": {
+        "typeId": "18",
+        "eventIdNum": "707",
+        "timeMin": "98",
+        "timeSec": "15",
+        "playerId": "281f7899ialr1z6l51mitpp7t",
+        "playerName": "L. Daschner",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "708"
+      },
+      "2936007549": {
+        "typeId": "19",
+        "eventIdNum": "708",
+        "timeMin": "98",
+        "timeSec": "15",
+        "playerId": "52b3ynt5wz7spc5cijrdzccq2",
+        "playerName": "B. Fazliji",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "707"
+      }
+    }
   }
 }
