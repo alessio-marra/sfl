@@ -14832,5 +14832,166 @@
         "partnerEventId": "772"
       }
     }
+  },
+  "8b7lw2xuo8vy3l0ecvsmle0b8": {
+    "description": "Aarau vs Grasshoppers",
+    "competition": "Play-offs 1/2",
+    "date": "2026-05-18",
+    "substitutions": {
+      "2939700031": {
+        "typeId": "18",
+        "eventIdNum": "673",
+        "timeMin": "68",
+        "timeSec": "49",
+        "playerId": "aaafhdv3xfuvzg9xfnkt0trtg",
+        "playerName": "Lee Young-Jun",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "674"
+      },
+      "2939700035": {
+        "typeId": "19",
+        "eventIdNum": "674",
+        "timeMin": "68",
+        "timeSec": "49",
+        "playerId": "9osic22dxne4mjyzix16v5ses",
+        "playerName": "I. Hassane",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "673"
+      },
+      "2939701005": {
+        "typeId": "18",
+        "eventIdNum": "619",
+        "timeMin": "71",
+        "timeSec": "37",
+        "playerId": "ce5i8rfbgchs9kxd48b3g2u3t",
+        "playerName": "L. Obexer",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "620"
+      },
+      "2939701007": {
+        "typeId": "19",
+        "eventIdNum": "620",
+        "timeMin": "71",
+        "timeSec": "37",
+        "playerId": "x6384fx309oye30o3ut24nis",
+        "playerName": "R. Guzzo",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "619"
+      },
+      "2939701071": {
+        "typeId": "18",
+        "eventIdNum": "621",
+        "timeMin": "71",
+        "timeSec": "51",
+        "playerId": "9o9qg0kvpsxe1cgxf24miqb4l",
+        "playerName": "O. Jäckle",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "622"
+      },
+      "2939701073": {
+        "typeId": "19",
+        "eventIdNum": "622",
+        "timeMin": "71",
+        "timeSec": "51",
+        "playerId": "ag92lrchlo2z1opq3i1loneok",
+        "playerName": "D. Derbaci",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "621"
+      },
+      "2939702439": {
+        "typeId": "18",
+        "eventIdNum": "730",
+        "timeMin": "76",
+        "timeSec": "6",
+        "playerId": "8ogdozprbfg9o8hzs3ppug9hw",
+        "playerName": "N. Rissi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "731"
+      },
+      "2939702443": {
+        "typeId": "19",
+        "eventIdNum": "731",
+        "timeMin": "76",
+        "timeSec": "6",
+        "playerId": "2vk56r3xh4i6hajyv7aejyk0l",
+        "playerName": "M. Ullmann",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "730"
+      },
+      "2939704123": {
+        "typeId": "18",
+        "eventIdNum": "703",
+        "timeMin": "81",
+        "timeSec": "0",
+        "playerId": "2wj81rpl44mgs5xwdvol8tjx0",
+        "playerName": "D. Afriyie",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "704"
+      },
+      "2939704129": {
+        "typeId": "19",
+        "eventIdNum": "704",
+        "timeMin": "81",
+        "timeSec": "0",
+        "playerId": "48qvoqom25ngx8ommpbyr09ud",
+        "playerName": "R. Bobadilla",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "703"
+      },
+      "2939704149": {
+        "typeId": "18",
+        "eventIdNum": "705",
+        "timeMin": "81",
+        "timeSec": "2",
+        "playerId": "5c5t927jz7ga1tns77u8i0zkk",
+        "playerName": "E. Filet",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "706"
+      },
+      "2939704151": {
+        "typeId": "19",
+        "eventIdNum": "706",
+        "timeMin": "81",
+        "timeSec": "2",
+        "playerId": "bfoijnh2qar1ix6m6cs0ugsiy",
+        "playerName": "H. Koide",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "705"
+      },
+      "2939706415": {
+        "typeId": "18",
+        "eventIdNum": "780",
+        "timeMin": "90",
+        "timeSec": "7",
+        "playerId": "d8n51u9zqf35s4z8565dv1hbd",
+        "playerName": "V. Fazliu",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "781"
+      },
+      "2939706417": {
+        "typeId": "19",
+        "eventIdNum": "781",
+        "timeMin": "90",
+        "timeSec": "7",
+        "playerId": "8ibag83uzcirmb7vycpdxxw5w",
+        "playerName": "L. Frokaj",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "780"
+      }
+    }
   }
 }
