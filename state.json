@@ -10478,7 +10478,7 @@
         "typeId": "18",
         "eventIdNum": "520",
         "timeMin": "57",
-        "timeSec": "38",
+        "timeSec": "32",
         "playerId": "9k3ri0ce8kyx875dygt8h5je2",
         "playerName": "D. Schwizer",
         "teamId": "9kxht4usspzkeyosl567vjrs2",
@@ -10489,7 +10489,7 @@
         "typeId": "19",
         "eventIdNum": "521",
         "timeMin": "57",
-        "timeSec": "38",
+        "timeSec": "32",
         "playerId": "tyo5qfihcy6mg74tak3h7llg",
         "playerName": "M. Sawadogo",
         "teamId": "9kxht4usspzkeyosl567vjrs2",
@@ -14603,6 +14603,233 @@
         "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
         "teamName": "Luzern",
         "partnerEventId": "747"
+      }
+    }
+  },
+  "db7yy9tpn6gxlcpmxl70a5c0k": {
+    "description": "Yverdon Sport vs Rapperswil-Jona",
+    "competition": "Challenge League",
+    "date": "2026-05-11",
+    "substitutions": {
+      "2936758067": {
+        "typeId": "18",
+        "eventIdNum": "339",
+        "timeMin": "41",
+        "timeSec": "9",
+        "playerId": "8x90ig585xb76bvfgv57g0edx",
+        "playerName": "A. Sauthier",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "340"
+      },
+      "2936758069": {
+        "typeId": "19",
+        "eventIdNum": "340",
+        "timeMin": "41",
+        "timeSec": "9",
+        "playerId": "9g4591ffmh21o0hlw3zt17wno",
+        "playerName": "L. Bittarelli",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "339"
+      },
+      "2936786791": {
+        "typeId": "18",
+        "eventIdNum": "609",
+        "timeMin": "64",
+        "timeSec": "32",
+        "playerId": "ec7zraloffb84elpg4xop52qc",
+        "playerName": "J. Lüthi",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "610"
+      },
+      "2936786795": {
+        "typeId": "19",
+        "eventIdNum": "610",
+        "timeMin": "64",
+        "timeSec": "32",
+        "playerId": "dmirc4dg9ssgmtl4xz4d7s5jo",
+        "playerName": "F. de Carvalho",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "609"
+      },
+      "2936787017": {
+        "typeId": "18",
+        "eventIdNum": "611",
+        "timeMin": "64",
+        "timeSec": "47",
+        "playerId": "ayhozv4idjg9dw8x4vwmdn90q",
+        "playerName": "J. Schmidt",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "612"
+      },
+      "2936787021": {
+        "typeId": "19",
+        "eventIdNum": "612",
+        "timeMin": "64",
+        "timeSec": "47",
+        "playerId": "5mminfo9hgamtyb4eiqu0hgk4",
+        "playerName": "Cobel Sow",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "611"
+      },
+      "2936787133": {
+        "typeId": "18",
+        "eventIdNum": "613",
+        "timeMin": "64",
+        "timeSec": "55",
+        "playerId": "94nu8i54g2f0jz0l7n1fxheui",
+        "playerName": "L. Emini",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "614"
+      },
+      "2936787139": {
+        "typeId": "19",
+        "eventIdNum": "614",
+        "timeMin": "64",
+        "timeSec": "55",
+        "playerId": "epbdulzw6jtzidiobkhx9rytw",
+        "playerName": "Y. Ryter",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "613"
+      },
+      "2936791103": {
+        "typeId": "18",
+        "eventIdNum": "621",
+        "timeMin": "69",
+        "timeSec": "16",
+        "playerId": "3es7xkvy781nnzsg39r149dsk",
+        "playerName": "J. Gnakpa",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "622"
+      },
+      "2936791105": {
+        "typeId": "19",
+        "eventIdNum": "622",
+        "timeMin": "69",
+        "timeSec": "16",
+        "playerId": "3x63opc8ut175glhsnwpzo1jp",
+        "playerName": "O. Doumbia",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "621"
+      },
+      "2936791561": {
+        "typeId": "18",
+        "eventIdNum": "623",
+        "timeMin": "69",
+        "timeSec": "20",
+        "playerId": "c9j7c48pi9fnzurvg4a3lgvtg",
+        "playerName": "E. Pasche",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "624"
+      },
+      "2936791569": {
+        "typeId": "19",
+        "eventIdNum": "624",
+        "timeMin": "69",
+        "timeSec": "21",
+        "playerId": "9ub967zhsnua8fvvvp0vlkb2s",
+        "playerName": "M. Kanoute",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "623"
+      },
+      "2936791627": {
+        "typeId": "18",
+        "eventIdNum": "625",
+        "timeMin": "69",
+        "timeSec": "21",
+        "playerId": "4lbrew3lxtbgoc147pepsgw0k",
+        "playerName": "R. Neelakandan",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "626"
+      },
+      "2936791633": {
+        "typeId": "19",
+        "eventIdNum": "626",
+        "timeMin": "69",
+        "timeSec": "21",
+        "playerId": "f5jcq31j5jhiijx1e3kwvcbv8",
+        "playerName": "P. Weber",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "625"
+      },
+      "2936798691": {
+        "typeId": "18",
+        "eventIdNum": "698",
+        "timeMin": "78",
+        "timeSec": "27",
+        "playerId": "9cduhp13znus4ggnce2o934yd",
+        "playerName": "A. Marchesano",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "699"
+      },
+      "2936798693": {
+        "typeId": "19",
+        "eventIdNum": "699",
+        "timeMin": "78",
+        "timeSec": "27",
+        "playerId": "4u3a2of48aik9mqbdhryluelm",
+        "playerName": "R. Golliard",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "698"
+      },
+      "2936801219": {
+        "typeId": "18",
+        "eventIdNum": "748",
+        "timeMin": "80",
+        "timeSec": "29",
+        "playerId": "7ygpx4te7lkhopwlpyqj5bl61",
+        "playerName": "R. Saliji",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "749"
+      },
+      "2936801223": {
+        "typeId": "19",
+        "eventIdNum": "749",
+        "timeMin": "80",
+        "timeSec": "29",
+        "playerId": "5yqzxrk1h7jpr2tegjttysbu1",
+        "playerName": "Y. Marchand",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "748"
+      },
+      "2936805013": {
+        "typeId": "18",
+        "eventIdNum": "772",
+        "timeMin": "86",
+        "timeSec": "18",
+        "playerId": "8o80lhgiorr6x9rj3s68owfzd",
+        "playerName": "B. Morgado",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "773"
+      },
+      "2936805025": {
+        "typeId": "19",
+        "eventIdNum": "773",
+        "timeMin": "86",
+        "timeSec": "18",
+        "playerId": "16br62u0md2b883h4yn5w249g",
+        "playerName": "R. Bytyqi",
+        "teamId": "59viwky8c7g3bq3japwgwn4z4",
+        "teamName": "Rapperswil-Jona",
+        "partnerEventId": "772"
       }
     }
   }
