@@ -1,7 +1,7 @@
 """
 player_minutes.py
-Checks all matches across 2 tournament calendars for all eligible players
-in an uploaded JSON file. Outputs an interactive HTML report grouped by club.
+Optimized Match-First Engine: Iterates through matches exactly ONCE globally.
+Fetches each lineup exactly once, mapping minutes instantly to any present eligible players.
 """
 
 import os
@@ -52,19 +52,24 @@ def load_players() -> list[dict]:
     return eligible
 
 
-def get_player_stats(match_id: str, player_id: str) -> dict | None:
+def process_match_lineup(match_id: str, eligible_ids: set, fallback_names: dict, m_info: dict, report: dict, tmcl_id: str):
+    """Fetches a single match lineup once and scans it for all tracked players."""
     url = f"{BASE_URL}/matchstats/{API_KEY}/?detailed=yes&_rt=c&_fmt=xml&fx={match_id}"
     try:
         root = get(url)
     except Exception as e:
         print(f"    matchstats failed for {match_id}: {e}")
-        return None
+        return
 
     for lineup in root.iter("lineUp"):
         tid = lineup.get("contestantId", "")
-        tname = lineup.get("contestantName", tid)
+        tname = lineup.get("contestantName", tid) or "Unknown Club"
+        
         for p in lineup.iter("player"):
-            if p.get("playerId") == player_id:
+            pid = p.get("playerId")
+            
+            # Instantly match using structural ID check
+            if pid in eligible_ids:
                 mins = 0
                 for stat in p.findall("stat"):
                     if stat.get("type") == "minsPlayed":
@@ -73,15 +78,33 @@ def get_player_stats(match_id: str, player_id: str) -> dict | None:
                         except:
                             mins = 0
                         break
-                return {
-                    "team_id": tid,
-                    "team_name": tname,
-                    "player_name": p.get("matchName", ""),
-                    "position": p.get("position", ""),
-                    "shirt": p.get("shirtNumber", ""),
-                    "mins_played": mins,
-                }
-    return None
+
+                display_name = p.get("matchName", "") or fallback_names.get(pid, pid)
+                shirt = p.get("shirtNumber", "")
+                position = p.get("position", "")
+
+                if mins == 0:
+                    status = "In squad, did not play"
+                elif position == "Substitute":
+                    status = "Came on as sub"
+                else:
+                    status = "Started"
+
+                # Structural Report Construction
+                if tname not in report[tmcl_id]:
+                    report[tmcl_id][tname] = {}
+                if display_name not in report[tmcl_id][tname]:
+                    report[tmcl_id][tname][display_name] = {"player_id": pid, "shirt": shirt, "matches": []}
+                elif shirt and not report[tmcl_id][tname][display_name]["shirt"]:
+                    report[tmcl_id][tname][display_name]["shirt"] = shirt
+
+                report[tmcl_id][tname][display_name]["matches"].append({
+                    "week": m_info["week"],
+                    "date": m_info["date"],
+                    "match": f"{m_info['home_name']} vs {m_info['away_name']}",
+                    "mins": mins,
+                    "status": status,
+                })
 
 
 def build_html(report: dict, tmcl_names: dict) -> str:
@@ -106,7 +129,6 @@ def build_html(report: dict, tmcl_names: dict) -> str:
 
         tabs_html += f'<button class="tab-btn {active_tab}" onclick="showTab(\'{tmcl_id}\')">{tmcl_label}</button>'
 
-        # Calculate club totals for clean descending sorting
         club_totals = {}
         for club_name, players in clubs.items():
             total_club_mins = 0
@@ -123,7 +145,6 @@ def build_html(report: dict, tmcl_names: dict) -> str:
             players = clubs[club_name]
             week_headers = "".join(f'<th class="week-th">W{w}</th>' for w in weeks)
             
-            # Calculate player totals for internal table sorting
             player_totals = {}
             for pname, pdata in players.items():
                 p_total = 0
@@ -253,21 +274,14 @@ def main():
     if not players:
         return
 
-    unknown_comp_ids = {p.get("competitionId", "") for p in players if p.get("competitionId", "") and p.get("competitionId", "") not in mapping}
-    if unknown_comp_ids:
-        print(f"ERROR: Unknown competitionId(s): {unknown_comp_ids}")
-        exit(1)
-
-    print("\nFetching match lists (paginated) ...")
     report = {tmcl: {} for tmcl in TMCLS}
     tmcl_names = {}
     tmcl_matches = {}
-    stats_cache = {}
 
     eligible_ids = {p["id"] for p in players if "id" in p}
     player_display_names = {p["id"]: f"{p.get('firstName', '')} {p.get('lastName', '')}".strip() for p in players if "id" in p}
 
-    # Step 1: Fetch and page through all calendar matches accurately
+    # Step 1: Collect structural calendar maps (Paginated properly)
     for tmcl_id in TMCLS:
         matches = []
         page_num = 1
@@ -310,7 +324,6 @@ def main():
                     "home_name": contestants.get("home", {}).get("name", ""),
                     "away_id": contestants.get("away", {}).get("id", ""),
                     "away_name": contestants.get("away", {}).get("name", ""),
-                    "tmcl_id": tmcl_id,
                 })
 
             if page_matches_found == 0:
@@ -318,68 +331,26 @@ def main():
             page_num += 1
 
         tmcl_matches[tmcl_id] = sorted(matches, key=lambda x: x["date"])
-        print(f"  {tmcl_id} ({tmcl_names.get(tmcl_id, tmcl_id)}): {len(matches)} matches total ({page_num - 1} pages)")
+        print(f"  {tmcl_id} ({tmcl_names.get(tmcl_id, tmcl_id)}): {len(matches)} matches cataloged.")
 
-    print(f"\nProcessing {len(players)} players against global match lineups ...")
-    total = len(players)
-
-    # Step 2: Extract minutes securely directly via lineup IDs
-    for idx, player in enumerate(players, 1):
-        player_id = player.get("id", "")
-        comp_id = player.get("competitionId", "")
+    # Step 2: Iterate through matches ONCE total. Single Pass Processing.
+    for tmcl_id in TMCLS:
+        all_matches = tmcl_matches.get(tmcl_id, [])
+        total_matches = len(all_matches)
+        print(f"\nProcessing {total_matches} match sheets for {tmcl_names.get(tmcl_id, tmcl_id)}...")
         
-        if not player_id or player_id not in eligible_ids:
-            continue
-
-        player_tmcl = mapping.get(comp_id)
-        if not player_tmcl:
-            continue
-
-        fallback_name = player_display_names.get(player_id, player_id)
-        all_calendar_matches = tmcl_matches.get(player_tmcl, [])
-        
-        has_printed_log = False
-
-        for m in all_calendar_matches:
-            cache_key = (m["match_id"], player_id)
-            if cache_key not in stats_cache:
-                stats_cache[cache_key] = get_player_stats(m["match_id"], player_id)
-            stats = stats_cache[cache_key]
-
-            # If the player wasn't named in this squad sheet, safely pass over it
-            if stats is None:
-                continue
-
-            if not has_printed_log:
-                display_name = stats["player_name"] or fallback_name
-                print(f"  [{idx}/{total}] {display_name}")
-                has_printed_log = True
-
-            club_name = stats["team_name"] or "Unknown Club"
-            display_name = stats["player_name"] or fallback_name
-            shirt = stats["shirt"]
-
-            if stats["mins_played"] == 0:
-                status, mins = "In squad, did not play", 0
-            elif stats["position"] == "Substitute":
-                status, mins = "Came on as sub", stats["mins_played"]
-            else:
-                status, mins = "Started", stats["mins_played"]
-
-            if club_name not in report[player_tmcl]:
-                report[player_tmcl][club_name] = {}
-            if display_name not in report[player_tmcl][club_name]:
-                report[player_tmcl][club_name][display_name] = {"player_id": player_id, "shirt": shirt, "matches": []}
-            elif shirt and not report[player_tmcl][club_name][display_name]["shirt"]:
-                report[player_tmcl][club_name][display_name]["shirt"] = shirt
-
-            report[player_tmcl][club_name][display_name]["matches"].append({
-                "week": m["week"],
-                "date": m["date"],
-                "match": f"{m['home_name']} vs {m['away_name']}",
-                "mins": mins,
-                "status": status,
-            })
+        for idx, m in enumerate(all_matches, 1):
+            if idx % 20 == 0 or idx == total_matches:
+                print(f"  Progress: Match {idx}/{total_matches} scanned...")
+                
+            process_match_lineup(
+                match_id=m["match_id"],
+                eligible_ids=eligible_ids,
+                fallback_names=player_display_names,
+                m_info=m,
+                report=report,
+                tmcl_id=tmcl_id
+            )
 
     print("\nBuilding HTML report ...")
     html = build_html(report, tmcl_names)
