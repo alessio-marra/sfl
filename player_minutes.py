@@ -74,7 +74,7 @@ def get_match_ids(team_ids: set) -> list[dict]:
     print(f"Fetching match list for tournament calendar {TOURNAMENT_CALENDAR} ...")
     url = (
         f"{BASE_URL}/match/{API_KEY}"
-        f"?live=yes&_fmt=xml&_rt=c&_pgSz=500&tmcl={TOURNAMENT_CALENDAR}"
+        f"?live=yes&_fmt=xml&_rt=c&_pgSz=100&tmcl={TOURNAMENT_CALENDAR}"
     )
     root = get(url)
 
