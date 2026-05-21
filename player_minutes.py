@@ -130,38 +130,65 @@ def build_html(report: dict, tmcl_names: dict) -> str:
 
         tabs_html += f'<button class="tab-btn {active_tab}" onclick="showTab(\'{tmcl_id}\')">{tmcl_label}</button>'
 
+        # Calculate club totals for sorting
+        club_totals = {}
+        for club_name, players in clubs.items():
+            total_club_mins = 0
+            for pname, pdata in players.items():
+                for m in pdata["matches"]:
+                    if m["status"] not in ["Not in squad", "In squad, did not play"]:
+                        total_club_mins += (m["mins"] or 0)
+            club_totals[club_name] = total_club_mins
+
+        # Sort clubs by total minutes descending
+        sorted_clubs = sorted(clubs.keys(), key=lambda c: club_totals[c], reverse=True)
+
         clubs_html = ""
-        for club_name, players in sorted(clubs.items()):
+        for club_name in sorted_clubs:
+            players = clubs[club_name]
             week_headers = "".join(f'<th class="week-th">W{w}</th>' for w in weeks)
-            rows_html = ""
             
-            for pname, pdata in sorted(players.items()):
+            # Calculate player totals for sorting inside the club
+            player_totals = {}
+            for pname, pdata in players.items():
+                p_total = 0
+                for m in pdata["matches"]:
+                    if m["status"] not in ["Not in squad", "In squad, did not play"]:
+                        p_total += (m["mins"] or 0)
+                player_totals[pname] = p_total
+
+            # Sort players by total minutes descending
+            sorted_players = sorted(players.keys(), key=lambda p: player_totals[p], reverse=True)
+
+            rows_html = ""
+            for pname in sorted_players:
+                pdata = players[pname]
                 week_map = {m["week"]: m for m in pdata["matches"]}
                 cells = ""
-                total = 0
+                
                 for w in weeks:
                     m = week_map.get(w)
                     if m is None or m["status"] == "Not in squad":
                         cells += '<td class="mins-cell grey">—</td>'
                     elif m["status"] == "In squad, did not play":
-                        cells += '<td class="mins-cell orange">0</td>'
+                        cells += '<td class="mins-cell">0</td>'
                     else:
                         mins = m["mins"] or 0
-                        total += mins
-                        color = "green" if mins >= 60 else "yellow" if mins > 0 else "orange"
-                        cells += f'<td class="mins-cell {color}">{mins}</td>'
+                        cells += f'<td class="mins-cell">{mins}</td>'
 
                 shirt_str = f'#{pdata["shirt"]} ' if pdata.get("shirt") else ""
                 rows_html += f"""
                 <tr>
                   <td class="player-name">{shirt_str}{pname}</td>
                   {cells}
-                  <td class="mins-cell total">{total}</td>
+                  <td class="mins-cell total">{player_totals[pname]}</td>
                 </tr>"""
 
             clubs_html += f"""
             <div class="club-section">
-              <div class="club-header" onclick="toggleClub(this)"><span class="arrow">▶</span> {club_name}</div>
+              <div class="club-header" onclick="toggleClub(this)">
+                <span class="arrow">▶</span> {club_name} <span class="club-total-badge">({club_totals[club_name]} mins total)</span>
+              </div>
               <div class="club-body" style="display:none;">
                 <table class="mins-table">
                   <thead><tr><th class="player-th">Player</th>{week_headers}<th class="week-th">Total</th></tr></thead>
@@ -193,32 +220,22 @@ def build_html(report: dict, tmcl_names: dict) -> str:
   .tmcl-title {{ font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e3a5f; }}
   .club-section {{ margin-bottom: 12px; border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; background: #fff; }}
   .club-header {{ padding: 12px 16px; background: #f1f5f9; cursor: pointer; font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 8px; }}
+  .club-total-badge {{ font-size: 12px; font-weight: normal; color: #6b7280; margin-left: auto; padding-right: 8px; }}
   .arrow {{ font-size: 11px; transition: transform .2s; display: inline-block; }}
   .arrow.open {{ transform: rotate(90deg); }}
   .mins-table {{ width: 100%; border-collapse: collapse; font-size: 12px; }}
   .player-th {{ padding: 8px 12px; text-align: left; background: #f8fafc; color: #6b7280; }}
   .week-th {{ padding: 8px 6px; text-align: center; background: #f8fafc; color: #6b7280; min-width: 42px; }}
   .player-name {{ padding: 8px 12px; font-size: 13px; white-space: nowrap; border-bottom: 1px solid #f1f5f9; }}
-  .mins-cell {{ padding: 6px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; }}
-  .mins-cell.green  {{ color: #15803d; background: #dcfce7; }}
-  .mins-cell.yellow {{ color: #92400e; background: #fef9c3; }}
-  .mins-cell.orange {{ color: #9a3412; background: #ffedd5; }}
-  .mins-cell.grey   {{ color: #9ca3af; }}
+  .mins-cell {{ padding: 6px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; background: #fff; }}
+  .mins-cell.grey   {{ color: #9ca3af; font-weight: normal; }}
   .mins-cell.total  {{ color: #1e3a5f; background: #eff6ff; font-weight: 700; }}
-  .legend {{ display: flex; gap: 16px; margin-bottom: 16px; font-size: 12px; }}
-  .legend-dot {{ width: 14px; height: 14px; border-radius: 3px; display: inline-block; vertical-align: middle; margin-right: 4px; }}
 </style>
 </head>
 <body>
 <div class="header"><h1>Player Minutes Report</h1></div>
 <div class="tabs">{tabs_html}</div>
 <div class="content">
-  <div class="legend">
-    <div><span class="legend-dot" style="background:#dcfce7;border:1px solid #15803d"></span>≥60 min</div>
-    <div><span class="legend-dot" style="background:#fef9c3;border:1px solid #92400e"></span>&lt;60 min</div>
-    <div><span class="legend-dot" style="background:#ffedd5;border:1px solid #9a3412"></span>In squad, 0 min</div>
-    <div><span class="legend-dot" style="background:#fff;border:1px solid #9ca3af"></span>Not in squad</div>
-  </div>
   {panels_html}
 </div>
 <script>
@@ -260,9 +277,15 @@ def main():
     tmcl_matches = {}
     stats_cache = {}
 
+    # Gather clean eligible internal player details to match with API names later
+    eligible_ids = {p["id"] for p in players if "id" in p}
+
     for tmcl_id in TMCLS:
         matches = []
         page_num = 1
+        comp_name = ""
+        season_name = ""
+        
         while True:
             url = f"{BASE_URL}/match/{API_KEY}?live=yes&_fmt=xml&_rt=c&_pgSz=100&_pgNm={page_num}&tmcl={tmcl_id}"
             try:
@@ -272,11 +295,17 @@ def main():
                 break
 
             if page_num == 1:
-                for tc in root.iter("tournamentCalendar"):
-                    tmcl_names[tmcl_id] = tc.text or tmcl_id
+                for comp in root.iter("competition"):
+                    comp_name = comp.get("name", "")
                     break
-                if tmcl_id not in tmcl_names:
-                    tmcl_names[tmcl_id] = tmcl_id
+                for tc in root.iter("tournamentCalendar"):
+                    season_name = tc.text or ""
+                    break
+                
+                if comp_name and season_name:
+                    tmcl_names[tmcl_id] = f"{comp_name} - {season_name}"
+                else:
+                    tmcl_names[tmcl_id] = season_name or tmcl_id
 
             page_matches_found = 0
             for mi in root.iter("matchInfo"):
@@ -301,7 +330,7 @@ def main():
             page_num += 1
 
         tmcl_matches[tmcl_id] = sorted(matches, key=lambda x: x["date"])
-        print(f"  {tmcl_id} ({tmcl_names[tmcl_id]}): {len(matches)} matches total ({page_num - 1} pages)")
+        print(f"  {tmcl_id} ({tmcl_names.get(tmcl_id, tmcl_id)}): {len(matches)} matches total ({page_num - 1} pages)")
 
     print(f"\nProcessing {len(players)} players ...")
     total = len(players)
@@ -309,7 +338,7 @@ def main():
     for idx, player in enumerate(players, 1):
         player_id = player.get("id", "")
         comp_id = player.get("competitionId", "")
-        if not player_id:
+        if not player_id or player_id not in eligible_ids:
             continue
 
         player_tmcl = mapping.get(comp_id)
