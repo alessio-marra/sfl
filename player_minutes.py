@@ -3,9 +3,36 @@ player_minutes.py
 Checks all matches of a season for a given player and reports minutes played.
 Called by GitHub Actions with env vars TOURNAMENT_CALENDAR_ID and PLAYER_ID.
 
-XML structures confirmed from live API:
-  playerCareer: <playerCareer><person><membership contestantId="..."><stat tournamentCalendarId="..."/></membership>
-  matchStats:   <matchStats><liveData><lineUp contestantId="..."><player id="..." minsPlayed="..."/>
+Confirmed XML structures:
+
+  playerCareer:
+    <playerCareer>
+      <person id="..." matchName="...">
+        <membership contestantId="..." contestantName="...">
+          <stat tournamentCalendarId="..."/>
+        </membership>
+      </person>
+    </playerCareer>
+
+  match:
+    <match>
+      <matchInfo id="..." date="...">
+        <contestants>
+          <contestant id="..." name="..." position="home|away"/>
+        </contestants>
+      </matchInfo>
+    </match>
+
+  matchStats:
+    <matchStats>
+      <liveData>
+        <lineUp contestantId="..." contestantName="...">
+          <player playerId="..." matchName="..." position="..." shirtNumber="...">
+            <stat type="minsPlayed">32</stat>
+          </player>
+        </lineUp>
+      </liveData>
+    </matchStats>
 """
 
 import os
@@ -32,18 +59,19 @@ def get(url: str) -> ET.Element:
 
 
 # ── Step 1: Player career → find teams in this tournament calendar ─────────────
-def get_player_teams() -> dict:
+def get_player_teams() -> tuple[dict, str]:
     """
-    Returns {contestantId: contestantName} for teams the player belonged to
-    in the given tournament calendar.
-
-    XML: <membership contestantId="..." contestantName="...">
-           <stat tournamentCalendarId="..." />
-         </membership>
+    Returns ({contestantId: contestantName}, player_display_name)
+    for teams the player belonged to in the given tournament calendar.
     """
     print(f"Fetching player career for {PLAYER_ID} ...")
     url = f"{BASE_URL}/playercareer/{API_KEY}?_fmt=xml&_rt=c&prsn={PLAYER_ID}"
     root = get(url)
+
+    player_name = ""
+    person = root.find("person")
+    if person is not None:
+        player_name = person.get("matchName", "")
 
     teams = {}
     for membership in root.iter("membership"):
@@ -57,19 +85,14 @@ def get_player_teams() -> dict:
 
     if not teams:
         print("  WARNING: player has no appearances in this tournament calendar.")
-    return teams
+
+    return teams, player_name
 
 
 # ── Step 2: Match feed → get all match IDs for those teams ────────────────────
 def get_match_ids(team_ids: set) -> list[dict]:
     """
-    Returns list of match dicts for matches involving the player's team(s).
-
-    XML: <matchInfo id="..." date="...">
-           <contestants>
-             <contestant id="..." name="..." position="home|away"/>
-           </contestants>
-         </matchInfo>
+    Returns sorted list of match dicts for matches involving the player's team(s).
     """
     print(f"Fetching match list for tournament calendar {TOURNAMENT_CALENDAR} ...")
     url = (
@@ -86,15 +109,15 @@ def get_match_ids(team_ids: set) -> list[dict]:
         contestants = {}
         for c in mi.findall(".//contestant"):
             contestants[c.get("position")] = {
-                "id":   c.get("id"),
-                "name": c.get("name", c.get("id", "")),
+                "id":   c.get("id", ""),
+                "name": c.get("name", ""),
             }
 
         home = contestants.get("home", {})
         away = contestants.get("away", {})
 
-        involved = {home.get("id"), away.get("id")} & team_ids
-        if not involved:
+        # Only keep matches where at least one of the player's teams played
+        if not ({home.get("id"), away.get("id")} & team_ids):
             continue
 
         matches.append({
@@ -114,22 +137,18 @@ def get_match_ids(team_ids: set) -> list[dict]:
 # ── Step 3: Match stats → find player minutes ──────────────────────────────────
 def get_player_stats(match_id: str) -> dict | None:
     """
-    Returns player stats for the match, or None if not in squad.
+    Returns player stats dict for the match, or None if not in squad.
 
-    XML structure (confirmed from live API):
-      <matchStats>
-        <liveData>
-          <lineUp contestantId="..." contestantName="...">
-            <player id="..." position="..." status="Start|Sub" 
-                    minsPlayed="..." subOn="0|1" subOff="0|1" shirtNumber="..."/>
-          </lineUp>
-        </liveData>
-      </matchStats>
+    Confirmed structure:
+      <lineUp contestantId="..." contestantName="...">
+        <player playerId="..." matchName="..." position="..." shirtNumber="...">
+          <stat type="minsPlayed">32</stat>
+        </player>
+      </lineUp>
 
-    status="Start"  → started the match
-    status="Sub"    → was a substitute (may or may not have come on)
-    subOn="1"       → came on during the match
-    minsPlayed      → minutes actually played (0 if listed but didn't play)
+    position values:
+      "Goalkeeper", "Defender", "Midfielder", "Attacker" → started
+      "Substitute" → listed as sub (minsPlayed=0 means didn't come on)
     """
     url = (
         f"{BASE_URL}/matchstats/{API_KEY}"
@@ -146,31 +165,33 @@ def get_player_stats(match_id: str) -> dict | None:
         team_name = lineup.get("contestantName", team_id)
 
         for player in lineup.iter("player"):
-            if player.get("id") != PLAYER_ID:
+            if player.get("playerId") != PLAYER_ID:
                 continue
 
-            status      = player.get("status", "")       # "Start" or "Sub"
-            mins_str    = player.get("minsPlayed", "0")
-            sub_on      = player.get("subOn", "0") == "1"
-            position    = player.get("position", "")
-            shirt       = player.get("shirtNumber", "")
+            position   = player.get("position", "")
+            shirt      = player.get("shirtNumber", "")
+            match_name = player.get("matchName", "")
 
-            try:
-                mins = int(mins_str)
-            except ValueError:
-                mins = 0
+            # minsPlayed is a child <stat type="minsPlayed"> element
+            mins = 0
+            for stat in player.findall("stat"):
+                if stat.get("type") == "minsPlayed":
+                    try:
+                        mins = int(stat.text)
+                    except (ValueError, TypeError):
+                        mins = 0
+                    break
 
             return {
-                "team_id":    team_id,
-                "team_name":  team_name,
-                "status":     status,
+                "team_id":     team_id,
+                "team_name":   team_name,
+                "player_name": match_name,
+                "position":    position,
+                "shirt":       shirt,
                 "mins_played": mins,
-                "sub_on":     sub_on,
-                "position":   position,
-                "shirt":      shirt,
             }
 
-    return None  # not on team sheet
+    return None  # not on team sheet at all
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -180,12 +201,13 @@ def main():
     print(f"Tournament Calendar:  {TOURNAMENT_CALENDAR}")
     print(f"{'='*60}\n")
 
-    teams = get_player_teams()
+    teams, player_name = get_player_teams()
     if not teams:
         print("No teams found — check TOURNAMENT_CALENDAR_ID and PLAYER_ID.")
         write_output([])
         return
 
+    print(f"  Player name: {player_name}\n")
     team_ids = set(teams.keys())
 
     matches = get_match_ids(team_ids)
@@ -202,26 +224,25 @@ def main():
         stats = get_player_stats(m["match_id"])
 
         if stats is None:
-            status   = "Not in squad"
-            mins     = ""
-            team     = ""
-            position = ""
-            shirt    = ""
-        elif stats["mins_played"] == 0 and not stats["sub_on"]:
-            status   = "In squad, did not play"
-            mins     = "0"
-            team     = stats["team_name"]
-            position = stats["position"]
-            shirt    = stats["shirt"]
+            status      = "Not in squad"
+            mins        = ""
+            team        = ""
+            position    = ""
+            shirt       = ""
+            player_disp = player_name
         else:
-            mins     = str(stats["mins_played"])
-            team     = stats["team_name"]
-            position = stats["position"]
-            shirt    = stats["shirt"]
-            if stats["status"] == "Start":
-                status = "Started"
-            else:
+            team        = stats["team_name"]
+            position    = stats["position"]
+            shirt       = stats["shirt"]
+            player_disp = stats["player_name"] or player_name
+            mins        = str(stats["mins_played"])
+
+            if stats["mins_played"] == 0:
+                status = "In squad, did not play"
+            elif position == "Substitute":
                 status = "Came on as sub"
+            else:
+                status = "Started"
 
         print(status + (f" — {mins} min" if mins and mins != "0" else ""))
 
@@ -229,6 +250,7 @@ def main():
             "Date":        m["date"],
             "Match":       match_label,
             "Match ID":    m["match_id"],
+            "Player":      player_disp,
             "Team":        team,
             "Position":    position,
             "Shirt":       shirt,
@@ -240,16 +262,22 @@ def main():
 
     total_mins = sum(int(r["Mins Played"]) for r in rows if r["Mins Played"] not in ("", "0"))
     played     = sum(1 for r in rows if r["Status"] in ("Started", "Came on as sub"))
+    in_squad   = sum(1 for r in rows if r["Status"] != "Not in squad")
+
     print(f"\n{'='*60}")
-    print(f"Matches in squad: {sum(1 for r in rows if r['Status'] != 'Not in squad')}")
+    print(f"Player:           {player_name}")
+    print(f"Matches in squad: {in_squad}")
     print(f"Matches played:   {played}")
     print(f"Total minutes:    {total_mins}")
-    print(f"Output written to {OUTPUT}")
+    print(f"Output:           {OUTPUT}")
     print(f"{'='*60}")
 
 
 def write_output(rows: list[dict]):
-    fieldnames = ["Date", "Match", "Match ID", "Team", "Position", "Shirt", "Mins Played", "Status"]
+    fieldnames = [
+        "Date", "Match", "Match ID", "Player",
+        "Team", "Position", "Shirt", "Mins Played", "Status"
+    ]
     with open(OUTPUT, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
