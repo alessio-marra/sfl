@@ -96,7 +96,6 @@ def resolve_tmcl_ids(players: list[dict], mapping: dict) -> tuple[dict, list[str
 
     for comp_id in all_comp_ids:
         if comp_id not in mapping:
-            # Try to auto-map: if only 2 tmcls, map in order
             unknown.append(comp_id)
 
     return mapping, unknown
@@ -130,4 +129,105 @@ def get_player_teams(player_id: str, tmcl_ids: set) -> tuple[dict, str]:
 
 
 # ── Step 2: Match feed ─────────────────────────────────────────────────────────
-def get_
+def get_matches_for_tmcl(tmcl_id: str, team_ids: set) -> list[dict]:
+    """Returns sorted list of match dicts for a tournament calendar with pagination."""
+    matches = []
+    page_num = 1
+    
+    while True:
+        url = (
+            f"{BASE_URL}/match/{API_KEY}"
+            f"?live=yes&_fmt=xml&_rt=c&_pgSz=100&_pgNm={page_num}&tmcl={tmcl_id}"
+        )
+        try:
+            root = get(url)
+        except Exception as e:
+            print(f"    match feed failed for {tmcl_id} on page {page_num}: {e}")
+            break
+
+        page_matches_found = 0
+        for mi in root.iter("matchInfo"):
+            page_matches_found += 1
+            match_id = mi.get("id")
+            date     = mi.get("date", "").replace("Z", "")
+            week     = mi.get("week", "")
+
+            contestants = {}
+            for c in mi.findall(".//contestant"):
+                contestants[c.get("position")] = {
+                    "id":   c.get("id", ""),
+                    "name": c.get("name", ""),
+                }
+
+            home = contestants.get("home", {})
+            away = contestants.get("away", {})
+
+            if not ({home.get("id"), away.get("id")} & team_ids):
+                continue
+
+            matches.append({
+                "match_id":  match_id,
+                "date":      date,
+                "week":      week,
+                "home_id":   home.get("id", ""),
+                "home_name": home.get("name", ""),
+                "away_id":   away.get("id", ""),
+                "away_name": away.get("name", ""),
+                "tmcl_id":   tmcl_id,
+            })
+
+        if page_matches_found == 0:
+            break
+        page_num += 1
+
+    return matches
+
+
+# ── Step 3: Match stats ────────────────────────────────────────────────────────
+def get_player_stats(match_id: str, player_id: str) -> dict | None:
+    """Returns player stats dict or None if not in squad."""
+    url = (
+        f"{BASE_URL}/matchstats/{API_KEY}"
+        f"/?detailed=yes&_rt=c&_fmt=xml&fx={match_id}"
+    )
+    try:
+        root = get(url)
+    except Exception as e:
+        print(f"    matchstats failed for {match_id}: {e}")
+        return None
+
+    for lineup in root.iter("lineUp"):
+        team_id   = lineup.get("contestantId", "")
+        team_name = lineup.get("contestantName", team_id)
+
+        for player in lineup.iter("player"):
+            if player.get("playerId") != player_id:
+                continue
+
+            position   = player.get("position", "")
+            shirt      = player.get("shirtNumber", "")
+            match_name = player.get("matchName", "")
+
+            mins = 0
+            for stat in player.findall("stat"):
+                if stat.get("type") == "minsPlayed":
+                    try:
+                        mins = int(stat.text)
+                    except (ValueError, TypeError):
+                        mins = 0
+                    break
+
+            return {
+                "team_id":     team_id,
+                "team_name":   team_name,
+                "player_name": match_name,
+                "position":    position,
+                "shirt":       shirt,
+                "mins_played": mins,
+            }
+
+    return None
+
+
+# ── HTML output ────────────────────────────────────────────────────────────────
+def build_html(report: dict, tmcl_names: dict) ->
