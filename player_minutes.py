@@ -52,30 +52,6 @@ def load_players() -> list[dict]:
     return eligible
 
 
-def get_player_teams(player_id: str, tmcl_ids: set) -> tuple[dict, str]:
-    url = f"{BASE_URL}/playercareer/{API_KEY}?_fmt=xml&_rt=c&prsn={player_id}"
-    try:
-        root = get(url)
-    except Exception as e:
-        print(f"    playercareer failed: {e}")
-        return {}, ""
-
-    player_name = ""
-    person = root.find("person")
-    if person is not None:
-        player_name = person.get("matchName", "")
-
-    teams = {}
-    for membership in root.iter("membership"):
-        cid = membership.get("contestantId")
-        cname = membership.get("contestantName", cid)
-        for stat in membership.findall("stat"):
-            if stat.get("tournamentCalendarId") in tmcl_ids:
-                if cid and cid not in teams:
-                    teams[cid] = cname
-    return teams, player_name
-
-
 def get_player_stats(match_id: str, player_id: str) -> dict | None:
     url = f"{BASE_URL}/matchstats/{API_KEY}/?detailed=yes&_rt=c&_fmt=xml&fx={match_id}"
     try:
@@ -130,7 +106,7 @@ def build_html(report: dict, tmcl_names: dict) -> str:
 
         tabs_html += f'<button class="tab-btn {active_tab}" onclick="showTab(\'{tmcl_id}\')">{tmcl_label}</button>'
 
-        # Calculate club totals for sorting
+        # Calculate club totals for clean descending sorting
         club_totals = {}
         for club_name, players in clubs.items():
             total_club_mins = 0
@@ -140,7 +116,6 @@ def build_html(report: dict, tmcl_names: dict) -> str:
                         total_club_mins += (m["mins"] or 0)
             club_totals[club_name] = total_club_mins
 
-        # Sort clubs by total minutes descending
         sorted_clubs = sorted(clubs.keys(), key=lambda c: club_totals[c], reverse=True)
 
         clubs_html = ""
@@ -148,7 +123,7 @@ def build_html(report: dict, tmcl_names: dict) -> str:
             players = clubs[club_name]
             week_headers = "".join(f'<th class="week-th">W{w}</th>' for w in weeks)
             
-            # Calculate player totals for sorting inside the club
+            # Calculate player totals for internal table sorting
             player_totals = {}
             for pname, pdata in players.items():
                 p_total = 0
@@ -157,7 +132,6 @@ def build_html(report: dict, tmcl_names: dict) -> str:
                         p_total += (m["mins"] or 0)
                 player_totals[pname] = p_total
 
-            # Sort players by total minutes descending
             sorted_players = sorted(players.keys(), key=lambda p: player_totals[p], reverse=True)
 
             rows_html = ""
@@ -171,10 +145,11 @@ def build_html(report: dict, tmcl_names: dict) -> str:
                     if m is None or m["status"] == "Not in squad":
                         cells += '<td class="mins-cell grey">—</td>'
                     elif m["status"] == "In squad, did not play":
-                        cells += '<td class="mins-cell">0</td>'
+                        cells += '<td class="mins-cell orange">0</td>'
                     else:
                         mins = m["mins"] or 0
-                        cells += f'<td class="mins-cell">{mins}</td>'
+                        color = "green" if mins >= 60 else "yellow" if mins > 0 else "orange"
+                        cells += f'<td class="mins-cell {color}">{mins}</td>'
 
                 shirt_str = f'#{pdata["shirt"]} ' if pdata.get("shirt") else ""
                 rows_html += f"""
@@ -227,15 +202,27 @@ def build_html(report: dict, tmcl_names: dict) -> str:
   .player-th {{ padding: 8px 12px; text-align: left; background: #f8fafc; color: #6b7280; }}
   .week-th {{ padding: 8px 6px; text-align: center; background: #f8fafc; color: #6b7280; min-width: 42px; }}
   .player-name {{ padding: 8px 12px; font-size: 13px; white-space: nowrap; border-bottom: 1px solid #f1f5f9; }}
-  .mins-cell {{ padding: 6px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; background: #fff; }}
-  .mins-cell.grey   {{ color: #9ca3af; font-weight: normal; }}
+  .mins-cell {{ padding: 6px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; }}
+  .mins-cell.green  {{ color: #15803d; background: #dcfce7; }}
+  .mins-cell.yellow {{ color: #92400e; background: #fef9c3; }}
+  .mins-cell.orange {{ color: #9a3412; background: #ffedd5; }}
+  .mins-cell.grey   {{ color: #9ca3af; }}
   .mins-cell.total  {{ color: #1e3a5f; background: #eff6ff; font-weight: 700; }}
+  .legend {{ display: flex; gap: 16px; margin-bottom: 16px; font-size: 12px; flex-wrap: wrap; }}
+  .legend-item {{ display: flex; align-items: center; gap: 6px; }}
+  .legend-dot {{ width: 14px; height: 14px; border-radius: 3px; }}
 </style>
 </head>
 <body>
 <div class="header"><h1>Player Minutes Report</h1></div>
 <div class="tabs">{tabs_html}</div>
 <div class="content">
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#dcfce7;border:1px solid #15803d"></div> ≥60 min</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#fef9c3;border:1px solid #92400e"></div> &lt;60 min</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ffedd5;border:1px solid #9a3412"></div> In squad, 0 min</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#fff;border:1px solid #9ca3af"></div> Not in squad / no data</div>
+  </div>
   {panels_html}
 </div>
 <script>
@@ -277,9 +264,10 @@ def main():
     tmcl_matches = {}
     stats_cache = {}
 
-    # Gather clean eligible internal player details to match with API names later
     eligible_ids = {p["id"] for p in players if "id" in p}
+    player_display_names = {p["id"]: f"{p.get('firstName', '')} {p.get('lastName', '')}".strip() for p in players if "id" in p}
 
+    # Step 1: Fetch and page through all calendar matches accurately
     for tmcl_id in TMCLS:
         matches = []
         page_num = 1
@@ -332,12 +320,14 @@ def main():
         tmcl_matches[tmcl_id] = sorted(matches, key=lambda x: x["date"])
         print(f"  {tmcl_id} ({tmcl_names.get(tmcl_id, tmcl_id)}): {len(matches)} matches total ({page_num - 1} pages)")
 
-    print(f"\nProcessing {len(players)} players ...")
+    print(f"\nProcessing {len(players)} players against global match lineups ...")
     total = len(players)
 
+    # Step 2: Extract minutes securely directly via lineup IDs
     for idx, player in enumerate(players, 1):
         player_id = player.get("id", "")
         comp_id = player.get("competitionId", "")
+        
         if not player_id or player_id not in eligible_ids:
             continue
 
@@ -345,32 +335,36 @@ def main():
         if not player_tmcl:
             continue
 
-        teams, sp_name = get_player_teams(player_id, {player_tmcl})
-        display_name = sp_name or f"{player.get('firstName', '')} {player.get('lastName', '')}".strip()
-        if not teams:
-            continue
+        fallback_name = player_display_names.get(player_id, player_id)
+        all_calendar_matches = tmcl_matches.get(player_tmcl, [])
+        
+        has_printed_log = False
 
-        print(f"  [{idx}/{total}] {display_name}")
-        team_ids = set(teams.keys())
-        relevant_matches = [m for m in tmcl_matches.get(player_tmcl, []) if {m["home_id"], m["away_id"]} & team_ids]
-
-        for m in relevant_matches:
+        for m in all_calendar_matches:
             cache_key = (m["match_id"], player_id)
             if cache_key not in stats_cache:
                 stats_cache[cache_key] = get_player_stats(m["match_id"], player_id)
             stats = stats_cache[cache_key]
 
-            player_team_id = next((tid for tid in team_ids if tid in {m["home_id"], m["away_id"]}), list(teams.keys())[0])
-            club_name = teams.get(player_team_id)
-
+            # If the player wasn't named in this squad sheet, safely pass over it
             if stats is None:
-                status, mins, shirt = "Not in squad", None, ""
-            elif stats["mins_played"] == 0:
-                status, mins, shirt = "In squad, did not play", 0, stats["shirt"]
+                continue
+
+            if not has_printed_log:
+                display_name = stats["player_name"] or fallback_name
+                print(f"  [{idx}/{total}] {display_name}")
+                has_printed_log = True
+
+            club_name = stats["team_name"] or "Unknown Club"
+            display_name = stats["player_name"] or fallback_name
+            shirt = stats["shirt"]
+
+            if stats["mins_played"] == 0:
+                status, mins = "In squad, did not play", 0
             elif stats["position"] == "Substitute":
-                status, mins, shirt = "Came on as sub", stats["mins_played"], stats["shirt"]
+                status, mins = "Came on as sub", stats["mins_played"]
             else:
-                status, mins, shirt = "Started", stats["mins_played"], stats["shirt"]
+                status, mins = "Started", stats["mins_played"]
 
             if club_name not in report[player_tmcl]:
                 report[player_tmcl][club_name] = {}
