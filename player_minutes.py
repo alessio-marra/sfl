@@ -4,7 +4,7 @@ Stateful Automated Minutes Pipeline (Match-First Architecture)
 - Autodetects active season tournament calendars via OT2 feed.
 - Bootstraps full historic stats on initial run.
 - Uses MAR incremental change tracking for subsequent daily runs.
-- Handles Stats Perform <errorCode> elements gracefully for pagination.
+- Features a fully responsive dashboard with sticky left columns for mobile.
 """
 
 import os
@@ -24,7 +24,7 @@ OUTPUT_HTML      = Path("index.html")
 BASE_URL         = "https://api.performfeeds.com/soccerdata"
 HEADERS          = {"Referer": REFERER}
 
-# Fixed structural Competition Constants
+# Fixed structural Competition Constants (Ordered explicitly to put Super League first)
 COMPETITIONS = {
     "e0lck99w8meo9qoalfrxgo33o": "Super League",
     "8v97rcbthsxmzqk4ufxws9mug": "Challenge League"
@@ -47,20 +47,24 @@ def load_eligible_player_ids() -> set[str]:
     return {p["id"] for p in players if p.get("id") and not p.get("isBlacklisted", False)}
 
 
-def fetch_active_tournament_calendars() -> dict[str, str]:
-    """Queries OT2 feed to dynamically discover the active season calendar IDs."""
+def fetch_active_tournament_calendars() -> dict[str, dict]:
+    """Queries OT2 feed to dynamically discover the active season calendar IDs and text."""
     print("Fetching active season IDs from OT2 feed...")
     url = f"{BASE_URL}/tournamentcalendar/{API_KEY}/active/authorized?_fmt=xml&_rt=c"
     root = get_xml(url)
     
     discovered = {}
-    for comp in root.iter("competition"):
-        comp_id = comp.get("id")
-        if comp_id in COMPETITIONS:
-            for tc in comp.findall("tournamentCalendar"):
-                if tc.get("active") == "yes":
-                    discovered[comp_id] = tc.get("id")
-                    print(f"  -> Found Active Calendar for {COMPETITIONS[comp_id]}: {tc.get('id')} ({tc.get('name')})")
+    # Iterate using order of COMPETITIONS dict to ensure Super League is processed first
+    for comp_id in COMPETITIONS.keys():
+        for comp in root.iter("competition"):
+            if comp.get("id") == comp_id:
+                for tc in comp.findall("tournamentCalendar"):
+                    if tc.get("active") == "yes":
+                        discovered[comp_id] = {
+                            "id": tc.get("id"),
+                            "name": tc.get("name", "2025/2026")
+                        }
+                        print(f"  -> Found Active Calendar for {COMPETITIONS[comp_id]}: {tc.get('id')} ({tc.get('name')})")
     return discovered
 
 
@@ -99,8 +103,6 @@ def fetch_entire_calendar_fixtures(tmcl_id: str) -> list[dict]:
             print(f"  HTTP connection error while fetching page {page_num}: {e}")
             break
 
-        # FIXED: Look for an embedded errorCode tag (e.g., <errorCode>10400</errorCode>)
-        # Stats Perform namespaces elements, so we look for any tag ending with 'errorCode'
         error_elements = [el for el in root.iter() if el.tag.endswith('errorCode')]
         if error_elements:
             error_code = error_elements[0].text
@@ -141,8 +143,20 @@ def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: di
 
     match_players_data = {}
     
+    contestant_map = {}
+    for mi in root.iter("matchInfo"):
+        for c in mi.findall(".//contestant"):
+            c_id = c.get("id")
+            if c_id:
+                contestant_map[c_id] = c.get("name")
+
     for lineup in root.iter("lineUp"):
-        club_name = lineup.get("officialName") or lineup.get("contestantName") or "Unknown Club"
+        club_name = (
+            lineup.get("contestantName") or 
+            lineup.get("officialName") or 
+            contestant_map.get(lineup.get("contestantId")) or 
+            "Unknown Club"
+        )
         
         for p in lineup.iter("player"):
             pid = p.get("playerId")
@@ -177,53 +191,55 @@ def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: di
 
 
 def build_html_dashboard(state: dict, active_calendars: dict) -> str:
-    """Compiles the dynamic, uncolored presentation layout from state matrix data."""
-    tmcl_to_label = {v: COMPETITIONS.get(k, "Swiss Football League") for k, v in active_calendars.items()}
-    
-    report = {tmcl: {} for tmcl in active_calendars.values()}
-    all_weeks_by_tmcl = {tmcl: set() for tmcl in active_calendars.values()}
-
-    for match_id, mdata in state.items():
-        tmcl_id = mdata.get("tmcl_id")
-        if tmcl_id not in report:
-            continue
-            
-        week = mdata.get("week", "")
-        if week:
-            all_weeks_by_tmcl[tmcl_id].add(week)
-            
-        for pid, p in mdata.get("players", {}).items():
-            cname = p["club_name"]
-            pname = p["player_name"]
-            
-            if cname not in report[tmcl_id]:
-                report[tmcl_id][cname] = {}
-            if pname not in report[tmcl_id][cname]:
-                report[tmcl_id][cname][pname] = {"shirt": p["shirt"], "matches": {}}
-                
-            report[tmcl_id][cname][pname]["matches"][week] = {
-                "mins": p["mins"],
-                "status": p["status"]
-            }
-
+    """Compiles presentation layout ordered with Super League first and custom labels."""
     tabs_html = ""
     panels_html = ""
 
-    for idx, tmcl_id in enumerate(active_calendars.values()):
+    for idx, comp_id in enumerate(COMPETITIONS.keys()):
+        if comp_id not in active_calendars:
+            continue
+            
+        cal_info = active_calendars[comp_id]
+        tmcl_id = cal_info["id"]
+        season_year = cal_info["name"]
+        comp_display_name = COMPETITIONS[comp_id]
+        
         active_tab = "active" if idx == 0 else ""
         active_panel = "block" if idx == 0 else "none"
-        tmcl_label = tmcl_to_label.get(tmcl_id, tmcl_id)
         
-        sorted_weeks = sorted(all_weeks_by_tmcl[tmcl_id], key=lambda w: int(w) if w.isdigit() else 0)
-        tabs_html += f'<button class="tab-btn {active_tab}" onclick="showTab(\'{tmcl_id}\')">{tmcl_label}</button>'
+        tab_label = f"{comp_display_name} - {season_year}"
+        tabs_html += f'<button class="tab-btn {active_tab}" onclick="showTab(\'{tmcl_id}\')">{tab_label}</button>'
 
-        clubs_data = report.get(tmcl_id, {})
+        clubs_data = {}
+        all_weeks = set()
+
+        for match_id, mdata in state.items():
+            if mdata.get("tmcl_id") != tmcl_id:
+                continue
+                
+            week = mdata.get("week", "")
+            if week:
+                all_weeks.add(week)
+                
+            for pid, p in mdata.get("players", {}).items():
+                cname = p["club_name"]
+                pname = p["player_name"]
+                
+                if cname not in clubs_data:
+                    clubs_data[cname] = {}
+                if pname not in clubs_data[cname]:
+                    clubs_data[cname][pname] = {"shirt": p["shirt"], "matches": {}}
+                    
+                clubs_data[cname][pname]["matches"][week] = {
+                    "mins": p["mins"],
+                    "status": p["status"]
+                }
+
+        sorted_weeks = sorted(all_weeks, key=lambda w: int(w) if w.isdigit() else 0)
+
         club_totals = {}
         for cname, plist in clubs_data.items():
-            total = 0
-            for pname, pinfo in plist.items():
-                total += sum(m["mins"] for m in pinfo["matches"].values())
-            club_totals[cname] = total
+            club_totals[cname] = sum(sum(m["mins"] for m in pinfo["matches"].values()) for pinfo in plist.values())
 
         sorted_clubs = sorted(clubs_data.keys(), key=lambda c: club_totals[c], reverse=True)
         clubs_html = ""
@@ -232,10 +248,7 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
             week_headers = "".join(f'<th class="week-th">W{w}</th>' for w in sorted_weeks)
             
             plist = clubs_data[cname]
-            player_totals = {}
-            for pname, pinfo in plist.items():
-                player_totals[pname] = sum(m["mins"] for m in pinfo["matches"].values())
-                
+            player_totals = {pname: sum(m["mins"] for m in pinfo["matches"].values()) for pname, pinfo in plist.items()}
             sorted_players = sorted(plist.keys(), key=lambda p: player_totals[p], reverse=True)
             rows_html = ""
             
@@ -265,16 +278,18 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                 <span class="arrow">▶</span> {cname} <span class="club-total-badge">({club_totals[cname]} mins total)</span>
               </div>
               <div class="club-body" style="display:none;">
-                <table class="mins-table">
-                  <thead><tr><th class="player-th">Player</th>{week_headers}<th class="week-th">Total</th></tr></thead>
-                  <tbody>{rows_html}</tbody>
-                </table>
+                <div class="table-responsive-wrapper">
+                  <table class="mins-table">
+                    <thead><tr><th class="player-th">Player</th>{week_headers}<th class="week-th">Total</th></tr></thead>
+                    <tbody>{rows_html}</tbody>
+                  </table>
+                </div>
               </div>
             </div>"""
 
         panels_html += f"""
         <div id="panel-{tmcl_id}" class="tab-panel" style="display:{active_panel};">
-          <h2 class="tmcl-title">{tmcl_label} Matrix</h2>
+          <h2 class="tmcl-title">UBS Youth Trophy</h2>
           {clubs_html}
         </div>"""
 
@@ -282,41 +297,62 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Player Minutes Monitor</title>
 <style>
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-  body {{ font-family: Arial, sans-serif; background: #f3f4f6; color: #1f2937; }}
-  .header {{ background: #1e3a5f; color: #fff; padding: 20px 32px; }}
-  .header h1 {{ font-size: 20px; }}
-  .tabs {{ background: #fff; border-bottom: 2px solid #e5e7eb; padding: 0 32px; display: flex; gap: 4px; }}
-  .tab-btn {{ padding: 14px 24px; border: none; background: none; cursor: pointer; font-size: 14px; font-weight: 600; color: #6b7280; border-bottom: 3px solid transparent; }}
+  body {{ font-family: Arial, sans-serif; background: #f3f4f6; color: #1f2937; padding-bottom: 40px; }}
+  .header {{ background: #1e3a5f; color: #fff; padding: 20px 16px; }}
+  .header h1 {{ font-size: 18px; text-align: center; }}
+  
+  .tabs {{ background: #fff; border-bottom: 2px solid #e5e7eb; padding: 0 8px; display: flex; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+  .tab-btn {{ padding: 14px 16px; border: none; background: none; cursor: pointer; font-size: 13px; font-weight: 600; color: #6b7280; border-bottom: 3px solid transparent; white-space: nowrap; flex-shrink: 0; }}
   .tab-btn.active {{ color: #1e3a5f; border-bottom-color: #1e3a5f; }}
-  .content {{ padding: 24px 32px; }}
-  .tmcl-title {{ font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e3a5f; }}
+  
+  .content {{ padding: 16px 8px; }}
+  .tmcl-title {{ font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e3a5f; text-transform: uppercase; letter-spacing: 0.5px; padding-left: 4px; }}
+  
   .club-section {{ margin-bottom: 12px; border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; background: #fff; }}
-  .club-header {{ padding: 12px 16px; background: #f1f5f9; cursor: pointer; font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 8px; }}
-  .club-total-badge {{ font-size: 12px; font-weight: normal; color: #6b7280; margin-left: auto; padding-right: 8px; }}
-  .arrow {{ font-size: 11px; transition: transform .2s; display: inline-block; }}
+  .club-header {{ padding: 12px 12px; background: #f1f5f9; cursor: pointer; font-weight: 700; font-size: 13px; display: flex; align-items: center; gap: 8px; user-select: none; }}
+  .club-total-badge {{ font-size: 11px; font-weight: normal; color: #6b7280; margin-left: auto; }}
+  .arrow {{ font-size: 10px; transition: transform .2s; display: inline-block; }}
   .arrow.open {{ transform: rotate(90deg); }}
-  .mins-table {{ width: 100%; border-collapse: collapse; font-size: 12px; }}
-  .player-th {{ padding: 8px 12px; text-align: left; background: #f8fafc; color: #6b7280; }}
-  .week-th {{ padding: 8px 6px; text-align: center; background: #f8fafc; color: #6b7280; min-width: 42px; }}
-  .player-name {{ padding: 8px 12px; font-size: 13px; white-space: nowrap; border-bottom: 1px solid #f1f5f9; }}
-  .mins-cell {{ padding: 6px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; color: #1f2937; }}
-  .mins-cell.total  {{ color: #1e3a5f; background: #eff6ff; font-weight: 700; }}
-  .legend {{ display: flex; gap: 16px; margin-bottom: 16px; font-size: 12px; flex-wrap: wrap; }}
-  .legend-item {{ display: flex; align-items: center; gap: 6px; color: #4b5563; }}
+  
+  /* FIXED: Mobile Horizontal Swipe Shell Container */
+  .table-responsive-wrapper {{ width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; position: relative; }}
+  
+  .mins-table {{ width: 100%; border-collapse: separate; border-spacing: 0; font-size: 12px; }}
+  
+  /* FIXED: Sticky Player Name Pinning Logic */
+  .player-th, .player-name {{ 
+    position: -webkit-sticky; position: sticky; left: 0; 
+    background: #fff; z-index: 2; min-width: 140px; max-width: 180px;
+    box-shadow: 2px 0 5px -2px rgba(0,0,0,0.15);
+  }}
+  .player-th {{ background: #f8fafc; padding: 10px 12px; text-align: left; color: #6b7280; z-index: 3; }}
+  .player-name {{ padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #f1f5f9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+  
+  .week-th {{ padding: 10px 4px; text-align: center; background: #f8fafc; color: #6b7280; min-width: 46px; font-weight: 600; }}
+  .mins-cell {{ padding: 8px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; color: #1f2937; white-space: nowrap; }}
+  .mins-cell.total {{ position: -webkit-sticky; position: sticky; right: 0; color: #1e3a5f; background: #eff6ff; font-weight: 700; box-shadow: -2px 0 5px -2px rgba(0,0,0,0.15); z-index: 2; min-width: 50px; }}
+  th.week-th:last-child {{ position: -webkit-sticky; position: sticky; right: 0; background: #f8fafc; z-index: 3; box-shadow: -2px 0 5px -2px rgba(0,0,0,0.15); }}
+
+  @media (min-width: 768px) {{
+    .header {{ padding: 20px 32px; }}
+    .header h1 {{ font-size: 20px; text-align: left; }}
+    .tabs {{ padding: 0 32px; }}
+    .tab-btn {{ font-size: 14px; padding: 14px 24px; }}
+    .content {{ padding: 24px 32px; }}
+    .tmcl-title {{ font-size: 18px; }}
+    .club-header {{ padding: 12px 16px; font-size: 14px; }}
+    .player-th, .player-name {{ min-width: 180px; max-width: 240px; }}
+  }}
 </style>
 </head>
 <body>
 <div class="header"><h1>Player Minutes Monitor Dashboard</h1></div>
 <div class="tabs">{tabs_html}</div>
 <div class="content">
-  <div class="legend">
-    <div class="legend-item"><strong>—</strong> Not in squad</div>
-    <div class="legend-item"><strong>0</strong> In squad, 0 minutes played</div>
-    <div class="legend-item"><strong>Numbers</strong> Actual minutes played</div>
-  </div>
   {panels_html}
 </div>
 <script>
@@ -344,8 +380,7 @@ def main():
         return
 
     active_calendars = fetch_active_tournament_calendars()
-    calendar_to_comp = {v: k for k, v in active_calendars.items()}
-    active_calendar_ids = set(active_calendars.values())
+    active_calendar_ids = {info["id"] for info in active_calendars.values()}
 
     state = {}
     if STATE_FILE.exists():
@@ -358,10 +393,10 @@ def main():
     if not state:
         print("\n=== STARTING BOOTSTRAP MODE ===")
         all_season_fixtures = []
-        for tmcl_id in active_calendar_ids:
-            comp_name = COMPETITIONS.get(calendar_to_comp.get(tmcl_id), "Swiss League")
+        for comp_id, info in active_calendars.items():
+            comp_name = COMPETITIONS[comp_id]
             print(f"Cataloging entire match calendar for {comp_name}...")
-            all_season_fixtures.extend(fetch_entire_calendar_fixtures(tmcl_id))
+            all_season_fixtures.extend(fetch_entire_calendar_fixtures(info["id"]))
 
         print(f"Scanning total pool of {len(all_season_fixtures)} match sheets...")
         for idx, f in enumerate(all_season_fixtures, 1):
@@ -385,8 +420,8 @@ def main():
             print("No new match updates detected via MAR feed.")
         else:
             full_schedule_map = {}
-            for tmcl_id in active_calendar_ids:
-                for f in fetch_entire_calendar_fixtures(tmcl_id):
+            for info in active_calendars.values():
+                for f in fetch_entire_calendar_fixtures(info["id"]):
                     full_schedule_map[f["match_id"]] = f
 
             for m_id in changed_match_ids:
