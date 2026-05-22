@@ -63,7 +63,8 @@ def process_match_lineup(match_id: str, eligible_ids: set, fallback_names: dict,
 
     for lineup in root.iter("lineUp"):
         tid = lineup.get("contestantId", "")
-        tname = lineup.get("contestantName", tid) or "Unknown Club"
+        # Prioritize officialName, fallback to contestantName, then fallback to ID
+        tname = lineup.get("officialName") or lineup.get("contestantName", tid) or "Unknown Club"
         
         for p in lineup.iter("player"):
             pid = p.get("playerId")
@@ -164,13 +165,12 @@ def build_html(report: dict, tmcl_names: dict) -> str:
                 for w in weeks:
                     m = week_map.get(w)
                     if m is None or m["status"] == "Not in squad":
-                        cells += '<td class="mins-cell grey">—</td>'
+                        cells += '<td class="mins-cell">—</td>'
                     elif m["status"] == "In squad, did not play":
-                        cells += '<td class="mins-cell orange">0</td>'
+                        cells += '<td class="mins-cell">0</td>'
                     else:
                         mins = m["mins"] or 0
-                        color = "green" if mins >= 60 else "yellow" if mins > 0 else "orange"
-                        cells += f'<td class="mins-cell {color}">{mins}</td>'
+                        cells += f'<td class="mins-cell">{mins}</td>'
 
                 shirt_str = f'#{pdata["shirt"]} ' if pdata.get("shirt") else ""
                 rows_html += f"""
@@ -223,15 +223,10 @@ def build_html(report: dict, tmcl_names: dict) -> str:
   .player-th {{ padding: 8px 12px; text-align: left; background: #f8fafc; color: #6b7280; }}
   .week-th {{ padding: 8px 6px; text-align: center; background: #f8fafc; color: #6b7280; min-width: 42px; }}
   .player-name {{ padding: 8px 12px; font-size: 13px; white-space: nowrap; border-bottom: 1px solid #f1f5f9; }}
-  .mins-cell {{ padding: 6px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; }}
-  .mins-cell.green  {{ color: #15803d; background: #dcfce7; }}
-  .mins-cell.yellow {{ color: #92400e; background: #fef9c3; }}
-  .mins-cell.orange {{ color: #9a3412; background: #ffedd5; }}
-  .mins-cell.grey   {{ color: #9ca3af; }}
+  .mins-cell {{ padding: 6px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; color: #1f2937; }}
   .mins-cell.total  {{ color: #1e3a5f; background: #eff6ff; font-weight: 700; }}
   .legend {{ display: flex; gap: 16px; margin-bottom: 16px; font-size: 12px; flex-wrap: wrap; }}
-  .legend-item {{ display: flex; align-items: center; gap: 6px; }}
-  .legend-dot {{ width: 14px; height: 14px; border-radius: 3px; }}
+  .legend-item {{ display: flex; align-items: center; gap: 6px; color: #4b5563; }}
 </style>
 </head>
 <body>
@@ -239,10 +234,9 @@ def build_html(report: dict, tmcl_names: dict) -> str:
 <div class="tabs">{tabs_html}</div>
 <div class="content">
   <div class="legend">
-    <div class="legend-item"><div class="legend-dot" style="background:#dcfce7;border:1px solid #15803d"></div> ≥60 min</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#fef9c3;border:1px solid #92400e"></div> &lt;60 min</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#ffedd5;border:1px solid #9a3412"></div> In squad, 0 min</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#fff;border:1px solid #9ca3af"></div> Not in squad / no data</div>
+    <div class="legend-item"><strong>—</strong> Not in squad</div>
+    <div class="legend-item"><strong>0</strong> In squad, did not play</div>
+    <div class="legend-item"><strong>Numbers</strong> Minutes played</div>
   </div>
   {panels_html}
 </div>
@@ -263,7 +257,6 @@ def build_html(report: dict, tmcl_names: dict) -> str:
 </script>
 </body>
 </html>"""
-
 
 def main():
     print(f"\nTournament Calendar 1: {TMCL_1}")
