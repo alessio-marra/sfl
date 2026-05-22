@@ -43,7 +43,6 @@ def load_eligible_player_ids() -> set[str]:
         print(f"CRITICAL: {PLAYERS_FILE} not found.")
         return set()
     raw = json.loads(p_path.read_text())
-    # Handle list or nested object profiles safely
     players = raw if isinstance(raw, list) else next(iter(raw.values()), [])
     return {p["id"] for p in players if p.get("id") and not p.get("isBlacklisted", False)}
 
@@ -92,6 +91,7 @@ def fetch_entire_calendar_fixtures(tmcl_id: str) -> list[dict]:
     matches = []
     page_num = 1
     while True:
+        # FIXED: Cleaned up URL construction syntax away from broken placeholder combinations
         url = f"{BASE_URL}/match/{API_KEY}?live=yes&_fmt=xml&_rt=c&_pgSz=100&_pgNm={page_num}&tmcl={tmcl_id}"
         root = get_xml(url)
         
@@ -129,7 +129,6 @@ def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: di
     match_players_data = {}
     
     for lineup in root.iter("lineUp"):
-        # Prioritize structural officialName over shorthand elements
         club_name = lineup.get("officialName") or lineup.get("contestantName") or "Unknown Club"
         
         for p in lineup.iter("player"):
@@ -166,13 +165,12 @@ def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: di
 
 def build_html_dashboard(state: dict, active_calendars: dict) -> str:
     """Compiles the dynamic, uncolored presentation layout from state matrix data."""
-    # Invert mapping for easier lookup
-    tmcl_to_label = {v: COMPETITIONS[k] for k, v in active_calendars.items()}
+    # FIXED: Added safe fallback handling via .get() to prevent unexpected structure KeyError crashes
+    tmcl_to_label = {v: COMPETITIONS.get(k, "Swiss Football League") for k, v in active_calendars.items()}
     
     report = {tmcl: {} for tmcl in active_calendars.values()}
     all_weeks_by_tmcl = {tmcl: set() for tmcl in active_calendars.values()}
 
-    # Group flat match records into structural tree hierarchies
     for match_id, mdata in state.items():
         tmcl_id = mdata.get("tmcl_id")
         if tmcl_id not in report:
@@ -337,7 +335,6 @@ def main():
     calendar_to_comp = {v: k for k, v in active_calendars.items()}
     active_calendar_ids = set(active_calendars.values())
 
-    # Load file engine database state
     state = {}
     if STATE_FILE.exists():
         try:
@@ -346,12 +343,13 @@ def main():
         except Exception as e:
             print(f"Failed parsing database state. Starting clean: {e}")
 
-    # Determine runtime approach: Bootstrap vs. Incremental
     if not state:
         print("\n=== STARTING BOOTSTRAP MODE ===")
         all_season_fixtures = []
         for tmcl_id in active_calendar_ids:
-            print(f"Cataloging entire match calendar for {COMPETITIONS[calendar_to_comp[tmcl_id]]}...")
+            # FIXED: Safe retrieval lookup mapping avoids any unexpected KeyError occurrences on custom calendars
+            comp_name = COMPETITIONS.get(calendar_to_comp.get(tmcl_id), "Swiss League")
+            print(f"Cataloging entire match calendar for {comp_name}...")
             all_season_fixtures.extend(fetch_entire_calendar_fixtures(tmcl_id))
 
         print(f"Scanning total pool of {len(all_season_fixtures)} match sheets...")
@@ -375,7 +373,6 @@ def main():
         if not changed_match_ids:
             print("No new match updates detected via MAR feed.")
         else:
-            # Re-verify full definitions for modified entries using standard calendar feed maps
             full_schedule_map = {}
             for tmcl_id in active_calendar_ids:
                 for f in fetch_entire_calendar_fixtures(tmcl_id):
@@ -384,7 +381,7 @@ def main():
             for m_id in changed_match_ids:
                 f_info = full_schedule_map.get(m_id)
                 if not f_info:
-                    continue  # Ignore external competitions outside target group
+                    continue
                     
                 print(f"  Updating state record for Match: {f_info['home_name']} vs {f_info['away_name']} (W{f_info['week']})")
                 res = process_match_sheet(m_id, eligible_ids, f_info)
@@ -398,14 +395,11 @@ def main():
                     "players": res
                 }
 
-    # Clean legacy keys out of database that don't fit our targets anymore
     purged_state = {k: v for k, v in state.items() if v.get("tmcl_id") in active_calendar_ids}
 
-    # Save state back to repository disk
     STATE_FILE.write_text(json.dumps(purged_state, indent=2))
     print(f"Saved update back to {STATE_FILE}.")
 
-    # Generate layout output file
     print("Regenerating user view dashboard...")
     html_out = build_html_dashboard(purged_state, active_calendars)
     OUTPUT_HTML.write_text(html_out, encoding="utf-8")
