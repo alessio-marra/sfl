@@ -5,6 +5,8 @@ Stateful Automated Minutes Pipeline (Match-First Architecture)
 - Bootstraps full historic stats on initial run.
 - Uses MAR incremental change tracking for subsequent daily runs.
 - Features a fully responsive dashboard with sticky left columns for mobile.
+- FIXED: Maps contestantId to matchInfo/contestants/contestant[@officialName] 
+  to cleanly resolve the "Unknown Club" bug.
 """
 
 import os
@@ -54,7 +56,6 @@ def fetch_active_tournament_calendars() -> dict[str, dict]:
     root = get_xml(url)
     
     discovered = {}
-    # Iterate using order of COMPETITIONS dict to ensure Super League is processed first
     for comp_id in COMPETITIONS.keys():
         for comp in root.iter("competition"):
             if comp.get("id") == comp_id:
@@ -133,7 +134,7 @@ def fetch_entire_calendar_fixtures(tmcl_id: str) -> list[dict]:
 
 
 def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: dict) -> dict:
-    """Parses a specific matchstats file and extractions metrics for targeted player IDs."""
+    """Parses a specific matchstats file and extracts metrics for targeted player IDs."""
     url = f"{BASE_URL}/matchstats/{API_KEY}/?detailed=yes&_rt=c&_fmt=xml&fx={match_id}"
     try:
         root = get_xml(url)
@@ -143,20 +144,22 @@ def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: di
 
     match_players_data = {}
     
+    # FIXED: Build a dynamic lookup dictionary from matchInfo -> contestants block
     contestant_map = {}
-    for mi in root.iter("matchInfo"):
-        for c in mi.findall(".//contestant"):
-            c_id = c.get("id")
-            if c_id:
-                contestant_map[c_id] = c.get("name")
+    match_info_el = root.find("matchInfo")
+    if match_info_el is not None:
+        contestants_el = match_info_el.find("contestants")
+        if contestants_el is not None:
+            for c in contestants_el.findall("contestant"):
+                c_id = c.get("id")
+                if c_id:
+                    # Prefer officialName (e.g. "FC St.Gallen 1879"), fallback to friendly name
+                    contestant_map[c_id] = c.get("officialName") or c.get("name") or "Unknown Club"
 
+    # Iterate through the lineups and resolve team identity using our map
     for lineup in root.iter("lineUp"):
-        club_name = (
-            lineup.get("contestantName") or 
-            lineup.get("officialName") or 
-            contestant_map.get(lineup.get("contestantId")) or 
-            "Unknown Club"
-        )
+        team_id = lineup.get("contestantId")
+        club_name = contestant_map.get(team_id, "Unknown Club")
         
         for p in lineup.iter("player"):
             pid = p.get("playerId")
@@ -318,12 +321,9 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
   .arrow {{ font-size: 10px; transition: transform .2s; display: inline-block; }}
   .arrow.open {{ transform: rotate(90deg); }}
   
-  /* FIXED: Mobile Horizontal Swipe Shell Container */
   .table-responsive-wrapper {{ width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; position: relative; }}
-  
   .mins-table {{ width: 100%; border-collapse: separate; border-spacing: 0; font-size: 12px; }}
   
-  /* FIXED: Sticky Player Name Pinning Logic */
   .player-th, .player-name {{ 
     position: -webkit-sticky; position: sticky; left: 0; 
     background: #fff; z-index: 2; min-width: 140px; max-width: 180px;
