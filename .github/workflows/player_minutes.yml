@@ -6,6 +6,10 @@ on:
     - cron: "0 4 * * *"
   workflow_dispatch: # Allows manual trigger directly from the GitHub UI
 
+# Global environment parameters
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
