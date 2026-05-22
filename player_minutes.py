@@ -4,7 +4,7 @@ Stateful Automated Minutes Pipeline (Match-First Architecture)
 - Autodetects active season tournament calendars via OT2 feed.
 - Bootstraps full historic stats on initial run.
 - Uses MAR incremental change tracking for subsequent daily runs.
-- Removes competition constraints, color elements, and tracking data overhead.
+- Handles Stats Perform <errorCode> elements gracefully for pagination.
 """
 
 import os
@@ -87,17 +87,29 @@ def fetch_mar_updated_fixtures(lookback_hours: int = 25) -> set[str]:
 
 
 def fetch_entire_calendar_fixtures(tmcl_id: str) -> list[dict]:
-    """Fetches every scheduled fixture inside a calendar (Used during Bootstrap)."""
+    """Fetches every scheduled fixture inside a calendar. Gracefully handles embedded API error codes."""
     matches = []
     page_num = 1
     while True:
-        # FIXED: Cleaned up URL construction syntax away from broken placeholder combinations
         url = f"{BASE_URL}/match/{API_KEY}?live=yes&_fmt=xml&_rt=c&_pgSz=100&_pgNm={page_num}&tmcl={tmcl_id}"
-        root = get_xml(url)
         
-        page_count = 0
+        try:
+            root = get_xml(url)
+        except Exception as e:
+            print(f"  HTTP connection error while fetching page {page_num}: {e}")
+            break
+
+        # FIXED: Look for an embedded errorCode tag (e.g., <errorCode>10400</errorCode>)
+        # Stats Perform namespaces elements, so we look for any tag ending with 'errorCode'
+        error_elements = [el for el in root.iter() if el.tag.endswith('errorCode')]
+        if error_elements:
+            error_code = error_elements[0].text
+            print(f"  Reached end of match lists at page {page_num}. Server code: {error_code}")
+            break
+            
+        page_matches_count = 0
         for mi in root.iter("matchInfo"):
-            page_count += 1
+            page_matches_count += 1
             contestants = {}
             for c in mi.findall(".//contestant"):
                 contestants[c.get("position")] = c.get("name", "")
@@ -111,9 +123,10 @@ def fetch_entire_calendar_fixtures(tmcl_id: str) -> list[dict]:
                 "tmcl_id": tmcl_id
             })
             
-        if page_count == 0:
+        if page_matches_count == 0:
             break
         page_num += 1
+        
     return matches
 
 
@@ -165,7 +178,6 @@ def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: di
 
 def build_html_dashboard(state: dict, active_calendars: dict) -> str:
     """Compiles the dynamic, uncolored presentation layout from state matrix data."""
-    # FIXED: Added safe fallback handling via .get() to prevent unexpected structure KeyError crashes
     tmcl_to_label = {v: COMPETITIONS.get(k, "Swiss Football League") for k, v in active_calendars.items()}
     
     report = {tmcl: {} for tmcl in active_calendars.values()}
@@ -347,7 +359,6 @@ def main():
         print("\n=== STARTING BOOTSTRAP MODE ===")
         all_season_fixtures = []
         for tmcl_id in active_calendar_ids:
-            # FIXED: Safe retrieval lookup mapping avoids any unexpected KeyError occurrences on custom calendars
             comp_name = COMPETITIONS.get(calendar_to_comp.get(tmcl_id), "Swiss League")
             print(f"Cataloging entire match calendar for {comp_name}...")
             all_season_fixtures.extend(fetch_entire_calendar_fixtures(tmcl_id))
