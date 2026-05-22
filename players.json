@@ -1,2176 +1,870 @@
 [
     {
         "id": "dl63f4g3chb44p8nn9ywlm1hw",
-        "firstName": "Simon",
-        "lastName": "Caillet",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-07-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5o1par7531o2wpp2z9jf4pkwk",
-        "firstName": "Mats",
-        "lastName": "Seiler",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-08-04",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "99s7mp9tue9unwu8o7lds2hp0",
-        "firstName": "Rhodri",
-        "lastName": "Smith",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-09-09",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ac6r3yi7rzqlcih7qw86jsro4",
-        "firstName": "Zachary",
-        "lastName": "Athekame",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-12-13",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "asvpyc1f2hl32ddm2pk0c3tw4",
-        "firstName": "Ardian",
-        "lastName": "Bajrami",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-03-08",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "wvt8dysok3dpjpwaba15di50",
-        "firstName": "Felix Emmanuel",
-        "lastName": "Tsimba",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-06-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6fmzgev0kcyk4vjw72zb7vspg",
-        "firstName": "Marvin",
-        "lastName": "Akahomen",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-07-15",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "aifw5ubx7dl9nh8erwn8li9lg",
-        "firstName": "Tim",
-        "lastName": "Spycher",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-04-13",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "azzajp7eh833i06qu80r60zkk",
-        "firstName": "Dion",
-        "lastName": "Kacuri",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-02-11",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dbqx9398ab3k6auzcajjs7g9g",
-        "firstName": "Junior Arlet",
-        "lastName": "Zé",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-03-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "615ger5z8xeb36lqke8rz7od0",
-        "firstName": "Papa Souleymane",
-        "lastName": "NDiaye",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-11-01",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7n4obvxgtvcggeyl540j73384",
-        "firstName": "Dircssi",
-        "lastName": "Ngonzo",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-07-31",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "doogaqd8kpw43pnfws4ma074k",
-        "firstName": "Ethan",
-        "lastName": "Bruchez",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-04-07",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "estivchptwxb349fgc23ahgyc",
-        "firstName": "Tim",
-        "lastName": "Hottiger",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-03-24",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4lz1tc8wjji6ll44ks8w7k6qc",
-        "firstName": "Diego",
-        "lastName": "Mina",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-08-12",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2zzry91ac1fqo3u1c1ewufuhg",
-        "firstName": "Andrej",
-        "lastName": "Vasovic",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-10-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "38r0hllx8i1swwgqx7udvhb84",
-        "firstName": "Mattia",
-        "lastName": "Walker",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-02-11",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9olzf630oclv41h41p5iunm6s",
-        "firstName": "Sascha",
-        "lastName": "Britschgi",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-08-27",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "a99zxna7oxwspa405f5a6x1xw",
-        "firstName": "Bung Meng",
-        "lastName": "Freimann",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-12-09",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "cgnne2m8bqaslb05fwi95xces",
-        "firstName": "Lionel",
-        "lastName": "Huwiler",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-02-17",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2gcdbekdku9rg41j9o3zwnxn8",
-        "firstName": "Adrien",
-        "lastName": "Llukes",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-07-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6ie5odpn7psitk1lcdd68b09g",
-        "firstName": "Maxime",
-        "lastName": "Dubosson",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-11-24",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7p8wvrgk2aucmmrc30uv7j5lg",
-        "firstName": "Winsley",
-        "lastName": "Boteli Mokango",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-07-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9y59rfdssa2pm5st5fdf3qadw",
-        "firstName": "Rayan",
-        "lastName": "Stoll",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-03-19",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "a24422mcs56f2g43iw1jmknis",
-        "firstName": "Liam Scott",
-        "lastName": "Chipperfield",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-02-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "1pi3bso1gohcatghfcpg35q1g",
-        "firstName": "Cyrill",
-        "lastName": "May",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-02-06",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "3j4u1wo521h535zispf9uw8pg",
-        "firstName": "Pascal",
-        "lastName": "Büttiker",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-03-07",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "3ojv6b5xr65ug66z63dwpgu8k",
-        "firstName": "Janis",
-        "lastName": "Widmer",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-07-13",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dldvsl5cgnzd5pqfm2h9uq3h0",
-        "firstName": "Corsin",
-        "lastName": "Konietzke",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-06-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2cyxy19dqip7qegx8z0mqkh78",
-        "firstName": "Jan",
-        "lastName": "Eicher",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-02-16",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "aqq2kfm26hmrmwyl3sc6hrdhw",
-        "firstName": "Franz-Ethan",
-        "lastName": "Meichtry",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-07-08",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4mporzlvy59vw5ww6kzxi4e1g",
-        "firstName": "Noah Elia",
-        "lastName": "Brogli",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-05-28",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6o2emfk33ixwrihxddkbvf2ms",
-        "firstName": "Elias",
-        "lastName": "Maluvunu",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-08-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "99gzdabu92tunehaoai1r7ris",
-        "firstName": "Antonio",
-        "lastName": "Spagnoli",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-05-31",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "bxyzbhin674al3lr2twujk5xw",
-        "firstName": "Ledjan",
-        "lastName": "Sahitaj",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-01-12",
-        "nationalityId": "86u6edbqifdjsn49mbp2anw7p",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "3nqhtkzcrkrta24iyceqk6jv8",
-        "firstName": "Neil",
-        "lastName": "Volken",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-04-23",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6kn4vbabqzpon683ynbsxkkk4",
-        "firstName": "David",
-        "lastName": "Vujevic",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-10-20",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "abwmb2fqtu86grypwwk4indhw",
-        "firstName": "Cheveyo",
-        "lastName": "Tsawa",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-12-09",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ars7lu2hj5ecjpn0cd1mygu1g",
-        "firstName": "Silas Simon",
-        "lastName": "Huber",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-07-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "d24b4r39wxcrl5a8iye13np5g",
-        "firstName": "Calixte Paul Junior",
-        "lastName": "Ligue",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-03-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "exxkv65coe3l769z25gvk1ixg",
-        "firstName": "Nevio",
-        "lastName": "Di Giusto",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-03-18",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "1of2iijln5jqnhhtu41lfxgr8",
-        "firstName": "Laurent",
-        "lastName": "Seji",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-06-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6skmsbclcdul0holo3vfj2590",
-        "firstName": "Tim",
-        "lastName": "Meyer",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-07-08",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7r85z59jvm8p2pr8qy91u0aac",
-        "firstName": "Leart",
-        "lastName": "Kabashi",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-11-29",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5qg0zclpg1kdgtaribzbtg844",
-        "firstName": "Marwan",
-        "lastName": "Aubert",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-02-12",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "f2dph63zi2x67yv0qbukyfdw4",
-        "firstName": "Loun",
-        "lastName": "Srdanovic",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-08-04",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "vc2knr7mu8n12alvmx7fzj10",
-        "firstName": "Tiemoko",
-        "lastName": "Ouattara",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-05-25",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "85lnt50y8dbepg0gyvxoftpn8",
-        "firstName": "Elio",
-        "lastName": "Trochen",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-10-15",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5gvzz9byivekghgg322282kus",
-        "firstName": "Brian Ernest",
-        "lastName": "Atangana",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-01-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6chr5u4vg56w8znmpskhnpiqc",
-        "firstName": "Samuel",
-        "lastName": "Fankhauser",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-02-06",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "e4t4n2fwmgv24huxoxhf2hous",
-        "firstName": "Finley",
-        "lastName": "Harrington",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-08-11",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "mrfl0vgfn50zhn5ekhok3vh0",
-        "firstName": "Nour Al Islam",
-        "lastName": "Boulkous",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-03-01",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "14byzat1rvlhaycjfm2w8j4lw",
-        "firstName": "Gian",
-        "lastName": "Vogt",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2009-02-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "24unujkewve7qqxvmazogymfo",
-        "firstName": "Berdan",
-        "lastName": "Senyurt",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-09-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "69w6c6hp44o3uvd31jgywwh04",
-        "firstName": "Esey",
-        "lastName": "Gebreyesus",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-01-23",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ag92lrchlo2z1opq3i1loneok",
-        "firstName": "Dorian",
-        "lastName": "Derbaci",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-03-25",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "d0xfek1nalpc33ktsotqiqs4",
-        "firstName": "Ryan",
-        "lastName": "Kessler",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-08-28",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "x6384fx309oye30o3ut24nis",
-        "firstName": "Ramon Francesco",
-        "lastName": "Guzzo",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-07-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5cjn8xzkjzk8i1q6wpgmr9250",
-        "firstName": "Timon",
-        "lastName": "Näpfer",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-02-18",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5fzuoyb6dfulcuxsmhohos5ck",
-        "firstName": "Cyrill",
-        "lastName": "Emch",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-09-15",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "d501d2vyvl1eo04zp30rapwd0",
-        "firstName": "Noé Simon",
-        "lastName": "Nguy-yi Boum Bitjél",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-12-30",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "jf2zx6sx28xfoomc56ldlst0",
-        "firstName": "Ethan Noah",
-        "lastName": "Brandy",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-11-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7rhx67l0et64sassr9vrw08b8",
-        "firstName": "Noah",
-        "lastName": "Noverraz",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-09-25",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8sw7j56zdm3wbbofcv1901ogk",
-        "firstName": "Issa Yann",
-        "lastName": "Kaloga",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-02-27",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "93ij6jp3q4mar9ft7m0br5yqc",
-        "firstName": "Mattéo",
-        "lastName": "Djoumgoué Tchakoua",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-04-02",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "bnerqoyjg86eor1viyi4dyadw",
-        "firstName": "Hénoc Manassé",
-        "lastName": "Lukembila",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-12-01",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ckpl8ict337rocpu9jeyjk93o",
-        "firstName": "Vasco",
-        "lastName": "Tritten",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-08-29",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "67t7n47ewg28wb9dfz3xjyrdg",
-        "firstName": "Ronaldo",
-        "lastName": "Dantas Fernandes",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-12-13",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dpdsyn6l2oqdyiskbjg4pdsk",
-        "firstName": "Mischa",
-        "lastName": "Beeli",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-02-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "19ifakux3w3z5wipxnvej8nx0",
-        "firstName": "Loris",
-        "lastName": "Schreiber",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-05-26",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4d372wwy2cclg6l8e86ngyk2c",
-        "firstName": "Gentrit",
-        "lastName": "Muslija",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-01-19",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "e3sythuagdprdhgujtpxof2fo",
-        "firstName": "Luuk Johannes Christianus",
-        "lastName": "Breedijk",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-02-20",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "e9i9c07l7cz79zmv0bin1g7bo",
-        "firstName": "Bung Hua",
-        "lastName": "Freimann",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-07-11",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4ejk0kwozbcbq9115xfo4f0us",
-        "firstName": "Malík",
-        "lastName": "Deme",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-03-16",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7md3kkbn6mxaj8qy3xel5jqj8",
-        "firstName": "Altin",
-        "lastName": "Azemi",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2009-04-29",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "868v7nfa84r7cpe0uxrsahpn8",
-        "firstName": "Francesco",
-        "lastName": "Lentini",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-10-24",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "b6vwhedtlg0bqfno54s7uq87o",
-        "firstName": "Elmedin",
-        "lastName": "Zahaj",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-02-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dvpsjokj8vz9dohn2h9g5lv6c",
-        "firstName": "Shiloh",
-        "lastName": "Reinhard",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-10-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "b8lonz0trfj0mjdnaeh3p50d0",
-        "firstName": "Maxime",
-        "lastName": "Rouiller",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-07-15",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2cm7m722waijkzu9ci3ybn0no",
-        "firstName": "Keyan Anderson",
-        "lastName": "Pereira Varela",
-        "knownName": "Keyan Varela",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-04-26",
-        "nationalityId": "1nbm5i9a0403zzvltn17lxinc",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "274flhzvnycc9411al8lir1g4",
-        "firstName": "Kiswend",
-        "lastName": "Tologo",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-03-28",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "70kdxr0aur2eq02sd2l6l2olw",
-        "firstName": "Giacomo",
-        "lastName": "Koloto",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-01-31",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8ogdozprbfg9o8hzs3ppug9hw",
-        "firstName": "Nico",
-        "lastName": "Rissi",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-01-30",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dcsk7i04tt9xqrzi6y3monqj8",
-        "firstName": "Levin",
-        "lastName": "Würgler",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-01-20",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "l3cs4svcg1egw1ctb9qo6m8k",
-        "firstName": "Mardochée Matumona",
-        "lastName": "Miguel",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-05-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "drx5k2hrdyew1e8lh4xlygoic",
-        "firstName": "Noa Diego",
-        "lastName": "Vazquez Gottraux",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-02-04",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "k944qx1o04mdiz76cmmltmvo",
-        "firstName": "Aleksandar",
-        "lastName": "Radic",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-11-15",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "cv1so3x45iex1fxrlttxs2r6c",
-        "firstName": "Nicolò",
-        "lastName": "Puddu",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-09-19",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "bkai3rdacpb9qixygedorfllg",
-        "firstName": "Noah",
-        "lastName": "Streit",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-10-11",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "f5jcq31j5jhiijx1e3kwvcbv8",
-        "firstName": "Patrick Ludwig",
-        "lastName": "Weber Taveira",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-04-07",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "66daqkioxqbpunys9lz8w7578",
-        "firstName": "Noë",
-        "lastName": "Tschanz",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-07-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "blgy8rpn31ugf1g8i27qsx3x0",
-        "firstName": "Olivier",
-        "lastName": "Mambwa",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-12-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "b9ijbe1wax32ejcwfutqx02l0",
-        "firstName": "Agon",
-        "lastName": "Rexhaj",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-03-24",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9g4591ffmh21o0hlw3zt17wno",
-        "firstName": "Lorenzo",
-        "lastName": "Bittarelli",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-02-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "1hwkc9oiv27t564914n05zdw4",
-        "firstName": "Yuri",
-        "lastName": "Peverelli",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-05-08",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2salmk8nks432oy74njgpnor8",
-        "firstName": "Ilija",
-        "lastName": "Maslarov",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-01-02",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8n1cio18on8sy1456tqctgtg4",
-        "firstName": "Nicola",
-        "lastName": "Gamba",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-07-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ac4u2ef76tifxjn9up3x5l53o",
-        "firstName": "Cheikh Ahmadou Bamba",
-        "lastName": "Ndiaye",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-01-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2rsfj02kbcmosf0da55w9uz2s",
-        "firstName": "Mio",
-        "lastName": "Zimmermann",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-08-08",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5g00gq09apkl9bqxgpwext7v8",
-        "firstName": "Sascha",
-        "lastName": "Meyer",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-04-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8v0e1x2y1a269sok1y7lz3bx0",
-        "firstName": "Sandro",
-        "lastName": "Wyss",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-05-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "vbn0ij9ljlgjk2cdy4q1uj9w",
-        "firstName": "Erblin",
-        "lastName": "Sadikaj",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-03-13",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "vrc090kfslazjqxqg4rr0cgk",
-        "firstName": "Demir",
-        "lastName": "Xhemalija",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-06-07",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "duz86ye67mwomr93ui023766s",
-        "firstName": "Nevio",
-        "lastName": "Biner",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-08-17",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "3t31crka9rpryrpazn7m46zo4",
-        "firstName": "Alessandro",
-        "lastName": "Vogt",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-02-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4qc8wwx4c3wj3lsy9zq1ufaqc",
-        "firstName": "Leonit",
-        "lastName": "Ibraimov",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-06-16",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "aukgu3wa4j354qlcq08ghocgk",
-        "firstName": "Tarik",
-        "lastName": "Seferovic",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-12-31",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "14djdsqy8wmlhn32a149yjuac",
-        "firstName": "Thierry",
-        "lastName": "Diethelm",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-09-30",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2v9nzsylas35kfrdooydkt4wk",
-        "firstName": "Tibault",
-        "lastName": "Citherlet",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-03-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4jlgd5ln0tf7gtlaqlkr4oiz8",
-        "firstName": "Leandro Leon",
-        "lastName": "Maksutaj",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-06-18",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5gcoipks3qsbde767uz8tggt0",
-        "firstName": "Sambou",
-        "lastName": "Camara",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-04-20",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "b3ykbwmjlkr8kwgnr3kntw104",
-        "firstName": "Julius",
-        "lastName": "Holder",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-03-24",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "1fy8am84uedboos671t9buxw4",
-        "firstName": "Tyrese",
-        "lastName": "Pinthus-Duah",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-09-30",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6arcp9q74a00x3upipsqyuj2s",
-        "firstName": "Gian",
-        "lastName": "Stork",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-03-12",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "eh6fscqv4ctdtfzxkkfmtztp0",
-        "firstName": "Mattia",
-        "lastName": "Rizzo",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-10-07",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "b0viyxphw7xe2wf9mkfi2uyvo",
-        "firstName": "Samuel",
-        "lastName": "Marques",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-02-04",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "cy4locjo340pq90psxqe17g2c",
-        "firstName": "Loris",
-        "lastName": "Giandomenico",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-09-28",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "16nk7f0yc9zkqoore22i5ixas",
-        "firstName": "Jamie",
-        "lastName": "Atangana",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-11-12",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "a188mrg22qdpx8loprtmuy2ac",
-        "firstName": "Alonzo",
-        "lastName": "Vincent",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-10-06",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "e6pc260369ih4b2ad60iien10",
-        "firstName": "Leart",
-        "lastName": "Zuka",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-08-27",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7p678jwnwycx0d38g968hk4r8",
-        "firstName": "Lendrit",
-        "lastName": "Shala",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-05-04",
-        "nationalityId": "86u6edbqifdjsn49mbp2anw7p",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "3j4cbwn8ft8y3d5lvjigp8bo4",
-        "firstName": "Momodou Lamin",
-        "lastName": "Jaiteh",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-11-27",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "676bx4jnw2993du8yzhuo9c7o",
-        "firstName": "Dion",
-        "lastName": "Dërmaku",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-08-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "77wolsrol5ymxblf7e142elg4",
-        "firstName": "Freddy Jacques",
-        "lastName": "Bomo",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-10-02",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "3v7qhy9h8w7a0gws2oeij0l5g",
-        "firstName": "Cherif Abdoulaye",
-        "lastName": "Koroma Haidara",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-08-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "wpoornaq4npl818loqa71vro",
-        "firstName": "Romeo Flavio",
-        "lastName": "Philippin",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-05-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6d3m6xrfuk0shcpzdm9j49v6c",
-        "firstName": "Simon",
-        "lastName": "Zalokar",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-02-20",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8ibag83uzcirmb7vycpdxxw5w",
-        "firstName": "Leon",
-        "lastName": "Frokaj",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-04-23",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "eamboyermqe818p9colb4ry8k",
-        "firstName": "Nikola",
-        "lastName": "Rakic",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-08-20",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "epbdulzw6jtzidiobkhx9rytw",
-        "firstName": "Yannis",
-        "lastName": "Ryter",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-11-15",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "f249n71w3nm5qg0uenp6ysf84",
-        "firstName": "Loïs",
-        "lastName": "Ndema Mbongué",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-10-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9a2qao2m84048fx3216izewb8",
-        "firstName": "Hugo",
-        "lastName": "Parra",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-09-13",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9ei0a1ald9djjgqr4x9tvtc7o",
-        "firstName": "Noah",
-        "lastName": "Grognuz",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-10-27",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "a9tmd9tjrbbc78uc6qrolz4es",
-        "firstName": "Jarell Njiké",
-        "lastName": "Simo",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-01-12",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "acyqo1klb3frssjxrtpvclul0",
-        "firstName": "Burak",
-        "lastName": "Alili",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-02-11",
-        "nationalityId": "17zsm8shejejls2on1ffil3op",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "aivoy3haapigtzzaguntdpedw",
-        "firstName": "Ahmedin",
-        "lastName": "Avdic",
-        "knownName": "Ahmedin Avdic",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-06-01",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ctupcv0x9m7l77xghcx0asopg",
-        "firstName": "Maxim",
-        "lastName": "Leclercq",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-05-21",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "qm8bwm8dy2u2ez29kmvretxw",
-        "firstName": "Malko Arthur Tim",
-        "lastName": "Sartoretti",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-07-23",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4yaktrkfe44m5e8acrwpg9r84",
-        "firstName": "Altin",
-        "lastName": "Berisha",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-05-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5sefx7ke1h8axcocbl2s8vi8k",
-        "firstName": "Janis",
-        "lastName": "Keller",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-01-17",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "78q9bvd0sisg12xi9i1fqwnpw",
-        "firstName": "Sergio Augusto",
-        "lastName": "Ferro Correia",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-05-11",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "c2o200897whysk03uc1ulshsk",
-        "firstName": "Xhan",
-        "lastName": "Aliu",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-05-07",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8x9zpn1ee58mj1fndh85kbkt0",
-        "firstName": "Gonçalo",
-        "lastName": "Sacramento dos Santos",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-11-16",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "935yqmav594yjwefj6at52pec",
-        "firstName": "Henrik",
-        "lastName": "Fehr",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2010-02-17",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9jw01o1pdl4gemh2gqd0x80lw",
-        "firstName": "Edijon",
-        "lastName": "Ejupi",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-11-15",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4o8roh953dufflhb1y3wn1kpg",
-        "firstName": "Diego",
-        "lastName": "Besio",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-06-23",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "airs278inzcp06beotk1zgbo4",
-        "firstName": "Nino",
-        "lastName": "Weibel",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-04-11",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "an0tzhrx6uhf75uper52ta3o4",
-        "firstName": "Joel",
-        "lastName": "Ruiz",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-10-20",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "1x6yenwfythiwj47vdkhvnpxw",
-        "firstName": "Jill",
-        "lastName": "Stiel",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-05-01",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5a2mhyjra60d1u4q0rxatvcic",
-        "firstName": "Parfait",
-        "lastName": "Coulibaly",
-        "knownName": "Parfait Coulibaly",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2009-01-17",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "75h4biirv290kb4i6ewzcppn8",
-        "firstName": "Din",
-        "lastName": "Ramić",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-12-28",
-        "nationalityId": "4fue8u54361o79fbiu9qwxjer",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ci5o6s3gnwvvvjz8gs13z3wgk",
-        "firstName": "Isaiah Tobechukwu",
-        "lastName": "Okafor",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-04-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "qbg85x2o5w3rvjw5nvii7cpg",
-        "firstName": "Raphael Henoc",
-        "lastName": "Coulibaly",
-        "knownName": "Raphael Coulibaly",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2010-01-12",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2epq3qbyzs8mr3g6aaemjirdg",
-        "firstName": "Samuele",
-        "lastName": "Bengondo",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-12-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "50hefdi6vr6peyviss9np2gpg",
-        "firstName": "Samuel Sebastian",
-        "lastName": "Krasniqi",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-01-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dv0alw8e499wxkybhyvas7h1w",
-        "firstName": "Luca",
-        "lastName": "Scandurra",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-12-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "1uvy9nbdv1xev6lh3mgr1wsno",
-        "firstName": "Noé",
-        "lastName": "Philipona Pereira",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-08-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "atcd1diuaul71z3fzqjbvq1p0",
-        "firstName": "Alexandre",
-        "lastName": "Dias Patricio",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-02-17",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9hbe59nebiizy8u2r6md050k4",
-        "firstName": "Gent",
-        "lastName": "Rexhepi",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-10-14",
-        "nationalityId": "86u6edbqifdjsn49mbp2anw7p",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "bbu4r6xk78dmkfkadvq9afxn8",
-        "firstName": "Yuro",
-        "lastName": "Bohon Diet",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-01-04",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2pn8sdsirddumo2usvzf9kglw",
-        "firstName": "Lutfi",
-        "lastName": "Dalipi",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-05-23",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ec7zraloffb84elpg4xop52qc",
-        "firstName": "Janis",
-        "lastName": "Lüthi",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-03-31",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5lzal6hac79nadke98ptdq1g",
-        "firstName": "Oscar",
-        "lastName": "Renovales",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-10-24",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8lx7ynn9g358g7icf8f0jxjx0",
-        "firstName": "Ibrahim",
-        "lastName": "Bah Mendes",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-11-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "eemu75mpinmmzuqmbjonlx4ic",
-        "firstName": "Keeto",
-        "lastName": "Thermoncy",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-03-29",
-        "nationalityId": "5mp58o38d0mr5qt8g4o6l7efg",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4sa40st446rekhvz11hafgbo4",
-        "firstName": "Christian",
-        "lastName": "Raffa",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-04-07",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "97lvadg3r6c02dnq2v163plw4",
-        "firstName": "Jason-Lee",
-        "lastName": "Parente",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-06-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "463dlxday21orkmjn42nrkz6c",
-        "firstName": "Gjan",
-        "lastName": "Ajdin",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-01-13",
-        "nationalityId": "1z6l2c33w2kyz9rdefs1d68nb",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2h66q7vrhceinr572lm66rfo4",
-        "firstName": "Aaron",
-        "lastName": "Tchamda",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-01-07",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5rs6w235vcsynmiyaa10vau50",
-        "firstName": "Malek Sadek",
-        "lastName": "Ishuayed Sanchez",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-03-16",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7vldodeg9srvygizas8gtqdxw",
-        "firstName": "Marvin Julien",
-        "lastName": "Erb",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-06-29",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "etwbc6x5jp9pdnh6ga2f5itck",
-        "firstName": "Redon",
-        "lastName": "Kabashi",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-09-26",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9sxb3pb9ma5f55n2xh1n7lixg",
-        "firstName": "Gédéon",
-        "lastName": "Lomami",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-07-30",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "awt38idua80bt2qsebqj4knx0",
-        "firstName": "Loïc",
-        "lastName": "Veya",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-01-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "bddjlux3x7xhfmwfda7mnzi8k",
-        "firstName": "Adonis",
-        "lastName": "Bourezak",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-09-30",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "c99d50ruskgmwiv43p03m9i50",
-        "firstName": "Grégoire Quentin",
-        "lastName": "Smania",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-06-02",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dh55dmlup3eqqq73ryxvo5zbo",
-        "firstName": "Senad",
-        "lastName": "Cosic",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-01-11",
-        "nationalityId": "4fue8u54361o79fbiu9qwxjer",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dlmztstwhju8xgittdmabxgr8",
-        "firstName": "Ismail",
-        "lastName": "Haddaji",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-10-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dp6q906r8x37anuk2ghjf1jx0",
-        "firstName": "Rayan",
-        "lastName": "Madani",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-04-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "evsserkh0r452c7uj2bsln3f8",
-        "firstName": "Kilian",
-        "lastName": "Arancibia Valdebenito",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-03-27",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "akgjf709lcowr0b3lx174ep04",
-        "firstName": "Tobias",
-        "lastName": "Mauch",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-02-15",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2ej84h12hl1ca1e4mwcszs74k",
-        "firstName": "Jan Peter",
-        "lastName": "Zaugg",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-04-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "e1aopqv9jb779vo6qgj9d0wlw",
-        "firstName": "Adam",
-        "lastName": "Ilic",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-05-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "3mw97uhlizy4327fxiui1wn4k",
-        "firstName": "Sebastian",
-        "lastName": "Walker",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-10-01",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "akposyfaakea1nhbd4nlz6uc4",
-        "firstName": "Ivan",
-        "lastName": "Kovacevic",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-02-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8hghkkwywphs83ft8f8q04104",
-        "firstName": "Emilien",
-        "lastName": "Grosso",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-12-13",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "cyq340yo1eshv15eueij2xbf8",
-        "firstName": "Stevan",
-        "lastName": "Raicevic",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-04-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7d9kph2lv3ybpixe9hxu1sydw",
-        "firstName": "Theodore",
-        "lastName": "Elsig",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-01-01",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "9gx0al1q6fdw4lxlaiohswowk",
-        "firstName": "Andrew Gabriel",
-        "lastName": "Lachhab",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-11-16",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5qc8mchxjeckhyssmzlylc93o",
-        "firstName": "Nico",
-        "lastName": "Föllmi",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-06-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "75zpstefiy2p7q37nu3agoqvo",
-        "firstName": "Ezequiel",
-        "lastName": "Meili",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-04-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "ojetnalu7pxbdmttr97uiexg",
-        "firstName": "Tobias Chibuzo",
-        "lastName": "Okafor Onyekosor",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-10-11",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "d3088enqrs34cag26af7uxous",
-        "firstName": "Endrit",
-        "lastName": "Fetahu",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2004-04-22",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dhpmen9p3ja03olj4huesz7ro",
-        "firstName": "Mahir",
-        "lastName": "Rizvanović",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-09-28",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4lbrew3lxtbgoc147pepsgw0k",
-        "firstName": "Ranjan",
-        "lastName": "Neelakandan",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-01-20",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8g6y8nyfeowov79jxxgxg62hg",
-        "firstName": "Janik",
-        "lastName": "Rutz",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2006-05-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "e5gjxdlhxqja1duu6pypyjnys",
-        "firstName": "Shahin",
-        "lastName": "Edougué",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-05-26",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "6grc3iivedspygr0jtrjbvy8k",
-        "firstName": "Luca",
-        "lastName": "Kloetzli",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2009-08-31",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "7akm4yp6luktwbj05pprq8v84",
-        "firstName": "Tarik",
-        "lastName": "Becirovic",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2009-08-09",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "93m0tsxw9b13i467o6obmuqz8",
-        "firstName": "Waël",
-        "lastName": "Jolissaint",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2009-12-17",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2dwb36l3c83msll70wyl16exg",
-        "firstName": "Nevio",
-        "lastName": "Scherrer",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-04-08",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "bdlwftw1q45e41z5o9pn92784",
-        "firstName": "Sacha Jules",
-        "lastName": "Denarie",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-01-25",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "5jiphmeh9w6lx4cxrflmcqsd0",
-        "firstName": "Martino",
-        "lastName": "Novaresi",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2005-10-12",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "58o6xerpdn7qh8lj6u877ji8k",
-        "firstName": "Pirosch",
-        "lastName": "Fischer",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-07-23",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "3467py0duaokw31rweau0buac",
-        "firstName": "Bennett",
-        "lastName": "Hoch",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-11-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8w5bmoplwexx7pcfmzsrc680k",
-        "firstName": "Luca",
-        "lastName": "Cortesi",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-03-24",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dv7fadl3z2i1zf5kaqf3z3dhw",
-        "firstName": "Dion",
-        "lastName": "Lecaj",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-03-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "2p2rcdnfn8gsnjrjbbj12p72s",
-        "firstName": "Dominik",
-        "lastName": "Papic",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-05-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "dnbhu3n4vs5c2p0h7i35c0h04",
-        "firstName": "Denis",
-        "lastName": "Sahin",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2008-06-23",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4kcoxzn3so6ic4xfvhvw2dt04",
-        "firstName": "Emilien",
-        "lastName": "Biku",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2007-04-05",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "8hdps5c5eossoec01gafzu8lw",
-        "firstName": "Davide",
-        "lastName": "Muzzí",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-11-10",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "cpw4hqnhrqja3q3k85fq7bz84",
-        "firstName": "Leandro",
-        "lastName": "Schödler",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-05-27",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "1k0jbngsff9o026hnjq0yz504",
-        "firstName": "Noah",
-        "lastName": "Gjokaj",
-        "competitionId": "19g61lkb6wbte",
-        "birthDate": "2008-07-30",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "4md3w56mh0o0eb4s6mbm4gtn8",
-        "firstName": "Gabriel",
-        "lastName": "Gonzalez",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2006-06-14",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "a0okhowe2uzwwk47jvywi9xxw",
-        "firstName": "Demis",
-        "lastName": "Fiechter",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2005-12-30",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "cw4v0m548q2qkqxr695ujjq50",
-        "firstName": "Nahom",
-        "lastName": "Tesfom",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2004-01-03",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     },
     {
         "id": "jt4cczd7nlhkiijzipg3q39w",
-        "firstName": "Eliano",
-        "lastName": "Guido",
-        "competitionId": "19g61lkb6wday",
-        "birthDate": "2007-04-04",
-        "nationalityId": "3bh70jgvc5mn58x0byjkuda17",
-        "type": "eligible_player",
         "isBlacklisted": false
     }
 ]
