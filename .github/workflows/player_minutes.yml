@@ -1,55 +1,56 @@
-name: player-minutes
+name: Continuous Player Minutes Pipeline
 
 on:
-  workflow_dispatch:
-    inputs:
-      tournament_calendar_1:
-        description: "Tournament Calendar ID 1 (e.g. Super League)"
-        required: true
-      tournament_calendar_2:
-        description: "Tournament Calendar ID 2 (e.g. Challenge League)"
-        required: true
+  schedule:
+    # Runs daily at 04:00 UTC (05:00 CET / 06:00 CEST)
+    - cron: "0 4 * * *"
+  workflow_dispatch: # Allows manual trigger directly from the GitHub UI
 
 jobs:
-  check:
+  run-pipeline:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+      pages: write
+      id-token: write
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository Code
         uses: actions/checkout@v5
 
-      - name: Set up Python
+      - name: Initialize Python Environment
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
+      - name: Install Runtime Requirements
         run: pip install requests
 
-      - name: Run player minutes check
+      - name: Execute Minutes State Script
         env:
-          SP_API_KEY:             ${{ secrets.SP_API_KEY }}
-          SP_REFERER:             ${{ secrets.SP_REFERER }}
-          TOURNAMENT_CALENDAR_1:  ${{ github.event.inputs.tournament_calendar_1 }}
-          TOURNAMENT_CALENDAR_2:  ${{ github.event.inputs.tournament_calendar_2 }}
-          PLAYERS_FILE:           players.json
+          SP_API_KEY: ${{ secrets.SP_API_KEY }}
+          SP_REFERER: ${{ secrets.SP_REFERER }}
+          PLAYERS_FILE: "players.json"
         run: python player_minutes.py
 
-      - name: Upload HTML report
-        uses: actions/upload-artifact@v4
-        with:
-          name: player-minutes-report
-          path: player_minutes_output.html
-          retention-days: 30
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
-      - name: Commit updated competition_mapping.json
+      - name: Commit State Changes Back to Repository
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add competition_mapping.json || true
-          git diff --staged --quiet || git commit -m "chore: update competition_mapping.json [skip ci]"
-          git push
+          git add minutes_state.json
+          # Commit only if database file variations occur
+          git diff-index --quiet HEAD || git commit -m "Automated updates to minutes_state.json [skip ci]"
+          git push origin main || echo "No changes or push skipped"
+
+      - name: Setup GitHub Pages View Environment
+        uses: actions/configure-pages@v5
+
+      - name: Upload Finished Dashboard Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Uploads index.html from the root folder straight to deployment engines
+          path: '.'
+
+      - name: Publish Live to GitHub Pages
+        uses: actions/deploy-pages@v4
