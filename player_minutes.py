@@ -198,6 +198,9 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
     tabs_html = ""
     panels_html = ""
 
+  # Generate timestamp for the top-right corner
+    last_update_str = datetime.now().strftime("%d.%m.%Y %H:%M")
+
     for idx, comp_id in enumerate(COMPETITIONS.keys()):
         if comp_id not in active_calendars:
             continue
@@ -350,7 +353,10 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
 </style>
 </head>
 <body>
-<div class="header"><h1>Player Minutes Monitor Dashboard</h1></div>
+<div class="header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+  <h1>Player Minutes Monitor Dashboard</h1>
+  <span style="font-size: 12px; opacity: 0.85; background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 20px; white-space: nowrap;">Last update: {last_update_str}</span>
+</div>
 <div class="tabs">{tabs_html}</div>
 <div class="content">
   {panels_html}
