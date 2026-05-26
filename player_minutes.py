@@ -211,24 +211,6 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
     else:
         last_update_str = datetime.now().strftime("%d.%m.%Y %H:%M")
 
-    # 2. True historical Git commit time of players.json converted to Swiss timezone
-    try:
-        import subprocess
-        # Get the raw commit timestamp as a Unix epoch integer
-        git_cmd = ["git", "log", "-1", "--format=%ct", PLAYERS_FILE]
-        raw_epoch = subprocess.check_output(git_cmd).decode("utf-8").strip()
-        
-        if raw_epoch.isdigit():
-            if swiss_tz:
-                players_dt = datetime.fromtimestamp(int(raw_epoch), tz=timezone.utc).astimezone(swiss_tz)
-            else:
-                players_dt = datetime.fromtimestamp(int(raw_epoch))
-            players_update_str = players_dt.strftime("%d.%m.%Y %H:%M")
-        else:
-            players_update_str = "Unknown"
-    except Exception:
-        players_update_str = "Unknown"
-
     for idx, comp_id in enumerate(COMPETITIONS.keys()):
         if comp_id not in active_calendars:
             continue
@@ -381,12 +363,9 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
 </style>
 </head>
 <body>
-<div class="header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+<div class="header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
   <h1>Player Minutes Monitor Dashboard</h1>
-  <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 4px; font-size: 11px; opacity: 0.9;">
-    <span style="background: rgba(255,255,255,0.12); padding: 3px 10px; border-radius: 20px; white-space: nowrap;">Last data pull: {last_update_str}</span>
-    <span style="background: rgba(255,255,255,0.12); padding: 3px 10px; border-radius: 20px; white-space: nowrap;">Last eligible players list upload: {players_update_str}</span>
-  </div>
+  <span style="font-size: 12px; opacity: 0.85; background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 20px; white-space: nowrap;">Last data pull: {last_update_str}</span>
 </div>
 <div class="tabs">{tabs_html}</div>
 <div class="content">
