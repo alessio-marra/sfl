@@ -198,13 +198,34 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
     tabs_html = ""
     panels_html = ""
 
-  # Generate timestamp for the top-right corner
-    last_update_str = datetime.now().strftime("%d.%m.%Y %H:%M")
-
-  # Get the last modification time of players.json
+    # Generate timestamp for the top-right corner in Swiss Time (CET/CEST)
     try:
-        players_mtime = os.path.getmtime(PLAYERS_FILE)
-        players_update_str = datetime.fromtimestamp(players_mtime).strftime("%d.%m.%Y %H:%M")
+        from zoneinfo import ZoneInfo
+        swiss_tz = ZoneInfo("Europe/Zurich")
+    except Exception:
+        swiss_tz = None
+
+    # 1. Current data pull time adjusted to Swiss timezone
+    if swiss_tz:
+        last_update_str = datetime.now(swiss_tz).strftime("%d.%m.%Y %H:%M")
+    else:
+        last_update_str = datetime.now().strftime("%d.%m.%Y %H:%M")
+
+    # 2. True historical Git commit time of players.json converted to Swiss timezone
+    try:
+        import subprocess
+        # Get the raw commit timestamp as a Unix epoch integer
+        git_cmd = ["git", "log", "-1", "--format=%ct", PLAYERS_FILE]
+        raw_epoch = subprocess.check_output(git_cmd).decode("utf-8").strip()
+        
+        if raw_epoch.isdigit():
+            if swiss_tz:
+                players_dt = datetime.fromtimestamp(int(raw_epoch), tz=timezone.utc).astimezone(swiss_tz)
+            else:
+                players_dt = datetime.fromtimestamp(int(raw_epoch))
+            players_update_str = players_dt.strftime("%d.%m.%Y %H:%M")
+        else:
+            players_update_str = "Unknown"
     except Exception:
         players_update_str = "Unknown"
 
