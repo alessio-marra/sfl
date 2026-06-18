@@ -1,1 +1,1778 @@
-{}
+{
+  "2rjogzp5uw69719sqd8q1xces": {
+    "week": "22",
+    "date": "2027-02-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "2r673tgtzp0hciljexcwza784": {
+    "week": "22",
+    "date": "2027-02-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "2qsyk3igp2cmji6bnekb56sd0": {
+    "week": "22",
+    "date": "2027-02-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "2qfcjfoctgdepim9wqzlilic4": {
+    "week": "22",
+    "date": "2027-02-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "2q29ud2yynqljd62vxfq1sil0": {
+    "week": "22",
+    "date": "2027-02-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "2pp07pah8z7tgrba7je597f9w": {
+    "week": "22",
+    "date": "2027-02-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "2pbwqyosrbo93vzekaa21ox04": {
+    "week": "21",
+    "date": "2027-01-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "2oyry2o9cx69gfoa4cuxuw5jo": {
+    "week": "21",
+    "date": "2027-01-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "2olkhomz8s642cc9ytltew2dw": {
+    "week": "21",
+    "date": "2027-01-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "2o8h4ntgzspz41qvy79lbl72s": {
+    "week": "21",
+    "date": "2027-01-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "2nvcycizsl4v7h8swbjoyml1w": {
+    "week": "21",
+    "date": "2027-01-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "2ni4e8hnqio8955yfogkoxixg": {
+    "week": "21",
+    "date": "2027-01-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "2n4zfcbysfb7hfl1sr5xkuw44": {
+    "week": "20",
+    "date": "2027-01-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "2mrs97fbv5jb6ivq20ewb93pw": {
+    "week": "20",
+    "date": "2027-01-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "2meq1mp4tt0xco8tiitxbitqs": {
+    "week": "20",
+    "date": "2027-01-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "2m0x5pio325ayalltibk4lfkk": {
+    "week": "20",
+    "date": "2027-01-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "2lno0u1qzxaoko13kdflhrb4k": {
+    "week": "20",
+    "date": "2027-01-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "2laf2cdl5zwgfdb3vokznorv8": {
+    "week": "20",
+    "date": "2027-01-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "2kxcjspb7h71wko7bcmnoyihg": {
+    "week": "19",
+    "date": "2027-01-16",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "2kk38yl09dpd12m202bk389p0": {
+    "week": "19",
+    "date": "2027-01-16",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "2k6nnooqqtqc6qcw59j22um8k": {
+    "week": "19",
+    "date": "2027-01-16",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "2jsev7ta9o9c6q5ynx0wuwiz8": {
+    "week": "19",
+    "date": "2027-01-16",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "2jf6pjyyazysmv7ndchdi8il0": {
+    "week": "19",
+    "date": "2027-01-16",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "2j1z4t3x2dqnykso2zfjs4n4k": {
+    "week": "19",
+    "date": "2027-01-16",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "2iov2h79t3dvqrc9ybev3u2ac": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "2ibrxxi0qm9cntavpy2eek6xg": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "2hym1t6z42cpe336f87lklhxw": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "2hlm1zkbck45la1axdocr3b4k": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "2h8ggsx9hes9wqkwohsv7st90": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "2gv8s5vm7adgb37ywg0xzudck": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "2gi8ejqkt2whjb0e885z9d6ac": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "2g538miv70ct50p1ctqswku8k": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "2frsydit7rsxugnfkkvoitp1w": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "2fejxbw0dki7pb2y0y02b8j6c": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "2f1bir50999lzrleybniwi5uc": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "2eo229w3w3p4k77vbzfpetvdg": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "2eatjjs72yccodk2srkehwgt0": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "2dxo4qxwh0gv85y74bq9rdk44": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "2dk463g5hufn2ih5d26ro4xec": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "2d6usczozq2c6u8gse2vhq4gk": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "2cttbvd0z1d8ucj8zhoovcutw": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "2cglvt27trj2wowxqw0bsct1w": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "2c366e8eoanaxbker5tqtw1sk": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "2bpx500erdrr984fn94052zo4": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "2bco9prtvgm00nobndfxej5sk": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "2aziz47kp0a2ed3qw1pmooys4": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "2amccclf0x6kxlxkujha5emfo": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "2a998ntybthtvg8a49k9y1kwk": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "29vqqu3lts7a8dzp1lmx752c4": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "29hx4agr5cjnphjt950df3vo4": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "294alxxnlj5bz5w3ufdudp0yc": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "28qzz8n70tn8n4s9ijw37atck": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "28dfzccdfsz5tzuxpwoyglo9g": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "280372wggwbhwl26be7og66fo": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "27mul0nz4lgnq98mizqcaiuqc": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "279oxebwseagedqpnv4nyt0k4": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "26w8wab7xj1h31xypkkromntg": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "26iv9zat4bnthumhoqghxlyc4": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "265nj53eflj0xwtzruk13eqs4": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "25sbqkzmaxh9s8hos7thjoefo": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "25f5fqvwvq9mtuu90uhr889hw": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "251qtt3jjtikofjpj5eud5z4k": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "24obpcbfr7pr5rfrct1ofj6dw": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "24avw1b0k8na9159ve4zz7uok": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "23xoh5gs88t69z1avzeih2pec": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "23khcgmdti687u5ip0ipcs7pw": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "236e487vdd7vslpt60zzs97h0": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "22syhsi2mf1xjjknjjgn16jo4": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "22fon8i3cfb0ay3uyqsq7wyl0": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "222ey7d2y9kp9w5hgaqppi4us": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "21orgvbaaij8dlen8r8pzztas": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "21bf5fmkmfuwbqdg07dswh2c4": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "20xsif6ak5vqenjf18ku24a38": {
+    "week": "10",
+    "date": "2026-10-11",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "20knsovvw2sjix6kzftiqeiac": {
+    "week": "10",
+    "date": "2026-10-11",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "207ds4qr2e6l62g07na2zv1uc": {
+    "week": "10",
+    "date": "2026-10-11",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "1zu79814a1njiwz3otdsa3hn8": {
+    "week": "10",
+    "date": "2026-10-10",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "1zh2vpa6m0sigzj3jel4as8wk": {
+    "week": "10",
+    "date": "2026-10-10",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "1z3uss8aidp5h0pnai5i9dq1g": {
+    "week": "10",
+    "date": "2026-10-10",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "1yqmqhkxpnx7ssmc2ajpjpgd0": {
+    "week": "9",
+    "date": "2026-09-20",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "1ydj5e5i3j5o5q7ha7mx235sk": {
+    "week": "9",
+    "date": "2026-09-20",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "1y08x0sf2zrhvnf6vpdx7mplg": {
+    "week": "9",
+    "date": "2026-09-20",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "1xn3mqqycfzu760uvh61kql90": {
+    "week": "9",
+    "date": "2026-09-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "1x9yzn71j4nd1fjcsha698zdg": {
+    "week": "9",
+    "date": "2026-09-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "1ww1iwfdsib9hc4dm2ce6xel0": {
+    "week": "9",
+    "date": "2026-09-19",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "1wigz3f30u39r2i1d6pjay2ac": {
+    "week": "8",
+    "date": "2026-09-13",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "1w5d34o5fvdr7p9tbgj6l96hg": {
+    "week": "8",
+    "date": "2026-09-13",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "1vs7e6bslej2gy7vzfarf9d78": {
+    "week": "8",
+    "date": "2026-09-13",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "1vf5ry5mqa3uadk3a3yeg2mfo": {
+    "week": "8",
+    "date": "2026-09-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "1v1xjr7dv6bmt5x2rxn7u3uac": {
+    "week": "8",
+    "date": "2026-09-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "1uoi9wontsz7hz9hfa8caxfdg": {
+    "week": "8",
+    "date": "2026-09-12",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "1ub4abxtqhfigwbthkid7qkno": {
+    "week": "7",
+    "date": "2026-09-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "1txy35hhaca7qu0dqhb37yfis": {
+    "week": "7",
+    "date": "2026-09-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "1tks9o4m1ipzpq7gkee2o9v6c": {
+    "week": "7",
+    "date": "2026-09-06",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "1t7orm5omhb2huxwxqu9gn9xw": {
+    "week": "7",
+    "date": "2026-09-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "1sulxjwnacxfoilpfqj6twb9w": {
+    "week": "7",
+    "date": "2026-09-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "1shkupo09azqvz3ex5wjf6wpg": {
+    "week": "7",
+    "date": "2026-09-05",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "1s4g3c9voyv7ot37z14qqd0k4": {
+    "week": "6",
+    "date": "2026-09-03",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "1rrf5xoznbwicezm3a4vfowlw": {
+    "week": "6",
+    "date": "2026-09-03",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "1reaywl2ptcmu347fcjpa4lxw": {
+    "week": "6",
+    "date": "2026-09-02",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "1r1a5em5rls1gb1gcyem1ezv8": {
+    "week": "6",
+    "date": "2026-09-02",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "1qo4iuwerdr4rrbstzko9kpas": {
+    "week": "6",
+    "date": "2026-09-02",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "1qawuyyadbxbvmkvn022ijqc4": {
+    "week": "6",
+    "date": "2026-09-01",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "1pxpnvha4cglractmyrs03pxw": {
+    "week": "5",
+    "date": "2026-08-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "1pkko92se0xeckbp2bh6jbh1w": {
+    "week": "5",
+    "date": "2026-08-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "1p7jlbf8xlcda067ydt2nqn10": {
+    "week": "5",
+    "date": "2026-08-30",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "1ouhnt7krbd9hxf2sspm6prmc": {
+    "week": "5",
+    "date": "2026-08-29",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "1ohawlcrjdeggyir13n3wg7is": {
+    "week": "5",
+    "date": "2026-08-29",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "1o42owyshw2x07vsmkzll8bo4": {
+    "week": "5",
+    "date": "2026-08-29",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "1nderjxo2q4zrb1nrx5th1bmc": {
+    "week": "4",
+    "date": "2026-08-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "1n096fusj41maa2nh22faeec4": {
+    "week": "4",
+    "date": "2026-08-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "1mn1g1nhch4zjastpt1jeaihg": {
+    "week": "4",
+    "date": "2026-08-23",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "1m9upo3ex0stz8m8yp7grrw2c": {
+    "week": "4",
+    "date": "2026-08-22",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "1lwqjy52dxilta524bzoc9pn8": {
+    "week": "4",
+    "date": "2026-08-22",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "1nqoabywstohxt1eaalzbvrx0": {
+    "week": "4",
+    "date": "2026-08-22",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "1ljl51o6tne2kfcjop1qutes4": {
+    "week": "3",
+    "date": "2026-08-09",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "1l6f59ps81f32dsudp2hp6pzo": {
+    "week": "3",
+    "date": "2026-08-09",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "1kt51rbd3oi51q0ow056vh0yc": {
+    "week": "3",
+    "date": "2026-08-09",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "1kfz06hudv7o9c8ib4e8t96hg": {
+    "week": "3",
+    "date": "2026-08-08",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "1k2bo1s861mjmrtuetzqbnjmc": {
+    "week": "3",
+    "date": "2026-08-08",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "1jowcswpttyu7toat38cvljpw": {
+    "week": "3",
+    "date": "2026-08-08",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "1jbnv7c93b6qmynt2jpv11d78": {
+    "week": "2",
+    "date": "2026-08-02",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Sion",
+    "away_name": "Luzern",
+    "players": {}
+  },
+  "1ixrdwb2hobnkfe30flguyjo4": {
+    "week": "2",
+    "date": "2026-08-02",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Grasshoppers",
+    "away_name": "Lugano",
+    "players": {}
+  },
+  "1ikn2x3es05ph3poeap4p2044": {
+    "week": "2",
+    "date": "2026-08-02",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Vaduz",
+    "away_name": "St.Gallen",
+    "players": {}
+  },
+  "1i6sy302pbkoa02celdz0mvpw": {
+    "week": "2",
+    "date": "2026-08-01",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Thun",
+    "away_name": "Young Boys",
+    "players": {}
+  },
+  "1hsyc0n7ig040rwx8519flfro": {
+    "week": "2",
+    "date": "2026-08-01",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Z\u00fcrich",
+    "away_name": "Servette",
+    "players": {}
+  },
+  "1hf2bi351vi3q162cz56i3kt0": {
+    "week": "2",
+    "date": "2026-08-01",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Basel",
+    "away_name": "Lausanne-Sport",
+    "players": {}
+  },
+  "1h18b3dqf7dk0n33g4etgftas": {
+    "week": "1",
+    "date": "2026-07-26",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "St.Gallen",
+    "away_name": "Z\u00fcrich",
+    "players": {}
+  },
+  "1gkq6w0iyll2rv8zf4r12zdp0": {
+    "week": "1",
+    "date": "2026-07-26",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lugano",
+    "away_name": "Vaduz",
+    "players": {}
+  },
+  "1g41we0l3etq7wuo5e29j0lxw": {
+    "week": "1",
+    "date": "2026-07-26",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Young Boys",
+    "away_name": "Sion",
+    "players": {}
+  },
+  "1fnjqo0ysqnsiupmmlr5nlb10": {
+    "week": "1",
+    "date": "2026-07-25",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Luzern",
+    "away_name": "Thun",
+    "players": {}
+  },
+  "1f6xff5kx1fu236jywuzrlrmc": {
+    "week": "1",
+    "date": "2026-07-25",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Servette",
+    "away_name": "Basel",
+    "players": {}
+  },
+  "1emwsoiw002ru6g4cgs4vw9as": {
+    "week": "1",
+    "date": "2026-07-25",
+    "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
+    "home_name": "Lausanne-Sport",
+    "away_name": "Grasshoppers",
+    "players": {}
+  },
+  "chh4btbm60q484wej7xpggt0": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "c42kgpemobr1xxhn4welhp1w": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "bqhhm53kolbxyholybmc6y38": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "bcy7fnfcaft3jpc3zahg91xw": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "azel58v26b67z6sgtehyu0wk": {
+    "week": "18",
+    "date": "2026-12-19",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "alyd4nglijf5800ol38b37ys": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "a8eydnia1gee2oj7px432tqs": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Kriens",
+    "players": {}
+  },
+  "9v0tikydc0fuhuep26vv7sb8": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "9hk5kg84zbe0qgv7z2rgsums": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "93za8nhgqtghalrvl0tmquc4": {
+    "week": "17",
+    "date": "2026-12-12",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "8qkd3lgo6cqgi8q1h18wjyms": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Kriens",
+    "players": {}
+  },
+  "8d434swxa6s5rb8xhbrcuw44": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "7zgsbgjmuh0e6u90lcyvdc7o": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "7lzvdflvedz5zd7hrj2i4jkk": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "78bgpe71vy4ge9hpeas1qsyc": {
+    "week": "16",
+    "date": "2026-12-05",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "6utn3wzp7t7wwk78s7t1whlg": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "6ha7iem2ahu67zilhqww36z8": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "63ogd8o2cyz9s2h62lzt4mxg": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "5q10ij72wopq0dvhbd9x9edw": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "5cdt9myv3znfd5556jtkmdjo": {
+    "week": "15",
+    "date": "2026-11-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "4ys6oc9ddl5vs4w75cuzkff8": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "4l58fc8ooa2zkznwr96lr9jo": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Kriens",
+    "players": {}
+  },
+  "47gtpt26fm9nm3szjki6zrx0": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "3tuxifadn42wgtd4wwalfod0": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "3g7d1aekggxsbql0qxiv09as": {
+    "week": "14",
+    "date": "2026-11-21",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "32ky6086v1orj7er9h7rmgwk": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "2oyiuxmu4zzgep0hz7o07bis": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "2b8jmxa8wilsejg2pgoj5wd0": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "1xn9e2pvc7kz0vcr9q7prnro": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "1k1c7ww7veuvtiqhigelbdhw": {
+    "week": "13",
+    "date": "2026-11-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "spjygl34fsr0kgrkrcnut5g": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "f59tsysnel03uvlp69gj1qas4": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Kriens",
+    "players": {}
+  },
+  "f0zdwlo9dyptdljerc14lck": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "1iemcbxgzug76c2iksr5rmc": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "16akdyx8y50rjl3o0syyw3ys": {
+    "week": "12",
+    "date": "2026-10-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "f4w69oc0xmyq7ykph4hz67qxg": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Kriens",
+    "players": {}
+  },
+  "f4igueix7s983gwamxn3su9zo": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "f44udn6etkgv0y0wo1fzm1v6c": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "f3ravwn31ngli8f5i9hymjg2c": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "f3dnrq9rnr4p7x0z4qd6y5y50": {
+    "week": "11",
+    "date": "2026-10-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "f302wbp650sjyc51ohgtheej8": {
+    "week": "10",
+    "date": "2026-10-10",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "f2lqq35gm47x4qji46wy6f21g": {
+    "week": "10",
+    "date": "2026-10-10",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "f287tju4ue83bnemqpl08328k": {
+    "week": "10",
+    "date": "2026-10-10",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "f1uou5925gd73isgx0rz3cbv8": {
+    "week": "10",
+    "date": "2026-10-10",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "f1h0rycs19aehwwsbmfojtij8": {
+    "week": "10",
+    "date": "2026-10-10",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "f13cq2c8s2yra8kzztes92vpw": {
+    "week": "9",
+    "date": "2026-09-20",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "f0psn28f7eb9d0kf9k4x5sff8": {
+    "week": "9",
+    "date": "2026-09-18",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "f0c6wltiayqmh7bgn0jkh5qfo": {
+    "week": "9",
+    "date": "2026-09-18",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "ezyi0i1pxm7flksxznzsc8x78": {
+    "week": "9",
+    "date": "2026-09-18",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "ezkw39r30jdmc41u3k2kf8zro": {
+    "week": "9",
+    "date": "2026-09-18",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "ez7c1djnxlho5z27ogyhk5vdg": {
+    "week": "8",
+    "date": "2026-09-12",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Kriens",
+    "players": {}
+  },
+  "eytoijq6jmhkvw68mh2jgwjdg": {
+    "week": "8",
+    "date": "2026-09-11",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "eyg2g686g88iiyhg1gp94jkes": {
+    "week": "8",
+    "date": "2026-09-11",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "ey2fg5n4t387g6cfg77xih15g": {
+    "week": "8",
+    "date": "2026-09-11",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "exor79fazs4qoffzj9bv38jys": {
+    "week": "8",
+    "date": "2026-09-11",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "exb622d7d5lmoi2ebd008bxg4": {
+    "week": "7",
+    "date": "2026-09-06",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "ewxhh8mxaymbedn84a7bl98us": {
+    "week": "7",
+    "date": "2026-09-04",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "ewjzwzfg14ui9ndh3ulwrepzo": {
+    "week": "7",
+    "date": "2026-09-04",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "ew6dcpzacuo8f37rcdz7iddzo": {
+    "week": "7",
+    "date": "2026-09-04",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "evsvpnf6wggqiybrc9hs0lt04": {
+    "week": "7",
+    "date": "2026-09-04",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "evf79acxg1k5uapn71nxom9lg": {
+    "week": "6",
+    "date": "2026-09-01",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "ev1lstwd35aasqv20ds061el0": {
+    "week": "6",
+    "date": "2026-09-01",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "euo1n7hepm3i6s21mzrdmmpsk": {
+    "week": "6",
+    "date": "2026-09-01",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Kriens",
+    "players": {}
+  },
+  "eualuivitkcglshp69oii1n9w": {
+    "week": "6",
+    "date": "2026-09-01",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "etwzserhwgml0eknq068g33tg": {
+    "week": "6",
+    "date": "2026-08-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "etjf2xrvlvwynkh4iqdajxuz8": {
+    "week": "5",
+    "date": "2026-08-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "et5tq90m8b5wo882f7uao2bdg": {
+    "week": "5",
+    "date": "2026-08-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "essdstxdi9lioz00g7swdvqqc": {
+    "week": "5",
+    "date": "2026-08-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "esewp9s3y4jg20ly1decbqqz8": {
+    "week": "5",
+    "date": "2026-08-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "es19xaql1bu02vl5ee5vpptec": {
+    "week": "5",
+    "date": "2026-08-28",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "ernpot1vqks51vaukso5zwe1g": {
+    "week": "4",
+    "date": "2026-08-23",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "era8w658vx3eyul6w448obnys": {
+    "week": "4",
+    "date": "2026-08-22",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Kriens",
+    "players": {}
+  },
+  "eqwnan1ho8mt1caaykkc31c0k": {
+    "week": "4",
+    "date": "2026-08-21",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "eqj7631ysx1048lpu289j5p90": {
+    "week": "4",
+    "date": "2026-08-21",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "eq5s0dogxf71gpkxs69t84cus": {
+    "week": "4",
+    "date": "2026-08-21",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "eps6k7oadmgwru7cjfkle7qxg": {
+    "week": "3",
+    "date": "2026-08-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "epeoryf226m75ulipk6pipdec": {
+    "week": "3",
+    "date": "2026-08-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "ep15z4o806438pnosvkaej1uc": {
+    "week": "3",
+    "date": "2026-08-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "eonkfhf4a5evub5kewoumldlg": {
+    "week": "3",
+    "date": "2026-08-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "eoa0mvznlbo2gjtcb5lxz4aok": {
+    "week": "3",
+    "date": "2026-08-07",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "enwk1qctfozvbow96f4h4ek9g": {
+    "week": "2",
+    "date": "2026-08-01",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Aarau",
+    "away_name": "Stade-Lausanne-Ouchy",
+    "players": {}
+  },
+  "eni7441ik2gi5fckrs4rhbzmc": {
+    "week": "2",
+    "date": "2026-07-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Kriens",
+    "away_name": "Winterthur",
+    "players": {}
+  },
+  "en3xc65hs5w8k3rp74f6otct0": {
+    "week": "2",
+    "date": "2026-07-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Yverdon Sport",
+    "away_name": "Etoile Carouge",
+    "players": {}
+  },
+  "emplkkewog6o6e1ltsfgyjy8k": {
+    "week": "2",
+    "date": "2026-07-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Wil",
+    "away_name": "Xamax",
+    "players": {}
+  },
+  "emb94amrg8p0erszuls4t6zh0": {
+    "week": "2",
+    "date": "2026-07-31",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade Nyonnais",
+    "away_name": "Rapperswil-Jona",
+    "players": {}
+  },
+  "elvw4xlny84bll29b9y1wrkt0": {
+    "week": "1",
+    "date": "2026-07-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Winterthur",
+    "away_name": "Yverdon Sport",
+    "players": {}
+  },
+  "eleklh2p7spvjmjt7y4qhj7kk": {
+    "week": "1",
+    "date": "2026-07-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Etoile Carouge",
+    "away_name": "Aarau",
+    "players": {}
+  },
+  "ekxefzp8bd1kp9ahx2mns3l78": {
+    "week": "1",
+    "date": "2026-07-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Stade-Lausanne-Ouchy",
+    "away_name": "Stade Nyonnais",
+    "players": {}
+  },
+  "ekg5ijfbkg6o05nsow9e8bj84": {
+    "week": "1",
+    "date": "2026-07-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Rapperswil-Jona",
+    "away_name": "Wil",
+    "players": {}
+  },
+  "ejvu7g06ovekf4clvh13g4vtg": {
+    "week": "1",
+    "date": "2026-07-24",
+    "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
+    "home_name": "Xamax",
+    "away_name": "Kriens",
+    "players": {}
+  }
+}
