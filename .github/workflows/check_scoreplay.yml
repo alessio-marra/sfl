@@ -1,0 +1,41 @@
+name: check-scoreplay-headshots
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # 04:00 UTC = 06:00 CEST / 05:00 CET
+    - cron: "0 16 * * *"  # 16:00 UTC = 18:00 CEST / 17:00 CET
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run ScorePlay headshot check
+        env:
+          SP_API_KEY:       ${{ secrets.SP_API_KEY_SCOREPLAY }}
+          EMAIL_FROM:       ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD:   ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO:         ${{ secrets.EMAIL_TO_SCOREPLAY }}
+        run: python check_scoreplay.py
+
+      - name: Commit updated scoreplay_state.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scoreplay_state.json
+          git diff --staged --quiet || git commit -m "chore: update scoreplay state [skip ci]"
+          git push
