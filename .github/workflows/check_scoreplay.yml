@@ -26,10 +26,10 @@ jobs:
 
       - name: Run ScorePlay headshot check
         env:
-          SP_API_KEY:       ${{ secrets.SP_API_KEY_SCOREPLAY }}
-          EMAIL_FROM:       ${{ secrets.EMAIL_FROM }}
-          EMAIL_PASSWORD:   ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_TO:         ${{ secrets.EMAIL_TO_SCOREPLAY }}
+          SP_API_KEY_SCOREPLAY: ${{ secrets.SP_API_KEY_SCOREPLAY }}
+          EMAIL_FROM:           ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD:       ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO_SCOREPLAY:   ${{ secrets.EMAIL_TO_SCOREPLAY }}
         run: python check_scoreplay.py
 
       - name: Commit updated scoreplay_state.json
