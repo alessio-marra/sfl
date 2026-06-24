@@ -132,7 +132,7 @@ def build_rows(items: list[dict]) -> str:
         orig_url = get_original_url(item)
 
         thumb_html = (
-            f'<img src="{thumb}" style="width:60px;height:60px;object-fit:cover;border-radius:4px;" />'
+            f'<img src="{thumb}" width="60" height="60" style="width:60px;height:60px;object-fit:cover;border-radius:4px;display:block;" />'
             if thumb else '<span style="color:#9ca3af;font-size:11px;">—</span>'
         )
         dl_html = (
