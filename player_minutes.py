@@ -75,7 +75,7 @@ def fetch_mar_updated_fixtures(lookback_hours: int = 25) -> set[str]:
     since_str = (now_utc - timedelta(hours=lookback_hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
     print(f"Checking MAR feed for changes since: {since_str}")
     
-    url = f"{BASE_URL}/matchreference/{API_KEY}/?type=matchstats&since={since_str}&_fmt=xml&_rt=c"
+    url = f"{BASE_URL}/matchreference/{API_KEY}/?_rt=c&_fmt=xml&type=ma3&_rdlt={since_str}"
     try:
         root = get_xml(url)
     except Exception as e:
