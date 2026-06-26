@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add minutes_state.json
+          git add -A
           # Commit only if database file variations occur
           git diff-index --quiet HEAD || git commit -m "Automated updates to minutes_state.json [skip ci]"
           git push origin main || echo "No changes or push skipped"
