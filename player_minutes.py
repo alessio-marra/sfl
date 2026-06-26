@@ -46,7 +46,7 @@ def load_eligible_player_ids() -> set[str]:
         return set()
     raw = json.loads(p_path.read_text())
     players = raw if isinstance(raw, list) else next(iter(raw.values()), [])
-    return {p["id"] for p in players if p.get("id") and not p.get("isBlacklisted", False)}
+    return {p["id"] for p in players if p.get("id")}
 
 
 def fetch_active_tournament_calendars() -> dict[str, dict]:
@@ -89,6 +89,104 @@ def fetch_mar_updated_fixtures(lookback_hours: int = 25) -> set[str]:
             updated_ids.add(m_id)
     print(f"  -> MAR flagged {len(updated_ids)} globally modified match(es).")
     return updated_ids
+
+ELIGIBILITY_AGE_OFFSET = 22  # "born after 31/12 of (n - 22)" where n = season start year
+
+
+def _tm3_squads(tmcl_id: str) -> list:
+    """Fetch all squads (with detailed player info) for one tournament calendar."""
+    url = f"{BASE_URL}/squads/{API_KEY}?tmcl={tmcl_id}&detailed=yes&_fmt=json"
+    r = requests.get(url, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    return r.json().get("squad", [])
+
+
+def _pe2_career(player_id: str) -> dict:
+    """Fetch a player's full career memberships + stats."""
+    url = f"{BASE_URL}/playercareerstats/{API_KEY}?prsn={player_id}&_fmt=json"
+    r = requests.get(url, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    return r.json()
+
+
+def _has_disqualifying_foreign_cap(career_data: dict) -> bool:
+    """True if player has a senior, non-Swiss, non-friendly national-team appearance."""
+    person = career_data.get("person", {})
+    for membership in person.get("membership", []):
+        if membership.get("contestantType") != "national":
+            continue
+        if membership.get("nationality") == "Switzerland":
+            continue
+        if membership.get("type") == "youth":
+            continue
+        for stat in membership.get("stat", []):
+            if stat.get("isFriendly") == "no":
+                return True
+    return False
+
+
+def refresh_eligible_players(active_calendars: dict) -> None:
+    """Rebuild players.json from live TM3 + PE2 data. Writes atomically."""
+    # Derive season start year from calendar name like "2025/2026"
+    season_years = []
+    for info in active_calendars.values():
+        try:
+            season_years.append(int(info["name"].split("/")[0]))
+        except Exception:
+            pass
+    if not season_years:
+        raise RuntimeError("Could not derive season start year from active calendars")
+    season_start_year = min(season_years)
+    cutoff = f"{season_start_year - ELIGIBILITY_AGE_OFFSET}-12-31"
+    print(f"[ELIG] DOB cutoff: > {cutoff}")
+
+    # Step 1: collect all players from all TM3 squads, deduped
+    candidates = {}
+    for info in active_calendars.values():
+        for squad in _tm3_squads(info["id"]):
+            for p in squad.get("person", []):
+                pid = p.get("id")
+                if not pid or pid in candidates:
+                    continue
+                candidates[pid] = {
+                    "firstName": p.get("firstName", ""),
+                    "lastName": p.get("lastName", ""),
+                    "dateOfBirth": p.get("dateOfBirth"),
+                    "nationality": p.get("nationality"),
+                    "secondNationality": p.get("secondNationality"),
+                }
+    print(f"[ELIG] {len(candidates)} unique players in active TM3 squads")
+
+    # Step 2: DOB + Swiss nationality pre-filter
+    pre_filtered = {
+        pid: p for pid, p in candidates.items()
+        if p["dateOfBirth"] and p["dateOfBirth"] > cutoff
+        and "Switzerland" in (p["nationality"], p["secondNationality"])
+    }
+    print(f"[ELIG] {len(pre_filtered)} after DOB + Swiss filter")
+
+    # Step 3: PE2 check for senior foreign non-friendly caps
+    eligible = []
+    for pid, p in pre_filtered.items():
+        try:
+            career = _pe2_career(pid)
+        except Exception as e:
+            print(f"[ELIG] PE2 failed for {pid} ({p['firstName']} {p['lastName']}): {e}")
+            continue
+        if _has_disqualifying_foreign_cap(career):
+            continue
+        eligible.append({
+            "id": pid,
+            "firstName": p["firstName"],
+            "lastName": p["lastName"],
+        })
+    print(f"[ELIG] {len(eligible)} eligible players after PE2 check")
+
+    # Step 4: atomic write
+    tmp_path = Path(PLAYERS_FILE + ".tmp")
+    tmp_path.write_text(json.dumps(eligible, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp_path, PLAYERS_FILE)
+    print(f"[ELIG] {PLAYERS_FILE} written ({len(eligible)} entries)")
 
 
 def fetch_entire_calendar_fixtures(tmcl_id: str) -> list[dict]:
@@ -391,12 +489,19 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
 
 
 def main():
+    active_calendars = fetch_active_tournament_calendars()
+    active_calendar_ids = {info["id"] for info in active_calendars.values()}
+
+    # Refresh players.json before loading it (Option 2: keep yesterday's file on failure)
+    try:
+        refresh_eligible_players(active_calendars)
+    except Exception as e:
+        print(f"[ELIG] Refresh failed, keeping existing {PLAYERS_FILE}: {e}")
+
     eligible_ids = load_eligible_player_ids()
     if not eligible_ids:
         return
 
-    active_calendars = fetch_active_tournament_calendars()
-    active_calendar_ids = {info["id"] for info in active_calendars.values()}
 
     state = {}
     if STATE_FILE.exists():
