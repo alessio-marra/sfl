@@ -237,7 +237,7 @@ def main():
     print(f"\n{len(items)} item(s) {'found as baseline' if first_run else 'new since last run'}.")
 
     if items and not first_run:
-        send_email(items)
+        # send_email(items)
     elif first_run:
         print(f"Baseline established with {len(items)} item(s) — no email sent.")
     else:
