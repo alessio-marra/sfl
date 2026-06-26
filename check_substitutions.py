@@ -426,9 +426,12 @@ def send_email(changes: list[dict]):
     msg.attach(MIMEText(html_body, "html"))
 
     recipients = [e.strip() for e in EMAIL_TO.split(",")]
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+    
+with smtplib.SMTP("smtp.office365.com", 587) as smtp:
+        smtp.starttls()
         smtp.login(EMAIL_FROM, EMAIL_PASSWORD)
         smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
+
 
     print(f"Email sent - {len(changes)} change(s), {action_count} action(s) needed.")
 
