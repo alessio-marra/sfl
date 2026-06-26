@@ -111,7 +111,8 @@ def _pe2_career(player_id: str) -> dict:
 
 def _has_disqualifying_foreign_cap(career_data: dict) -> bool:
     """True if player has a senior, non-Swiss, non-friendly national-team appearance."""
-    person = career_data.get("person", {})
+    person_list = career_data.get("person", [])
+    person = person_list[0] if person_list else {}
     for membership in person.get("membership", []):
         if membership.get("contestantType") != "national":
             continue
