@@ -103,7 +103,7 @@ def _tm3_squads(tmcl_id: str) -> list:
 
 def _pe2_career(player_id: str) -> dict:
     """Fetch a player's full career memberships + stats."""
-    url = f"{BASE_URL}/playercareerstats/{API_KEY}?prsn={player_id}&_fmt=json"
+    url = f"{BASE_URL}/playercareer/{API_KEY}?prsn={player_id}&_fmt=json"
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
     return r.json()
