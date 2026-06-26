@@ -204,7 +204,7 @@ def send_email(new_items: list[dict]):
 
     recipients = [e.strip() for e in EMAIL_TO.split(",")]
     
-with smtplib.SMTP("smtp.office365.com", 587) as smtp:
+    with smtplib.SMTP("smtp.office365.com", 587) as smtp:
         smtp.starttls()
         smtp.login(EMAIL_FROM, EMAIL_PASSWORD)
         smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
