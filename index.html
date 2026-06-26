@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Player Minutes Monitor</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; background: #f3f4f6; color: #1f2937; padding-bottom: 40px; }
+  .header { background: #1e3a5f; color: #fff; padding: 20px 16px; }
+  .header h1 { font-size: 18px; text-align: center; }
+  
+  .tabs { background: #fff; border-bottom: 2px solid #e5e7eb; padding: 0 8px; display: flex; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .tab-btn { padding: 14px 16px; border: none; background: none; cursor: pointer; font-size: 13px; font-weight: 600; color: #6b7280; border-bottom: 3px solid transparent; white-space: nowrap; flex-shrink: 0; }
+  .tab-btn.active { color: #1e3a5f; border-bottom-color: #1e3a5f; }
+  
+  .content { padding: 16px 8px; }
+  .tmcl-title { font-size: 16px; font-weight: 700; margin-bottom: 16px; color: #1e3a5f; text-transform: uppercase; letter-spacing: 0.5px; padding-left: 4px; }
+  
+  .club-section { margin-bottom: 12px; border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; background: #fff; }
+  .club-header { padding: 12px 12px; background: #f1f5f9; cursor: pointer; font-weight: 700; font-size: 13px; display: flex; align-items: center; gap: 8px; user-select: none; }
+  .club-total-badge { font-size: 11px; font-weight: normal; color: #6b7280; margin-left: auto; }
+  .arrow { font-size: 10px; transition: transform .2s; display: inline-block; }
+  .arrow.open { transform: rotate(90deg); }
+  
+  .table-responsive-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; position: relative; }
+  .mins-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 12px; }
+  
+  .player-th, .player-name { 
+    position: -webkit-sticky; position: sticky; left: 0; 
+    background: #fff; z-index: 2; min-width: 140px; max-width: 180px;
+    box-shadow: 2px 0 5px -2px rgba(0,0,0,0.15);
+  }
+  .player-th { background: #f8fafc; padding: 10px 12px; text-align: left; color: #6b7280; z-index: 3; }
+  .player-name { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #f1f5f9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  
+  .week-th { padding: 10px 4px; text-align: center; background: #f8fafc; color: #6b7280; min-width: 46px; font-weight: 600; }
+  .mins-cell { padding: 8px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; color: #1f2937; white-space: nowrap; }
+  .mins-cell.total { position: -webkit-sticky; position: sticky; right: 0; color: #1e3a5f; background: #eff6ff; font-weight: 700; box-shadow: -2px 0 5px -2px rgba(0,0,0,0.15); z-index: 2; min-width: 50px; }
+  th.week-th:last-child { position: -webkit-sticky; position: sticky; right: 0; background: #f8fafc; z-index: 3; box-shadow: -2px 0 5px -2px rgba(0,0,0,0.15); }
+
+  @media (min-width: 768px) {
+    .header { padding: 20px 32px; }
+    .header h1 { font-size: 20px; text-align: left; }
+    .tabs { padding: 0 32px; }
+    .tab-btn { font-size: 14px; padding: 14px 24px; }
+    .content { padding: 24px 32px; }
+    .tmcl-title { font-size: 18px; }
+    .club-header { padding: 12px 16px; font-size: 14px; }
+    .player-th, .player-name { min-width: 180px; max-width: 240px; }
+  }
+</style>
+</head>
+<body>
+<div class="header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+  <h1>Player Minutes Monitor Dashboard</h1>
+  <span style="font-size: 12px; opacity: 0.85; background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 20px; white-space: nowrap;">Last data pull: 26.06.2026 11:22</span>
+</div>
+<div class="tabs"><button class="tab-btn active" onclick="showTab('cx0b7yl7kqmgay9wn2c3zyjh0')">Super League - 2026/2027</button><button class="tab-btn " onclick="showTab('akzt9nsp06yyv03a86lz8kdn8')">Challenge League - 2026/2027</button></div>
+<div class="content">
+  
+        <div id="panel-cx0b7yl7kqmgay9wn2c3zyjh0" class="tab-panel" style="display:block;">
+          <h2 class="tmcl-title">UBS Youth Trophy</h2>
+          
+        </div>
+        <div id="panel-akzt9nsp06yyv03a86lz8kdn8" class="tab-panel" style="display:none;">
+          <h2 class="tmcl-title">UBS Youth Trophy</h2>
+          
+        </div>
+</div>
+<script>
+  function showTab(tmclId) {
+    document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('panel-' + tmclId).style.display = 'block';
+    event.target.classList.add('active');
+  }
+  function toggleClub(header) {
+    const body = header.nextElementSibling;
+    const arrow = header.querySelector('.arrow');
+    const isOpen = body.style.display !== 'none';
+    body.style.display = isOpen ? 'none' : 'block';
+    arrow.classList.toggle('open', !isOpen);
+  }
+</script>
+</body>
+</html>
