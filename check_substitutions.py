@@ -480,7 +480,7 @@ def main():
     print(f"State saved ({len(state)} match(es) tracked).")
 
     if all_changes:
-        send_email(all_changes)
+        # send_email(all_changes)
     else:
         print("No substitution changes detected across all matches.")
 
