@@ -70,6 +70,31 @@
     "lastName": "Hottiger"
   },
   {
+    "id": "463dlxday21orkmjn42nrkz6c",
+    "firstName": "Gjan",
+    "lastName": "Ajdin"
+  },
+  {
+    "id": "4lz1tc8wjji6ll44ks8w7k6qc",
+    "firstName": "Diego",
+    "lastName": "Mina"
+  },
+  {
+    "id": "4sa40st446rekhvz11hafgbo4",
+    "firstName": "Christian",
+    "lastName": "Raffa"
+  },
+  {
+    "id": "97lvadg3r6c02dnq2v163plw4",
+    "firstName": "Jason-Lee",
+    "lastName": "Parente"
+  },
+  {
+    "id": "cv1so3x45iex1fxrlttxs2r6c",
+    "firstName": "Nicolò",
+    "lastName": "Puddu"
+  },
+  {
     "id": "2rsfj02kbcmosf0da55w9uz2s",
     "firstName": "Mio",
     "lastName": "Zimmermann"
@@ -118,6 +143,46 @@
     "id": "dl63f4g3chb44p8nn9ywlm1hw",
     "firstName": "Simon",
     "lastName": "Caillet"
+  },
+  {
+    "id": "1pi3bso1gohcatghfcpg35q1g",
+    "firstName": "Cyrill",
+    "lastName": "May"
+  },
+  {
+    "id": "2dwb36l3c83msll70wyl16exg",
+    "firstName": "Nevio",
+    "lastName": "Scherrer"
+  },
+  {
+    "id": "3j4u1wo521h535zispf9uw8pg",
+    "firstName": "Pascal",
+    "lastName": "Büttiker"
+  },
+  {
+    "id": "4o8roh953dufflhb1y3wn1kpg",
+    "firstName": "Diego",
+    "lastName": "Besio"
+  },
+  {
+    "id": "8ibag83uzcirmb7vycpdxxw5w",
+    "firstName": "Leon",
+    "lastName": "Frokaj"
+  },
+  {
+    "id": "airs278inzcp06beotk1zgbo4",
+    "firstName": "Nino",
+    "lastName": "Weibel"
+  },
+  {
+    "id": "an0tzhrx6uhf75uper52ta3o4",
+    "firstName": "Joel",
+    "lastName": "Ruiz"
+  },
+  {
+    "id": "dldvsl5cgnzd5pqfm2h9uq3h0",
+    "firstName": "Corsin",
+    "lastName": "Konietzke"
   },
   {
     "id": "ag92lrchlo2z1opq3i1loneok",
@@ -253,6 +318,21 @@
     "id": "l3cs4svcg1egw1ctb9qo6m8k",
     "firstName": "Mardochée Matumona",
     "lastName": "Miguel"
+  },
+  {
+    "id": "3v7qhy9h8w7a0gws2oeij0l5g",
+    "firstName": "Cherif Abdoulaye",
+    "lastName": "Koroma Haidara"
+  },
+  {
+    "id": "4kcoxzn3so6ic4xfvhvw2dt04",
+    "firstName": "Emilien",
+    "lastName": "Biku"
+  },
+  {
+    "id": "mrfl0vgfn50zhn5ekhok3vh0",
+    "firstName": "Nour Al Islam",
+    "lastName": "Boulkous"
   },
   {
     "id": "14byzat1rvlhaycjfm2w8j4lw",
@@ -418,5 +498,20 @@
     "id": "cq61geugjyi8hbk80o8nqscus",
     "firstName": "Lorin",
     "lastName": "Jetzer"
+  },
+  {
+    "id": "2fn6lo78aa995zvlqodpg89hw",
+    "firstName": "Loan",
+    "lastName": "Guignard"
+  },
+  {
+    "id": "9g4591ffmh21o0hlw3zt17wno",
+    "firstName": "Lorenzo",
+    "lastName": "Bittarelli"
+  },
+  {
+    "id": "b8lonz0trfj0mjdnaeh3p50d0",
+    "firstName": "Maxime",
+    "lastName": "Rouiller"
   }
 ]
