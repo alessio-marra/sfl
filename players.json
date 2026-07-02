@@ -95,6 +95,11 @@
     "lastName": "Zurmühle Rivera"
   },
   {
+    "id": "6mbb2482o7tj83h66ss017kt0",
+    "firstName": "Ian",
+    "lastName": "Tiraboschi"
+  },
+  {
     "id": "97lvadg3r6c02dnq2v163plw4",
     "firstName": "Jason-Lee",
     "lastName": "Parente"
@@ -200,9 +205,19 @@
     "lastName": "Konietzke"
   },
   {
+    "id": "8aw63zo6gn3l8fizdaq353ml0",
+    "firstName": "Leo",
+    "lastName": "Stucki"
+  },
+  {
     "id": "ag92lrchlo2z1opq3i1loneok",
     "firstName": "Dorian",
     "lastName": "Derbaci"
+  },
+  {
+    "id": "cnsyexfgcdy6m2dfc0l5dfkes",
+    "firstName": "Simon",
+    "lastName": "Lengen"
   },
   {
     "id": "crbaj3hvnoqvipn86tvjxrm6s",
@@ -330,6 +345,11 @@
     "lastName": "Miguel"
   },
   {
+    "id": "vc2knr7mu8n12alvmx7fzj10",
+    "firstName": "Tiemoko",
+    "lastName": "Ouattara"
+  },
+  {
     "id": "3v7qhy9h8w7a0gws2oeij0l5g",
     "firstName": "Cherif Abdoulaye",
     "lastName": "Koroma Haidara"
@@ -408,6 +428,16 @@
     "id": "5qg0zclpg1kdgtaribzbtg844",
     "firstName": "Marwan",
     "lastName": "Aubert"
+  },
+  {
+    "id": "868v7nfa84r7cpe0uxrsahpn8",
+    "firstName": "Francesco",
+    "lastName": "Lentini"
+  },
+  {
+    "id": "9dbhqp45xya5rulyokd1vglxw",
+    "firstName": "Fabulus Nomann Owolabi",
+    "lastName": "Ahuissou Sossou"
   },
   {
     "id": "16nk7f0yc9zkqoore22i5ixas",
@@ -498,6 +528,11 @@
     "id": "99gzdabu92tunehaoai1r7ris",
     "firstName": "Antonio",
     "lastName": "Spagnoli"
+  },
+  {
+    "id": "djvohgvp8zwlfxpfnv92924us",
+    "firstName": "Giuliano",
+    "lastName": "Foro"
   },
   {
     "id": "ojetnalu7pxbdmttr97uiexg",
