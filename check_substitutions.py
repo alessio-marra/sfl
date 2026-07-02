@@ -427,8 +427,7 @@ def send_email(changes: list[dict]):
 
     recipients = [e.strip() for e in EMAIL_TO.split(",")]
     
-with smtplib.SMTP("smtp.office365.com", 587) as smtp:
-        smtp.starttls()
+with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(EMAIL_FROM, EMAIL_PASSWORD)
         smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
 
@@ -480,7 +479,7 @@ def main():
     print(f"State saved ({len(state)} match(es) tracked).")
 
     if all_changes:
-        # send_email(all_changes)
+         send_email(all_changes)
     else:
         print("No substitution changes detected across all matches.")
 
