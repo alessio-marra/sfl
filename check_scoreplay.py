@@ -204,8 +204,7 @@ def send_email(new_items: list[dict]):
 
     recipients = [e.strip() for e in EMAIL_TO.split(",")]
     
-    with smtplib.SMTP("smtp.office365.com", 587) as smtp:
-        smtp.starttls()
+   with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(EMAIL_FROM, EMAIL_PASSWORD)
         smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
 
@@ -237,7 +236,7 @@ def main():
     print(f"\n{len(items)} item(s) {'found as baseline' if first_run else 'new since last run'}.")
 
     if items and not first_run:
-        # send_email(items)
+         send_email(items)
     elif first_run:
         print(f"Baseline established with {len(items)} item(s) — no email sent.")
     else:
