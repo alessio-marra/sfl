@@ -427,7 +427,7 @@ def send_email(changes: list[dict]):
 
     recipients = [e.strip() for e in EMAIL_TO.split(",")]
     
-with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(EMAIL_FROM, EMAIL_PASSWORD)
         smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
 
