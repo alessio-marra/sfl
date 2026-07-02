@@ -47975,7 +47975,7 @@
         "timeMin": "45",
         "timeSec": "0",
         "playerId": "cva5o1qtbevwt7ws8kno8m3ca",
-        "playerName": "B. Omeragić",
+        "playerName": "B. Omeragic",
         "teamId": "5u18kvqiqhup2vd345dci1069",
         "teamName": "Basel",
         "partnerEventId": "391"
@@ -56769,6 +56769,460 @@
         "teamId": "btqfm8txcvhi29sddmc9nr68",
         "teamName": "Lugano",
         "partnerEventId": "747"
+      }
+    }
+  },
+  "d2syimqk6ed18y71irpjwsbo4": {
+    "description": "Stade Nyonnais vs Vaduz",
+    "competition": "Challenge League",
+    "date": "2026-04-24",
+    "substitutions": {
+      "2928339809": {
+        "typeId": "18",
+        "eventIdNum": "424",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "7lo68gjoos31ciuuh2yrj5lg",
+        "playerName": "Pedro Rodríguez",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "425"
+      },
+      "2928339817": {
+        "typeId": "19",
+        "eventIdNum": "425",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "4t147jqe3rhmd95j4h20u0qvo",
+        "playerName": "F. Borges",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "424"
+      },
+      "2928361745": {
+        "typeId": "18",
+        "eventIdNum": "610",
+        "timeMin": "61",
+        "timeSec": "17",
+        "playerId": "a9tmd9tjrbbc78uc6qrolz4es",
+        "playerName": "J. Simo",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "611"
+      },
+      "2928361747": {
+        "typeId": "19",
+        "eventIdNum": "611",
+        "timeMin": "61",
+        "timeSec": "17",
+        "playerId": "9ei0a1ald9djjgqr4x9tvtc7o",
+        "playerName": "N. Grognuz",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "610"
+      },
+      "2928361817": {
+        "typeId": "18",
+        "eventIdNum": "612",
+        "timeMin": "61",
+        "timeSec": "21",
+        "playerId": "32if369zhfmjnca6w72u1z2ll",
+        "playerName": "B. Diomande",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "613"
+      },
+      "2928361819": {
+        "typeId": "19",
+        "eventIdNum": "613",
+        "timeMin": "61",
+        "timeSec": "21",
+        "playerId": "6d6zesysbzube6wqmdngqg4r8",
+        "playerName": "M. Okuka",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "612"
+      },
+      "2928369657": {
+        "typeId": "18",
+        "eventIdNum": "671",
+        "timeMin": "69",
+        "timeSec": "5",
+        "playerId": "9k3ri0ce8kyx875dygt8h5je2",
+        "playerName": "D. Schwizer",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "672"
+      },
+      "2928369665": {
+        "typeId": "19",
+        "eventIdNum": "672",
+        "timeMin": "69",
+        "timeSec": "5",
+        "playerId": "tyo5qfihcy6mg74tak3h7llg",
+        "playerName": "M. Sawadogo",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "671"
+      },
+      "2928375009": {
+        "typeId": "18",
+        "eventIdNum": "752",
+        "timeMin": "74",
+        "timeSec": "30",
+        "playerId": "aclrtgk3qx5vljy055oog3ms4",
+        "playerName": "J. Manquant",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "753"
+      },
+      "2928375015": {
+        "typeId": "19",
+        "eventIdNum": "753",
+        "timeMin": "74",
+        "timeSec": "30",
+        "playerId": "acyqo1klb3frssjxrtpvclul0",
+        "playerName": "B. Alili",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "752"
+      },
+      "2928375347": {
+        "typeId": "18",
+        "eventIdNum": "754",
+        "timeMin": "74",
+        "timeSec": "36",
+        "playerId": "cgxatwfjsuhj0jcpzv89wszdg",
+        "playerName": "L. Bega",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "755"
+      },
+      "2928375353": {
+        "typeId": "19",
+        "eventIdNum": "755",
+        "timeMin": "74",
+        "timeSec": "36",
+        "playerId": "7utzvxy7yn8f5p4436vrb9pwq",
+        "playerName": "F. Hysenaj",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "754"
+      },
+      "2928378789": {
+        "typeId": "18",
+        "eventIdNum": "761",
+        "timeMin": "78",
+        "timeSec": "7",
+        "playerId": "67t7n47ewg28wb9dfz3xjyrdg",
+        "playerName": "R. Dantas Fernandes",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "762"
+      },
+      "2928378797": {
+        "typeId": "19",
+        "eventIdNum": "762",
+        "timeMin": "78",
+        "timeSec": "7",
+        "playerId": "642jkufdmojtnmu31m59mv4h6",
+        "playerName": "G. De Donno",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "761"
+      },
+      "2928378621": {
+        "typeId": "18",
+        "eventIdNum": "759",
+        "timeMin": "78",
+        "timeSec": "19",
+        "playerId": "7tvg58abyitrkf73bijejdzze",
+        "playerName": "C. Gasser",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "760"
+      },
+      "2928378627": {
+        "typeId": "19",
+        "eventIdNum": "760",
+        "timeMin": "78",
+        "timeSec": "19",
+        "playerId": "3rw2xfmzzeor4ebv808wg0vs9",
+        "playerName": "S. Seiler",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "759"
+      },
+      "2928383821": {
+        "typeId": "18",
+        "eventIdNum": "812",
+        "timeMin": "85",
+        "timeSec": "5",
+        "playerId": "cilk4jdge6x8rz043g84wistm",
+        "playerName": "M. Monsberger",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "813"
+      },
+      "2928383825": {
+        "typeId": "19",
+        "eventIdNum": "813",
+        "timeMin": "85",
+        "timeSec": "5",
+        "playerId": "3vzoyntrzb32s34aoz96xrm96",
+        "playerName": "J. De Donno",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "812"
+      },
+      "2928383969": {
+        "typeId": "18",
+        "eventIdNum": "814",
+        "timeMin": "85",
+        "timeSec": "7",
+        "playerId": "10j2hx1vzdt9qfyez48406c16",
+        "playerName": "B. Beyer",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "815"
+      },
+      "2928383985": {
+        "typeId": "19",
+        "eventIdNum": "815",
+        "timeMin": "85",
+        "timeSec": "7",
+        "playerId": "5pmrhzdqiiza950kgnq8mr0q2",
+        "playerName": "Javi Navarro",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "814"
+      }
+    }
+  },
+  "cxj6zm73jcq61cb1jbie44sno": {
+    "description": "Bellinzona vs Stade Nyonnais",
+    "competition": "Challenge League",
+    "date": "2026-04-18",
+    "substitutions": {
+      "2925616149": {
+        "typeId": "18",
+        "eventIdNum": "346",
+        "timeMin": "38",
+        "timeSec": "42",
+        "playerId": "5bq9ex3r6k7dzysjxu9m1b3s9",
+        "playerName": "Aarón Rey",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "347"
+      },
+      "2925616159": {
+        "typeId": "19",
+        "eventIdNum": "347",
+        "timeMin": "38",
+        "timeSec": "42",
+        "playerId": "77wolsrol5ymxblf7e142elg4",
+        "playerName": "F. Bomo",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "346"
+      },
+      "2925652639": {
+        "typeId": "18",
+        "eventIdNum": "587",
+        "timeMin": "62",
+        "timeSec": "11",
+        "playerId": "e7xpi6vzogqdh4fvarws4c1ec",
+        "playerName": "J. Mayorga",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "588"
+      },
+      "2925652647": {
+        "typeId": "19",
+        "eventIdNum": "588",
+        "timeMin": "62",
+        "timeSec": "11",
+        "playerId": "7a9zbg32jtl13o0zxxturvmdw",
+        "playerName": "A. López",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "587"
+      },
+      "2925652475": {
+        "typeId": "18",
+        "eventIdNum": "613",
+        "timeMin": "62",
+        "timeSec": "37",
+        "playerId": "6d6zesysbzube6wqmdngqg4r8",
+        "playerName": "M. Okuka",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "614"
+      },
+      "2925652481": {
+        "typeId": "19",
+        "eventIdNum": "614",
+        "timeMin": "62",
+        "timeSec": "37",
+        "playerId": "e5gjxdlhxqja1duu6pypyjnys",
+        "playerName": "S. Edougué",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "613"
+      },
+      "2925652359": {
+        "typeId": "18",
+        "eventIdNum": "611",
+        "timeMin": "62",
+        "timeSec": "42",
+        "playerId": "1nr4ne2dmrhqyfcnz1iwmick4",
+        "playerName": "Y. Aymon",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "612"
+      },
+      "2925652371": {
+        "typeId": "19",
+        "eventIdNum": "612",
+        "timeMin": "62",
+        "timeSec": "42",
+        "playerId": "acyqo1klb3frssjxrtpvclul0",
+        "playerName": "B. Alili",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "611"
+      },
+      "2925652447": {
+        "typeId": "18",
+        "eventIdNum": "585",
+        "timeMin": "62",
+        "timeSec": "43",
+        "playerId": "c0ldxt9whu18hfp6d0k7ixbf8",
+        "playerName": "P. Moulin",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "586"
+      },
+      "2925652455": {
+        "typeId": "19",
+        "eventIdNum": "586",
+        "timeMin": "62",
+        "timeSec": "43",
+        "playerId": "c0fwxxuc8zxofjq0qcen7oy6s",
+        "playerName": "D. Ayala",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "585"
+      },
+      "2925652625": {
+        "typeId": "18",
+        "eventIdNum": "615",
+        "timeMin": "62",
+        "timeSec": "48",
+        "playerId": "28jcbu3nwb16j9ws4qtf19v1m",
+        "playerName": "R. Correia",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "616"
+      },
+      "2925652629": {
+        "typeId": "19",
+        "eventIdNum": "616",
+        "timeMin": "62",
+        "timeSec": "48",
+        "playerId": "4t147jqe3rhmd95j4h20u0qvo",
+        "playerName": "F. Borges",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "615"
+      },
+      "2925661483": {
+        "typeId": "18",
+        "eventIdNum": "709",
+        "timeMin": "72",
+        "timeSec": "43",
+        "playerId": "d3088enqrs34cag26af7uxous",
+        "playerName": "E. Fetahu",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "710"
+      },
+      "2925661487": {
+        "typeId": "19",
+        "eventIdNum": "710",
+        "timeMin": "72",
+        "timeSec": "43",
+        "playerId": "4kktwqiy846xm2sfdcx4nt1xw",
+        "playerName": "J. Kury",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "709"
+      },
+      "2925661359": {
+        "typeId": "18",
+        "eventIdNum": "707",
+        "timeMin": "72",
+        "timeSec": "44",
+        "playerId": "3j4cbwn8ft8y3d5lvjigp8bo4",
+        "playerName": "M. Jaiteh",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "708"
+      },
+      "2925661369": {
+        "typeId": "19",
+        "eventIdNum": "708",
+        "timeMin": "72",
+        "timeSec": "44",
+        "playerId": "763n47wbt2evbbal3enc8h0r8",
+        "playerName": "F. Lymann",
+        "teamId": "amon0usuflf63isepyms3tq9h",
+        "teamName": "Bellinzona",
+        "partnerEventId": "707"
+      },
+      "2925663599": {
+        "typeId": "18",
+        "eventIdNum": "716",
+        "timeMin": "74",
+        "timeSec": "48",
+        "playerId": "32if369zhfmjnca6w72u1z2ll",
+        "playerName": "B. Diomande",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "717"
+      },
+      "2925663607": {
+        "typeId": "19",
+        "eventIdNum": "717",
+        "timeMin": "74",
+        "timeSec": "48",
+        "playerId": "7lo68gjoos31ciuuh2yrj5lg",
+        "playerName": "Pedro Rodríguez",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "716"
+      },
+      "2925671303": {
+        "typeId": "18",
+        "eventIdNum": "790",
+        "timeMin": "81",
+        "timeSec": "28",
+        "playerId": "cgxatwfjsuhj0jcpzv89wszdg",
+        "playerName": "L. Bega",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "791"
+      },
+      "2925671309": {
+        "typeId": "19",
+        "eventIdNum": "791",
+        "timeMin": "81",
+        "timeSec": "28",
+        "playerId": "3qx2soe6f9niqumos6v0szuqy",
+        "playerName": "T. Perchaud",
+        "teamId": "7ojn2md1nwcl4ehjymylxflut",
+        "teamName": "Stade Nyonnais",
+        "partnerEventId": "790"
       }
     }
   }
