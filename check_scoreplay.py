@@ -1,19 +1,11 @@
 """
 check_scoreplay.py
 Checks ScorePlay API twice daily for new media with tag 704382 (player headshots).
-Sends an email if new media has been uploaded since the last run.
-
-Optimisation: since API returns newest first, we stop fetching pages as soon
-as we hit a CreatedAt older than last_run. On first run we just save baseline.
-
-API: POST https://media.scoreplay.io/v1/media/search?api_key=KEY
-Body: {"media_type": "photo", "tag_options": [704382], "page": N, "limit": 50}
-Response: {"media": [{ID, CreatedAt, name, thumbnail_url, files:[{details, url}]}]}
+Sends an email via Microsoft Graph API if new media has been uploaded since last run.
 """
 
 import os
 import json
-import smtplib
 import requests
 from datetime import datetime, timezone
 from email.mime.text import MIMEText
@@ -21,10 +13,12 @@ from email.mime.multipart import MIMEMultipart
 from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
-SP_API_KEY     = os.environ["SP_API_KEY_SCOREPLAY"]
-EMAIL_FROM     = os.environ["EMAIL_FROM"]
-EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
-EMAIL_TO       = os.environ["EMAIL_TO_SCOREPLAY"]
+SP_API_KEY      = os.environ["SP_API_KEY_SCOREPLAY"]
+EMAIL_FROM      = os.environ["EMAIL_FROM"]
+EMAIL_TO        = os.environ["EMAIL_TO_SCOREPLAY"]
+AZURE_TENANT_ID = os.environ["AZURE_TENANT_ID"]
+AZURE_CLIENT_ID = os.environ["AZURE_CLIENT_ID"]
+AZURE_CLIENT_SECRET = os.environ["AZURE_CLIENT_SECRET"]
 
 HEADSHOT_TAG_ID = 704382
 API_BASE        = "https://media.scoreplay.io/v1"
@@ -43,17 +37,12 @@ def save_state(state: dict):
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False))
 
 
-# ── API ───────────────────────────────────────────────────────────────────────
+# ── ScorePlay API ─────────────────────────────────────────────────────────────
 def parse_dt(iso: str) -> datetime:
     return datetime.fromisoformat(iso.replace("Z", "+00:00"))
 
 
 def fetch_new_media(since: datetime | None) -> list[dict]:
-    """
-    Fetch pages newest-first and stop as soon as CreatedAt < since.
-    On first run (since=None), fetch only page 1 to establish baseline IDs.
-    Returns list of new media items.
-    """
     new_items = []
     page      = 1
 
@@ -84,23 +73,19 @@ def fetch_new_media(since: datetime | None) -> list[dict]:
             except Exception:
                 created = None
 
-            # First run: just collect IDs from page 1 as baseline, don't add to new_items
             if since is None:
                 new_items.append(item)
                 continue
 
-            # Stop as soon as item is older than last run
             if created and created <= since:
                 print(f"    Reached item older than last run ({created_str}) — stopping.")
                 return new_items
 
             new_items.append(item)
 
-        # If fewer items than page size, we've reached the end
         if len(items) < PAGE_SIZE:
             break
 
-        # On first run only fetch page 1 for baseline
         if since is None:
             break
 
@@ -109,45 +94,22 @@ def fetch_new_media(since: datetime | None) -> list[dict]:
     return new_items
 
 
-# ── Email ─────────────────────────────────────────────────────────────────────
-def get_original_url(item: dict) -> str:
-    for f in (item.get("files") or []):
-        if f.get("details") == "photographer_quality":
-            return f.get("url", "")
-    return item.get("original_url", "")
-
-
-def build_rows(items: list[dict]) -> str:
-    rows = ""
-    for item in items:
-        name     = item.get("name", "—")
-        created  = item.get("CreatedAt", "")
-        try:
-            dt       = parse_dt(created)
-            date_str = dt.strftime("%Y-%m-%d %H:%M UTC")
-        except Exception:
-            date_str = created
-
-        thumb    = item.get("thumbnail_url", "")
-        orig_url = get_original_url(item)
-
-        thumb_html = (
-            f'<img src="{thumb}" width="60" height="60" style="width:60px;height:60px;object-fit:cover;border-radius:4px;display:block;" />'
-            if thumb else '<span style="color:#9ca3af;font-size:11px;">—</span>'
+# ── Microsoft Graph API ───────────────────────────────────────────────────────
+def get_graph_token() -> str:
+    import msal
+    app = msal.ConfidentialClientApplication(
+        AZURE_CLIENT_ID,
+        authority=f"https://login.microsoftonline.com/{AZURE_TENANT_ID}",
+        client_credential=AZURE_CLIENT_SECRET,
+    )
+    result = app.acquire_token_for_client(
+        scopes=["https://graph.microsoft.com/.default"]
+    )
+    if "access_token" not in result:
+        raise RuntimeError(
+            f"Failed to obtain Graph token: {result.get('error_description', result)}"
         )
-        dl_html = (
-            f'<a href="{orig_url}" style="color:#1e3a5f;font-weight:600;font-size:12px;">Download</a>'
-            if orig_url else "—"
-        )
-
-        rows += f"""
-        <tr style="border-bottom:1px solid #e5e7eb;">
-          <td style="padding:10px 12px;">{thumb_html}</td>
-          <td style="padding:10px 12px;font-size:13px;font-weight:600;word-break:break-all;">{name}</td>
-          <td style="padding:10px 12px;font-size:13px;color:#9ca3af;white-space:nowrap;">{date_str}</td>
-          <td style="padding:10px 12px;">{dl_html}</td>
-        </tr>"""
-    return rows
+    return result["access_token"]
 
 
 def send_email(new_items: list[dict]):
@@ -194,23 +156,88 @@ def send_email(new_items: list[dict]):
 </body>
 </html>"""
 
-    subject = f"ScorePlay – {len(new_items)} new headshot(s) uploaded"
-
-    msg = MIMEMultipart("alternative")
-    msg["From"]    = f"ScorePlay Monitor <{EMAIL_FROM}>"
-    msg["To"]      = EMAIL_TO
-    msg["Subject"] = subject
-    msg.attach(MIMEText(html_body, "html"))
-
+    subject    = f"ScorePlay – {len(new_items)} new headshot(s) uploaded"
     recipients = [e.strip() for e in EMAIL_TO.split(",")]
-    
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login(EMAIL_FROM, EMAIL_PASSWORD)
-        smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
 
+    token = get_graph_token()
+
+    payload = {
+        "message": {
+            "subject": subject,
+            "body": {
+                "contentType": "HTML",
+                "content": html_body,
+            },
+            "from": {
+                "emailAddress": {"address": EMAIL_FROM}
+            },
+            "toRecipients": [
+                {"emailAddress": {"address": r}} for r in recipients
+            ],
+        },
+        "saveToSentItems": "false"
+    }
+
+    response = requests.post(
+        f"https://graph.microsoft.com/v1.0/users/{EMAIL_FROM}/sendMail",
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+        },
+        json=payload,
+        timeout=30,
+    )
+
+    if response.status_code == 202:
+        print(f"Graph API: email accepted for delivery (202).")
+    else:
+        raise RuntimeError(
+            f"Graph API send failed: {response.status_code} — {response.text}"
+        )
 
     print(f"Email sent — {len(new_items)} item(s) to {len(recipients)} recipient(s).")
 
+
+# ── Email helpers ─────────────────────────────────────────────────────────────
+def get_original_url(item: dict) -> str:
+    for f in (item.get("files") or []):
+        if f.get("details") == "photographer_quality":
+            return f.get("url", "")
+    return item.get("original_url", "")
+
+
+def build_rows(items: list[dict]) -> str:
+    rows = ""
+    for item in items:
+        name     = item.get("name", "—")
+        created  = item.get("CreatedAt", "")
+        try:
+            dt       = parse_dt(created)
+            date_str = dt.strftime("%Y-%m-%d %H:%M UTC")
+        except Exception:
+            date_str = created
+
+        thumb    = item.get("thumbnail_url", "")
+        orig_url = get_original_url(item)
+
+        thumb_html = (
+            f'<img src="{thumb}" width="60" height="60" style="width:60px;height:60px;'
+            f'object-fit:cover;border-radius:4px;display:block;" />'
+            if thumb else '<span style="color:#9ca3af;font-size:11px;">—</span>'
+        )
+        dl_html = (
+            f'<a href="{orig_url}" style="color:#1e3a5f;font-weight:600;font-size:12px;">Download</a>'
+            if orig_url else "—"
+        )
+
+        rows += f"""
+        <tr style="border-bottom:1px solid #e5e7eb;">
+          <td style="padding:10px 12px;">{thumb_html}</td>
+          <td style="padding:10px 12px;font-size:13px;font-weight:600;word-break:break-all;">{name}</td>
+          <td style="padding:10px 12px;font-size:13px;color:#9ca3af;white-space:nowrap;">{date_str}</td>
+          <td style="padding:10px 12px;">{dl_html}</td>
+        </tr>"""
+    return rows
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -236,7 +263,7 @@ def main():
     print(f"\n{len(items)} item(s) {'found as baseline' if first_run else 'new since last run'}.")
 
     if items and not first_run:
-         send_email(items)
+        send_email(items)
     elif first_run:
         print(f"Baseline established with {len(items)} item(s) — no email sent.")
     else:
