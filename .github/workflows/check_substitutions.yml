@@ -3,8 +3,8 @@ name: Check Substitution Changes
 on:
   schedule:
     # Runs at 05:00 and 17:00 UTC = 06:00 and 18:00 CET (winter) / 07:00 and 19:00 CEST (summer)
-    #- cron: "0 5 * * *"
-    #- cron: "0 17 * * *"
+    - cron: "0 5 * * *"
+    - cron: "0 17 * * *"
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 jobs:
