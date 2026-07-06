@@ -169,7 +169,7 @@ def send_email(new_items: list[dict]):
                 "content": html_body,
             },
             "from": {
-                "emailAddress": {"address": EMAIL_FROM}
+                "emailAddress": {"address": EMAIL_FROM, "name": "ScorePlay Monitor"}
             },
             "toRecipients": [
                 {"emailAddress": {"address": r}} for r in recipients
