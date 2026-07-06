@@ -24,20 +24,20 @@ MA3 XML structure (from documentation):
 
 import os
 import json
-import smtplib
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
 API_KEY        = os.environ["SP_API_KEY"]
 REFERER        = os.environ["SP_REFERER"]
-EMAIL_FROM     = os.environ["EMAIL_FROM"]
-EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
-EMAIL_TO       = os.environ["EMAIL_TO"]
+EMAIL_FROM          = os.environ["EMAIL_FROM"]
+EMAIL_TO            = os.environ["EMAIL_TO"]
+EMAIL_TO_TEST       = os.environ["EMAIL_TO_TEST"]
+AZURE_TENANT_ID     = os.environ["AZURE_TENANT_ID"]
+AZURE_CLIENT_ID     = os.environ["AZURE_CLIENT_ID"]
+AZURE_CLIENT_SECRET = os.environ["AZURE_CLIENT_SECRET"]
 LOOKBACK_HOURS = int(os.environ.get("LOOKBACK_HOURS", "13"))
 
 BASE_URL   = "https://api.performfeeds.com/soccerdata"
@@ -307,6 +307,23 @@ def find_changes(match_id: str, old_data: dict, new_data: dict) -> list[dict]:
 
     return changes
 
+# ── Microsoft Graph API ───────────────────────────────────────────────────────
+def get_graph_token() -> str:
+    import msal
+    app = msal.ConfidentialClientApplication(
+        AZURE_CLIENT_ID,
+        authority=f"https://login.microsoftonline.com/{AZURE_TENANT_ID}",
+        client_credential=AZURE_CLIENT_SECRET,
+    )
+    result = app.acquire_token_for_client(
+        scopes=["https://graph.microsoft.com/.default"]
+    )
+    if "access_token" not in result:
+        raise RuntimeError(
+            f"Failed to obtain Graph token: {result.get('error_description', result)}"
+        )
+    return result["access_token"]
+
 
 # ── Email ─────────────────────────────────────────────────────────────────────
 def _format_time(min_val, sec_val) -> str:
@@ -419,18 +436,45 @@ def send_email(changes: list[dict]):
     if action_count:
         subject += f" – {action_count} ACTION(S) NEEDED"
 
-    msg = MIMEMultipart("alternative")
-    msg["From"]    = f"Stats Perform QA - substitution update <{EMAIL_FROM}>"
-    msg["To"]      = EMAIL_TO
-    msg["Subject"] = subject
-    msg.attach(MIMEText(html_body, "html"))
+    recipients = [e.strip() for e in EMAIL_TO_TEST.split(",")]
+    token      = get_graph_token()
 
-    recipients = [e.strip() for e in EMAIL_TO.split(",")]
-    
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login(EMAIL_FROM, EMAIL_PASSWORD)
-        smtp.sendmail(EMAIL_FROM, recipients, msg.as_string())
+    payload = {
+        "message": {
+            "subject": subject,
+            "body": {
+                "contentType": "HTML",
+                "content": html_body,
+            },
+            "from": {
+                "emailAddress": {
+                    "address": EMAIL_FROM,
+                    "name": "Stats Perform QA - substitution update"
+                }
+            },
+            "toRecipients": [
+                {"emailAddress": {"address": r}} for r in recipients
+            ],
+        },
+        "saveToSentItems": "false"
+    }
 
+    response = requests.post(
+        f"https://graph.microsoft.com/v1.0/users/{EMAIL_FROM}/sendMail",
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+        },
+        json=payload,
+        timeout=30,
+    )
+
+    if response.status_code == 202:
+        print(f"Graph API: email accepted for delivery (202).")
+    else:
+        raise RuntimeError(
+            f"Graph API send failed: {response.status_code} — {response.text}"
+        )
 
     print(f"Email sent - {len(changes)} change(s), {action_count} action(s) needed.")
 
