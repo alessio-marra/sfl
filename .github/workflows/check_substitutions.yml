@@ -25,15 +25,18 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
+        run: pip install requests msal
 
       - name: Run substitution check
         env:
-          SP_API_KEY:       ${{ secrets.SP_API_KEY }}
-          SP_REFERER:       ${{ secrets.SP_REFERER }}
-          EMAIL_FROM:       ${{ secrets.EMAIL_FROM }}
-          EMAIL_PASSWORD:   ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_TO:         ${{ secrets.EMAIL_TO_TEST }}
-          LOOKBACK_HOURS:   "13"
+          SP_API_KEY:           ${{ secrets.SP_API_KEY }}
+          SP_REFERER:           ${{ secrets.SP_REFERER }}
+          EMAIL_FROM:           ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:             ${{ secrets.EMAIL_TO }}
+          AZURE_TENANT_ID:      ${{ secrets.AZURE_TENANT_ID }}
+          AZURE_CLIENT_ID:      ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_CLIENT_SECRET:  ${{ secrets.AZURE_CLIENT_SECRET }}
+          LOOKBACK_HOURS:       "13"
         run: python check_substitutions.py
 
       - name: Commit updated state.json
