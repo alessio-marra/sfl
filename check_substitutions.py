@@ -436,7 +436,7 @@ def send_email(changes: list[dict]):
     if action_count:
         subject += f" – {action_count} ACTION(S) NEEDED"
 
-    recipients = [e.strip() for e in EMAIL_TO_TEST.split(",")]
+    recipients = [e.strip() for e in EMAIL_TO.split(",")]
     token      = get_graph_token()
 
     payload = {
