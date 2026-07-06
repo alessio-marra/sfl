@@ -33,6 +33,7 @@ jobs:
           SP_REFERER:           ${{ secrets.SP_REFERER }}
           EMAIL_FROM:           ${{ secrets.EMAIL_FROM }}
           EMAIL_TO:             ${{ secrets.EMAIL_TO }}
+          EMAIL_TO_TEST:        ${{ secrets.EMAIL_TO_TEST }}
           AZURE_TENANT_ID:      ${{ secrets.AZURE_TENANT_ID }}
           AZURE_CLIENT_ID:      ${{ secrets.AZURE_CLIENT_ID }}
           AZURE_CLIENT_SECRET:  ${{ secrets.AZURE_CLIENT_SECRET }}
