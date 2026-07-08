@@ -58982,5 +58982,1008 @@
         "partnerEventId": "722"
       }
     }
+  },
+  "cq7i95fwl2zx2a63a2lo7mqdw": {
+    "description": "Xamax vs Vaduz",
+    "competition": "Challenge League",
+    "date": "2026-04-03",
+    "substitutions": {
+      "2918692461": {
+        "typeId": "18",
+        "eventIdNum": "627",
+        "timeMin": "63",
+        "timeSec": "28",
+        "playerId": "7tvg58abyitrkf73bijejdzze",
+        "playerName": "C. Gasser",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "628"
+      },
+      "2918692467": {
+        "typeId": "19",
+        "eventIdNum": "628",
+        "timeMin": "63",
+        "timeSec": "28",
+        "playerId": "2ki38l98zj6rvt2h5iuxoxtrd",
+        "playerName": "M. Hammerich",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "627"
+      },
+      "2918692535": {
+        "typeId": "18",
+        "eventIdNum": "570",
+        "timeMin": "63",
+        "timeSec": "33",
+        "playerId": "64e2mr93bbi0m2lro5ey4imzt",
+        "playerName": "L. Mulaj",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "571"
+      },
+      "2918692539": {
+        "typeId": "19",
+        "eventIdNum": "571",
+        "timeMin": "63",
+        "timeSec": "33",
+        "playerId": "7md3kkbn6mxaj8qy3xel5jqj8",
+        "playerName": "A. Azemi",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "570"
+      },
+      "2918692873": {
+        "typeId": "18",
+        "eventIdNum": "572",
+        "timeMin": "63",
+        "timeSec": "49",
+        "playerId": "4lxa5kvguhl6hqs0l32gbm3h0",
+        "playerName": "J. Hautier",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "573"
+      },
+      "2918692877": {
+        "typeId": "19",
+        "eventIdNum": "573",
+        "timeMin": "63",
+        "timeSec": "49",
+        "playerId": "54ig9jv19n6n4dm8nvydg0vrp",
+        "playerName": "K. Kone",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "572"
+      },
+      "2918693159": {
+        "typeId": "18",
+        "eventIdNum": "574",
+        "timeMin": "64",
+        "timeSec": "6",
+        "playerId": "dfiu844td5td5ynvvgcc2fk7o",
+        "playerName": "Diogo Carraco",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "575"
+      },
+      "2918693161": {
+        "typeId": "19",
+        "eventIdNum": "575",
+        "timeMin": "64",
+        "timeSec": "6",
+        "playerId": "bddjlux3x7xhfmwfda7mnzi8k",
+        "playerName": "A. Bourezak",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "574"
+      },
+      "2918700239": {
+        "typeId": "18",
+        "eventIdNum": "621",
+        "timeMin": "70",
+        "timeSec": "39",
+        "playerId": "14284g23aql72g7y7452t8ij9",
+        "playerName": "S. Demhasaj",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "622"
+      },
+      "2918700249": {
+        "typeId": "19",
+        "eventIdNum": "622",
+        "timeMin": "70",
+        "timeSec": "39",
+        "playerId": "awt38idua80bt2qsebqj4knx0",
+        "playerName": "L. Veya",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "621"
+      },
+      "2918706965": {
+        "typeId": "18",
+        "eventIdNum": "816",
+        "timeMin": "76",
+        "timeSec": "41",
+        "playerId": "10j2hx1vzdt9qfyez48406c16",
+        "playerName": "B. Beyer",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "817"
+      },
+      "2918706975": {
+        "typeId": "19",
+        "eventIdNum": "817",
+        "timeMin": "76",
+        "timeSec": "41",
+        "playerId": "7c3asx73extld50awe557y3ft",
+        "playerName": "A. Akinola",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "816"
+      },
+      "2918710987": {
+        "typeId": "18",
+        "eventIdNum": "712",
+        "timeMin": "79",
+        "timeSec": "58",
+        "playerId": "f107whg7pui3831g3wsvwi76x",
+        "playerName": "E. Abedini",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "713"
+      },
+      "2918710991": {
+        "typeId": "19",
+        "eventIdNum": "713",
+        "timeMin": "79",
+        "timeSec": "58",
+        "playerId": "b6vwhedtlg0bqfno54s7uq87o",
+        "playerName": "E. Zahaj",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "712"
+      },
+      "2918712773": {
+        "typeId": "18",
+        "eventIdNum": "863",
+        "timeMin": "84",
+        "timeSec": "9",
+        "playerId": "ahz5nhls0d0jo21muuvnbkmj8",
+        "playerName": "M. Cocic",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "864"
+      },
+      "2918712777": {
+        "typeId": "19",
+        "eventIdNum": "864",
+        "timeMin": "84",
+        "timeSec": "9",
+        "playerId": "6y210ne1ay7q1lo7k26p4sbqi",
+        "playerName": "Angelo Campos",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "863"
+      },
+      "2918712845": {
+        "typeId": "18",
+        "eventIdNum": "865",
+        "timeMin": "84",
+        "timeSec": "13",
+        "playerId": "3rw2xfmzzeor4ebv808wg0vs9",
+        "playerName": "S. Seiler",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "866"
+      },
+      "2918712849": {
+        "typeId": "19",
+        "eventIdNum": "866",
+        "timeMin": "84",
+        "timeSec": "13",
+        "playerId": "642jkufdmojtnmu31m59mv4h6",
+        "playerName": "G. De Donno",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "865"
+      }
+    }
+  },
+  "cjps5wvhn0n67gaptwfeznod0": {
+    "description": "Aarau vs Vaduz",
+    "competition": "Challenge League",
+    "date": "2026-03-13",
+    "substitutions": {
+      "2910671483": {
+        "typeId": "18",
+        "eventIdNum": "540",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "30k2c1p6o00dtdqsw9ahv7giy",
+        "playerName": "L. Berisha",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "541"
+      },
+      "2910671487": {
+        "typeId": "19",
+        "eventIdNum": "541",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "ckmsknnuolycuzgnwuqtfafze",
+        "playerName": "N. Lang",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "540"
+      },
+      "2910685149": {
+        "typeId": "18",
+        "eventIdNum": "661",
+        "timeMin": "53",
+        "timeSec": "1",
+        "playerId": "6y210ne1ay7q1lo7k26p4sbqi",
+        "playerName": "Angelo Campos",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "662"
+      },
+      "2910685159": {
+        "typeId": "19",
+        "eventIdNum": "662",
+        "timeMin": "53",
+        "timeSec": "1",
+        "playerId": "7c3asx73extld50awe557y3ft",
+        "playerName": "A. Akinola",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "661"
+      },
+      "2910693789": {
+        "typeId": "18",
+        "eventIdNum": "429",
+        "timeMin": "59",
+        "timeSec": "42",
+        "playerId": "4vsw2oypc1jm877iov6v6rtyi",
+        "playerName": "S. Vladi",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "430"
+      },
+      "2910693795": {
+        "typeId": "19",
+        "eventIdNum": "430",
+        "timeMin": "59",
+        "timeSec": "42",
+        "playerId": "2wj81rpl44mgs5xwdvol8tjx0",
+        "playerName": "D. Afriyie",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "429"
+      },
+      "2910705339": {
+        "typeId": "18",
+        "eventIdNum": "838",
+        "timeMin": "69",
+        "timeSec": "29",
+        "playerId": "67t7n47ewg28wb9dfz3xjyrdg",
+        "playerName": "R. Dantas Fernandes",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "839"
+      },
+      "2910705345": {
+        "typeId": "19",
+        "eventIdNum": "839",
+        "timeMin": "69",
+        "timeSec": "29",
+        "playerId": "10j2hx1vzdt9qfyez48406c16",
+        "playerName": "B. Beyer",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "838"
+      },
+      "2910713601": {
+        "typeId": "18",
+        "eventIdNum": "542",
+        "timeMin": "76",
+        "timeSec": "24",
+        "playerId": "5c5t927jz7ga1tns77u8i0zkk",
+        "playerName": "E. Filet",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "543"
+      },
+      "2910713609": {
+        "typeId": "19",
+        "eventIdNum": "543",
+        "timeMin": "76",
+        "timeSec": "24",
+        "playerId": "bfoijnh2qar1ix6m6cs0ugsiy",
+        "playerName": "H. Koide",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "542"
+      },
+      "2910713365": {
+        "typeId": "18",
+        "eventIdNum": "539",
+        "timeMin": "76",
+        "timeSec": "34",
+        "playerId": "8ibag83uzcirmb7vycpdxxw5w",
+        "playerName": "L. Frokaj",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "540"
+      },
+      "2910713369": {
+        "typeId": "19",
+        "eventIdNum": "540",
+        "timeMin": "76",
+        "timeSec": "34",
+        "playerId": "9o9qg0kvpsxe1cgxf24miqb4l",
+        "playerName": "O. Jäckle",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "539"
+      },
+      "2910718499": {
+        "typeId": "18",
+        "eventIdNum": "929",
+        "timeMin": "80",
+        "timeSec": "20",
+        "playerId": "7tvg58abyitrkf73bijejdzze",
+        "playerName": "C. Gasser",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "930"
+      },
+      "2910718509": {
+        "typeId": "19",
+        "eventIdNum": "930",
+        "timeMin": "80",
+        "timeSec": "20",
+        "playerId": "2ki38l98zj6rvt2h5iuxoxtrd",
+        "playerName": "M. Hammerich",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "929"
+      },
+      "2910718621": {
+        "typeId": "18",
+        "eventIdNum": "931",
+        "timeMin": "80",
+        "timeSec": "28",
+        "playerId": "3rw2xfmzzeor4ebv808wg0vs9",
+        "playerName": "S. Seiler",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "932"
+      },
+      "2910718629": {
+        "typeId": "19",
+        "eventIdNum": "932",
+        "timeMin": "80",
+        "timeSec": "28",
+        "playerId": "cilk4jdge6x8rz043g84wistm",
+        "playerName": "M. Monsberger",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "931"
+      },
+      "2910725357": {
+        "typeId": "18",
+        "eventIdNum": "623",
+        "timeMin": "88",
+        "timeSec": "41",
+        "playerId": "d8n51u9zqf35s4z8565dv1hbd",
+        "playerName": "V. Fazliu",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "624"
+      },
+      "2910725359": {
+        "typeId": "19",
+        "eventIdNum": "624",
+        "timeMin": "88",
+        "timeSec": "41",
+        "playerId": "ag92lrchlo2z1opq3i1loneok",
+        "playerName": "D. Derbaci",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "623"
+      }
+    }
+  },
+  "ccd7v6ng048ay219icfd6f2tw": {
+    "description": "Vaduz vs Xamax",
+    "competition": "Challenge League",
+    "date": "2026-02-22",
+    "substitutions": {
+      "2903344611": {
+        "typeId": "18",
+        "eventIdNum": "749",
+        "timeMin": "62",
+        "timeSec": "10",
+        "playerId": "6y210ne1ay7q1lo7k26p4sbqi",
+        "playerName": "Angelo Campos",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "750"
+      },
+      "2903344621": {
+        "typeId": "19",
+        "eventIdNum": "750",
+        "timeMin": "62",
+        "timeSec": "10",
+        "playerId": "cilk4jdge6x8rz043g84wistm",
+        "playerName": "M. Monsberger",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "749"
+      },
+      "2903347947": {
+        "typeId": "18",
+        "eventIdNum": "486",
+        "timeMin": "65",
+        "timeSec": "50",
+        "playerId": "54ig9jv19n6n4dm8nvydg0vrp",
+        "playerName": "K. Kone",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "487"
+      },
+      "2903347959": {
+        "typeId": "19",
+        "eventIdNum": "487",
+        "timeMin": "65",
+        "timeSec": "50",
+        "playerId": "6723wh7azndl58fzn12ue8o6i",
+        "playerName": "S. Ben Seghir",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "486"
+      },
+      "2903350723": {
+        "typeId": "18",
+        "eventIdNum": "507",
+        "timeMin": "66",
+        "timeSec": "50",
+        "playerId": "8x9zpn1ee58mj1fndh85kbkt0",
+        "playerName": "G. Sacramento",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "508"
+      },
+      "2903350733": {
+        "typeId": "19",
+        "eventIdNum": "508",
+        "timeMin": "66",
+        "timeSec": "50",
+        "playerId": "4lxa5kvguhl6hqs0l32gbm3h0",
+        "playerName": "J. Hautier",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "507"
+      },
+      "2903357355": {
+        "typeId": "18",
+        "eventIdNum": "877",
+        "timeMin": "71",
+        "timeSec": "0",
+        "playerId": "7tvg58abyitrkf73bijejdzze",
+        "playerName": "C. Gasser",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "878"
+      },
+      "2903357365": {
+        "typeId": "19",
+        "eventIdNum": "878",
+        "timeMin": "71",
+        "timeSec": "0",
+        "playerId": "2ki38l98zj6rvt2h5iuxoxtrd",
+        "playerName": "M. Hammerich",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "877"
+      },
+      "2903357451": {
+        "typeId": "18",
+        "eventIdNum": "879",
+        "timeMin": "71",
+        "timeSec": "1",
+        "playerId": "9k3ri0ce8kyx875dygt8h5je2",
+        "playerName": "D. Schwizer",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "880"
+      },
+      "2903357459": {
+        "typeId": "19",
+        "eventIdNum": "880",
+        "timeMin": "71",
+        "timeSec": "1",
+        "playerId": "tyo5qfihcy6mg74tak3h7llg",
+        "playerName": "M. Sawadogo",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "879"
+      },
+      "2903354901": {
+        "typeId": "18",
+        "eventIdNum": "532",
+        "timeMin": "73",
+        "timeSec": "11",
+        "playerId": "dvpsjokj8vz9dohn2h9g5lv6c",
+        "playerName": "S. Reinhard",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "533"
+      },
+      "2903354921": {
+        "typeId": "19",
+        "eventIdNum": "533",
+        "timeMin": "73",
+        "timeSec": "11",
+        "playerId": "4mytgn0r6490w0hpkafn1t6cq",
+        "playerName": "Y. Epitaux",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "532"
+      },
+      "2903355975": {
+        "typeId": "18",
+        "eventIdNum": "544",
+        "timeMin": "73",
+        "timeSec": "22",
+        "playerId": "14284g23aql72g7y7452t8ij9",
+        "playerName": "S. Demhasaj",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "545"
+      },
+      "2903355987": {
+        "typeId": "19",
+        "eventIdNum": "545",
+        "timeMin": "73",
+        "timeSec": "22",
+        "playerId": "domtyjq1wqykoc0jx9fojh82c",
+        "playerName": "V. Nvendo",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "544"
+      },
+      "2903361919": {
+        "typeId": "18",
+        "eventIdNum": "585",
+        "timeMin": "78",
+        "timeSec": "30",
+        "playerId": "dfiu844td5td5ynvvgcc2fk7o",
+        "playerName": "Diogo Carraco",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "586"
+      },
+      "2903361933": {
+        "typeId": "19",
+        "eventIdNum": "586",
+        "timeMin": "78",
+        "timeSec": "30",
+        "playerId": "b6vwhedtlg0bqfno54s7uq87o",
+        "playerName": "E. Zahaj",
+        "teamId": "6298wfdiblmkqf747cilzuh8o",
+        "teamName": "Xamax",
+        "partnerEventId": "585"
+      },
+      "2903365907": {
+        "typeId": "18",
+        "eventIdNum": "990",
+        "timeMin": "82",
+        "timeSec": "40",
+        "playerId": "67t7n47ewg28wb9dfz3xjyrdg",
+        "playerName": "R. Dantas Fernandes",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "991"
+      },
+      "2903365913": {
+        "typeId": "19",
+        "eventIdNum": "991",
+        "timeMin": "82",
+        "timeSec": "40",
+        "playerId": "10j2hx1vzdt9qfyez48406c16",
+        "playerName": "B. Beyer",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "990"
+      }
+    }
+  },
+  "c5nz6q7xx055n32x4rh6c7tp0": {
+    "description": "Vaduz vs Etoile Carouge",
+    "competition": "Challenge League",
+    "date": "2026-02-06",
+    "substitutions": {
+      "2896934211": {
+        "typeId": "18",
+        "eventIdNum": "455",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "cilk4jdge6x8rz043g84wistm",
+        "playerName": "M. Monsberger",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "456"
+      },
+      "2896934215": {
+        "typeId": "19",
+        "eventIdNum": "456",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "6y210ne1ay7q1lo7k26p4sbqi",
+        "playerName": "Angelo Campos",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "455"
+      },
+      "2896939531": {
+        "typeId": "18",
+        "eventIdNum": "344",
+        "timeMin": "50",
+        "timeSec": "4",
+        "playerId": "38r0hllx8i1swwgqx7udvhb84",
+        "playerName": "M. Walker",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "345"
+      },
+      "2896939535": {
+        "typeId": "19",
+        "eventIdNum": "345",
+        "timeMin": "50",
+        "timeSec": "4",
+        "playerId": "6chr5u4vg56w8znmpskhnpiqc",
+        "playerName": "S. Fankhauser",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "344"
+      },
+      "2896958641": {
+        "typeId": "18",
+        "eventIdNum": "525",
+        "timeMin": "71",
+        "timeSec": "19",
+        "playerId": "7ersoh8lbhtkbey14eude9x7u",
+        "playerName": "S. Bossiwa",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "526"
+      },
+      "2896958651": {
+        "typeId": "19",
+        "eventIdNum": "526",
+        "timeMin": "71",
+        "timeSec": "19",
+        "playerId": "7utzvxy7yn8f5p4436vrb9pwq",
+        "playerName": "F. Hysenaj",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "525"
+      },
+      "2896958753": {
+        "typeId": "18",
+        "eventIdNum": "527",
+        "timeMin": "71",
+        "timeSec": "28",
+        "playerId": "d6ffps9c9eknqa5f2aombxdlg",
+        "playerName": "O. Correia",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "528"
+      },
+      "2896958755": {
+        "typeId": "19",
+        "eventIdNum": "528",
+        "timeMin": "71",
+        "timeSec": "28",
+        "playerId": "22nn6s80483modikxhldgjevo",
+        "playerName": "O. Sene",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "527"
+      },
+      "2896965301": {
+        "typeId": "18",
+        "eventIdNum": "576",
+        "timeMin": "78",
+        "timeSec": "39",
+        "playerId": "22o6d2to0do9o319dvaj2i3mx",
+        "playerName": "T. Escorza",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "577"
+      },
+      "2896965307": {
+        "typeId": "19",
+        "eventIdNum": "577",
+        "timeMin": "78",
+        "timeSec": "39",
+        "playerId": "edlca2uve3d8tfczph61jy7oq",
+        "playerName": "M. El Jaouhari",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "576"
+      },
+      "2896965527": {
+        "typeId": "18",
+        "eventIdNum": "578",
+        "timeMin": "78",
+        "timeSec": "40",
+        "playerId": "92rz6sr2nhhlwmkfrsua0iyac",
+        "playerName": "F. Hoxha",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "579"
+      },
+      "2896965535": {
+        "typeId": "19",
+        "eventIdNum": "579",
+        "timeMin": "78",
+        "timeSec": "40",
+        "playerId": "wpoornaq4npl818loqa71vro",
+        "playerName": "R. Philippin",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "578"
+      },
+      "2896965799": {
+        "typeId": "18",
+        "eventIdNum": "713",
+        "timeMin": "79",
+        "timeSec": "49",
+        "playerId": "ahz5nhls0d0jo21muuvnbkmj8",
+        "playerName": "M. Cocic",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "714"
+      },
+      "2896965803": {
+        "typeId": "19",
+        "eventIdNum": "714",
+        "timeMin": "79",
+        "timeSec": "49",
+        "playerId": "7c3asx73extld50awe557y3ft",
+        "playerName": "A. Akinola",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "713"
+      },
+      "2896970829": {
+        "typeId": "18",
+        "eventIdNum": "778",
+        "timeMin": "88",
+        "timeSec": "10",
+        "playerId": "1bt7ebdyw2mkju8c4uby146ei",
+        "playerName": "M. Eberhard",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "779"
+      },
+      "2896970831": {
+        "typeId": "19",
+        "eventIdNum": "779",
+        "timeMin": "88",
+        "timeSec": "10",
+        "playerId": "642jkufdmojtnmu31m59mv4h6",
+        "playerName": "G. De Donno",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "778"
+      },
+      "2896971189": {
+        "typeId": "18",
+        "eventIdNum": "780",
+        "timeMin": "88",
+        "timeSec": "10",
+        "playerId": "3rw2xfmzzeor4ebv808wg0vs9",
+        "playerName": "S. Seiler",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "781"
+      },
+      "2896971191": {
+        "typeId": "19",
+        "eventIdNum": "781",
+        "timeMin": "88",
+        "timeSec": "10",
+        "playerId": "7tvg58abyitrkf73bijejdzze",
+        "playerName": "C. Gasser",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "780"
+      }
+    }
+  },
+  "a7ep6ib3clo6vsjf1pazqfml0": {
+    "description": "Vaduz vs Aarau",
+    "competition": "Challenge League",
+    "date": "2025-12-19",
+    "substitutions": {
+      "2884581905": {
+        "typeId": "18",
+        "eventIdNum": "475",
+        "timeMin": "56",
+        "timeSec": "47",
+        "playerId": "hhrqf0zpymjvqwoxitlwp04p",
+        "playerName": "T. Chacón",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "476"
+      },
+      "2884581913": {
+        "typeId": "19",
+        "eventIdNum": "476",
+        "timeMin": "56",
+        "timeSec": "47",
+        "playerId": "8ibag83uzcirmb7vycpdxxw5w",
+        "playerName": "L. Frokaj",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "475"
+      },
+      "2884585765": {
+        "typeId": "18",
+        "eventIdNum": "571",
+        "timeMin": "61",
+        "timeSec": "41",
+        "playerId": "2ki38l98zj6rvt2h5iuxoxtrd",
+        "playerName": "M. Hammerich",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "572"
+      },
+      "2884585775": {
+        "typeId": "19",
+        "eventIdNum": "572",
+        "timeMin": "61",
+        "timeSec": "41",
+        "playerId": "642jkufdmojtnmu31m59mv4h6",
+        "playerName": "G. De Donno",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "571"
+      },
+      "2884591791": {
+        "typeId": "18",
+        "eventIdNum": "561",
+        "timeMin": "70",
+        "timeSec": "36",
+        "playerId": "bfoijnh2qar1ix6m6cs0ugsiy",
+        "playerName": "H. Koide",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "562"
+      },
+      "2884591793": {
+        "typeId": "19",
+        "eventIdNum": "562",
+        "timeMin": "70",
+        "timeSec": "36",
+        "playerId": "ag92lrchlo2z1opq3i1loneok",
+        "playerName": "D. Derbaci",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "561"
+      },
+      "2884591815": {
+        "typeId": "18",
+        "eventIdNum": "645",
+        "timeMin": "70",
+        "timeSec": "37",
+        "playerId": "7c3asx73extld50awe557y3ft",
+        "playerName": "A. Akinola",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "646"
+      },
+      "2884591817": {
+        "typeId": "19",
+        "eventIdNum": "646",
+        "timeMin": "70",
+        "timeSec": "37",
+        "playerId": "cilk4jdge6x8rz043g84wistm",
+        "playerName": "M. Monsberger",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "645"
+      },
+      "2884591855": {
+        "typeId": "18",
+        "eventIdNum": "563",
+        "timeMin": "70",
+        "timeSec": "40",
+        "playerId": "aukhoxacmd41ej8ip3f10r14a",
+        "playerName": "D. Acquah",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "564"
+      },
+      "2884591859": {
+        "typeId": "19",
+        "eventIdNum": "564",
+        "timeMin": "70",
+        "timeSec": "40",
+        "playerId": "d0xfek1nalpc33ktsotqiqs4",
+        "playerName": "R. Kessler",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "563"
+      },
+      "2884601153": {
+        "typeId": "18",
+        "eventIdNum": "675",
+        "timeMin": "82",
+        "timeSec": "35",
+        "playerId": "5c5t927jz7ga1tns77u8i0zkk",
+        "playerName": "E. Filet",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "676"
+      },
+      "2884601159": {
+        "typeId": "19",
+        "eventIdNum": "676",
+        "timeMin": "82",
+        "timeSec": "35",
+        "playerId": "2wj81rpl44mgs5xwdvol8tjx0",
+        "playerName": "D. Afriyie",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "675"
+      },
+      "2884601331": {
+        "typeId": "18",
+        "eventIdNum": "677",
+        "timeMin": "82",
+        "timeSec": "36",
+        "playerId": "539es15hqaq9gnqng4dmdoums",
+        "playerName": "N. Zoukit",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "678"
+      },
+      "2884601341": {
+        "typeId": "19",
+        "eventIdNum": "678",
+        "timeMin": "82",
+        "timeSec": "36",
+        "playerId": "48qvoqom25ngx8ommpbyr09ud",
+        "playerName": "R. Bobadilla",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "677"
+      },
+      "2884603459": {
+        "typeId": "18",
+        "eventIdNum": "776",
+        "timeMin": "86",
+        "timeSec": "5",
+        "playerId": "5pmrhzdqiiza950kgnq8mr0q2",
+        "playerName": "Javi Navarro",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "777"
+      },
+      "2884603461": {
+        "typeId": "19",
+        "eventIdNum": "777",
+        "timeMin": "86",
+        "timeSec": "5",
+        "playerId": "3vzoyntrzb32s34aoz96xrm96",
+        "playerName": "J. De Donno",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "776"
+      }
+    }
   }
 }
