@@ -60600,5 +60600,210 @@
         "partnerEventId": "815"
       }
     }
+  },
+  "chn3gwaxijhuefqohk1c0tj4k": {
+    "description": "Winterthur vs Grasshoppers",
+    "competition": "Super League",
+    "date": "2026-04-11",
+    "substitutions": {
+      "2922504965": {
+        "typeId": "18",
+        "eventIdNum": "576",
+        "timeMin": "55",
+        "timeSec": "43",
+        "playerId": "7l06lc2jx29mj343206ptpdd5",
+        "playerName": "N. Burkart",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "577"
+      },
+      "2922504969": {
+        "typeId": "19",
+        "eventIdNum": "577",
+        "timeMin": "55",
+        "timeSec": "43",
+        "playerId": "62q1pjm9cf8cfbdauqhtjp0b9",
+        "playerName": "P. Kasami",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "576"
+      },
+      "2922505057": {
+        "typeId": "18",
+        "eventIdNum": "578",
+        "timeMin": "55",
+        "timeSec": "43",
+        "playerId": "5j6orsuv8rzkp7tq7z33bqeei",
+        "playerName": "A. Jankewitz",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "579"
+      },
+      "2922505063": {
+        "typeId": "19",
+        "eventIdNum": "579",
+        "timeMin": "55",
+        "timeSec": "43",
+        "playerId": "dk3jmb4cwa9lwqga19if1dzl6",
+        "playerName": "R. Schneider",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "578"
+      },
+      "2922513581": {
+        "typeId": "18",
+        "eventIdNum": "478",
+        "timeMin": "63",
+        "timeSec": "48",
+        "playerId": "50hefdi6vr6peyviss9np2gpg",
+        "playerName": "S. Krasniqi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "479"
+      },
+      "2922513587": {
+        "typeId": "19",
+        "eventIdNum": "479",
+        "timeMin": "63",
+        "timeSec": "48",
+        "playerId": "4vbz8hxnbg5sqh54plmcl31t5",
+        "playerName": "Óscar Clemente",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "478"
+      },
+      "2922513685": {
+        "typeId": "18",
+        "eventIdNum": "480",
+        "timeMin": "64",
+        "timeSec": "4",
+        "playerId": "8g12wvgw8lf0l4xi2xzae7d91",
+        "playerName": "A. Abrashi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "481"
+      },
+      "2922513689": {
+        "typeId": "19",
+        "eventIdNum": "481",
+        "timeMin": "64",
+        "timeSec": "4",
+        "playerId": "buq4fi4r29iq8j8o9m263soic",
+        "playerName": "L. Mikulić",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "480"
+      },
+      "2922517117": {
+        "typeId": "18",
+        "eventIdNum": "494",
+        "timeMin": "67",
+        "timeSec": "24",
+        "playerId": "54adx9wk0t34bmndh67efbuhg",
+        "playerName": "S. Stroscio",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "495"
+      },
+      "2922517127": {
+        "typeId": "19",
+        "eventIdNum": "495",
+        "timeMin": "67",
+        "timeSec": "24",
+        "playerId": "2vk56r3xh4i6hajyv7aejyk0l",
+        "playerName": "M. Ullmann",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "494"
+      },
+      "2922523821": {
+        "typeId": "18",
+        "eventIdNum": "749",
+        "timeMin": "74",
+        "timeSec": "0",
+        "playerId": "6vvpp2d7i1hvt9rac90khwwl",
+        "playerName": "R. Arnold",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "750"
+      },
+      "2922523829": {
+        "typeId": "19",
+        "eventIdNum": "750",
+        "timeMin": "74",
+        "timeSec": "0",
+        "playerId": "6o2emfk33ixwrihxddkbvf2ms",
+        "playerName": "E. Maluvunu",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "749"
+      },
+      "2922523589": {
+        "typeId": "18",
+        "eventIdNum": "747",
+        "timeMin": "74",
+        "timeSec": "13",
+        "playerId": "5bbi9azzr21njda5ww6biz5sk",
+        "playerName": "T. Golliard",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "748"
+      },
+      "2922523605": {
+        "typeId": "19",
+        "eventIdNum": "748",
+        "timeMin": "74",
+        "timeSec": "13",
+        "playerId": "53g9poanf1ukpolbm43y6e9cl",
+        "playerName": "R. Buess",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "747"
+      },
+      "2922528031": {
+        "typeId": "18",
+        "eventIdNum": "540",
+        "timeMin": "78",
+        "timeSec": "47",
+        "playerId": "4vbz8hxnbg5sqh54plmcl31t5",
+        "playerName": "Óscar Clemente",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "541"
+      },
+      "2922528041": {
+        "typeId": "19",
+        "eventIdNum": "541",
+        "timeMin": "78",
+        "timeSec": "47",
+        "playerId": "9osic22dxne4mjyzix16v5ses",
+        "playerName": "I. Hassane",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "540"
+      },
+      "2922533263": {
+        "typeId": "18",
+        "eventIdNum": "814",
+        "timeMin": "83",
+        "timeSec": "45",
+        "playerId": "1vimwxoact1gwn9z7pgql6fhl",
+        "playerName": "F. Rohner",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "815"
+      },
+      "2922533271": {
+        "typeId": "19",
+        "eventIdNum": "815",
+        "timeMin": "83",
+        "timeSec": "45",
+        "playerId": "1b60hcu0h7ai9ce848zif96nd",
+        "playerName": "S. Sidler",
+        "teamId": "ag3mf21yz4g5ypnqr2j28crqb",
+        "teamName": "Winterthur",
+        "partnerEventId": "814"
+      }
+    }
   }
 }
