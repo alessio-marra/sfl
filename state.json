@@ -60805,5 +60805,166 @@
         "partnerEventId": "814"
       }
     }
+  },
+  "94b4czznhtzjx8ry472i5sems": {
+    "description": "Lausanne-Sport vs Luzern",
+    "competition": "Super League",
+    "date": "2025-12-21",
+    "substitutions": {
+      "2885275949": {
+        "typeId": "18",
+        "eventIdNum": "205",
+        "timeMin": "25",
+        "timeSec": "27",
+        "playerId": "7vh6bkp5h3vvc26ia619bomc4",
+        "playerName": "H. Abdallah",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "206"
+      },
+      "2885275953": {
+        "typeId": "19",
+        "eventIdNum": "206",
+        "timeMin": "25",
+        "timeSec": "27",
+        "playerId": "bkwb8x91yhrr4nmfg1xgvg67e",
+        "playerName": "B. Okoh",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "205"
+      },
+      "2885320125": {
+        "typeId": "18",
+        "eventIdNum": "525",
+        "timeMin": "56",
+        "timeSec": "36",
+        "playerId": "2gna1zmcu5635jtal5xctu904",
+        "playerName": "E. Kana Biyik",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "526"
+      },
+      "2885320135": {
+        "typeId": "19",
+        "eventIdNum": "526",
+        "timeMin": "56",
+        "timeSec": "36",
+        "playerId": "6affoakrvi07el9u4ix0n0rje",
+        "playerName": "A. Ajdini",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "525"
+      },
+      "2885320437": {
+        "typeId": "18",
+        "eventIdNum": "529",
+        "timeMin": "56",
+        "timeSec": "48",
+        "playerId": "4m5w23fmydm3or1ff42hgeqne",
+        "playerName": "N. Butler-Oyedeji",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "530"
+      },
+      "2885320439": {
+        "typeId": "19",
+        "eventIdNum": "530",
+        "timeMin": "56",
+        "timeSec": "48",
+        "playerId": "47hnoognsaeh3xwehe52tr0x6",
+        "playerName": "S. Fofana",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "529"
+      },
+      "2885331195": {
+        "typeId": "18",
+        "eventIdNum": "579",
+        "timeMin": "67",
+        "timeSec": "25",
+        "playerId": "lpl8b3l70f75dd64x2kyl2lm",
+        "playerName": "J. von Moos",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "580"
+      },
+      "2885331201": {
+        "typeId": "19",
+        "eventIdNum": "580",
+        "timeMin": "67",
+        "timeSec": "25",
+        "playerId": "d45fs5pqxxq9nopbmeh6lpoet",
+        "playerName": "A. Grbic",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "579"
+      },
+      "2885334417": {
+        "typeId": "18",
+        "eventIdNum": "644",
+        "timeMin": "71",
+        "timeSec": "1",
+        "playerId": "1n0y675l767w55pipq5lgj1zp",
+        "playerName": "F. Mollet",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "645"
+      },
+      "2885334425": {
+        "typeId": "19",
+        "eventIdNum": "645",
+        "timeMin": "71",
+        "timeSec": "1",
+        "playerId": "2xet9j8jfhv9ypt6jfojlwogl",
+        "playerName": "O. Custodio",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "644"
+      },
+      "2885334339": {
+        "typeId": "18",
+        "eventIdNum": "642",
+        "timeMin": "71",
+        "timeSec": "2",
+        "playerId": "187qa5icsve3oak3t90r6rhsl",
+        "playerName": "M. Poaty",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "643"
+      },
+      "2885334349": {
+        "typeId": "19",
+        "eventIdNum": "643",
+        "timeMin": "71",
+        "timeSec": "2",
+        "playerId": "9gx0al1q6fdw4lxlaiohswowk",
+        "playerName": "A. Lachhab",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "642"
+      },
+      "2885341593": {
+        "typeId": "18",
+        "eventIdNum": "672",
+        "timeMin": "78",
+        "timeSec": "43",
+        "playerId": "6b5n3tuz8oank65i5l7hlfbhl",
+        "playerName": "M. Di Giusto",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "673"
+      },
+      "2885341603": {
+        "typeId": "19",
+        "eventIdNum": "673",
+        "timeMin": "78",
+        "timeSec": "43",
+        "playerId": "90h730y2b9ek5k5dcs9rjtg5w",
+        "playerName": "Lucas Ferreira",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "672"
+      }
+    }
   }
 }
