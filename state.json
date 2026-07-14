@@ -61969,5 +61969,188 @@
         "partnerEventId": "636"
       }
     }
+  },
+  "csg8c8h9fd6o7j1ryuk9sj66s": {
+    "description": "Aarau vs Etoile Carouge",
+    "competition": "Challenge League",
+    "date": "2026-04-07",
+    "substitutions": {
+      "2921004779": {
+        "typeId": "18",
+        "eventIdNum": "663",
+        "timeMin": "62",
+        "timeSec": "37",
+        "playerId": "ce5i8rfbgchs9kxd48b3g2u3t",
+        "playerName": "L. Obexer",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "664"
+      },
+      "2921004785": {
+        "typeId": "19",
+        "eventIdNum": "664",
+        "timeMin": "62",
+        "timeSec": "37",
+        "playerId": "8x30lckzno9kb48lewuzcuiqy",
+        "playerName": "V. Petit",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "663"
+      },
+      "2921004837": {
+        "typeId": "18",
+        "eventIdNum": "665",
+        "timeMin": "62",
+        "timeSec": "50",
+        "playerId": "ag92lrchlo2z1opq3i1loneok",
+        "playerName": "D. Derbaci",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "666"
+      },
+      "2921004839": {
+        "typeId": "19",
+        "eventIdNum": "666",
+        "timeMin": "62",
+        "timeSec": "50",
+        "playerId": "9o9qg0kvpsxe1cgxf24miqb4l",
+        "playerName": "O. Jäckle",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "665"
+      },
+      "2921004907": {
+        "typeId": "18",
+        "eventIdNum": "667",
+        "timeMin": "63",
+        "timeSec": "1",
+        "playerId": "4vsw2oypc1jm877iov6v6rtyi",
+        "playerName": "S. Vladi",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "668"
+      },
+      "2921004915": {
+        "typeId": "19",
+        "eventIdNum": "668",
+        "timeMin": "63",
+        "timeSec": "1",
+        "playerId": "2wj81rpl44mgs5xwdvol8tjx0",
+        "playerName": "D. Afriyie",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "667"
+      },
+      "2921009121": {
+        "typeId": "18",
+        "eventIdNum": "774",
+        "timeMin": "74",
+        "timeSec": "13",
+        "playerId": "5c5t927jz7ga1tns77u8i0zkk",
+        "playerName": "E. Filet",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "775"
+      },
+      "2921009127": {
+        "typeId": "19",
+        "eventIdNum": "775",
+        "timeMin": "74",
+        "timeSec": "13",
+        "playerId": "48qvoqom25ngx8ommpbyr09ud",
+        "playerName": "R. Bobadilla",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "774"
+      },
+      "2921010675": {
+        "typeId": "18",
+        "eventIdNum": "699",
+        "timeMin": "77",
+        "timeSec": "5",
+        "playerId": "admxdh6pm2251bhk37bejglx",
+        "playerName": "K. Bua",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "700"
+      },
+      "2921010679": {
+        "typeId": "19",
+        "eventIdNum": "700",
+        "timeMin": "77",
+        "timeSec": "5",
+        "playerId": "22o6d2to0do9o319dvaj2i3mx",
+        "playerName": "T. Escorza",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "699"
+      },
+      "2921010727": {
+        "typeId": "18",
+        "eventIdNum": "701",
+        "timeMin": "77",
+        "timeSec": "10",
+        "playerId": "d6ffps9c9eknqa5f2aombxdlg",
+        "playerName": "O. Correia",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "702"
+      },
+      "2921010735": {
+        "typeId": "19",
+        "eventIdNum": "702",
+        "timeMin": "77",
+        "timeSec": "10",
+        "playerId": "22nn6s80483modikxhldgjevo",
+        "playerName": "O. Sene",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "701"
+      },
+      "2921010799": {
+        "typeId": "18",
+        "eventIdNum": "703",
+        "timeMin": "77",
+        "timeSec": "15",
+        "playerId": "b0lb6hgo4ax9r2hvkhoem1vpx",
+        "playerName": "V. Rüfli",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "704"
+      },
+      "2921010807": {
+        "typeId": "19",
+        "eventIdNum": "704",
+        "timeMin": "77",
+        "timeSec": "15",
+        "playerId": "mrfl0vgfn50zhn5ekhok3vh0",
+        "playerName": "N. Boulkous",
+        "teamId": "c3njr6p0pl0j0bsvazdc1jffw",
+        "teamName": "Etoile Carouge",
+        "partnerEventId": "703"
+      },
+      "2921019003": {
+        "typeId": "18",
+        "eventIdNum": "893",
+        "timeMin": "89",
+        "timeSec": "30",
+        "playerId": "aukhoxacmd41ej8ip3f10r14a",
+        "playerName": "D. Acquah",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "894"
+      },
+      "2921019005": {
+        "typeId": "19",
+        "eventIdNum": "894",
+        "timeMin": "89",
+        "timeSec": "30",
+        "playerId": "bfoijnh2qar1ix6m6cs0ugsiy",
+        "playerName": "H. Koide",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "893"
+      }
+    }
   }
 }
