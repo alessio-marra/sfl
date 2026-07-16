@@ -30,11 +30,6 @@
     "lastName": "Hoch"
   },
   {
-    "id": "6fmzgev0kcyk4vjw72zb7vspg",
-    "firstName": "Marvin",
-    "lastName": "Akahomen"
-  },
-  {
     "id": "70kdxr0aur2eq02sd2l6l2olw",
     "firstName": "Giacomo",
     "lastName": "Koloto"
@@ -108,11 +103,6 @@
     "id": "2rsfj02kbcmosf0da55w9uz2s",
     "firstName": "Mio",
     "lastName": "Zimmermann"
-  },
-  {
-    "id": "2zzry91ac1fqo3u1c1ewufuhg",
-    "firstName": "Andrej",
-    "lastName": "Vasovic"
   },
   {
     "id": "5g00gq09apkl9bqxgpwext7v8",
@@ -603,6 +593,11 @@
     "id": "5rs6w235vcsynmiyaa10vau50",
     "firstName": "Malek Sadek",
     "lastName": "Ishuayed Sanchez"
+  },
+  {
+    "id": "6fmzgev0kcyk4vjw72zb7vspg",
+    "firstName": "Marvin",
+    "lastName": "Akahomen"
   },
   {
     "id": "80v0m72fcdpzdvplkacok989g",
