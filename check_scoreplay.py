@@ -46,7 +46,8 @@ def fetch_new_media(since: datetime | None) -> list[dict]:
     new_items = []
     page      = 1
 
-    while True:
+    MAX_PAGES = 20  # safety guard — should never need more than this
+    while page <= MAX_PAGES:
         print(f"  Fetching page {page} ...")
         url  = f"{API_BASE}/media/search?api_key={SP_API_KEY}"
         body = {
@@ -91,8 +92,10 @@ def fetch_new_media(since: datetime | None) -> list[dict]:
 
         page += 1
 
-    return new_items
+    if page > MAX_PAGES:
+        print(f"  WARNING: reached MAX_PAGES ({MAX_PAGES}) — stopping pagination.")
 
+    return new_items
 
 # ── Microsoft Graph API ───────────────────────────────────────────────────────
 def get_graph_token() -> str:
@@ -203,7 +206,7 @@ def get_original_url(item: dict) -> str:
     for f in (item.get("files") or []):
         if f.get("details") == "photographer_quality":
             return f.get("url", "")
-    return item.get("original_url", "")
+    return item.get("compressed_url") or item.get("original_url", "")
 
 
 def build_rows(items: list[dict]) -> str:
