@@ -69,6 +69,7 @@ def fetch_new_media(since: datetime | None) -> list[dict]:
 
         for item in items:
             created_str = item.get("CreatedAt", "")
+            print(f"    DEBUG item keys: {list(item.keys())[:5]}, CreatedAt raw: '{created_str}'")
             try:
                 created = parse_dt(created_str)
             except Exception:
