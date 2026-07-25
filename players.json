@@ -40,11 +40,6 @@
     "lastName": "Kakor"
   },
   {
-    "id": "5lzal6hac79nadke98ptdq1g",
-    "firstName": "Oscar",
-    "lastName": "Renovales"
-  },
-  {
     "id": "615ger5z8xeb36lqke8rz7od0",
     "firstName": "Papa Souleymane",
     "lastName": "NDiaye"
@@ -123,6 +118,11 @@
     "id": "5g00gq09apkl9bqxgpwext7v8",
     "firstName": "Sascha",
     "lastName": "Meyer"
+  },
+  {
+    "id": "7522wjx619rbblzexcxds6pec",
+    "firstName": "Jérôme",
+    "lastName": "Bieler"
   },
   {
     "id": "8v0e1x2y1a269sok1y7lz3bx0",
@@ -223,6 +223,11 @@
     "id": "8aw63zo6gn3l8fizdaq353ml0",
     "firstName": "Leo",
     "lastName": "Stucki"
+  },
+  {
+    "id": "9x74zsr35hoilwyygkvzsxfro",
+    "firstName": "Amir",
+    "lastName": "Maaroufi"
   },
   {
     "id": "ag92lrchlo2z1opq3i1loneok",
@@ -393,6 +398,11 @@
     "id": "a188mrg22qdpx8loprtmuy2ac",
     "firstName": "Alonzo",
     "lastName": "Vincent"
+  },
+  {
+    "id": "aan6q91nc1xmt2nyptfptmxw4",
+    "firstName": "Lucas",
+    "lastName": "Lorenzon"
   },
   {
     "id": "vc2knr7mu8n12alvmx7fzj10",
