@@ -1037,7 +1037,62 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Luzern",
     "away_name": "Thun",
-    "players": {}
+    "players": {
+      "5g00gq09apkl9bqxgpwext7v8": {
+        "player_name": "S. Meyer",
+        "club_name": "FC Luzern",
+        "shirt": "71",
+        "mins": 5,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "Luzern vs Thun"
+      },
+      "8v0e1x2y1a269sok1y7lz3bx0": {
+        "player_name": "S. Wyss",
+        "club_name": "FC Luzern",
+        "shirt": "17",
+        "mins": 5,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "Luzern vs Thun"
+      },
+      "2rsfj02kbcmosf0da55w9uz2s": {
+        "player_name": "M. Zimmermann",
+        "club_name": "FC Luzern",
+        "shirt": "80",
+        "mins": 16,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "Luzern vs Thun"
+      },
+      "ag92lrchlo2z1opq3i1loneok": {
+        "player_name": "D. Derbaci",
+        "club_name": "FC Thun",
+        "shirt": "21",
+        "mins": 74,
+        "status": "Started",
+        "week": "1",
+        "match_label": "Luzern vs Thun"
+      },
+      "cnsyexfgcdy6m2dfc0l5dfkes": {
+        "player_name": "S. Lengen",
+        "club_name": "FC Thun",
+        "shirt": "80",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Luzern vs Thun"
+      },
+      "2wisprsn6msedn7n6hk1wolck": {
+        "player_name": "L. Passavant",
+        "club_name": "FC Thun",
+        "shirt": "54",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Luzern vs Thun"
+      }
+    }
   },
   "1f6xff5kx1fu236jywuzrlrmc": {
     "week": "1",
@@ -1045,7 +1100,26 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Servette",
     "away_name": "Basel",
-    "players": {}
+    "players": {
+      "vc2knr7mu8n12alvmx7fzj10": {
+        "player_name": "T. Ouattara",
+        "club_name": "Servette FC",
+        "shirt": "77",
+        "mins": 12,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "Servette vs Basel"
+      },
+      "a188mrg22qdpx8loprtmuy2ac": {
+        "player_name": "A. Vincent",
+        "club_name": "Servette FC",
+        "shirt": "35",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Servette vs Basel"
+      }
+    }
   },
   "1emwsoiw002ru6g4cgs4vw9as": {
     "week": "1",
@@ -1053,7 +1127,80 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lausanne-Sport",
     "away_name": "Grasshoppers",
-    "players": {}
+    "players": {
+      "8lx7ynn9g358g7icf8f0jxjx0": {
+        "player_name": "I. Bah Mendes",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "51",
+        "mins": 59,
+        "status": "Started",
+        "week": "1",
+        "match_label": "Lausanne-Sport vs Grasshoppers"
+      },
+      "1w6eqi0e57yx76uwh0zd3ekgk": {
+        "player_name": "I. Despotovic",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "49",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Lausanne-Sport vs Grasshoppers"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Lausanne-Sport vs Grasshoppers"
+      },
+      "50hefdi6vr6peyviss9np2gpg": {
+        "player_name": "S. Krasniqi",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "17",
+        "mins": 90,
+        "status": "Started",
+        "week": "1",
+        "match_label": "Lausanne-Sport vs Grasshoppers"
+      },
+      "2epq3qbyzs8mr3g6aaemjirdg": {
+        "player_name": "S. Bengondo",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "60",
+        "mins": 21,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "Lausanne-Sport vs Grasshoppers"
+      },
+      "b0viyxphw7xe2wf9mkfi2uyvo": {
+        "player_name": "S. Marques",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "23",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Lausanne-Sport vs Grasshoppers"
+      },
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Lausanne-Sport vs Grasshoppers"
+      },
+      "dnbhu3n4vs5c2p0h7i35c0h04": {
+        "player_name": "D. Sahin",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "56",
+        "mins": 21,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "Lausanne-Sport vs Grasshoppers"
+      }
+    }
   },
   "chh4btbm60q484wej7xpggt0": {
     "week": "18",
