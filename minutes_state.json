@@ -1013,7 +1013,98 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "St.Gallen",
     "away_name": "Z\u00fcrich",
-    "players": {}
+    "players": {
+      "8ibag83uzcirmb7vycpdxxw5w": {
+        "player_name": "L. Frokaj",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "20",
+        "mins": 90,
+        "status": "Started",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "4o8roh953dufflhb1y3wn1kpg": {
+        "player_name": "D. Besio",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "31",
+        "mins": 29,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "dldvsl5cgnzd5pqfm2h9uq3h0": {
+        "player_name": "C. Konietzke",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "63",
+        "mins": 11,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 1,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "3nqhtkzcrkrta24iyceqk6jv8": {
+        "player_name": "N. Volken",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "43",
+        "mins": 90,
+        "status": "Started",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "cpw4hqnhrqja3q3k85fq7bz84": {
+        "player_name": "L. Sch\u00f6dler",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "21",
+        "mins": 83,
+        "status": "Started",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "exxkv65coe3l769z25gvk1ixg": {
+        "player_name": "N. Di Giusto",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "14",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "1fy8am84uedboos671t9buxw4": {
+        "player_name": "T. Pinthus",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "60",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "75h4biirv290kb4i6ewzcppn8": {
+        "player_name": "D. Ramic",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "49",
+        "mins": 7,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      },
+      "3mw97uhlizy4327fxiui1wn4k": {
+        "player_name": "S. Walker",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "44",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "St.Gallen vs Z\u00fcrich"
+      }
+    }
   },
   "1gkq6w0iyll2rv8zf4r12zdp0": {
     "week": "1",
@@ -1021,7 +1112,35 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lugano",
     "away_name": "Vaduz",
-    "players": {}
+    "players": {
+      "463dlxday21orkmjn42nrkz6c": {
+        "player_name": "G. Ajdin",
+        "club_name": "FC Lugano",
+        "shirt": "23",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Lugano vs Vaduz"
+      },
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 90,
+        "status": "Started",
+        "week": "1",
+        "match_label": "Lugano vs Vaduz"
+      },
+      "9kb67r0b4yc9q3g9607nih91w": {
+        "player_name": "L. Celentano",
+        "club_name": "FC Vaduz",
+        "shirt": "37",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Lugano vs Vaduz"
+      }
+    }
   },
   "1g41we0l3etq7wuo5e29j0lxw": {
     "week": "1",
@@ -1029,7 +1148,44 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Young Boys",
     "away_name": "Sion",
-    "players": {}
+    "players": {
+      "wvt8dysok3dpjpwaba15di50": {
+        "player_name": "E. Tsimba",
+        "club_name": "BSC Young Boys",
+        "shirt": "25",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Young Boys vs Sion"
+      },
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 45,
+        "status": "Came on as sub",
+        "week": "1",
+        "match_label": "Young Boys vs Sion"
+      },
+      "d0xfek1nalpc33ktsotqiqs4": {
+        "player_name": "R. Kessler",
+        "club_name": "FC Sion",
+        "shirt": "38",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Young Boys vs Sion"
+      },
+      "2gcdbekdku9rg41j9o3zwnxn8": {
+        "player_name": "A. Llukes",
+        "club_name": "FC Sion",
+        "shirt": "22",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "1",
+        "match_label": "Young Boys vs Sion"
+      }
+    }
   },
   "1fnjqo0ysqnsiupmmlr5nlb10": {
     "week": "1",
