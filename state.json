@@ -68389,33 +68389,11 @@
         "teamName": "Vaduz",
         "partnerEventId": "637"
       },
-      "2949369663": {
-        "typeId": "18",
-        "eventIdNum": "662",
-        "timeMin": "69",
-        "timeSec": "20",
-        "playerId": "91g10pv6w3bd0rw6p4t3hcui2",
-        "playerName": "Y. Cimignani",
-        "teamId": "btqfm8txcvhi29sddmc9nr68",
-        "teamName": "Lugano",
-        "partnerEventId": "663"
-      },
-      "2949369665": {
-        "typeId": "19",
-        "eventIdNum": "663",
-        "timeMin": "69",
-        "timeSec": "20",
-        "playerId": "7agtkarul2qlsc20avvj45w8a",
-        "playerName": "M. Zanotti",
-        "teamId": "btqfm8txcvhi29sddmc9nr68",
-        "teamName": "Lugano",
-        "partnerEventId": "662"
-      },
       "2949369679": {
         "typeId": "18",
         "eventIdNum": "664",
         "timeMin": "69",
-        "timeSec": "22",
+        "timeSec": "13",
         "playerId": "59dtrk7ly4lepf7s0gywhu51w",
         "playerName": "E. Pihlström",
         "teamId": "btqfm8txcvhi29sddmc9nr68",
@@ -68426,12 +68404,34 @@
         "typeId": "19",
         "eventIdNum": "665",
         "timeMin": "69",
-        "timeSec": "22",
+        "timeSec": "13",
         "playerId": "7424gvk9hiq5up61dj181y66t",
         "playerName": "K. Behrens",
         "teamId": "btqfm8txcvhi29sddmc9nr68",
         "teamName": "Lugano",
         "partnerEventId": "664"
+      },
+      "2949369663": {
+        "typeId": "18",
+        "eventIdNum": "662",
+        "timeMin": "69",
+        "timeSec": "16",
+        "playerId": "91g10pv6w3bd0rw6p4t3hcui2",
+        "playerName": "Y. Cimignani",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "663"
+      },
+      "2949369665": {
+        "typeId": "19",
+        "eventIdNum": "663",
+        "timeMin": "69",
+        "timeSec": "16",
+        "playerId": "7agtkarul2qlsc20avvj45w8a",
+        "playerName": "M. Zanotti",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "662"
       },
       "2949375163": {
         "typeId": "18",
