@@ -989,7 +989,44 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Thun",
     "away_name": "Young Boys",
-    "players": {}
+    "players": {
+      "ag92lrchlo2z1opq3i1loneok": {
+        "player_name": "D. Derbaci",
+        "club_name": "FC Thun",
+        "shirt": "21",
+        "mins": 45,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Thun vs Young Boys"
+      },
+      "2wisprsn6msedn7n6hk1wolck": {
+        "player_name": "L. Passavant",
+        "club_name": "FC Thun",
+        "shirt": "54",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Thun vs Young Boys"
+      },
+      "canh5hweotiilht8quf90euj8": {
+        "player_name": "E. Etoski",
+        "club_name": "BSC Young Boys",
+        "shirt": "34",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Thun vs Young Boys"
+      },
+      "wvt8dysok3dpjpwaba15di50": {
+        "player_name": "E. Tsimba",
+        "club_name": "BSC Young Boys",
+        "shirt": "25",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Thun vs Young Boys"
+      }
+    }
   },
   "1hsyc0n7ig040rwx8519flfro": {
     "week": "2",
@@ -997,7 +1034,80 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Z\u00fcrich",
     "away_name": "Servette",
-    "players": {}
+    "players": {
+      "3nqhtkzcrkrta24iyceqk6jv8": {
+        "player_name": "N. Volken",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "43",
+        "mins": 62,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Z\u00fcrich vs Servette"
+      },
+      "cpw4hqnhrqja3q3k85fq7bz84": {
+        "player_name": "L. Sch\u00f6dler",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "21",
+        "mins": 62,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Z\u00fcrich vs Servette"
+      },
+      "exxkv65coe3l769z25gvk1ixg": {
+        "player_name": "N. Di Giusto",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "14",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Z\u00fcrich vs Servette"
+      },
+      "1fy8am84uedboos671t9buxw4": {
+        "player_name": "T. Pinthus",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "60",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Z\u00fcrich vs Servette"
+      },
+      "75h4biirv290kb4i6ewzcppn8": {
+        "player_name": "D. Ramic",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "49",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Z\u00fcrich vs Servette"
+      },
+      "3mw97uhlizy4327fxiui1wn4k": {
+        "player_name": "S. Walker",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "44",
+        "mins": 28,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Z\u00fcrich vs Servette"
+      },
+      "vc2knr7mu8n12alvmx7fzj10": {
+        "player_name": "T. Ouattara",
+        "club_name": "Servette FC",
+        "shirt": "77",
+        "mins": 12,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Z\u00fcrich vs Servette"
+      },
+      "a188mrg22qdpx8loprtmuy2ac": {
+        "player_name": "A. Vincent",
+        "club_name": "Servette FC",
+        "shirt": "35",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Z\u00fcrich vs Servette"
+      }
+    }
   },
   "1hf2bi351vi3q162cz56i3kt0": {
     "week": "2",
@@ -1005,7 +1115,35 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Basel",
     "away_name": "Lausanne-Sport",
-    "players": {}
+    "players": {
+      "8lx7ynn9g358g7icf8f0jxjx0": {
+        "player_name": "I. Bah Mendes",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "51",
+        "mins": 66,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Basel vs Lausanne-Sport"
+      },
+      "1w6eqi0e57yx76uwh0zd3ekgk": {
+        "player_name": "I. Despotovic",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "49",
+        "mins": 4,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Basel vs Lausanne-Sport"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Basel vs Lausanne-Sport"
+      }
+    }
   },
   "1h18b3dqf7dk0n33g4etgftas": {
     "week": "1",
@@ -2004,7 +2142,80 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Aarau",
     "away_name": "Stade-Lausanne-Ouchy",
-    "players": {}
+    "players": {
+      "24unujkewve7qqxvmazogymfo": {
+        "player_name": "B. Senyurt",
+        "club_name": "FC Aarau",
+        "shirt": "42",
+        "mins": 90,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
+      },
+      "4otfebxex2uel1pysahbrv5sk": {
+        "player_name": "Z. Tairi",
+        "club_name": "FC Aarau",
+        "shirt": "44",
+        "mins": 73,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
+      },
+      "3m27obik4aiqh1r3flyk6hzx0": {
+        "player_name": "D. Coric",
+        "club_name": "FC Aarau",
+        "shirt": "28",
+        "mins": 31,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
+      },
+      "3kk35cd6v2hfs9i15gqizhpg4": {
+        "player_name": "A. Derbaci",
+        "club_name": "FC Aarau",
+        "shirt": "51",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
+      },
+      "60dem379i61fdirmymoev7ggk": {
+        "player_name": "E. Jordan",
+        "club_name": "FC Aarau",
+        "shirt": "23",
+        "mins": 5,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
+      },
+      "16nk7f0yc9zkqoore22i5ixas": {
+        "player_name": "J. Atangana",
+        "club_name": "FC Stade-Lausanne-Ouchy",
+        "shirt": "17",
+        "mins": 25,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
+      },
+      "bnerqoyjg86eor1viyi4dyadw": {
+        "player_name": "H. Lukembila",
+        "club_name": "FC Stade-Lausanne-Ouchy",
+        "shirt": "44",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
+      },
+      "1gyr7io6a0won2dlyzln6jy8k": {
+        "player_name": "F. Morello",
+        "club_name": "FC Stade-Lausanne-Ouchy",
+        "shirt": "47",
+        "mins": 16,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
+      }
+    }
   },
   "eni7441ik2gi5fckrs4rhbzmc": {
     "week": "2",
