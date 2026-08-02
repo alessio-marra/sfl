@@ -71939,7 +71939,228 @@
     "description": "Thun vs Young Boys",
     "competition": "Super League",
     "date": "2026-08-01",
-    "substitutions": {}
+    "substitutions": {
+      "2950698699": {
+        "typeId": "18",
+        "eventIdNum": "338",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "aoik5g61oq5r3lbbe76f9iicq",
+        "playerName": "N. Reichmuth",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "339"
+      },
+      "2950698703": {
+        "typeId": "19",
+        "eventIdNum": "339",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "9idaop0my5t0o4vrme7ynofai",
+        "playerName": "N. Maier",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "338"
+      },
+      "2950698737": {
+        "typeId": "18",
+        "eventIdNum": "340",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "ag92lrchlo2z1opq3i1loneok",
+        "playerName": "D. Derbaci",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "341"
+      },
+      "2950698741": {
+        "typeId": "19",
+        "eventIdNum": "341",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "2lfoot1dofj5n9bhrel7k2s4",
+        "playerName": "V. Matoshi",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "340"
+      },
+      "2950698789": {
+        "typeId": "18",
+        "eventIdNum": "342",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "8yspuotb07c6ke2dz8u7r0bqi",
+        "playerName": "A. Balaruban",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "343"
+      },
+      "2950698793": {
+        "typeId": "19",
+        "eventIdNum": "343",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "9bc9agusjoz8173beezt6qbdg",
+        "playerName": "M. Heule",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "342"
+      },
+      "2950708025": {
+        "typeId": "18",
+        "eventIdNum": "554",
+        "timeMin": "59",
+        "timeSec": "51",
+        "playerId": "dlwwdyc50t43mk1a4un566zth",
+        "playerName": "G. Wüthrich",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "555"
+      },
+      "2950708033": {
+        "typeId": "19",
+        "eventIdNum": "555",
+        "timeMin": "59",
+        "timeSec": "51",
+        "playerId": "61r6igcudl4mbfr19doqr4n3d",
+        "playerName": "S. Lauper",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "554"
+      },
+      "2950708225": {
+        "typeId": "18",
+        "eventIdNum": "556",
+        "timeMin": "59",
+        "timeSec": "53",
+        "playerId": "8oor1m6o9js5bby3qh5imf8d0",
+        "playerName": "J. Monteiro",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "557"
+      },
+      "2950708229": {
+        "typeId": "19",
+        "eventIdNum": "557",
+        "timeMin": "59",
+        "timeSec": "53",
+        "playerId": "cag46lcr9rbj6593ftfegc0lw",
+        "playerName": "D. Pech",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "556"
+      },
+      "2950709477": {
+        "typeId": "18",
+        "eventIdNum": "494",
+        "timeMin": "62",
+        "timeSec": "18",
+        "playerId": "bvw2dsfqohoq9dypgdgt6d1w5",
+        "playerName": "B. Labeau",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "495"
+      },
+      "2950709483": {
+        "typeId": "19",
+        "eventIdNum": "495",
+        "timeMin": "62",
+        "timeSec": "18",
+        "playerId": "7t8si63b154j9a09mt3wy21hw",
+        "playerName": "M. Gutbub",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "494"
+      },
+      "2950710861": {
+        "typeId": "18",
+        "eventIdNum": "588",
+        "timeMin": "65",
+        "timeSec": "20",
+        "playerId": "dzh403ofb9zatvornq0svb0gk",
+        "playerName": "J. Hadjam",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "589"
+      },
+      "2950710865": {
+        "typeId": "19",
+        "eventIdNum": "589",
+        "timeMin": "65",
+        "timeSec": "20",
+        "playerId": "6qb4ce3qzlcvjdaluqom2vhuc",
+        "playerName": "S. Bukinac",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "588"
+      },
+      "2950710925": {
+        "typeId": "18",
+        "eventIdNum": "590",
+        "timeMin": "65",
+        "timeSec": "29",
+        "playerId": "5anxcfh8hvwdbdc162ekgr52i",
+        "playerName": "L. Blum",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "591"
+      },
+      "2950710927": {
+        "typeId": "19",
+        "eventIdNum": "591",
+        "timeMin": "65",
+        "timeSec": "29",
+        "playerId": "dx47szytc8vttuj4rcn4yzdre",
+        "playerName": "I. Schmidt",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "590"
+      },
+      "2950713485": {
+        "typeId": "18",
+        "eventIdNum": "575",
+        "timeMin": "72",
+        "timeSec": "7",
+        "playerId": "b7fv7sx5c8moeoprdplev3koa",
+        "playerName": "J. Roth",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "576"
+      },
+      "2950713487": {
+        "typeId": "19",
+        "eventIdNum": "576",
+        "timeMin": "72",
+        "timeSec": "7",
+        "playerId": "539es15hqaq9gnqng4dmdoums",
+        "playerName": "N. Zoukit",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "575"
+      },
+      "2950714765": {
+        "typeId": "18",
+        "eventIdNum": "692",
+        "timeMin": "75",
+        "timeSec": "10",
+        "playerId": "afk5qdami9yzapywig6ds4quh",
+        "playerName": "C. Zesiger",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "693"
+      },
+      "2950714769": {
+        "typeId": "19",
+        "eventIdNum": "693",
+        "timeMin": "75",
+        "timeSec": "10",
+        "playerId": "dy4qddlt7cjmx6mdf7rj16jf9",
+        "playerName": "L. Benito",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "692"
+      }
+    }
   },
   "enwk1qctfozvbow96f4h4ek9g": {
     "description": "Aarau vs Stade-Lausanne-Ouchy",
