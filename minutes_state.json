@@ -965,7 +965,53 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Sion",
     "away_name": "Luzern",
-    "players": {}
+    "players": {
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 63,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Sion vs Luzern"
+      },
+      "d0xfek1nalpc33ktsotqiqs4": {
+        "player_name": "R. Kessler",
+        "club_name": "FC Sion",
+        "shirt": "38",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Sion vs Luzern"
+      },
+      "2gcdbekdku9rg41j9o3zwnxn8": {
+        "player_name": "A. Llukes",
+        "club_name": "FC Sion",
+        "shirt": "22",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Sion vs Luzern"
+      },
+      "5g00gq09apkl9bqxgpwext7v8": {
+        "player_name": "S. Meyer",
+        "club_name": "FC Luzern",
+        "shirt": "71",
+        "mins": 58,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Sion vs Luzern"
+      },
+      "2rsfj02kbcmosf0da55w9uz2s": {
+        "player_name": "M. Zimmermann",
+        "club_name": "FC Luzern",
+        "shirt": "80",
+        "mins": 32,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Sion vs Luzern"
+      }
+    }
   },
   "1ixrdwb2hobnkfe30flguyjo4": {
     "week": "2",
@@ -973,7 +1019,62 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Grasshoppers",
     "away_name": "Lugano",
-    "players": {}
+    "players": {
+      "50hefdi6vr6peyviss9np2gpg": {
+        "player_name": "S. Krasniqi",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "17",
+        "mins": 90,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Grasshoppers vs Lugano"
+      },
+      "2epq3qbyzs8mr3g6aaemjirdg": {
+        "player_name": "S. Bengondo",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "60",
+        "mins": 32,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Grasshoppers vs Lugano"
+      },
+      "b0viyxphw7xe2wf9mkfi2uyvo": {
+        "player_name": "S. Marques",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "23",
+        "mins": 32,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Grasshoppers vs Lugano"
+      },
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Grasshoppers vs Lugano"
+      },
+      "dnbhu3n4vs5c2p0h7i35c0h04": {
+        "player_name": "D. Sahin",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "56",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Grasshoppers vs Lugano"
+      },
+      "463dlxday21orkmjn42nrkz6c": {
+        "player_name": "G. Ajdin",
+        "club_name": "FC Lugano",
+        "shirt": "23",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Grasshoppers vs Lugano"
+      }
+    }
   },
   "1ikn2x3es05ph3poeap4p2044": {
     "week": "2",
@@ -981,7 +1082,71 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Vaduz",
     "away_name": "St.Gallen",
-    "players": {}
+    "players": {
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 89,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Vaduz vs St.Gallen"
+      },
+      "5qc8mchxjeckhyssmzlylc93o": {
+        "player_name": "N. F\u00f6llmi",
+        "club_name": "FC Vaduz",
+        "shirt": "38",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Vaduz vs St.Gallen"
+      },
+      "38r0hllx8i1swwgqx7udvhb84": {
+        "player_name": "M. Walker",
+        "club_name": "FC Vaduz",
+        "shirt": "30",
+        "mins": 1,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Vaduz vs St.Gallen"
+      },
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 66,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Vaduz vs St.Gallen"
+      },
+      "8ibag83uzcirmb7vycpdxxw5w": {
+        "player_name": "L. Frokaj",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "20",
+        "mins": 46,
+        "status": "Started",
+        "week": "2",
+        "match_label": "Vaduz vs St.Gallen"
+      },
+      "4o8roh953dufflhb1y3wn1kpg": {
+        "player_name": "D. Besio",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "31",
+        "mins": 1,
+        "status": "Came on as sub",
+        "week": "2",
+        "match_label": "Vaduz vs St.Gallen"
+      },
+      "dldvsl5cgnzd5pqfm2h9uq3h0": {
+        "player_name": "C. Konietzke",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "63",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "2",
+        "match_label": "Vaduz vs St.Gallen"
+      }
+    }
   },
   "1i6sy302pbkoa02celdz0mvpw": {
     "week": "2",
