@@ -73075,33 +73075,11 @@
         "teamName": "Lugano",
         "partnerEventId": "559"
       },
-      "2951170937": {
-        "typeId": "18",
-        "eventIdNum": "481",
-        "timeMin": "57",
-        "timeSec": "55",
-        "playerId": "9osic22dxne4mjyzix16v5ses",
-        "playerName": "I. Hassane",
-        "teamId": "9dqlf92t42brv71kvaet67tm4",
-        "teamName": "Grasshoppers",
-        "partnerEventId": "482"
-      },
-      "2951170939": {
-        "typeId": "19",
-        "eventIdNum": "482",
-        "timeMin": "57",
-        "timeSec": "55",
-        "playerId": "b0viyxphw7xe2wf9mkfi2uyvo",
-        "playerName": "S. Marques",
-        "teamId": "9dqlf92t42brv71kvaet67tm4",
-        "teamName": "Grasshoppers",
-        "partnerEventId": "481"
-      },
       "2951170729": {
         "typeId": "18",
         "eventIdNum": "477",
         "timeMin": "57",
-        "timeSec": "56",
+        "timeSec": "45",
         "playerId": "1n03gix6unpdw3wsxof5xuqdw",
         "playerName": "D. Paloschi",
         "teamId": "9dqlf92t42brv71kvaet67tm4",
@@ -73112,12 +73090,34 @@
         "typeId": "19",
         "eventIdNum": "478",
         "timeMin": "57",
-        "timeSec": "56",
+        "timeSec": "45",
         "playerId": "12uxqpy1ctpyaqv2i9mx1iicq",
         "playerName": "A. Diaby",
         "teamId": "9dqlf92t42brv71kvaet67tm4",
         "teamName": "Grasshoppers",
         "partnerEventId": "477"
+      },
+      "2951170937": {
+        "typeId": "18",
+        "eventIdNum": "481",
+        "timeMin": "57",
+        "timeSec": "52",
+        "playerId": "9osic22dxne4mjyzix16v5ses",
+        "playerName": "I. Hassane",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "482"
+      },
+      "2951170939": {
+        "typeId": "19",
+        "eventIdNum": "482",
+        "timeMin": "57",
+        "timeSec": "52",
+        "playerId": "b0viyxphw7xe2wf9mkfi2uyvo",
+        "playerName": "S. Marques",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "481"
       },
       "2951170775": {
         "typeId": "18",
