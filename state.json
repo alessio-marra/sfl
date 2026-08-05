@@ -72394,6 +72394,28 @@
         "teamName": "Zürich",
         "partnerEventId": "638"
       },
+      "2950641501": {
+        "typeId": "18",
+        "eventIdNum": "671",
+        "timeMin": "68",
+        "timeSec": "29",
+        "playerId": "6c47ogd2x9p6zj3qp858uadih",
+        "playerName": "Q. Maceiras",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "672"
+      },
+      "2950641505": {
+        "typeId": "19",
+        "eventIdNum": "672",
+        "timeMin": "68",
+        "timeSec": "29",
+        "playerId": "9bbu1yne0l9j862yodiuldw4p",
+        "playerName": "Houboulang Mendes",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "671"
+      },
       "2950641453": {
         "typeId": "18",
         "eventIdNum": "669",
@@ -72415,28 +72437,6 @@
         "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
         "teamName": "Servette",
         "partnerEventId": "669"
-      },
-      "2950641501": {
-        "typeId": "18",
-        "eventIdNum": "671",
-        "timeMin": "68",
-        "timeSec": "35",
-        "playerId": "6c47ogd2x9p6zj3qp858uadih",
-        "playerName": "Q. Maceiras",
-        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
-        "teamName": "Servette",
-        "partnerEventId": "672"
-      },
-      "2950641505": {
-        "typeId": "19",
-        "eventIdNum": "672",
-        "timeMin": "68",
-        "timeSec": "35",
-        "playerId": "9bbu1yne0l9j862yodiuldw4p",
-        "playerName": "Houboulang Mendes",
-        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
-        "teamName": "Servette",
-        "partnerEventId": "671"
       },
       "2950645137": {
         "typeId": "18",
@@ -72647,7 +72647,7 @@
         "typeId": "18",
         "eventIdNum": "634",
         "timeMin": "66",
-        "timeSec": "17",
+        "timeSec": "14",
         "playerId": "6tzrulqvl1ytj9907ueeanskq",
         "playerName": "P. Otele",
         "teamId": "5u18kvqiqhup2vd345dci1069",
@@ -72658,7 +72658,7 @@
         "typeId": "19",
         "eventIdNum": "635",
         "timeMin": "66",
-        "timeSec": "17",
+        "timeSec": "14",
         "playerId": "12t44b7d5ywv3sbjr1i1xti50",
         "playerName": "A. Malouda",
         "teamId": "5u18kvqiqhup2vd345dci1069",
