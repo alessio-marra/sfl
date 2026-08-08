@@ -79248,5 +79248,128 @@
         "partnerEventId": "648"
       }
     }
+  },
+  "1kfz06hudv7o9c8ib4e8t96hg": {
+    "description": "Servette vs Grasshoppers",
+    "competition": "Super League",
+    "date": "2026-08-08",
+    "substitutions": {}
+  },
+  "1k2bo1s861mjmrtuetzqbnjmc": {
+    "description": "Lausanne-Sport vs Young Boys",
+    "competition": "Super League",
+    "date": "2026-08-08",
+    "substitutions": {
+      "2952688505": {
+        "typeId": "18",
+        "eventIdNum": "304",
+        "timeMin": "36",
+        "timeSec": "46",
+        "playerId": "d6en8pyovfsfqfc4u67rkkwdl",
+        "playerName": "K. Imeri",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "305"
+      },
+      "2952688511": {
+        "typeId": "19",
+        "eventIdNum": "305",
+        "timeMin": "36",
+        "timeSec": "46",
+        "playerId": "4gksusc509n6j8ljhyegzgxk9",
+        "playerName": "C. Fassnacht",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "304"
+      },
+      "2952711921": {
+        "typeId": "18",
+        "eventIdNum": "476",
+        "timeMin": "51",
+        "timeSec": "27",
+        "playerId": "csd7qb9u0a9am2ltse9w31uz8",
+        "playerName": "T. Bergvall",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "477"
+      },
+      "2952711927": {
+        "typeId": "19",
+        "eventIdNum": "477",
+        "timeMin": "51",
+        "timeSec": "27",
+        "playerId": "8lx7ynn9g358g7icf8f0jxjx0",
+        "playerName": "I. Bah Mendes",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "476"
+      },
+      "2952722345": {
+        "typeId": "18",
+        "eventIdNum": "571",
+        "timeMin": "67",
+        "timeSec": "2",
+        "playerId": "7z00z2y66vadv1ge09y6ypixg",
+        "playerName": "A. Sanches",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "572"
+      },
+      "2952722347": {
+        "typeId": "19",
+        "eventIdNum": "572",
+        "timeMin": "67",
+        "timeSec": "2",
+        "playerId": "cag46lcr9rbj6593ftfegc0lw",
+        "playerName": "D. Pech",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "571"
+      },
+      "2952722453": {
+        "typeId": "18",
+        "eventIdNum": "573",
+        "timeMin": "67",
+        "timeSec": "14",
+        "playerId": "5anxcfh8hvwdbdc162ekgr52i",
+        "playerName": "L. Blum",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "574"
+      },
+      "2952722457": {
+        "typeId": "19",
+        "eventIdNum": "574",
+        "timeMin": "67",
+        "timeSec": "14",
+        "playerId": "dx47szytc8vttuj4rcn4yzdre",
+        "playerName": "I. Schmidt",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "573"
+      },
+      "2952722597": {
+        "typeId": "18",
+        "eventIdNum": "608",
+        "timeMin": "67",
+        "timeSec": "29",
+        "playerId": "2xet9j8jfhv9ypt6jfojlwogl",
+        "playerName": "O. Custodio",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "609"
+      },
+      "2952722599": {
+        "typeId": "19",
+        "eventIdNum": "609",
+        "timeMin": "67",
+        "timeSec": "29",
+        "playerId": "4m5w23fmydm3or1ff42hgeqne",
+        "playerName": "N. Butler-Oyedeji",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "608"
+      }
+    }
   }
 }
