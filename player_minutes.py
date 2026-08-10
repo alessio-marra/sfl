@@ -39,14 +39,15 @@ def get_xml(url: str) -> ET.Element:
     return ET.fromstring(r.text)
 
 
-def load_eligible_player_ids() -> set[str]:
+def load_eligible_players() -> dict[str, float]:
+    """Returns {player_id: weight} where weight is 1.0 or 0.5."""
     p_path = Path(PLAYERS_FILE)
     if not p_path.exists():
         print(f"CRITICAL: {PLAYERS_FILE} not found.")
-        return set()
+        return {}
     raw = json.loads(p_path.read_text())
     players = raw if isinstance(raw, list) else next(iter(raw.values()), [])
-    return {p["id"] for p in players if p.get("id")}
+    return {p["id"]: p.get("weight", 1.0) for p in players if p.get("id")}
 
 
 def fetch_active_tournament_calendars() -> dict[str, dict]:
@@ -90,7 +91,8 @@ def fetch_mar_updated_fixtures(lookback_hours: int = 25) -> set[str]:
     print(f"  -> MAR flagged {len(updated_ids)} globally modified match(es).")
     return updated_ids
 
-ELIGIBILITY_AGE_OFFSET = 22  # "born after 31/12 of (n - 22)" where n = season start year
+ELIGIBILITY_AGE_OFFSET_100 = 20  # born 1 Jan 2005 or after (for 2025/2026 season: > 2004-12-31)
+ELIGIBILITY_AGE_OFFSET_50  = 21  # born 1 Jan 2004 or after (for 2025/2026 season: > 2003-12-31)
 
 
 def _tm3_squads(tmcl_id: str) -> list:
@@ -137,9 +139,10 @@ def refresh_eligible_players(active_calendars: dict) -> None:
             pass
     if not season_years:
         raise RuntimeError("Could not derive season start year from active calendars")
-    season_start_year = min(season_years)
-    cutoff = f"{season_start_year - ELIGIBILITY_AGE_OFFSET}-12-31"
-    print(f"[ELIG] DOB cutoff: > {cutoff}")
+season_start_year = min(season_years)
+    cutoff_100 = f"{season_start_year - ELIGIBILITY_AGE_OFFSET_100}-12-31"
+    cutoff_50  = f"{season_start_year - ELIGIBILITY_AGE_OFFSET_50}-12-31"
+    print(f"[ELIG] DOB cutoff 100%: > {cutoff_100}, 50%: > {cutoff_50}")
 
     # Step 1: collect all players from all TM3 squads, deduped
     candidates = {}
@@ -159,9 +162,9 @@ def refresh_eligible_players(active_calendars: dict) -> None:
     print(f"[ELIG] {len(candidates)} unique players in active TM3 squads")
 
     # Step 2: DOB + Swiss nationality pre-filter
-    pre_filtered = {
+pre_filtered = {
         pid: p for pid, p in candidates.items()
-        if p["dateOfBirth"] and p["dateOfBirth"] > cutoff
+        if p["dateOfBirth"] and p["dateOfBirth"] > cutoff_50
         and "Switzerland" in (p["nationality"], p["secondNationality"])
     }
     print(f"[ELIG] {len(pre_filtered)} after DOB + Swiss filter")
@@ -176,10 +179,12 @@ def refresh_eligible_players(active_calendars: dict) -> None:
             continue
         if _has_disqualifying_foreign_cap(career):
             continue
+        weight = 1.0 if p["dateOfBirth"] > cutoff_100 else 0.5
         eligible.append({
             "id": pid,
             "firstName": p["firstName"],
             "lastName": p["lastName"],
+            "weight": weight,
         })
     print(f"[ELIG] {len(eligible)} eligible players after PE2 check")
 
@@ -232,7 +237,7 @@ def fetch_entire_calendar_fixtures(tmcl_id: str) -> list[dict]:
     return matches
 
 
-def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: dict) -> dict:
+def process_match_sheet(match_id: str, eligible_players: dict[str, float], fallback_info: dict) -> dict:
     """Parses a specific matchstats file and extracts metrics for targeted player IDs."""
     url = f"{BASE_URL}/matchstats/{API_KEY}/?detailed=yes&_rt=c&_fmt=xml&fx={match_id}"
     try:
@@ -262,18 +267,24 @@ def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: di
         
         for p in lineup.iter("player"):
             pid = p.get("playerId")
-            if pid in eligible_ids:
-                mins = 0
+            if pid in eligible_players:
+                weight = eligible_players[pid]
+                raw_mins = 0
                 for stat in p.findall("stat"):
                     if stat.get("type") == "minsPlayed":
                         try:
-                            mins = int(stat.text)
+                            raw_mins = int(stat.text)
                         except:
-                            mins = 0
+                            raw_mins = 0
                         break
-                
+
+                # Cap at 90 minutes per Article 6.1
+                capped_mins = min(raw_mins, 90)
+                # Apply weight (1.0 for born >= 2005, 0.5 for born >= 2004)
+                weighted_mins = round(capped_mins * weight)
+
                 position = p.get("position", "")
-                if mins == 0:
+                if raw_mins == 0:
                     status = "In squad, did not play"
                 elif position == "Substitute":
                     status = "Came on as sub"
@@ -284,13 +295,65 @@ def process_match_sheet(match_id: str, eligible_ids: set[str], fallback_info: di
                     "player_name": p.get("matchName") or f"{p.get('firstName', '')} {p.get('lastName', '')}".strip() or pid,
                     "club_name": club_name,
                     "shirt": p.get("shirtNumber", ""),
-                    "mins": mins,
+                    "mins": weighted_mins,
+                    "raw_mins": raw_mins,
+                    "weight": weight,
                     "status": status,
                     "week": fallback_info.get("week", ""),
                     "match_label": f"{fallback_info.get('home_name', 'TBD')} vs {fallback_info.get('away_name', 'TBD')}"
                 }
     return match_players_data
 
+def apply_club_caps(state: dict) -> dict:
+    """
+    Article 6.2: caps total weighted minutes per club per week.
+    Cap = max(360, rolling average of previous matchdays for that club).
+    Operates on the full state after all match data is collected.
+    """
+    # Build per-competition, per-club, per-week totals before capping
+    # Structure: comp_club_week[tmcl_id][club][week] = [(pid, weighted_mins), ...]
+    from collections import defaultdict
+
+    comp_club_week = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+
+    for match_id, mdata in state.items():
+        tmcl_id = mdata.get("tmcl_id", "")
+        week    = mdata.get("week", "")
+        for pid, p in mdata.get("players", {}).items():
+            if p["mins"] > 0:
+                comp_club_week[tmcl_id][p["club_name"]][week].append((match_id, pid, p["mins"]))
+
+    # For each club, compute rolling average cap per week and apply
+    for tmcl_id, clubs in comp_club_week.items():
+        for club, weeks_data in clubs.items():
+            sorted_weeks = sorted(weeks_data.keys(), key=lambda w: int(w) if w.isdigit() else 0)
+            previous_totals = []
+
+            for week in sorted_weeks:
+                # Determine cap for this week
+                if previous_totals:
+                    rolling_avg = sum(previous_totals) / len(previous_totals)
+                    cap = max(360, rolling_avg)
+                else:
+                    cap = 360
+
+                # Sum current week minutes for this club
+                entries = weeks_data[week]
+                week_total = sum(mins for _, _, mins in entries)
+
+                if week_total > cap:
+                    # Scale down proportionally
+                    scale = cap / week_total
+                    for match_id, pid, mins in entries:
+                        new_mins = round(mins * scale)
+                        state[match_id]["players"][pid]["mins"] = new_mins
+
+                    # Record actual capped total for rolling average
+                    previous_totals.append(cap)
+                else:
+                    previous_totals.append(week_total)
+
+    return state
 
 def build_html_dashboard(state: dict, active_calendars: dict) -> str:
     """Compiles presentation layout ordered with Super League first and custom labels."""
@@ -499,9 +562,10 @@ def main():
     except Exception as e:
         print(f"[ELIG] Refresh failed, keeping existing {PLAYERS_FILE}: {e}")
 
-    eligible_ids = load_eligible_player_ids()
-    if not eligible_ids:
+    eligible_players = load_eligible_players()
+    if not eligible_players:
         return
+    eligible_ids = set(eligible_players.keys())
 
 
     state = {}
@@ -525,7 +589,7 @@ def main():
             if idx % 20 == 0 or idx == len(all_season_fixtures):
                 print(f"  Progress: Match {idx}/{len(all_season_fixtures)} scanned.")
                 
-            res = process_match_sheet(f["match_id"], eligible_ids, f)
+            res = process_match_sheet(f["match_id"], eligible_players, f)
             state[f["match_id"]] = {
                 "week": f["week"],
                 "date": f["date"],
@@ -552,7 +616,7 @@ def main():
                     continue
                     
                 print(f"  Updating state record for Match: {f_info['home_name']} vs {f_info['away_name']} (W{f_info['week']})")
-                res = process_match_sheet(m_id, eligible_ids, f_info)
+                res = process_match_sheet(m_id, eligible_players, f_info)
                 
                 state[m_id] = {
                     "week": f_info["week"],
@@ -564,6 +628,7 @@ def main():
                 }
 
     purged_state = {k: v for k, v in state.items() if v.get("tmcl_id") in active_calendar_ids}
+    purged_state = apply_club_caps(purged_state)
 
     STATE_FILE.write_text(json.dumps(purged_state, indent=2))
     print(f"Saved update back to {STATE_FILE}.")
