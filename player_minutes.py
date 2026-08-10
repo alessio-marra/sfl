@@ -162,7 +162,7 @@ def refresh_eligible_players(active_calendars: dict) -> None:
     print(f"[ELIG] {len(candidates)} unique players in active TM3 squads")
 
     # Step 2: DOB + Swiss nationality pre-filter
-pre_filtered = {
+    pre_filtered = {
         pid: p for pid, p in candidates.items()
         if p["dateOfBirth"] and p["dateOfBirth"] > cutoff_50
         and "Switzerland" in (p["nationality"], p["secondNationality"])
