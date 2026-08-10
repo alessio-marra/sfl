@@ -922,16 +922,9 @@
         "player_name": "J. Ruiz",
         "club_name": "FC St.Gallen 1879",
         "shirt": "74",
-        "mins": 90,
-        "status": "Started",
-        "week": "3",
-        "match_label": "St.Gallen vs Luzern"
-      },
-      "8ibag83uzcirmb7vycpdxxw5w": {
-        "player_name": "L. Frokaj",
-        "club_name": "FC St.Gallen 1879",
-        "shirt": "20",
-        "mins": 69,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "3",
         "match_label": "St.Gallen vs Luzern"
@@ -941,6 +934,8 @@
         "club_name": "FC St.Gallen 1879",
         "shirt": "31",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "St.Gallen vs Luzern"
@@ -949,7 +944,9 @@
         "player_name": "C. Konietzke",
         "club_name": "FC St.Gallen 1879",
         "shirt": "63",
-        "mins": 10,
+        "mins": 5,
+        "raw_mins": 10,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "St.Gallen vs Luzern"
@@ -958,7 +955,9 @@
         "player_name": "S. Meyer",
         "club_name": "FC Luzern",
         "shirt": "71",
-        "mins": 64,
+        "mins": 32,
+        "raw_mins": 64,
+        "weight": 0.5,
         "status": "Started",
         "week": "3",
         "match_label": "St.Gallen vs Luzern"
@@ -968,6 +967,8 @@
         "club_name": "FC Luzern",
         "shirt": "34",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "St.Gallen vs Luzern"
@@ -977,6 +978,8 @@
         "club_name": "FC Luzern",
         "shirt": "80",
         "mins": 11,
+        "raw_mins": 11,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "St.Gallen vs Luzern"
@@ -994,17 +997,10 @@
         "player_name": "W. Boteli",
         "club_name": "FC Sion",
         "shirt": "13",
-        "mins": 34,
+        "mins": 17,
+        "raw_mins": 34,
+        "weight": 0.5,
         "status": "Came on as sub",
-        "week": "3",
-        "match_label": "Sion vs Vaduz"
-      },
-      "d0xfek1nalpc33ktsotqiqs4": {
-        "player_name": "R. Kessler",
-        "club_name": "FC Sion",
-        "shirt": "38",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "3",
         "match_label": "Sion vs Vaduz"
       },
@@ -1013,6 +1009,8 @@
         "club_name": "FC Sion",
         "shirt": "22",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Sion vs Vaduz"
@@ -1021,17 +1019,10 @@
         "player_name": "L. Dalipi",
         "club_name": "FC Vaduz",
         "shirt": "11",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
-        "week": "3",
-        "match_label": "Sion vs Vaduz"
-      },
-      "38r0hllx8i1swwgqx7udvhb84": {
-        "player_name": "M. Walker",
-        "club_name": "FC Vaduz",
-        "shirt": "30",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "3",
         "match_label": "Sion vs Vaduz"
       }
@@ -1049,6 +1040,8 @@
         "club_name": "FC Lugano",
         "shirt": "23",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Lugano vs Z\u00fcrich"
@@ -1058,6 +1051,8 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "43",
         "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
         "week": "3",
         "match_label": "Lugano vs Z\u00fcrich"
@@ -1066,17 +1061,10 @@
         "player_name": "L. Sch\u00f6dler",
         "club_name": "FC Z\u00fcrich",
         "shirt": "21",
-        "mins": 67,
+        "mins": 34,
+        "raw_mins": 67,
+        "weight": 0.5,
         "status": "Started",
-        "week": "3",
-        "match_label": "Lugano vs Z\u00fcrich"
-      },
-      "exxkv65coe3l769z25gvk1ixg": {
-        "player_name": "N. Di Giusto",
-        "club_name": "FC Z\u00fcrich",
-        "shirt": "14",
-        "mins": 23,
-        "status": "Came on as sub",
         "week": "3",
         "match_label": "Lugano vs Z\u00fcrich"
       },
@@ -1085,6 +1073,8 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "60",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Lugano vs Z\u00fcrich"
@@ -1094,15 +1084,8 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "49",
         "mins": 0,
-        "status": "In squad, did not play",
-        "week": "3",
-        "match_label": "Lugano vs Z\u00fcrich"
-      },
-      "3mw97uhlizy4327fxiui1wn4k": {
-        "player_name": "S. Walker",
-        "club_name": "FC Z\u00fcrich",
-        "shirt": "44",
-        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Lugano vs Z\u00fcrich"
@@ -1256,6 +1239,8 @@
         "club_name": "FC Basel 1893",
         "shirt": "37",
         "mins": 15,
+        "raw_mins": 15,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Basel vs Thun"
@@ -1264,7 +1249,9 @@
         "player_name": "D. Derbaci",
         "club_name": "FC Thun",
         "shirt": "21",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "3",
         "match_label": "Basel vs Thun"
@@ -1273,7 +1260,9 @@
         "player_name": "S. Lengen",
         "club_name": "FC Thun",
         "shirt": "80",
-        "mins": 45,
+        "mins": 22,
+        "raw_mins": 45,
+        "weight": 0.5,
         "status": "Started",
         "week": "3",
         "match_label": "Basel vs Thun"
@@ -1283,6 +1272,8 @@
         "club_name": "FC Thun",
         "shirt": "52",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Basel vs Thun"
@@ -3043,7 +3034,7 @@
         "player_name": "R. Salchli",
         "club_name": "SC Kriens",
         "shirt": "1",
-        "mins": 90,
+        "mins": 82,
         "status": "Started",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3052,7 +3043,7 @@
         "player_name": "E. Heiniger",
         "club_name": "SC Kriens",
         "shirt": "15",
-        "mins": 90,
+        "mins": 82,
         "status": "Started",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3061,7 +3052,7 @@
         "player_name": "Y. Bohon Diet",
         "club_name": "SC Kriens",
         "shirt": "25",
-        "mins": 63,
+        "mins": 57,
         "status": "Started",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3070,7 +3061,7 @@
         "player_name": "Malek Ishuayed",
         "club_name": "SC Kriens",
         "shirt": "11",
-        "mins": 77,
+        "mins": 70,
         "status": "Started",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3079,7 +3070,7 @@
         "player_name": "E. Rufener",
         "club_name": "SC Kriens",
         "shirt": "27",
-        "mins": 76,
+        "mins": 69,
         "status": "Started",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3223,7 +3214,7 @@
         "player_name": "R. Salchli",
         "club_name": "SC Kriens",
         "shirt": "1",
-        "mins": 90,
+        "mins": 75,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -3232,7 +3223,7 @@
         "player_name": "E. Heiniger",
         "club_name": "SC Kriens",
         "shirt": "15",
-        "mins": 90,
+        "mins": 75,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -3241,7 +3232,7 @@
         "player_name": "Y. Bohon Diet",
         "club_name": "SC Kriens",
         "shirt": "25",
-        "mins": 90,
+        "mins": 75,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -3250,7 +3241,7 @@
         "player_name": "E. Rufener",
         "club_name": "SC Kriens",
         "shirt": "27",
-        "mins": 90,
+        "mins": 75,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -3259,7 +3250,7 @@
         "player_name": "Malek Ishuayed",
         "club_name": "SC Kriens",
         "shirt": "11",
-        "mins": 72,
+        "mins": 60,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -3547,7 +3538,7 @@
         "player_name": "M. Aubert",
         "club_name": "FC Stade Nyonnais",
         "shirt": "40",
-        "mins": 90,
+        "mins": 68,
         "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -3556,7 +3547,7 @@
         "player_name": "N. Grognuz",
         "club_name": "FC Stade Nyonnais",
         "shirt": "15",
-        "mins": 90,
+        "mins": 68,
         "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -3565,7 +3556,7 @@
         "player_name": "R. Boulac",
         "club_name": "FC Stade Nyonnais",
         "shirt": "2",
-        "mins": 81,
+        "mins": 61,
         "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -3574,7 +3565,7 @@
         "player_name": "F. Lentini",
         "club_name": "FC Stade Nyonnais",
         "shirt": "7",
-        "mins": 45,
+        "mins": 34,
         "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -3583,7 +3574,7 @@
         "player_name": "M. Miguel",
         "club_name": "FC Stade Nyonnais",
         "shirt": "9",
-        "mins": 67,
+        "mins": 51,
         "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -3601,7 +3592,7 @@
         "player_name": "M. Ishuayed",
         "club_name": "FC Stade Nyonnais",
         "shirt": "19",
-        "mins": 45,
+        "mins": 34,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -3610,7 +3601,7 @@
         "player_name": "R. Londja",
         "club_name": "FC Stade Nyonnais",
         "shirt": "70",
-        "mins": 45,
+        "mins": 34,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -3619,7 +3610,7 @@
         "player_name": "E. Ndjoko",
         "club_name": "FC Stade Nyonnais",
         "shirt": "17",
-        "mins": 12,
+        "mins": 9,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -3889,7 +3880,7 @@
         "player_name": "M. Aubert",
         "club_name": "FC Stade Nyonnais",
         "shirt": "40",
-        "mins": 90,
+        "mins": 72,
         "status": "Started",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3898,7 +3889,7 @@
         "player_name": "R. Boulac",
         "club_name": "FC Stade Nyonnais",
         "shirt": "2",
-        "mins": 90,
+        "mins": 72,
         "status": "Started",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3907,7 +3898,7 @@
         "player_name": "N. Grognuz",
         "club_name": "FC Stade Nyonnais",
         "shirt": "15",
-        "mins": 90,
+        "mins": 72,
         "status": "Started",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3916,7 +3907,7 @@
         "player_name": "F. Lentini",
         "club_name": "FC Stade Nyonnais",
         "shirt": "7",
-        "mins": 59,
+        "mins": 47,
         "status": "Started",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3925,7 +3916,7 @@
         "player_name": "R. Londja",
         "club_name": "FC Stade Nyonnais",
         "shirt": "70",
-        "mins": 59,
+        "mins": 47,
         "status": "Started",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3934,7 +3925,7 @@
         "player_name": "F. Ahuissou",
         "club_name": "FC Stade Nyonnais",
         "shirt": "6",
-        "mins": 20,
+        "mins": 16,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3943,7 +3934,7 @@
         "player_name": "M. Ishuayed",
         "club_name": "FC Stade Nyonnais",
         "shirt": "19",
-        "mins": 12,
+        "mins": 10,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3952,7 +3943,7 @@
         "player_name": "M. Miguel",
         "club_name": "FC Stade Nyonnais",
         "shirt": "9",
-        "mins": 31,
+        "mins": 25,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -4141,7 +4132,7 @@
         "player_name": "R. Salchli",
         "club_name": "SC Kriens",
         "shirt": "1",
-        "mins": 90,
+        "mins": 80,
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -4150,7 +4141,7 @@
         "player_name": "E. Heiniger",
         "club_name": "SC Kriens",
         "shirt": "15",
-        "mins": 90,
+        "mins": 80,
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -4159,7 +4150,7 @@
         "player_name": "Y. Bohon Diet",
         "club_name": "SC Kriens",
         "shirt": "25",
-        "mins": 90,
+        "mins": 80,
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -4168,7 +4159,7 @@
         "player_name": "E. Rufener",
         "club_name": "SC Kriens",
         "shirt": "27",
-        "mins": 65,
+        "mins": 58,
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -4177,7 +4168,7 @@
         "player_name": "M. Akahomen",
         "club_name": "SC Kriens",
         "shirt": "14",
-        "mins": 25,
+        "mins": 22,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -4186,7 +4177,7 @@
         "player_name": "Malek Ishuayed",
         "club_name": "SC Kriens",
         "shirt": "11",
-        "mins": 45,
+        "mins": 40,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Xamax vs Kriens"
