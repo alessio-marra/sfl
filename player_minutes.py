@@ -139,7 +139,7 @@ def refresh_eligible_players(active_calendars: dict) -> None:
             pass
     if not season_years:
         raise RuntimeError("Could not derive season start year from active calendars")
-season_start_year = min(season_years)
+    season_start_year = min(season_years)
     cutoff_100 = f"{season_start_year - ELIGIBILITY_AGE_OFFSET_100}-12-31"
     cutoff_50  = f"{season_start_year - ELIGIBILITY_AGE_OFFSET_50}-12-31"
     print(f"[ELIG] DOB cutoff 100%: > {cutoff_100}, 50%: > {cutoff_50}")
