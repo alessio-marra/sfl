@@ -917,7 +917,71 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "St.Gallen",
     "away_name": "Luzern",
-    "players": {}
+    "players": {
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 90,
+        "status": "Started",
+        "week": "3",
+        "match_label": "St.Gallen vs Luzern"
+      },
+      "8ibag83uzcirmb7vycpdxxw5w": {
+        "player_name": "L. Frokaj",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "20",
+        "mins": 69,
+        "status": "Started",
+        "week": "3",
+        "match_label": "St.Gallen vs Luzern"
+      },
+      "4o8roh953dufflhb1y3wn1kpg": {
+        "player_name": "D. Besio",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "31",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "St.Gallen vs Luzern"
+      },
+      "dldvsl5cgnzd5pqfm2h9uq3h0": {
+        "player_name": "C. Konietzke",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "63",
+        "mins": 10,
+        "status": "Came on as sub",
+        "week": "3",
+        "match_label": "St.Gallen vs Luzern"
+      },
+      "5g00gq09apkl9bqxgpwext7v8": {
+        "player_name": "S. Meyer",
+        "club_name": "FC Luzern",
+        "shirt": "71",
+        "mins": 64,
+        "status": "Started",
+        "week": "3",
+        "match_label": "St.Gallen vs Luzern"
+      },
+      "vrc090kfslazjqxqg4rr0cgk": {
+        "player_name": "D. Xhemalija",
+        "club_name": "FC Luzern",
+        "shirt": "34",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "St.Gallen vs Luzern"
+      },
+      "2rsfj02kbcmosf0da55w9uz2s": {
+        "player_name": "M. Zimmermann",
+        "club_name": "FC Luzern",
+        "shirt": "80",
+        "mins": 11,
+        "status": "Came on as sub",
+        "week": "3",
+        "match_label": "St.Gallen vs Luzern"
+      }
+    }
   },
   "1l6f59ps81f32dsudp2hp6pzo": {
     "week": "3",
@@ -925,7 +989,53 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Sion",
     "away_name": "Vaduz",
-    "players": {}
+    "players": {
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 34,
+        "status": "Came on as sub",
+        "week": "3",
+        "match_label": "Sion vs Vaduz"
+      },
+      "d0xfek1nalpc33ktsotqiqs4": {
+        "player_name": "R. Kessler",
+        "club_name": "FC Sion",
+        "shirt": "38",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "Sion vs Vaduz"
+      },
+      "2gcdbekdku9rg41j9o3zwnxn8": {
+        "player_name": "A. Llukes",
+        "club_name": "FC Sion",
+        "shirt": "22",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "Sion vs Vaduz"
+      },
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 90,
+        "status": "Started",
+        "week": "3",
+        "match_label": "Sion vs Vaduz"
+      },
+      "38r0hllx8i1swwgqx7udvhb84": {
+        "player_name": "M. Walker",
+        "club_name": "FC Vaduz",
+        "shirt": "30",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "Sion vs Vaduz"
+      }
+    }
   },
   "1kt51rbd3oi51q0ow056vh0yc": {
     "week": "3",
@@ -933,7 +1043,71 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lugano",
     "away_name": "Z\u00fcrich",
-    "players": {}
+    "players": {
+      "463dlxday21orkmjn42nrkz6c": {
+        "player_name": "G. Ajdin",
+        "club_name": "FC Lugano",
+        "shirt": "23",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "Lugano vs Z\u00fcrich"
+      },
+      "3nqhtkzcrkrta24iyceqk6jv8": {
+        "player_name": "N. Volken",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "43",
+        "mins": 90,
+        "status": "Started",
+        "week": "3",
+        "match_label": "Lugano vs Z\u00fcrich"
+      },
+      "cpw4hqnhrqja3q3k85fq7bz84": {
+        "player_name": "L. Sch\u00f6dler",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "21",
+        "mins": 67,
+        "status": "Started",
+        "week": "3",
+        "match_label": "Lugano vs Z\u00fcrich"
+      },
+      "exxkv65coe3l769z25gvk1ixg": {
+        "player_name": "N. Di Giusto",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "14",
+        "mins": 23,
+        "status": "Came on as sub",
+        "week": "3",
+        "match_label": "Lugano vs Z\u00fcrich"
+      },
+      "1fy8am84uedboos671t9buxw4": {
+        "player_name": "T. Pinthus-Duah",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "60",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "Lugano vs Z\u00fcrich"
+      },
+      "75h4biirv290kb4i6ewzcppn8": {
+        "player_name": "D. Ramic",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "49",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "Lugano vs Z\u00fcrich"
+      },
+      "3mw97uhlizy4327fxiui1wn4k": {
+        "player_name": "S. Walker",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "44",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "Lugano vs Z\u00fcrich"
+      }
+    }
   },
   "1kfz06hudv7o9c8ib4e8t96hg": {
     "week": "3",
@@ -1072,11 +1246,48 @@
   },
   "1jowcswpttyu7toat38cvljpw": {
     "week": "3",
-    "date": "2026-08-08",
+    "date": "2026-08-09",
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Basel",
     "away_name": "Thun",
-    "players": {}
+    "players": {
+      "70kdxr0aur2eq02sd2l6l2olw": {
+        "player_name": "G. Koloto",
+        "club_name": "FC Basel 1893",
+        "shirt": "37",
+        "mins": 15,
+        "status": "Came on as sub",
+        "week": "3",
+        "match_label": "Basel vs Thun"
+      },
+      "ag92lrchlo2z1opq3i1loneok": {
+        "player_name": "D. Derbaci",
+        "club_name": "FC Thun",
+        "shirt": "21",
+        "mins": 90,
+        "status": "Started",
+        "week": "3",
+        "match_label": "Basel vs Thun"
+      },
+      "cnsyexfgcdy6m2dfc0l5dfkes": {
+        "player_name": "S. Lengen",
+        "club_name": "FC Thun",
+        "shirt": "80",
+        "mins": 45,
+        "status": "Started",
+        "week": "3",
+        "match_label": "Basel vs Thun"
+      },
+      "e1aopqv9jb779vo6qgj9d0wlw": {
+        "player_name": "A. Ilic",
+        "club_name": "FC Thun",
+        "shirt": "52",
+        "mins": 0,
+        "status": "In squad, did not play",
+        "week": "3",
+        "match_label": "Basel vs Thun"
+      }
+    }
   },
   "1jbnv7c93b6qmynt2jpv11d78": {
     "week": "2",
