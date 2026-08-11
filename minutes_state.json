@@ -2945,15 +2945,8 @@
         "club_name": "FC Stade-Lausanne-Ouchy",
         "shirt": "17",
         "mins": 25,
-        "status": "Came on as sub",
-        "week": "3",
-        "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
-      },
-      "bnerqoyjg86eor1viyi4dyadw": {
-        "player_name": "H. Lukembila",
-        "club_name": "FC Stade-Lausanne-Ouchy",
-        "shirt": "44",
-        "mins": 1,
+        "raw_mins": 25,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
@@ -2963,25 +2956,9 @@
         "club_name": "FC Stade-Lausanne-Ouchy",
         "shirt": "47",
         "mins": 2,
+        "raw_mins": 2,
+        "weight": 1.0,
         "status": "Came on as sub",
-        "week": "3",
-        "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
-      },
-      "5fzuoyb6dfulcuxsmhohos5ck": {
-        "player_name": "C. Emch",
-        "club_name": "FC Rapperswil-Jona",
-        "shirt": "1",
-        "mins": 90,
-        "status": "Started",
-        "week": "3",
-        "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
-      },
-      "epbdulzw6jtzidiobkhx9rytw": {
-        "player_name": "Y. Ryter",
-        "club_name": "FC Rapperswil-Jona",
-        "shirt": "7",
-        "mins": 90,
-        "status": "Started",
         "week": "3",
         "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
       },
@@ -2990,6 +2967,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "54",
         "mins": 16,
+        "raw_mins": 16,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
@@ -2999,6 +2978,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "22",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
@@ -3008,6 +2989,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "49",
         "mins": 16,
+        "raw_mins": 16,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
@@ -3017,6 +3000,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "19",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Stade-Lausanne-Ouchy vs Rapperswil-Jona"
@@ -3133,7 +3118,9 @@
         "player_name": "B. Senyurt",
         "club_name": "FC Aarau",
         "shirt": "42",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "2",
         "match_label": "Aarau vs Stade-Lausanne-Ouchy"
@@ -3143,6 +3130,8 @@
         "club_name": "FC Aarau",
         "shirt": "44",
         "mins": 73,
+        "raw_mins": 73,
+        "weight": 1.0,
         "status": "Started",
         "week": "2",
         "match_label": "Aarau vs Stade-Lausanne-Ouchy"
@@ -3152,6 +3141,8 @@
         "club_name": "FC Aarau",
         "shirt": "28",
         "mins": 31,
+        "raw_mins": 31,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Aarau vs Stade-Lausanne-Ouchy"
@@ -3161,6 +3152,8 @@
         "club_name": "FC Aarau",
         "shirt": "51",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Aarau vs Stade-Lausanne-Ouchy"
@@ -3169,7 +3162,9 @@
         "player_name": "E. Jordan",
         "club_name": "FC Aarau",
         "shirt": "23",
-        "mins": 5,
+        "mins": 2,
+        "raw_mins": 5,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Aarau vs Stade-Lausanne-Ouchy"
@@ -3179,16 +3174,9 @@
         "club_name": "FC Stade-Lausanne-Ouchy",
         "shirt": "17",
         "mins": 25,
+        "raw_mins": 25,
+        "weight": 1.0,
         "status": "Came on as sub",
-        "week": "2",
-        "match_label": "Aarau vs Stade-Lausanne-Ouchy"
-      },
-      "bnerqoyjg86eor1viyi4dyadw": {
-        "player_name": "H. Lukembila",
-        "club_name": "FC Stade-Lausanne-Ouchy",
-        "shirt": "44",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "2",
         "match_label": "Aarau vs Stade-Lausanne-Ouchy"
       },
@@ -3197,6 +3185,8 @@
         "club_name": "FC Stade-Lausanne-Ouchy",
         "shirt": "47",
         "mins": 16,
+        "raw_mins": 16,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Aarau vs Stade-Lausanne-Ouchy"
@@ -3854,15 +3844,8 @@
         "club_name": "FC Stade-Lausanne-Ouchy",
         "shirt": "17",
         "mins": 28,
-        "status": "Came on as sub",
-        "week": "1",
-        "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
-      },
-      "bnerqoyjg86eor1viyi4dyadw": {
-        "player_name": "H. Lukembila",
-        "club_name": "FC Stade-Lausanne-Ouchy",
-        "shirt": "44",
-        "mins": 20,
+        "raw_mins": 28,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3872,6 +3855,8 @@
         "club_name": "FC Stade-Lausanne-Ouchy",
         "shirt": "47",
         "mins": 4,
+        "raw_mins": 4,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3880,25 +3865,9 @@
         "player_name": "M. Aubert",
         "club_name": "FC Stade Nyonnais",
         "shirt": "40",
-        "mins": 72,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
-      },
-      "2pdoh2ixtebskdre11kmmljx0": {
-        "player_name": "R. Boulac",
-        "club_name": "FC Stade Nyonnais",
-        "shirt": "2",
-        "mins": 72,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
-      },
-      "9ei0a1ald9djjgqr4x9tvtc7o": {
-        "player_name": "N. Grognuz",
-        "club_name": "FC Stade Nyonnais",
-        "shirt": "15",
-        "mins": 72,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3907,7 +3876,9 @@
         "player_name": "F. Lentini",
         "club_name": "FC Stade Nyonnais",
         "shirt": "7",
-        "mins": 47,
+        "mins": 30,
+        "raw_mins": 59,
+        "weight": 0.5,
         "status": "Started",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3916,7 +3887,9 @@
         "player_name": "R. Londja",
         "club_name": "FC Stade Nyonnais",
         "shirt": "70",
-        "mins": 47,
+        "mins": 30,
+        "raw_mins": 59,
+        "weight": 0.5,
         "status": "Started",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3925,7 +3898,9 @@
         "player_name": "F. Ahuissou",
         "club_name": "FC Stade Nyonnais",
         "shirt": "6",
-        "mins": 16,
+        "mins": 10,
+        "raw_mins": 20,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3934,7 +3909,9 @@
         "player_name": "M. Ishuayed",
         "club_name": "FC Stade Nyonnais",
         "shirt": "19",
-        "mins": 10,
+        "mins": 6,
+        "raw_mins": 12,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3943,7 +3920,9 @@
         "player_name": "M. Miguel",
         "club_name": "FC Stade Nyonnais",
         "shirt": "9",
-        "mins": 25,
+        "mins": 31,
+        "raw_mins": 31,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
@@ -3953,6 +3932,8 @@
         "club_name": "FC Stade Nyonnais",
         "shirt": "17",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Stade-Lausanne-Ouchy vs Stade Nyonnais"
