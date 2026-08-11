@@ -82212,6 +82212,28 @@
         "teamName": "Sion",
         "partnerEventId": "623"
       },
+      "2953360743": {
+        "typeId": "18",
+        "eventIdNum": "733",
+        "timeMin": "74",
+        "timeSec": "21",
+        "playerId": "ceeraj4iucjg6wavseu9i06i",
+        "playerName": "D. Djokic",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "734"
+      },
+      "2953360749": {
+        "typeId": "19",
+        "eventIdNum": "734",
+        "timeMin": "74",
+        "timeSec": "21",
+        "playerId": "ekyjfq0moj9l4y4fi9gp27dhw",
+        "playerName": "D. Kasper",
+        "teamId": "9kxht4usspzkeyosl567vjrs2",
+        "teamName": "Vaduz",
+        "partnerEventId": "733"
+      },
       "2953360647": {
         "typeId": "18",
         "eventIdNum": "731",
@@ -82233,28 +82255,6 @@
         "teamId": "9kxht4usspzkeyosl567vjrs2",
         "teamName": "Vaduz",
         "partnerEventId": "731"
-      },
-      "2953360743": {
-        "typeId": "18",
-        "eventIdNum": "733",
-        "timeMin": "74",
-        "timeSec": "32",
-        "playerId": "ceeraj4iucjg6wavseu9i06i",
-        "playerName": "D. Djokic",
-        "teamId": "9kxht4usspzkeyosl567vjrs2",
-        "teamName": "Vaduz",
-        "partnerEventId": "734"
-      },
-      "2953360749": {
-        "typeId": "19",
-        "eventIdNum": "734",
-        "timeMin": "74",
-        "timeSec": "32",
-        "playerId": "ekyjfq0moj9l4y4fi9gp27dhw",
-        "playerName": "D. Kasper",
-        "teamId": "9kxht4usspzkeyosl567vjrs2",
-        "teamName": "Vaduz",
-        "partnerEventId": "733"
       },
       "2953360963": {
         "typeId": "18",
