@@ -1099,57 +1099,14 @@
     "home_name": "Servette",
     "away_name": "Grasshoppers",
     "players": {
-      "vc2knr7mu8n12alvmx7fzj10": {
-        "player_name": "T. Ouattara",
-        "club_name": "Servette FC",
-        "shirt": "77",
-        "mins": 82,
-        "status": "Started",
-        "week": "3",
-        "match_label": "Servette vs Grasshoppers"
-      },
       "a188mrg22qdpx8loprtmuy2ac": {
         "player_name": "A. Vincent",
         "club_name": "Servette FC",
         "shirt": "35",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
-        "week": "3",
-        "match_label": "Servette vs Grasshoppers"
-      },
-      "50hefdi6vr6peyviss9np2gpg": {
-        "player_name": "S. Krasniqi",
-        "club_name": "Grasshopper Club Z\u00fcrich",
-        "shirt": "17",
-        "mins": 90,
-        "status": "Started",
-        "week": "3",
-        "match_label": "Servette vs Grasshoppers"
-      },
-      "2epq3qbyzs8mr3g6aaemjirdg": {
-        "player_name": "S. Bengondo",
-        "club_name": "Grasshopper Club Z\u00fcrich",
-        "shirt": "60",
-        "mins": 63,
-        "status": "Started",
-        "week": "3",
-        "match_label": "Servette vs Grasshoppers"
-      },
-      "cy4locjo340pq90psxqe17g2c": {
-        "player_name": "L. Giandomenico",
-        "club_name": "Grasshopper Club Z\u00fcrich",
-        "shirt": "51",
-        "mins": 3,
-        "status": "Came on as sub",
-        "week": "3",
-        "match_label": "Servette vs Grasshoppers"
-      },
-      "b0viyxphw7xe2wf9mkfi2uyvo": {
-        "player_name": "S. Marques",
-        "club_name": "Grasshopper Club Z\u00fcrich",
-        "shirt": "23",
-        "mins": 27,
-        "status": "Came on as sub",
         "week": "3",
         "match_label": "Servette vs Grasshoppers"
       },
@@ -1157,7 +1114,9 @@
         "player_name": "D. Sahin",
         "club_name": "Grasshopper Club Z\u00fcrich",
         "shirt": "56",
-        "mins": 3,
+        "mins": 4,
+        "raw_mins": 4,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Servette vs Grasshoppers"
@@ -1171,30 +1130,14 @@
     "home_name": "Lausanne-Sport",
     "away_name": "Young Boys",
     "players": {
-      "8lx7ynn9g358g7icf8f0jxjx0": {
-        "player_name": "I. Bah Mendes",
-        "club_name": "FC Lausanne-Sport",
-        "shirt": "51",
-        "mins": 38,
-        "status": "Came on as sub",
-        "week": "3",
-        "match_label": "Lausanne-Sport vs Young Boys"
-      },
       "1w6eqi0e57yx76uwh0zd3ekgk": {
         "player_name": "I. Despotovic",
         "club_name": "FC Lausanne-Sport",
         "shirt": "49",
         "mins": 7,
+        "raw_mins": 7,
+        "weight": 1.0,
         "status": "Came on as sub",
-        "week": "3",
-        "match_label": "Lausanne-Sport vs Young Boys"
-      },
-      "7n4obvxgtvcggeyl540j73384": {
-        "player_name": "D. Ngonzo",
-        "club_name": "FC Lausanne-Sport",
-        "shirt": "5",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "3",
         "match_label": "Lausanne-Sport vs Young Boys"
       },
@@ -1203,6 +1146,8 @@
         "club_name": "FC Lausanne-Sport",
         "shirt": "48",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Lausanne-Sport vs Young Boys"
@@ -1212,6 +1157,8 @@
         "club_name": "BSC Young Boys",
         "shirt": "34",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Lausanne-Sport vs Young Boys"
@@ -1221,6 +1168,8 @@
         "club_name": "BSC Young Boys",
         "shirt": "25",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Lausanne-Sport vs Young Boys"
@@ -3047,25 +2996,9 @@
         "player_name": "R. Salchli",
         "club_name": "SC Kriens",
         "shirt": "1",
-        "mins": 82,
-        "status": "Started",
-        "week": "3",
-        "match_label": "Kriens vs Yverdon Sport"
-      },
-      "80v0m72fcdpzdvplkacok989g": {
-        "player_name": "E. Heiniger",
-        "club_name": "SC Kriens",
-        "shirt": "15",
-        "mins": 82,
-        "status": "Started",
-        "week": "3",
-        "match_label": "Kriens vs Yverdon Sport"
-      },
-      "bbu4r6xk78dmkfkadvq9afxn8": {
-        "player_name": "Y. Bohon Diet",
-        "club_name": "SC Kriens",
-        "shirt": "25",
-        "mins": 57,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3074,7 +3007,9 @@
         "player_name": "Malek Ishuayed",
         "club_name": "SC Kriens",
         "shirt": "11",
-        "mins": 70,
+        "mins": 77,
+        "raw_mins": 77,
+        "weight": 1.0,
         "status": "Started",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3083,7 +3018,9 @@
         "player_name": "E. Rufener",
         "club_name": "SC Kriens",
         "shirt": "27",
-        "mins": 69,
+        "mins": 76,
+        "raw_mins": 76,
+        "weight": 1.0,
         "status": "Started",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3093,15 +3030,8 @@
         "club_name": "SC Kriens",
         "shirt": "22",
         "mins": 0,
-        "status": "In squad, did not play",
-        "week": "3",
-        "match_label": "Kriens vs Yverdon Sport"
-      },
-      "9g4591ffmh21o0hlw3zt17wno": {
-        "player_name": "L. Bittarelli",
-        "club_name": "Yverdon Sport FC",
-        "shirt": "23",
-        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3111,15 +3041,8 @@
         "club_name": "Yverdon Sport FC",
         "shirt": "3",
         "mins": 0,
-        "status": "In squad, did not play",
-        "week": "3",
-        "match_label": "Kriens vs Yverdon Sport"
-      },
-      "b8lonz0trfj0mjdnaeh3p50d0": {
-        "player_name": "M. Rouiller",
-        "club_name": "Yverdon Sport FC",
-        "shirt": "16",
-        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
@@ -3129,6 +3052,8 @@
         "club_name": "Yverdon Sport FC",
         "shirt": "99",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Kriens vs Yverdon Sport"
