@@ -2563,15 +2563,8 @@
         "club_name": "Etoile Carouge FC",
         "shirt": "23",
         "mins": 90,
-        "status": "Started",
-        "week": "3",
-        "match_label": "Etoile Carouge vs Xamax"
-      },
-      "mrfl0vgfn50zhn5ekhok3vh0": {
-        "player_name": "N. Boulkous",
-        "club_name": "Etoile Carouge FC",
-        "shirt": "78",
-        "mins": 77,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
         "week": "3",
         "match_label": "Etoile Carouge vs Xamax"
@@ -2581,6 +2574,8 @@
         "club_name": "Etoile Carouge FC",
         "shirt": "16",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Etoile Carouge vs Xamax"
@@ -2590,6 +2585,8 @@
         "club_name": "Etoile Carouge FC",
         "shirt": "42",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Etoile Carouge vs Xamax"
@@ -2598,17 +2595,10 @@
         "player_name": "C. Koroma",
         "club_name": "Etoile Carouge FC",
         "shirt": "13",
-        "mins": 13,
+        "mins": 6,
+        "raw_mins": 13,
+        "weight": 0.5,
         "status": "Came on as sub",
-        "week": "3",
-        "match_label": "Etoile Carouge vs Xamax"
-      },
-      "ec7zraloffb84elpg4xop52qc": {
-        "player_name": "J. L\u00fcthi",
-        "club_name": "Neuch\u00e2tel Xamax FCS",
-        "shirt": "22",
-        "mins": 67,
-        "status": "Started",
         "week": "3",
         "match_label": "Etoile Carouge vs Xamax"
       },
@@ -2617,6 +2607,8 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "41",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Etoile Carouge vs Xamax"
@@ -2626,6 +2618,8 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "25",
         "mins": 7,
+        "raw_mins": 7,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Etoile Carouge vs Xamax"
@@ -2635,6 +2629,8 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "40",
         "mins": 23,
+        "raw_mins": 23,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Etoile Carouge vs Xamax"
