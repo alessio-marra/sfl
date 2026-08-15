@@ -1483,6 +1483,8 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "43",
         "mins": 62,
+        "raw_mins": 62,
+        "weight": 1.0,
         "status": "Started",
         "week": "2",
         "match_label": "Z\u00fcrich vs Servette"
@@ -1491,17 +1493,10 @@
         "player_name": "L. Sch\u00f6dler",
         "club_name": "FC Z\u00fcrich",
         "shirt": "21",
-        "mins": 62,
+        "mins": 31,
+        "raw_mins": 62,
+        "weight": 0.5,
         "status": "Started",
-        "week": "2",
-        "match_label": "Z\u00fcrich vs Servette"
-      },
-      "exxkv65coe3l769z25gvk1ixg": {
-        "player_name": "N. Di Giusto",
-        "club_name": "FC Z\u00fcrich",
-        "shirt": "14",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "2",
         "match_label": "Z\u00fcrich vs Servette"
       },
@@ -1510,6 +1505,8 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "60",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Z\u00fcrich vs Servette"
@@ -1519,25 +1516,9 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "49",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
-        "week": "2",
-        "match_label": "Z\u00fcrich vs Servette"
-      },
-      "3mw97uhlizy4327fxiui1wn4k": {
-        "player_name": "S. Walker",
-        "club_name": "FC Z\u00fcrich",
-        "shirt": "44",
-        "mins": 28,
-        "status": "Came on as sub",
-        "week": "2",
-        "match_label": "Z\u00fcrich vs Servette"
-      },
-      "vc2knr7mu8n12alvmx7fzj10": {
-        "player_name": "T. Ouattara",
-        "club_name": "Servette FC",
-        "shirt": "77",
-        "mins": 12,
-        "status": "Came on as sub",
         "week": "2",
         "match_label": "Z\u00fcrich vs Servette"
       },
@@ -1546,6 +1527,8 @@
         "club_name": "Servette FC",
         "shirt": "35",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Z\u00fcrich vs Servette"
@@ -1559,30 +1542,14 @@
     "home_name": "Basel",
     "away_name": "Lausanne-Sport",
     "players": {
-      "8lx7ynn9g358g7icf8f0jxjx0": {
-        "player_name": "I. Bah Mendes",
-        "club_name": "FC Lausanne-Sport",
-        "shirt": "51",
-        "mins": 66,
-        "status": "Started",
-        "week": "2",
-        "match_label": "Basel vs Lausanne-Sport"
-      },
       "1w6eqi0e57yx76uwh0zd3ekgk": {
         "player_name": "I. Despotovic",
         "club_name": "FC Lausanne-Sport",
         "shirt": "49",
         "mins": 4,
+        "raw_mins": 4,
+        "weight": 1.0,
         "status": "Came on as sub",
-        "week": "2",
-        "match_label": "Basel vs Lausanne-Sport"
-      },
-      "7n4obvxgtvcggeyl540j73384": {
-        "player_name": "D. Ngonzo",
-        "club_name": "FC Lausanne-Sport",
-        "shirt": "5",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "2",
         "match_label": "Basel vs Lausanne-Sport"
       }
@@ -1595,20 +1562,13 @@
     "home_name": "St.Gallen",
     "away_name": "Z\u00fcrich",
     "players": {
-      "8ibag83uzcirmb7vycpdxxw5w": {
-        "player_name": "L. Frokaj",
-        "club_name": "FC St.Gallen 1879",
-        "shirt": "20",
-        "mins": 90,
-        "status": "Started",
-        "week": "1",
-        "match_label": "St.Gallen vs Z\u00fcrich"
-      },
       "4o8roh953dufflhb1y3wn1kpg": {
         "player_name": "D. Besio",
         "club_name": "FC St.Gallen 1879",
         "shirt": "31",
-        "mins": 29,
+        "mins": 14,
+        "raw_mins": 29,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "St.Gallen vs Z\u00fcrich"
@@ -1617,7 +1577,9 @@
         "player_name": "C. Konietzke",
         "club_name": "FC St.Gallen 1879",
         "shirt": "63",
-        "mins": 11,
+        "mins": 6,
+        "raw_mins": 11,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "St.Gallen vs Z\u00fcrich"
@@ -1626,7 +1588,9 @@
         "player_name": "J. Ruiz",
         "club_name": "FC St.Gallen 1879",
         "shirt": "74",
-        "mins": 1,
+        "mins": 0,
+        "raw_mins": 1,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "St.Gallen vs Z\u00fcrich"
@@ -1636,6 +1600,8 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "43",
         "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
         "week": "1",
         "match_label": "St.Gallen vs Z\u00fcrich"
@@ -1644,17 +1610,10 @@
         "player_name": "L. Sch\u00f6dler",
         "club_name": "FC Z\u00fcrich",
         "shirt": "21",
-        "mins": 83,
+        "mins": 42,
+        "raw_mins": 83,
+        "weight": 0.5,
         "status": "Started",
-        "week": "1",
-        "match_label": "St.Gallen vs Z\u00fcrich"
-      },
-      "exxkv65coe3l769z25gvk1ixg": {
-        "player_name": "N. Di Giusto",
-        "club_name": "FC Z\u00fcrich",
-        "shirt": "14",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "1",
         "match_label": "St.Gallen vs Z\u00fcrich"
       },
@@ -1663,6 +1622,8 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "60",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "St.Gallen vs Z\u00fcrich"
@@ -1672,16 +1633,9 @@
         "club_name": "FC Z\u00fcrich",
         "shirt": "49",
         "mins": 7,
+        "raw_mins": 7,
+        "weight": 1.0,
         "status": "Came on as sub",
-        "week": "1",
-        "match_label": "St.Gallen vs Z\u00fcrich"
-      },
-      "3mw97uhlizy4327fxiui1wn4k": {
-        "player_name": "S. Walker",
-        "club_name": "FC Z\u00fcrich",
-        "shirt": "44",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "1",
         "match_label": "St.Gallen vs Z\u00fcrich"
       }
@@ -1850,20 +1804,13 @@
     "home_name": "Servette",
     "away_name": "Basel",
     "players": {
-      "vc2knr7mu8n12alvmx7fzj10": {
-        "player_name": "T. Ouattara",
-        "club_name": "Servette FC",
-        "shirt": "77",
-        "mins": 12,
-        "status": "Came on as sub",
-        "week": "1",
-        "match_label": "Servette vs Basel"
-      },
       "a188mrg22qdpx8loprtmuy2ac": {
         "player_name": "A. Vincent",
         "club_name": "Servette FC",
         "shirt": "35",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Servette vs Basel"
@@ -1877,56 +1824,13 @@
     "home_name": "Lausanne-Sport",
     "away_name": "Grasshoppers",
     "players": {
-      "8lx7ynn9g358g7icf8f0jxjx0": {
-        "player_name": "I. Bah Mendes",
-        "club_name": "FC Lausanne-Sport",
-        "shirt": "51",
-        "mins": 59,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Lausanne-Sport vs Grasshoppers"
-      },
       "1w6eqi0e57yx76uwh0zd3ekgk": {
         "player_name": "I. Despotovic",
         "club_name": "FC Lausanne-Sport",
         "shirt": "49",
         "mins": 0,
-        "status": "In squad, did not play",
-        "week": "1",
-        "match_label": "Lausanne-Sport vs Grasshoppers"
-      },
-      "7n4obvxgtvcggeyl540j73384": {
-        "player_name": "D. Ngonzo",
-        "club_name": "FC Lausanne-Sport",
-        "shirt": "5",
-        "mins": 0,
-        "status": "In squad, did not play",
-        "week": "1",
-        "match_label": "Lausanne-Sport vs Grasshoppers"
-      },
-      "50hefdi6vr6peyviss9np2gpg": {
-        "player_name": "S. Krasniqi",
-        "club_name": "Grasshopper Club Z\u00fcrich",
-        "shirt": "17",
-        "mins": 90,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Lausanne-Sport vs Grasshoppers"
-      },
-      "2epq3qbyzs8mr3g6aaemjirdg": {
-        "player_name": "S. Bengondo",
-        "club_name": "Grasshopper Club Z\u00fcrich",
-        "shirt": "60",
-        "mins": 21,
-        "status": "Came on as sub",
-        "week": "1",
-        "match_label": "Lausanne-Sport vs Grasshoppers"
-      },
-      "b0viyxphw7xe2wf9mkfi2uyvo": {
-        "player_name": "S. Marques",
-        "club_name": "Grasshopper Club Z\u00fcrich",
-        "shirt": "23",
-        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Lausanne-Sport vs Grasshoppers"
@@ -1936,6 +1840,8 @@
         "club_name": "Grasshopper Club Z\u00fcrich",
         "shirt": "55",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Lausanne-Sport vs Grasshoppers"
@@ -1945,6 +1851,8 @@
         "club_name": "Grasshopper Club Z\u00fcrich",
         "shirt": "56",
         "mins": 21,
+        "raw_mins": 21,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Lausanne-Sport vs Grasshoppers"
@@ -2796,20 +2704,13 @@
     "home_name": "Winterthur",
     "away_name": "Wil",
     "players": {
-      "99gzdabu92tunehaoai1r7ris": {
-        "player_name": "A. Spagnoli",
-        "club_name": "FC Winterthur",
-        "shirt": "75",
-        "mins": 90,
-        "status": "Started",
-        "week": "3",
-        "match_label": "Winterthur vs Wil"
-      },
       "5gcoipks3qsbde767uz8tggt0": {
         "player_name": "S. Camara",
         "club_name": "FC Winterthur",
         "shirt": "4",
         "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
         "week": "3",
         "match_label": "Winterthur vs Wil"
@@ -2819,16 +2720,9 @@
         "club_name": "FC Winterthur",
         "shirt": "19",
         "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
-        "week": "3",
-        "match_label": "Winterthur vs Wil"
-      },
-      "2v9nzsylas35kfrdooydkt4wk": {
-        "player_name": "T. Citherlet",
-        "club_name": "FC Winterthur",
-        "shirt": "33",
-        "mins": 50,
-        "status": "Came on as sub",
         "week": "3",
         "match_label": "Winterthur vs Wil"
       },
@@ -2837,6 +2731,8 @@
         "club_name": "FC Winterthur",
         "shirt": "40",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Winterthur vs Wil"
@@ -2845,7 +2741,9 @@
         "player_name": "G. Muslija",
         "club_name": "FC Wil 1900",
         "shirt": "1",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "3",
         "match_label": "Winterthur vs Wil"
@@ -2854,7 +2752,9 @@
         "player_name": "T. Seferovic",
         "club_name": "FC Wil 1900",
         "shirt": "28",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "3",
         "match_label": "Winterthur vs Wil"
@@ -2864,6 +2764,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "20",
         "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
         "week": "3",
         "match_label": "Winterthur vs Wil"
@@ -2872,16 +2774,9 @@
         "player_name": "Y. Allou",
         "club_name": "FC Wil 1900",
         "shirt": "33",
-        "mins": 26,
-        "status": "Came on as sub",
-        "week": "3",
-        "match_label": "Winterthur vs Wil"
-      },
-      "ci5o6s3gnwvvvjz8gs13z3wgk": {
-        "player_name": "I. Okafor",
-        "club_name": "FC Wil 1900",
-        "shirt": "23",
-        "mins": 45,
+        "mins": 13,
+        "raw_mins": 26,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Winterthur vs Wil"
@@ -2891,6 +2786,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "3",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Winterthur vs Wil"
@@ -2900,6 +2797,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "29",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "3",
         "match_label": "Winterthur vs Wil"
