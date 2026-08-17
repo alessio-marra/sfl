@@ -1,5 +1,11 @@
 [
   {
+    "id": "8surxesvvxiqq2t7cpz7l2b6c",
+    "firstName": "Tristan Esteban",
+    "lastName": "Jost",
+    "weight": 0.5
+  },
+  {
     "id": "99s7mp9tue9unwu8o7lds2hp0",
     "firstName": "Rhodri",
     "lastName": "Smith",
@@ -180,6 +186,12 @@
     "weight": 1.0
   },
   {
+    "id": "1q3efjphudhupyd3j5vspjk7o",
+    "firstName": "Fabio",
+    "lastName": "Rissi",
+    "weight": 1.0
+  },
+  {
     "id": "2dwb36l3c83msll70wyl16exg",
     "firstName": "Nevio",
     "lastName": "Scherrer",
@@ -213,6 +225,12 @@
     "id": "dldvsl5cgnzd5pqfm2h9uq3h0",
     "firstName": "Corsin",
     "lastName": "Konietzke",
+    "weight": 0.5
+  },
+  {
+    "id": "1i68287toch77w3id9u0ctn2s",
+    "firstName": "Leon",
+    "lastName": "Grando",
     "weight": 0.5
   },
   {
@@ -642,6 +660,12 @@
     "weight": 1.0
   },
   {
+    "id": "f2os3nxhdztuewsy5utvuaz8",
+    "firstName": "Noan",
+    "lastName": "Hirt",
+    "weight": 1.0
+  },
+  {
     "id": "ojetnalu7pxbdmttr97uiexg",
     "firstName": "Tobias Chibuzo",
     "lastName": "Okafor Onyekosor",
@@ -735,6 +759,12 @@
     "id": "8uee7279swrrl1t02kz7287is",
     "firstName": "Ilan Gilles Michaël Santiago",
     "lastName": "Weill",
+    "weight": 1.0
+  },
+  {
+    "id": "eg4dliojg7jvsj4iw8al7k2s4",
+    "firstName": "Guedalia",
+    "lastName": "Nsakala",
     "weight": 1.0
   }
 ]
