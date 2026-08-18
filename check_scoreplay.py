@@ -117,7 +117,10 @@ def get_graph_token() -> str:
 
 def send_email(new_items: list[dict]):
     run_time  = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    rows_html = build_rows(new_items)
+    PREVIEW_LIMIT = 5
+    preview_items = new_items[:PREVIEW_LIMIT]
+    remaining     = len(new_items) - PREVIEW_LIMIT
+    rows_html     = build_rows(preview_items)
 
     html_body = f"""<!DOCTYPE html>
 <html>
@@ -152,8 +155,12 @@ def send_email(new_items: list[dict]):
       </table>
     </div>
     <div style="background:#f8fafc;border-top:1px solid #e5e7eb;padding:12px 28px;
-                font-size:12px;color:#9ca3af;">
-      Automated notification — ScorePlay headshot monitor.
+                font-size:12px;color:#9ca3af;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <span>{"And " + str(remaining) + " more not shown." if remaining > 0 else "Automated notification — ScorePlay headshot monitor."}</span>
+      <a href="https://sfl.scoreplay.io/" style="display:inline-block;background:#1e3a5f;color:#fff;
+         padding:8px 16px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;">
+        View all on ScorePlay &rarr;
+      </a>
     </div>
   </div>
 </body>
