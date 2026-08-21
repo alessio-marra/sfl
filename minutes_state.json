@@ -1240,17 +1240,10 @@
         "player_name": "W. Boteli",
         "club_name": "FC Sion",
         "shirt": "13",
-        "mins": 63,
+        "mins": 32,
+        "raw_mins": 63,
+        "weight": 0.5,
         "status": "Started",
-        "week": "2",
-        "match_label": "Sion vs Luzern"
-      },
-      "d0xfek1nalpc33ktsotqiqs4": {
-        "player_name": "R. Kessler",
-        "club_name": "FC Sion",
-        "shirt": "38",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "2",
         "match_label": "Sion vs Luzern"
       },
@@ -1259,6 +1252,8 @@
         "club_name": "FC Sion",
         "shirt": "22",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Sion vs Luzern"
@@ -1267,7 +1262,9 @@
         "player_name": "S. Meyer",
         "club_name": "FC Luzern",
         "shirt": "71",
-        "mins": 58,
+        "mins": 29,
+        "raw_mins": 58,
+        "weight": 0.5,
         "status": "Started",
         "week": "2",
         "match_label": "Sion vs Luzern"
@@ -1277,6 +1274,8 @@
         "club_name": "FC Luzern",
         "shirt": "80",
         "mins": 32,
+        "raw_mins": 32,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Sion vs Luzern"
