@@ -2397,7 +2397,85 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Rapperswil-Jona",
     "away_name": "Winterthur",
-    "players": {}
+    "players": {
+      "4yhdcuu74b6tpt775q7rokahg": {
+        "player_name": "M. Kurtishi",
+        "club_name": "FC Rapperswil-Jona",
+        "shirt": "54",
+        "mins": 4,
+        "raw_mins": 4,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Rapperswil-Jona vs Winterthur"
+      },
+      "2salmk8nks432oy74njgpnor8": {
+        "player_name": "I. Maslarov",
+        "club_name": "FC Rapperswil-Jona",
+        "shirt": "22",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Rapperswil-Jona vs Winterthur"
+      },
+      "8hdps5c5eossoec01gafzu8lw": {
+        "player_name": "D. Muzz\u00ed",
+        "club_name": "FC Rapperswil-Jona",
+        "shirt": "49",
+        "mins": 23,
+        "raw_mins": 23,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Rapperswil-Jona vs Winterthur"
+      },
+      "5gcoipks3qsbde767uz8tggt0": {
+        "player_name": "S. Camara",
+        "club_name": "FC Winterthur",
+        "shirt": "4",
+        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Rapperswil-Jona vs Winterthur"
+      },
+      "f2os3nxhdztuewsy5utvuaz8": {
+        "player_name": "N. Hirt",
+        "club_name": "FC Winterthur",
+        "shirt": "47",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Rapperswil-Jona vs Winterthur"
+      },
+      "4jlgd5ln0tf7gtlaqlkr4oiz8": {
+        "player_name": "L. Maksutaj",
+        "club_name": "FC Winterthur",
+        "shirt": "17",
+        "mins": 2,
+        "raw_mins": 2,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Rapperswil-Jona vs Winterthur"
+      },
+      "ojetnalu7pxbdmttr97uiexg": {
+        "player_name": "T. Okafor",
+        "club_name": "FC Winterthur",
+        "shirt": "40",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Rapperswil-Jona vs Winterthur"
+      }
+    }
   },
   "eqj7631ysx1048lpu289j5p90": {
     "week": "4",
@@ -2405,7 +2483,107 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Stade Nyonnais",
     "away_name": "Etoile Carouge",
-    "players": {}
+    "players": {
+      "5qg0zclpg1kdgtaribzbtg844": {
+        "player_name": "M. Aubert",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "40",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      },
+      "wpoornaq4npl818loqa71vro": {
+        "player_name": "R. Philippin",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "66",
+        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      },
+      "9dbhqp45xya5rulyokd1vglxw": {
+        "player_name": "F. Ahuissou",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "6",
+        "mins": 40,
+        "raw_mins": 81,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      },
+      "bd50h6omze0r1xrfjeeldgj6c": {
+        "player_name": "M. Ishuayed",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "19",
+        "mins": 4,
+        "raw_mins": 9,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      },
+      "868v7nfa84r7cpe0uxrsahpn8": {
+        "player_name": "F. Lentini",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "7",
+        "mins": 4,
+        "raw_mins": 9,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      },
+      "32hz9akli4s09ib1fzsa0go44": {
+        "player_name": "R. Londja",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "70",
+        "mins": 10,
+        "raw_mins": 21,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      },
+      "l3cs4svcg1egw1ctb9qo6m8k": {
+        "player_name": "M. Miguel",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "9",
+        "mins": 21,
+        "raw_mins": 21,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      },
+      "cgnne2m8bqaslb05fwi95xces": {
+        "player_name": "L. Huwiler",
+        "club_name": "Etoile Carouge FC",
+        "shirt": "23",
+        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      },
+      "e1vdfbwpeopk8vczhd24zp1ck": {
+        "player_name": "E. Januario",
+        "club_name": "Etoile Carouge FC",
+        "shirt": "80",
+        "mins": 5,
+        "raw_mins": 10,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Stade Nyonnais vs Etoile Carouge"
+      }
+    }
   },
   "eq5s0dogxf71gpkxs69t84cus": {
     "week": "4",
@@ -2413,7 +2591,74 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Xamax",
     "away_name": "Stade-Lausanne-Ouchy",
-    "players": {}
+    "players": {
+      "bddjlux3x7xhfmwfda7mnzi8k": {
+        "player_name": "A. Bourezak",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "41",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Xamax vs Stade-Lausanne-Ouchy"
+      },
+      "81h4mugixhace8q39em2nwis4": {
+        "player_name": "M. Dind",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "25",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Xamax vs Stade-Lausanne-Ouchy"
+      },
+      "1hwkc9oiv27t564914n05zdw4": {
+        "player_name": "Y. Peverelli",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "77",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Xamax vs Stade-Lausanne-Ouchy"
+      },
+      "awt38idua80bt2qsebqj4knx0": {
+        "player_name": "L. Veya",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "40",
+        "mins": 19,
+        "raw_mins": 19,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Xamax vs Stade-Lausanne-Ouchy"
+      },
+      "16nk7f0yc9zkqoore22i5ixas": {
+        "player_name": "J. Atangana",
+        "club_name": "FC Stade-Lausanne-Ouchy",
+        "shirt": "17",
+        "mins": 19,
+        "raw_mins": 19,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Xamax vs Stade-Lausanne-Ouchy"
+      },
+      "1gyr7io6a0won2dlyzln6jy8k": {
+        "player_name": "F. Morello",
+        "club_name": "FC Stade-Lausanne-Ouchy",
+        "shirt": "47",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Xamax vs Stade-Lausanne-Ouchy"
+      }
+    }
   },
   "eps6k7oadmgwru7cjfkle7qxg": {
     "week": "3",
