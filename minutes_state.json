@@ -885,7 +885,63 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Young Boys",
     "away_name": "Vaduz",
-    "players": {}
+    "players": {
+      "canh5hweotiilht8quf90euj8": {
+        "player_name": "E. Etoski",
+        "club_name": "BSC Young Boys",
+        "shirt": "34",
+        "mins": 2,
+        "raw_mins": 2,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Young Boys vs Vaduz"
+      },
+      "667mcd19q1u91aa0id8gsv4t0": {
+        "player_name": "L. Macumi",
+        "club_name": "BSC Young Boys",
+        "shirt": "58",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Young Boys vs Vaduz"
+      },
+      "99s7mp9tue9unwu8o7lds2hp0": {
+        "player_name": "R. Smith",
+        "club_name": "BSC Young Boys",
+        "shirt": "66",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Young Boys vs Vaduz"
+      },
+      "66daqkioxqbpunys9lz8w7578": {
+        "player_name": "N. Tschanz",
+        "club_name": "BSC Young Boys",
+        "shirt": "52",
+        "mins": 1,
+        "raw_mins": 2,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Young Boys vs Vaduz"
+      },
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Young Boys vs Vaduz"
+      }
+    }
   },
   "1m9upo3ex0stz8m8yp7grrw2c": {
     "week": "4",
@@ -2460,7 +2516,74 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Yverdon Sport",
     "away_name": "Aarau",
-    "players": {}
+    "players": {
+      "doogaqd8kpw43pnfws4ma074k": {
+        "player_name": "E. Bruchez",
+        "club_name": "Yverdon Sport FC",
+        "shirt": "80",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Yverdon Sport vs Aarau"
+      },
+      "2fn6lo78aa995zvlqodpg89hw": {
+        "player_name": "L. Guignard",
+        "club_name": "Yverdon Sport FC",
+        "shirt": "3",
+        "mins": 8,
+        "raw_mins": 16,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Yverdon Sport vs Aarau"
+      },
+      "3m27obik4aiqh1r3flyk6hzx0": {
+        "player_name": "D. Coric",
+        "club_name": "FC Aarau",
+        "shirt": "28",
+        "mins": 4,
+        "raw_mins": 4,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Yverdon Sport vs Aarau"
+      },
+      "60dem379i61fdirmymoev7ggk": {
+        "player_name": "E. Jordan",
+        "club_name": "FC Aarau",
+        "shirt": "23",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Yverdon Sport vs Aarau"
+      },
+      "24unujkewve7qqxvmazogymfo": {
+        "player_name": "B. Senyurt",
+        "club_name": "FC Aarau",
+        "shirt": "42",
+        "mins": 7,
+        "raw_mins": 14,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Yverdon Sport vs Aarau"
+      },
+      "4otfebxex2uel1pysahbrv5sk": {
+        "player_name": "Z. Tairi",
+        "club_name": "FC Aarau",
+        "shirt": "44",
+        "mins": 58,
+        "raw_mins": 58,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Yverdon Sport vs Aarau"
+      }
+    }
   },
   "era8w658vx3eyul6w448obnys": {
     "week": "4",
