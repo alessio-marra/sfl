@@ -51338,5 +51338,437 @@
         "partnerEventId": "876"
       }
     }
+  },
+  "bnmcwlu4pwueotu9x8cllhd78": {
+    "description": "St.Gallen vs Young Boys",
+    "competition": "Super League",
+    "date": "2026-02-11",
+    "substitutions": {
+      "2899231391": {
+        "typeId": "18",
+        "eventIdNum": "356",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "5b3n7shchd7m2a11l5801d2w9",
+        "playerName": "J. Stanić",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "357"
+      },
+      "2899231401": {
+        "typeId": "19",
+        "eventIdNum": "357",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "1bh2zo94xxdqiuo2lz6xlxune",
+        "playerName": "C. Kleine-Bekel",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "356"
+      },
+      "2899246731": {
+        "typeId": "18",
+        "eventIdNum": "605",
+        "timeMin": "67",
+        "timeSec": "26",
+        "playerId": "6qb4ce3qzlcvjdaluqom2vhuc",
+        "playerName": "S. Bukinac",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "606"
+      },
+      "2899246733": {
+        "typeId": "19",
+        "eventIdNum": "606",
+        "timeMin": "67",
+        "timeSec": "26",
+        "playerId": "9tdb905kq5becch102boicdex",
+        "playerName": "Y. Valery",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "605"
+      },
+      "2899246617": {
+        "typeId": "18",
+        "eventIdNum": "601",
+        "timeMin": "67",
+        "timeSec": "34",
+        "playerId": "4ut6rl8f8cwct80cqg11ari3u",
+        "playerName": "D. Males",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "602"
+      },
+      "2899246621": {
+        "typeId": "19",
+        "eventIdNum": "602",
+        "timeMin": "67",
+        "timeSec": "34",
+        "playerId": "7z00z2y66vadv1ge09y6ypixg",
+        "playerName": "A. Sanches",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "601"
+      },
+      "2899246667": {
+        "typeId": "18",
+        "eventIdNum": "603",
+        "timeMin": "67",
+        "timeSec": "35",
+        "playerId": "baogzi00mwdclwbvkd618evv9",
+        "playerName": "R. Raveloson",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "604"
+      },
+      "2899246669": {
+        "typeId": "19",
+        "eventIdNum": "604",
+        "timeMin": "67",
+        "timeSec": "35",
+        "playerId": "4ek6tobfa25ecm5gltuoiqsid",
+        "playerName": "C. Bedia",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "603"
+      },
+      "2899251515": {
+        "typeId": "18",
+        "eventIdNum": "549",
+        "timeMin": "75",
+        "timeSec": "30",
+        "playerId": "3t31crka9rpryrpazn7m46zo4",
+        "playerName": "A. Vogt",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "550"
+      },
+      "2899251523": {
+        "typeId": "19",
+        "eventIdNum": "550",
+        "timeMin": "75",
+        "timeSec": "30",
+        "playerId": "4o8roh953dufflhb1y3wn1kpg",
+        "playerName": "D. Besio",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "549"
+      },
+      "2899254409": {
+        "typeId": "18",
+        "eventIdNum": "708",
+        "timeMin": "79",
+        "timeSec": "30",
+        "playerId": "1zx0huwj0czivtoq6kvfb5roq",
+        "playerName": "A. Virginius",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "709"
+      },
+      "2899254413": {
+        "typeId": "19",
+        "eventIdNum": "709",
+        "timeMin": "79",
+        "timeSec": "30",
+        "playerId": "9km5yidmp0mbjrqqxlapdztre",
+        "playerName": "A. Gigović",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "708"
+      },
+      "2899261117": {
+        "typeId": "18",
+        "eventIdNum": "783",
+        "timeMin": "87",
+        "timeSec": "43",
+        "playerId": "7j0fg53og80v3mjuderenmuvp",
+        "playerName": "S. Córdova",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "784"
+      },
+      "2899261125": {
+        "typeId": "19",
+        "eventIdNum": "784",
+        "timeMin": "87",
+        "timeSec": "43",
+        "playerId": "cag46lcr9rbj6593ftfegc0lw",
+        "playerName": "D. Pech",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "783"
+      },
+      "2899262071": {
+        "typeId": "18",
+        "eventIdNum": "641",
+        "timeMin": "88",
+        "timeSec": "48",
+        "playerId": "1hxi6jvbthhyy1l1oqd7vsnhl",
+        "playerName": "H. Vandermersch",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "642"
+      },
+      "2899262083": {
+        "typeId": "19",
+        "eventIdNum": "642",
+        "timeMin": "88",
+        "timeSec": "48",
+        "playerId": "an0tzhrx6uhf75uper52ta3o4",
+        "playerName": "J. Ruiz",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "641"
+      },
+      "2899262303": {
+        "typeId": "18",
+        "eventIdNum": "643",
+        "timeMin": "88",
+        "timeSec": "53",
+        "playerId": "1amx0jc0ey5w1z9g3f3nb9t2i",
+        "playerName": "A. Balde",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "644"
+      },
+      "2899262317": {
+        "typeId": "19",
+        "eventIdNum": "644",
+        "timeMin": "88",
+        "timeSec": "53",
+        "playerId": "airs278inzcp06beotk1zgbo4",
+        "playerName": "N. Weibel",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "643"
+      },
+      "2899264257": {
+        "typeId": "18",
+        "eventIdNum": "664",
+        "timeMin": "91",
+        "timeSec": "18",
+        "playerId": "d1ze9efbuztkd5rdk7kzxf1zp",
+        "playerName": "L. Görtler",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "665"
+      },
+      "2899264271": {
+        "typeId": "19",
+        "eventIdNum": "665",
+        "timeMin": "91",
+        "timeSec": "18",
+        "playerId": "4tk4xx48lydt8rqn58vwn55ka",
+        "playerName": "M. Stevanović",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "664"
+      }
+    }
+  },
+  "bk6p9yvi1bl5izux2whbq6238": {
+    "description": "Grasshoppers vs Young Boys",
+    "competition": "Super League",
+    "date": "2026-02-07",
+    "substitutions": {
+      "2897640879": {
+        "typeId": "18",
+        "eventIdNum": "389",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "4db9vewyt9kiqtqd5e0rloodm",
+        "playerName": "L. Plange",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "390"
+      },
+      "2897640899": {
+        "typeId": "19",
+        "eventIdNum": "390",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "b0viyxphw7xe2wf9mkfi2uyvo",
+        "playerName": "S. Marques",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "389"
+      },
+      "2897656881": {
+        "typeId": "18",
+        "eventIdNum": "602",
+        "timeMin": "61",
+        "timeSec": "50",
+        "playerId": "1zx0huwj0czivtoq6kvfb5roq",
+        "playerName": "A. Virginius",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "603"
+      },
+      "2897656883": {
+        "typeId": "19",
+        "eventIdNum": "603",
+        "timeMin": "61",
+        "timeSec": "50",
+        "playerId": "4gksusc509n6j8ljhyegzgxk9",
+        "playerName": "C. Fassnacht",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "602"
+      },
+      "2897656829": {
+        "typeId": "18",
+        "eventIdNum": "600",
+        "timeMin": "62",
+        "timeSec": "17",
+        "playerId": "61r6igcudl4mbfr19doqr4n3d",
+        "playerName": "S. Lauper",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "601"
+      },
+      "2897656833": {
+        "typeId": "19",
+        "eventIdNum": "601",
+        "timeMin": "62",
+        "timeSec": "17",
+        "playerId": "6qb4ce3qzlcvjdaluqom2vhuc",
+        "playerName": "S. Bukinac",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "600"
+      },
+      "2897660349": {
+        "typeId": "18",
+        "eventIdNum": "560",
+        "timeMin": "66",
+        "timeSec": "44",
+        "playerId": "ex7y8oe78ewwmibz41qbmwhxx",
+        "playerName": "M. Frey",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "561"
+      },
+      "2897660357": {
+        "typeId": "19",
+        "eventIdNum": "561",
+        "timeMin": "66",
+        "timeSec": "44",
+        "playerId": "2vk56r3xh4i6hajyv7aejyk0l",
+        "playerName": "M. Ullmann",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "560"
+      },
+      "2897660495": {
+        "typeId": "18",
+        "eventIdNum": "562",
+        "timeMin": "66",
+        "timeSec": "47",
+        "playerId": "8vdzhzm8yiyivuwydr7q6jlnu",
+        "playerName": "S. Diarrassouba",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "563"
+      },
+      "2897660499": {
+        "typeId": "19",
+        "eventIdNum": "563",
+        "timeMin": "66",
+        "timeSec": "47",
+        "playerId": "2309zjv6facft50slzuqf1hjo",
+        "playerName": "E. Ngom",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "562"
+      },
+      "2897660581": {
+        "typeId": "18",
+        "eventIdNum": "629",
+        "timeMin": "67",
+        "timeSec": "23",
+        "playerId": "7z00z2y66vadv1ge09y6ypixg",
+        "playerName": "A. Sanches",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "630"
+      },
+      "2897660587": {
+        "typeId": "19",
+        "eventIdNum": "630",
+        "timeMin": "67",
+        "timeSec": "23",
+        "playerId": "ckcjk3zjpix288d6zihltlst0",
+        "playerName": "T. Zoukrou",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "629"
+      },
+      "2897668035": {
+        "typeId": "18",
+        "eventIdNum": "721",
+        "timeMin": "79",
+        "timeSec": "34",
+        "playerId": "9km5yidmp0mbjrqqxlapdztre",
+        "playerName": "A. Gigović",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "722"
+      },
+      "2897668045": {
+        "typeId": "19",
+        "eventIdNum": "722",
+        "timeMin": "79",
+        "timeSec": "34",
+        "playerId": "baogzi00mwdclwbvkd618evv9",
+        "playerName": "R. Raveloson",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "721"
+      },
+      "2897667935": {
+        "typeId": "18",
+        "eventIdNum": "719",
+        "timeMin": "79",
+        "timeSec": "37",
+        "playerId": "4ek6tobfa25ecm5gltuoiqsid",
+        "playerName": "C. Bedia",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "720"
+      },
+      "2897667943": {
+        "typeId": "19",
+        "eventIdNum": "720",
+        "timeMin": "79",
+        "timeSec": "37",
+        "playerId": "4ut6rl8f8cwct80cqg11ari3u",
+        "playerName": "D. Males",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "719"
+      },
+      "2897672149": {
+        "typeId": "18",
+        "eventIdNum": "729",
+        "timeMin": "86",
+        "timeSec": "3",
+        "playerId": "9osic22dxne4mjyzix16v5ses",
+        "playerName": "I. Hassane",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "730"
+      },
+      "2897672155": {
+        "typeId": "19",
+        "eventIdNum": "730",
+        "timeMin": "86",
+        "timeSec": "3",
+        "playerId": "8g12wvgw8lf0l4xi2xzae7d91",
+        "playerName": "A. Abrashi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "729"
+      }
+    }
   }
 }
