@@ -1018,8 +1018,8 @@
         "player_name": "S. Meyer",
         "club_name": "FC Luzern",
         "shirt": "71",
-        "mins": 4,
-        "raw_mins": 7,
+        "mins": 3,
+        "raw_mins": 6,
         "weight": 0.5,
         "status": "Came on as sub",
         "week": "4",
@@ -3786,7 +3786,9 @@
         "player_name": "G. Muslija",
         "club_name": "FC Wil 1900",
         "shirt": "1",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -3795,7 +3797,9 @@
         "player_name": "T. Seferovic",
         "club_name": "FC Wil 1900",
         "shirt": "28",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -3805,6 +3809,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "20",
         "mins": 81,
+        "raw_mins": 81,
+        "weight": 1.0,
         "status": "Started",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -3814,6 +3820,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "25",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -3822,17 +3830,10 @@
         "player_name": "Y. Allou",
         "club_name": "FC Wil 1900",
         "shirt": "33",
-        "mins": 10,
+        "mins": 5,
+        "raw_mins": 10,
+        "weight": 0.5,
         "status": "Came on as sub",
-        "week": "2",
-        "match_label": "Wil vs Xamax"
-      },
-      "ci5o6s3gnwvvvjz8gs13z3wgk": {
-        "player_name": "I. Okafor",
-        "club_name": "FC Wil 1900",
-        "shirt": "23",
-        "mins": 0,
-        "status": "In squad, did not play",
         "week": "2",
         "match_label": "Wil vs Xamax"
       },
@@ -3841,6 +3842,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "3",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -3850,6 +3853,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "29",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -3859,24 +3864,8 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "41",
         "mins": 0,
-        "status": "In squad, did not play",
-        "week": "2",
-        "match_label": "Wil vs Xamax"
-      },
-      "ec7zraloffb84elpg4xop52qc": {
-        "player_name": "J. L\u00fcthi",
-        "club_name": "Neuch\u00e2tel Xamax FCS",
-        "shirt": "22",
-        "mins": 24,
-        "status": "Came on as sub",
-        "week": "2",
-        "match_label": "Wil vs Xamax"
-      },
-      "9z5ltskia2em1srz2vupjtr84": {
-        "player_name": "J. Mayasi",
-        "club_name": "Neuch\u00e2tel Xamax FCS",
-        "shirt": "23",
-        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -3886,6 +3875,8 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "77",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -3895,6 +3886,8 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "35",
         "mins": 8,
+        "raw_mins": 8,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Wil vs Xamax"
@@ -4331,29 +4324,13 @@
     "home_name": "Rapperswil-Jona",
     "away_name": "Wil",
     "players": {
-      "5fzuoyb6dfulcuxsmhohos5ck": {
-        "player_name": "C. Emch",
-        "club_name": "FC Rapperswil-Jona",
-        "shirt": "1",
-        "mins": 90,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Rapperswil-Jona vs Wil"
-      },
       "cyq340yo1eshv15eueij2xbf8": {
         "player_name": "S. Raicevic",
         "club_name": "FC Rapperswil-Jona",
         "shirt": "19",
         "mins": 90,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Rapperswil-Jona vs Wil"
-      },
-      "epbdulzw6jtzidiobkhx9rytw": {
-        "player_name": "Y. Ryter",
-        "club_name": "FC Rapperswil-Jona",
-        "shirt": "7",
-        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4363,6 +4340,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "54",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4372,6 +4351,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "22",
         "mins": 4,
+        "raw_mins": 4,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4381,6 +4362,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "49",
         "mins": 18,
+        "raw_mins": 18,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4389,7 +4372,9 @@
         "player_name": "G. Muslija",
         "club_name": "FC Wil 1900",
         "shirt": "1",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4398,7 +4383,9 @@
         "player_name": "L. Schreiber",
         "club_name": "FC Wil 1900",
         "shirt": "19",
-        "mins": 90,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4408,6 +4395,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "20",
         "mins": 60,
+        "raw_mins": 60,
+        "weight": 1.0,
         "status": "Started",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4416,16 +4405,9 @@
         "player_name": "X. Aliu",
         "club_name": "FC Wil 1900",
         "shirt": "25",
-        "mins": 23,
-        "status": "Came on as sub",
-        "week": "1",
-        "match_label": "Rapperswil-Jona vs Wil"
-      },
-      "ci5o6s3gnwvvvjz8gs13z3wgk": {
-        "player_name": "I. Okafor",
-        "club_name": "FC Wil 1900",
-        "shirt": "23",
-        "mins": 2,
+        "mins": 12,
+        "raw_mins": 23,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4435,6 +4417,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "28",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
@@ -4444,6 +4428,8 @@
         "club_name": "FC Wil 1900",
         "shirt": "29",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Rapperswil-Jona vs Wil"
