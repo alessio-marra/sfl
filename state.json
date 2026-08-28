@@ -48961,7 +48961,7 @@
         "typeId": "18",
         "eventIdNum": "473",
         "timeMin": "54",
-        "timeSec": "52",
+        "timeSec": "51",
         "playerId": "bbu4r6xk78dmkfkadvq9afxn8",
         "playerName": "Y. Bohon Diet",
         "teamId": "1vgws1udwanpz7n6x1ymhlj9c",
@@ -48972,7 +48972,7 @@
         "typeId": "19",
         "eventIdNum": "474",
         "timeMin": "54",
-        "timeSec": "52",
+        "timeSec": "51",
         "playerId": "59zv01ilbef55xphbsg8o97h0",
         "playerName": "B. Mulliqi",
         "teamId": "1vgws1udwanpz7n6x1ymhlj9c",
@@ -49049,7 +49049,7 @@
         "typeId": "18",
         "eventIdNum": "731",
         "timeMin": "73",
-        "timeSec": "45",
+        "timeSec": "46",
         "playerId": "44zgxharfjiromlhh260vecq",
         "playerName": "D. Jaćović",
         "teamId": "988hdd0jedgyvm4978w95vma9",
@@ -49060,7 +49060,7 @@
         "typeId": "19",
         "eventIdNum": "732",
         "timeMin": "73",
-        "timeSec": "45",
+        "timeSec": "46",
         "playerId": "23eqd8rwbppkr7gdm172bf0bu",
         "playerName": "O. Bunjaku",
         "teamId": "988hdd0jedgyvm4978w95vma9",
@@ -49071,7 +49071,7 @@
         "typeId": "18",
         "eventIdNum": "634",
         "timeMin": "77",
-        "timeSec": "35",
+        "timeSec": "29",
         "playerId": "443vko3nskw9i9aj1hzevxp79",
         "playerName": "N. Siegrist",
         "teamId": "1vgws1udwanpz7n6x1ymhlj9c",
@@ -49082,7 +49082,7 @@
         "typeId": "19",
         "eventIdNum": "635",
         "timeMin": "77",
-        "timeSec": "35",
+        "timeSec": "29",
         "playerId": "eyaxv9vfwg7y2bdxzq2xy53bo",
         "playerName": "L. Riedmann",
         "teamId": "1vgws1udwanpz7n6x1ymhlj9c",
@@ -49093,7 +49093,7 @@
         "typeId": "18",
         "eventIdNum": "636",
         "timeMin": "77",
-        "timeSec": "43",
+        "timeSec": "31",
         "playerId": "eqwtm3glsmf94ob5ouyxqneac",
         "playerName": "A. Krasniqi",
         "teamId": "1vgws1udwanpz7n6x1ymhlj9c",
@@ -49104,7 +49104,7 @@
         "typeId": "19",
         "eventIdNum": "637",
         "timeMin": "77",
-        "timeSec": "43",
+        "timeSec": "31",
         "playerId": "8lygt2gful6y50lf4mpwksp62",
         "playerName": "R. Hoxha",
         "teamId": "1vgws1udwanpz7n6x1ymhlj9c",
@@ -49114,8 +49114,8 @@
       "2958123443": {
         "typeId": "18",
         "eventIdNum": "766",
-        "timeMin": "78",
-        "timeSec": "0",
+        "timeMin": "77",
+        "timeSec": "56",
         "playerId": "ci5o6s3gnwvvvjz8gs13z3wgk",
         "playerName": "I. Okafor",
         "teamId": "988hdd0jedgyvm4978w95vma9",
@@ -49125,8 +49125,8 @@
       "2958123449": {
         "typeId": "19",
         "eventIdNum": "767",
-        "timeMin": "78",
-        "timeSec": "0",
+        "timeMin": "77",
+        "timeSec": "56",
         "playerId": "2ra6rmygu1sxg3gjgscxs7eok",
         "playerName": "D. Kaiba",
         "teamId": "988hdd0jedgyvm4978w95vma9",
@@ -58821,5 +58821,29 @@
         "partnerEventId": "752"
       }
     }
+  },
+  "etjf2xrvlvwynkh4iqdajxuz8": {
+    "description": "Etoile Carouge vs Rapperswil-Jona",
+    "competition": "Challenge League",
+    "date": "2026-08-28",
+    "substitutions": {}
+  },
+  "essdstxdi9lioz00g7swdvqqc": {
+    "description": "Yverdon Sport vs Wil",
+    "competition": "Challenge League",
+    "date": "2026-08-28",
+    "substitutions": {}
+  },
+  "esewp9s3y4jg20ly1decbqqz8": {
+    "description": "Winterthur vs Stade-Lausanne-Ouchy",
+    "competition": "Challenge League",
+    "date": "2026-08-28",
+    "substitutions": {}
+  },
+  "es19xaql1bu02vl5ee5vpptec": {
+    "description": "Kriens vs Stade Nyonnais",
+    "competition": "Challenge League",
+    "date": "2026-08-28",
+    "substitutions": {}
   }
 }
