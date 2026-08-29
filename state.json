@@ -59890,5 +59890,356 @@
         "partnerEventId": "778"
       }
     }
+  },
+  "1ouhnt7krbd9hxf2sspm6prmc": {
+    "description": "Young Boys vs Basel",
+    "competition": "Super League",
+    "date": "2026-08-29",
+    "substitutions": {
+      "2961479545": {
+        "typeId": "18",
+        "eventIdNum": "231",
+        "timeMin": "32",
+        "timeSec": "13",
+        "playerId": "bbrdybdlcobf8cc9epxzeledw",
+        "playerName": "L. Malachowski",
+        "teamId": "5u18kvqiqhup2vd345dci1069",
+        "teamName": "Basel",
+        "partnerEventId": "232"
+      },
+      "2961479553": {
+        "typeId": "19",
+        "eventIdNum": "232",
+        "timeMin": "32",
+        "timeSec": "13",
+        "playerId": "7s1q4rd90gi1gwbko34fuvhlh",
+        "playerName": "X. Shaqiri",
+        "teamId": "5u18kvqiqhup2vd345dci1069",
+        "teamName": "Basel",
+        "partnerEventId": "231"
+      }
+    }
+  },
+  "1ohawlcrjdeggyir13n3wg7is": {
+    "description": "Servette vs Luzern",
+    "competition": "Super League",
+    "date": "2026-08-29",
+    "substitutions": {
+      "2961309137": {
+        "typeId": "18",
+        "eventIdNum": "370",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "1rqera0cryw0iojnk59skbv2s",
+        "playerName": "D. Mikołajewski",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "371"
+      },
+      "2961309139": {
+        "typeId": "19",
+        "eventIdNum": "371",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "5g00gq09apkl9bqxgpwext7v8",
+        "playerName": "S. Meyer",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "370"
+      },
+      "2961335731": {
+        "typeId": "18",
+        "eventIdNum": "644",
+        "timeMin": "61",
+        "timeSec": "32",
+        "playerId": "d9np2jsg99wf8jbsifwfy78id",
+        "playerName": "D. Douline",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "645"
+      },
+      "2961335747": {
+        "typeId": "19",
+        "eventIdNum": "645",
+        "timeMin": "61",
+        "timeSec": "32",
+        "playerId": "4ailqzdhrb1nct63qnanpb5lg",
+        "playerName": "J. Sida",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "644"
+      },
+      "2961335869": {
+        "typeId": "18",
+        "eventIdNum": "646",
+        "timeMin": "61",
+        "timeSec": "37",
+        "playerId": "vc2knr7mu8n12alvmx7fzj10",
+        "playerName": "T. Ouattara",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "647"
+      },
+      "2961335879": {
+        "typeId": "19",
+        "eventIdNum": "647",
+        "timeMin": "61",
+        "timeSec": "37",
+        "playerId": "4pl9lnaokb1c3s1q8dm5u1ecp",
+        "playerName": "B. Mazikou",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "646"
+      },
+      "2961346075": {
+        "typeId": "18",
+        "eventIdNum": "527",
+        "timeMin": "68",
+        "timeSec": "40",
+        "playerId": "2rsfj02kbcmosf0da55w9uz2s",
+        "playerName": "M. Zimmermann",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "528"
+      },
+      "2961346089": {
+        "typeId": "19",
+        "eventIdNum": "528",
+        "timeMin": "68",
+        "timeSec": "40",
+        "playerId": "bu6td9bdw39k7mrrzg9mhd8no",
+        "playerName": "L. Winkler",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "527"
+      },
+      "2961353247": {
+        "typeId": "18",
+        "eventIdNum": "744",
+        "timeMin": "74",
+        "timeSec": "14",
+        "playerId": "6c47ogd2x9p6zj3qp858uadih",
+        "playerName": "Q. Maceiras",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "745"
+      },
+      "2961353261": {
+        "typeId": "19",
+        "eventIdNum": "745",
+        "timeMin": "74",
+        "timeSec": "14",
+        "playerId": "9bbu1yne0l9j862yodiuldw4p",
+        "playerName": "Houboulang Mendes",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "744"
+      },
+      "2961358925": {
+        "typeId": "18",
+        "eventIdNum": "602",
+        "timeMin": "78",
+        "timeSec": "9",
+        "playerId": "9o9pjlnmupx941har5gjwpbhm",
+        "playerName": "T. Owusu",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "603"
+      },
+      "2961358929": {
+        "typeId": "19",
+        "eventIdNum": "603",
+        "timeMin": "78",
+        "timeSec": "9",
+        "playerId": "90h730y2b9ek5k5dcs9rjtg5w",
+        "playerName": "Lucas Ferreira",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "602"
+      },
+      "2961359053": {
+        "typeId": "18",
+        "eventIdNum": "604",
+        "timeMin": "78",
+        "timeSec": "13",
+        "playerId": "6b5n3tuz8oank65i5l7hlfbhl",
+        "playerName": "M. Di Giusto",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "605"
+      },
+      "2961359069": {
+        "typeId": "19",
+        "eventIdNum": "605",
+        "timeMin": "78",
+        "timeSec": "13",
+        "playerId": "8v0e1x2y1a269sok1y7lz3bx0",
+        "playerName": "S. Wyss",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "604"
+      },
+      "2961380831": {
+        "typeId": "18",
+        "eventIdNum": "925",
+        "timeMin": "91",
+        "timeSec": "16",
+        "playerId": "cfssgb2ma4rzaj4u7dydtxh5g",
+        "playerName": "L. Njoh",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "926"
+      },
+      "2961380855": {
+        "typeId": "19",
+        "eventIdNum": "926",
+        "timeMin": "91",
+        "timeSec": "16",
+        "playerId": "wjcw0u3rllrm3y0t9iatj7c9",
+        "playerName": "L. Fomba",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "925"
+      }
+    }
+  },
+  "1o42owyshw2x07vsmkzll8bo4": {
+    "description": "Lausanne-Sport vs Zürich",
+    "competition": "Super League",
+    "date": "2026-08-29",
+    "substitutions": {
+      "2961274619": {
+        "typeId": "18",
+        "eventIdNum": "254",
+        "timeMin": "29",
+        "timeSec": "41",
+        "playerId": "3lx67heebifzjgqty4belatt6",
+        "playerName": "N. Beloko",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "255"
+      },
+      "2961274627": {
+        "typeId": "19",
+        "eventIdNum": "255",
+        "timeMin": "29",
+        "timeSec": "41",
+        "playerId": "4m5w23fmydm3or1ff42hgeqne",
+        "playerName": "N. Butler-Oyedeji",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "254"
+      },
+      "2961325737": {
+        "typeId": "18",
+        "eventIdNum": "495",
+        "timeMin": "53",
+        "timeSec": "27",
+        "playerId": "bn5iwjd1avm2zrxp8qy5vrbis",
+        "playerName": "T. Fredricson",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "496"
+      },
+      "2961325747": {
+        "typeId": "19",
+        "eventIdNum": "496",
+        "timeMin": "53",
+        "timeSec": "27",
+        "playerId": "7n4obvxgtvcggeyl540j73384",
+        "playerName": "D. Ngonzo",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "495"
+      },
+      "2961326069": {
+        "typeId": "18",
+        "eventIdNum": "497",
+        "timeMin": "53",
+        "timeSec": "38",
+        "playerId": "9tgwyvago2lpzjd273u30setw",
+        "playerName": "E. Molebe",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "498"
+      },
+      "2961326081": {
+        "typeId": "19",
+        "eventIdNum": "498",
+        "timeMin": "53",
+        "timeSec": "38",
+        "playerId": "7gucwiumucvtm7zcnecv21z4k",
+        "playerName": "S. Traore",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "497"
+      },
+      "2961357447": {
+        "typeId": "18",
+        "eventIdNum": "607",
+        "timeMin": "74",
+        "timeSec": "57",
+        "playerId": "cpcsusb1mu0ex5sfqjimzqec4",
+        "playerName": "S. Hodza",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "608"
+      },
+      "2961357459": {
+        "typeId": "19",
+        "eventIdNum": "608",
+        "timeMin": "74",
+        "timeSec": "57",
+        "playerId": "57e7qfew139f182cbza8lxotl",
+        "playerName": "C. Kablan",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "607"
+      },
+      "2961357669": {
+        "typeId": "18",
+        "eventIdNum": "609",
+        "timeMin": "75",
+        "timeSec": "10",
+        "playerId": "ernbjicg113inzsubzrfm8fyt",
+        "playerName": "A. Hack",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "610"
+      },
+      "2961357677": {
+        "typeId": "19",
+        "eventIdNum": "610",
+        "timeMin": "75",
+        "timeSec": "10",
+        "playerId": "9y9m5go78upxz1f06ozoxda8k",
+        "playerName": "M. Bangoura",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "609"
+      },
+      "2961370891": {
+        "typeId": "18",
+        "eventIdNum": "754",
+        "timeMin": "83",
+        "timeSec": "8",
+        "playerId": "187qa5icsve3oak3t90r6rhsl",
+        "playerName": "M. Poaty",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "755"
+      },
+      "2961370899": {
+        "typeId": "19",
+        "eventIdNum": "755",
+        "timeMin": "83",
+        "timeSec": "8",
+        "playerId": "csd7qb9u0a9am2ltse9w31uz8",
+        "playerName": "T. Bergvall",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "754"
+      }
+    }
   }
 }
