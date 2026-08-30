@@ -845,7 +845,41 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Young Boys",
     "away_name": "Basel",
-    "players": {}
+    "players": {
+      "canh5hweotiilht8quf90euj8": {
+        "player_name": "E. Etoski",
+        "club_name": "BSC Young Boys",
+        "shirt": "34",
+        "mins": 11,
+        "raw_mins": 11,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "Young Boys vs Basel"
+      },
+      "66daqkioxqbpunys9lz8w7578": {
+        "player_name": "N. Tschanz",
+        "club_name": "BSC Young Boys",
+        "shirt": "52",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "5",
+        "match_label": "Young Boys vs Basel"
+      },
+      "70kdxr0aur2eq02sd2l6l2olw": {
+        "player_name": "G. Koloto",
+        "club_name": "FC Basel 1893",
+        "shirt": "37",
+        "mins": 3,
+        "raw_mins": 3,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "Young Boys vs Basel"
+      }
+    }
   },
   "1ohawlcrjdeggyir13n3wg7is": {
     "week": "5",
@@ -853,7 +887,41 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Servette",
     "away_name": "Luzern",
-    "players": {}
+    "players": {
+      "2rsfj02kbcmosf0da55w9uz2s": {
+        "player_name": "M. Zimmermann",
+        "club_name": "FC Luzern",
+        "shirt": "80",
+        "mins": 69,
+        "raw_mins": 69,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "5",
+        "match_label": "Servette vs Luzern"
+      },
+      "5g00gq09apkl9bqxgpwext7v8": {
+        "player_name": "S. Meyer",
+        "club_name": "FC Luzern",
+        "shirt": "71",
+        "mins": 22,
+        "raw_mins": 45,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "Servette vs Luzern"
+      },
+      "8v0e1x2y1a269sok1y7lz3bx0": {
+        "player_name": "S. Wyss",
+        "club_name": "FC Luzern",
+        "shirt": "17",
+        "mins": 11,
+        "raw_mins": 11,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "Servette vs Luzern"
+      }
+    }
   },
   "1o42owyshw2x07vsmkzll8bo4": {
     "week": "5",
@@ -861,7 +929,30 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lausanne-Sport",
     "away_name": "Z\u00fcrich",
-    "players": {}
+    "players": {
+      "cpw4hqnhrqja3q3k85fq7bz84": {
+        "player_name": "L. Sch\u00f6dler",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "21",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "5",
+        "match_label": "Lausanne-Sport vs Z\u00fcrich"
+      },
+      "75h4biirv290kb4i6ewzcppn8": {
+        "player_name": "D. Ramic",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "49",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "5",
+        "match_label": "Lausanne-Sport vs Z\u00fcrich"
+      }
+    }
   },
   "1nderjxo2q4zrb1nrx5th1bmc": {
     "week": "4",
