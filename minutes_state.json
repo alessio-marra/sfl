@@ -821,7 +821,41 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Vaduz",
     "away_name": "Grasshoppers",
-    "players": {}
+    "players": {
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 42,
+        "raw_mins": 85,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "5",
+        "match_label": "Vaduz vs Grasshoppers"
+      },
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "5",
+        "match_label": "Vaduz vs Grasshoppers"
+      },
+      "dnbhu3n4vs5c2p0h7i35c0h04": {
+        "player_name": "D. Sahin",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "56",
+        "mins": 31,
+        "raw_mins": 31,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "Vaduz vs Grasshoppers"
+      }
+    }
   },
   "1pkko92se0xeckbp2bh6jbh1w": {
     "week": "5",
@@ -829,7 +863,85 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "St.Gallen",
     "away_name": "Thun",
-    "players": {}
+    "players": {
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "5",
+        "match_label": "St.Gallen vs Thun"
+      },
+      "4o8roh953dufflhb1y3wn1kpg": {
+        "player_name": "D. Besio",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "31",
+        "mins": 22,
+        "raw_mins": 45,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "5",
+        "match_label": "St.Gallen vs Thun"
+      },
+      "dldvsl5cgnzd5pqfm2h9uq3h0": {
+        "player_name": "C. Konietzke",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "63",
+        "mins": 6,
+        "raw_mins": 11,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "St.Gallen vs Thun"
+      },
+      "2dwb36l3c83msll70wyl16exg": {
+        "player_name": "N. Scherrer",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "70",
+        "mins": 23,
+        "raw_mins": 23,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "St.Gallen vs Thun"
+      },
+      "ag92lrchlo2z1opq3i1loneok": {
+        "player_name": "D. Derbaci",
+        "club_name": "FC Thun",
+        "shirt": "21",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "5",
+        "match_label": "St.Gallen vs Thun"
+      },
+      "cnsyexfgcdy6m2dfc0l5dfkes": {
+        "player_name": "S. Lengen",
+        "club_name": "FC Thun",
+        "shirt": "80",
+        "mins": 14,
+        "raw_mins": 29,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "St.Gallen vs Thun"
+      },
+      "2wisprsn6msedn7n6hk1wolck": {
+        "player_name": "L. Passavant",
+        "club_name": "FC Thun",
+        "shirt": "54",
+        "mins": 6,
+        "raw_mins": 11,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "St.Gallen vs Thun"
+      }
+    }
   },
   "1p7jlbf8xlcda067ydt2nqn10": {
     "week": "5",
@@ -837,7 +949,30 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Sion",
     "away_name": "Lugano",
-    "players": {}
+    "players": {
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 38,
+        "raw_mins": 77,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "5",
+        "match_label": "Sion vs Lugano"
+      },
+      "463dlxday21orkmjn42nrkz6c": {
+        "player_name": "G. Ajdin",
+        "club_name": "FC Lugano",
+        "shirt": "23",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "5",
+        "match_label": "Sion vs Lugano"
+      }
+    }
   },
   "1ouhnt7krbd9hxf2sspm6prmc": {
     "week": "5",
@@ -4957,6 +5092,8 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "35",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -4966,16 +5103,9 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "41",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
-        "week": "1",
-        "match_label": "Xamax vs Kriens"
-      },
-      "ec7zraloffb84elpg4xop52qc": {
-        "player_name": "J. L\u00fcthi",
-        "club_name": "Neuch\u00e2tel Xamax FCS",
-        "shirt": "22",
-        "mins": 18,
-        "status": "Came on as sub",
         "week": "1",
         "match_label": "Xamax vs Kriens"
       },
@@ -4984,6 +5114,8 @@
         "club_name": "Neuch\u00e2tel Xamax FCS",
         "shirt": "77",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -4992,25 +5124,9 @@
         "player_name": "R. Salchli",
         "club_name": "SC Kriens",
         "shirt": "1",
-        "mins": 80,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Xamax vs Kriens"
-      },
-      "80v0m72fcdpzdvplkacok989g": {
-        "player_name": "E. Heiniger",
-        "club_name": "SC Kriens",
-        "shirt": "15",
-        "mins": 80,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Xamax vs Kriens"
-      },
-      "bbu4r6xk78dmkfkadvq9afxn8": {
-        "player_name": "Y. Bohon Diet",
-        "club_name": "SC Kriens",
-        "shirt": "25",
-        "mins": 80,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -5019,7 +5135,9 @@
         "player_name": "E. Rufener",
         "club_name": "SC Kriens",
         "shirt": "27",
-        "mins": 58,
+        "mins": 65,
+        "raw_mins": 65,
+        "weight": 1.0,
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -5028,7 +5146,9 @@
         "player_name": "M. Akahomen",
         "club_name": "SC Kriens",
         "shirt": "14",
-        "mins": 22,
+        "mins": 25,
+        "raw_mins": 25,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -5037,7 +5157,9 @@
         "player_name": "Malek Ishuayed",
         "club_name": "SC Kriens",
         "shirt": "11",
-        "mins": 40,
+        "mins": 45,
+        "raw_mins": 45,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Xamax vs Kriens"
@@ -5047,6 +5169,8 @@
         "club_name": "SC Kriens",
         "shirt": "22",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Xamax vs Kriens"
