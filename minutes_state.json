@@ -2700,7 +2700,118 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Wil",
     "away_name": "Aarau",
-    "players": {}
+    "players": {
+      "4d372wwy2cclg6l8e86ngyk2c": {
+        "player_name": "G. Muslija",
+        "club_name": "FC Wil 1900",
+        "shirt": "1",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "19ifakux3w3z5wipxnvej8nx0": {
+        "player_name": "L. Schreiber",
+        "club_name": "FC Wil 1900",
+        "shirt": "19",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "woohl74ro8d0a67po38xvw9g": {
+        "player_name": "Y. Allou",
+        "club_name": "FC Wil 1900",
+        "shirt": "33",
+        "mins": 36,
+        "raw_mins": 72,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "c2o200897whysk03uc1ulshsk": {
+        "player_name": "X. Aliu",
+        "club_name": "FC Wil 1900",
+        "shirt": "25",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "8g6y8nyfeowov79jxxgxg62hg": {
+        "player_name": "J. Rutz",
+        "club_name": "FC Wil 1900",
+        "shirt": "3",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "aukgu3wa4j354qlcq08ghocgk": {
+        "player_name": "T. Seferovic",
+        "club_name": "FC Wil 1900",
+        "shirt": "28",
+        "mins": 0,
+        "raw_mins": 1,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "3ojv6b5xr65ug66z63dwpgu8k": {
+        "player_name": "J. Widmer",
+        "club_name": "FC Wil 1900",
+        "shirt": "29",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "3m27obik4aiqh1r3flyk6hzx0": {
+        "player_name": "D. Coric",
+        "club_name": "FC Aarau",
+        "shirt": "28",
+        "mins": 5,
+        "raw_mins": 5,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "24unujkewve7qqxvmazogymfo": {
+        "player_name": "B. Senyurt",
+        "club_name": "FC Aarau",
+        "shirt": "42",
+        "mins": 2,
+        "raw_mins": 5,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      },
+      "4otfebxex2uel1pysahbrv5sk": {
+        "player_name": "Z. Tairi",
+        "club_name": "FC Aarau",
+        "shirt": "44",
+        "mins": 12,
+        "raw_mins": 12,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Wil vs Aarau"
+      }
+    }
   },
   "etjf2xrvlvwynkh4iqdajxuz8": {
     "week": "5",
