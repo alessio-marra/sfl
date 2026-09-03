@@ -61309,6 +61309,28 @@
         "teamName": "Grasshoppers",
         "partnerEventId": "393"
       },
+      "2962153957": {
+        "typeId": "18",
+        "eventIdNum": "491",
+        "timeMin": "58",
+        "timeSec": "36",
+        "playerId": "8g12wvgw8lf0l4xi2xzae7d91",
+        "playerName": "A. Abrashi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "492"
+      },
+      "2962153961": {
+        "typeId": "19",
+        "eventIdNum": "492",
+        "timeMin": "58",
+        "timeSec": "36",
+        "playerId": "dnbhu3n4vs5c2p0h7i35c0h04",
+        "playerName": "D. Sahin",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "491"
+      },
       "2962153869": {
         "typeId": "18",
         "eventIdNum": "489",
@@ -61330,28 +61352,6 @@
         "teamId": "9dqlf92t42brv71kvaet67tm4",
         "teamName": "Grasshoppers",
         "partnerEventId": "489"
-      },
-      "2962153957": {
-        "typeId": "18",
-        "eventIdNum": "491",
-        "timeMin": "58",
-        "timeSec": "44",
-        "playerId": "8g12wvgw8lf0l4xi2xzae7d91",
-        "playerName": "A. Abrashi",
-        "teamId": "9dqlf92t42brv71kvaet67tm4",
-        "teamName": "Grasshoppers",
-        "partnerEventId": "492"
-      },
-      "2962153961": {
-        "typeId": "19",
-        "eventIdNum": "492",
-        "timeMin": "58",
-        "timeSec": "44",
-        "playerId": "dnbhu3n4vs5c2p0h7i35c0h04",
-        "playerName": "D. Sahin",
-        "teamId": "9dqlf92t42brv71kvaet67tm4",
-        "teamName": "Grasshoppers",
-        "partnerEventId": "491"
       },
       "2962161501": {
         "typeId": "18",
@@ -61445,7 +61445,7 @@
         "typeId": "18",
         "eventIdNum": "789",
         "timeMin": "84",
-        "timeSec": "30",
+        "timeSec": "24",
         "playerId": "2pn8sdsirddumo2usvzf9kglw",
         "playerName": "L. Dalipi",
         "teamId": "9kxht4usspzkeyosl567vjrs2",
@@ -61456,7 +61456,7 @@
         "typeId": "19",
         "eventIdNum": "790",
         "timeMin": "84",
-        "timeSec": "30",
+        "timeSec": "24",
         "playerId": "1bt7ebdyw2mkju8c4uby146ei",
         "playerName": "M. Eberhard",
         "teamId": "9kxht4usspzkeyosl567vjrs2",
@@ -61467,7 +61467,7 @@
         "typeId": "18",
         "eventIdNum": "787",
         "timeMin": "84",
-        "timeSec": "30",
+        "timeSec": "25",
         "playerId": "bo5dasbo9bz4xnziogez5mnoq",
         "playerName": "J. Stark",
         "teamId": "9kxht4usspzkeyosl567vjrs2",
@@ -61478,7 +61478,7 @@
         "typeId": "19",
         "eventIdNum": "788",
         "timeMin": "84",
-        "timeSec": "30",
+        "timeSec": "25",
         "playerId": "dpdsyn6l2oqdyiskbjg4pdsk",
         "playerName": "M. Beeli",
         "teamId": "9kxht4usspzkeyosl567vjrs2",
@@ -61811,7 +61811,7 @@
         "typeId": "18",
         "eventIdNum": "686",
         "timeMin": "74",
-        "timeSec": "4",
+        "timeSec": "6",
         "playerId": "59dtrk7ly4lepf7s0gywhu51w",
         "playerName": "E. Pihlström",
         "teamId": "btqfm8txcvhi29sddmc9nr68",
@@ -61822,7 +61822,7 @@
         "typeId": "19",
         "eventIdNum": "687",
         "timeMin": "74",
-        "timeSec": "4",
+        "timeSec": "6",
         "playerId": "5nuj1qknhzifclomzjrhil8us",
         "playerName": "B. Castro",
         "teamId": "btqfm8txcvhi29sddmc9nr68",
@@ -61855,7 +61855,7 @@
         "typeId": "18",
         "eventIdNum": "751",
         "timeMin": "76",
-        "timeSec": "12",
+        "timeSec": "7",
         "playerId": "7p8wvrgk2aucmmrc30uv7j5lg",
         "playerName": "W. Boteli",
         "teamId": "b9fc1umgats16gk6wr769wh8a",
@@ -61866,7 +61866,7 @@
         "typeId": "19",
         "eventIdNum": "752",
         "timeMin": "76",
-        "timeSec": "12",
+        "timeSec": "7",
         "playerId": "a24422mcs56f2g43iw1jmknis",
         "playerName": "L. Chipperfield",
         "teamId": "b9fc1umgats16gk6wr769wh8a",
@@ -61877,7 +61877,7 @@
         "typeId": "18",
         "eventIdNum": "753",
         "timeMin": "76",
-        "timeSec": "19",
+        "timeSec": "10",
         "playerId": "30hr440bvtm7enhh6umvfvr4k",
         "playerName": "T. Berdayes",
         "teamId": "b9fc1umgats16gk6wr769wh8a",
@@ -61888,7 +61888,7 @@
         "typeId": "19",
         "eventIdNum": "754",
         "timeMin": "76",
-        "timeSec": "19",
+        "timeSec": "10",
         "playerId": "5fbi7ci4io9hfnlbhoc4texh",
         "playerName": "B. Kololli",
         "teamId": "b9fc1umgats16gk6wr769wh8a",
@@ -61899,7 +61899,7 @@
         "typeId": "18",
         "eventIdNum": "705",
         "timeMin": "77",
-        "timeSec": "7",
+        "timeSec": "5",
         "playerId": "178x7qayi0zn7c24tkyl02yuh",
         "playerName": "L. Mai",
         "teamId": "btqfm8txcvhi29sddmc9nr68",
@@ -61910,7 +61910,7 @@
         "typeId": "19",
         "eventIdNum": "706",
         "timeMin": "77",
-        "timeSec": "7",
+        "timeSec": "5",
         "playerId": "9kk1jjde4h2xveol0sfibr8d0",
         "playerName": "D. Kelvin",
         "teamId": "btqfm8txcvhi29sddmc9nr68",
@@ -64239,5 +64239,40 @@
         "partnerEventId": "731"
       }
     }
+  },
+  "1s4g3c9voyv7ot37z14qqd0k4": {
+    "description": "Lugano vs Servette",
+    "competition": "Super League",
+    "date": "2026-09-03",
+    "substitutions": {
+      "2963862689": {
+        "typeId": "18",
+        "eventIdNum": "539",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "3aig469vj8ocy5ohrcnyov9m2",
+        "playerName": "A. Kendouci",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "540"
+      },
+      "2963862695": {
+        "typeId": "19",
+        "eventIdNum": "540",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "ek3kqsm0h95azznyqctgadej9",
+        "playerName": "A. Grgic",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "539"
+      }
+    }
+  },
+  "1rrf5xoznbwicezm3a4vfowlw": {
+    "description": "Basel vs Sion",
+    "competition": "Super League",
+    "date": "2026-09-03",
+    "substitutions": {}
   }
 }
