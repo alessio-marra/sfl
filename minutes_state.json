@@ -789,7 +789,41 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Thun",
     "away_name": "Lausanne-Sport",
-    "players": {}
+    "players": {
+      "cnsyexfgcdy6m2dfc0l5dfkes": {
+        "player_name": "S. Lengen",
+        "club_name": "FC Thun",
+        "shirt": "80",
+        "mins": 31,
+        "raw_mins": 62,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "6",
+        "match_label": "Thun vs Lausanne-Sport"
+      },
+      "ag92lrchlo2z1opq3i1loneok": {
+        "player_name": "D. Derbaci",
+        "club_name": "FC Thun",
+        "shirt": "21",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Thun vs Lausanne-Sport"
+      },
+      "2wisprsn6msedn7n6hk1wolck": {
+        "player_name": "L. Passavant",
+        "club_name": "FC Thun",
+        "shirt": "54",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Thun vs Lausanne-Sport"
+      }
+    }
   },
   "1r1a5em5rls1gb1gcyem1ezv8": {
     "week": "6",
@@ -797,7 +831,52 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Luzern",
     "away_name": "Vaduz",
-    "players": {}
+    "players": {
+      "2rsfj02kbcmosf0da55w9uz2s": {
+        "player_name": "M. Zimmermann",
+        "club_name": "FC Luzern",
+        "shirt": "80",
+        "mins": 72,
+        "raw_mins": 72,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "6",
+        "match_label": "Luzern vs Vaduz"
+      },
+      "5g00gq09apkl9bqxgpwext7v8": {
+        "player_name": "S. Meyer",
+        "club_name": "FC Luzern",
+        "shirt": "71",
+        "mins": 4,
+        "raw_mins": 8,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Luzern vs Vaduz"
+      },
+      "8v0e1x2y1a269sok1y7lz3bx0": {
+        "player_name": "S. Wyss",
+        "club_name": "FC Luzern",
+        "shirt": "17",
+        "mins": 33,
+        "raw_mins": 33,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Luzern vs Vaduz"
+      },
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "6",
+        "match_label": "Luzern vs Vaduz"
+      }
+    }
   },
   "1qo4iuwerdr4rrbstzko9kpas": {
     "week": "6",
@@ -805,7 +884,63 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Grasshoppers",
     "away_name": "St.Gallen",
-    "players": {}
+    "players": {
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Grasshoppers vs St.Gallen"
+      },
+      "4o8roh953dufflhb1y3wn1kpg": {
+        "player_name": "D. Besio",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "31",
+        "mins": 4,
+        "raw_mins": 8,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Grasshoppers vs St.Gallen"
+      },
+      "dldvsl5cgnzd5pqfm2h9uq3h0": {
+        "player_name": "C. Konietzke",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "63",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Grasshoppers vs St.Gallen"
+      },
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 14,
+        "raw_mins": 28,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Grasshoppers vs St.Gallen"
+      },
+      "2dwb36l3c83msll70wyl16exg": {
+        "player_name": "N. Scherrer",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "70",
+        "mins": 29,
+        "raw_mins": 29,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Grasshoppers vs St.Gallen"
+      }
+    }
   },
   "1qawuyyadbxbvmkvn022ijqc4": {
     "week": "6",
