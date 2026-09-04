@@ -773,7 +773,19 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lugano",
     "away_name": "Servette",
-    "players": {}
+    "players": {
+      "463dlxday21orkmjn42nrkz6c": {
+        "player_name": "G. Ajdin",
+        "club_name": "FC Lugano",
+        "shirt": "23",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Lugano vs Servette"
+      }
+    }
   },
   "1rrf5xoznbwicezm3a4vfowlw": {
     "week": "6",
@@ -781,7 +793,41 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Basel",
     "away_name": "Sion",
-    "players": {}
+    "players": {
+      "70kdxr0aur2eq02sd2l6l2olw": {
+        "player_name": "G. Koloto",
+        "club_name": "FC Basel 1893",
+        "shirt": "37",
+        "mins": 1,
+        "raw_mins": 1,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Basel vs Sion"
+      },
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 42,
+        "raw_mins": 84,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "6",
+        "match_label": "Basel vs Sion"
+      },
+      "2gcdbekdku9rg41j9o3zwnxn8": {
+        "player_name": "A. Llukes",
+        "club_name": "FC Sion",
+        "shirt": "22",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Basel vs Sion"
+      }
+    }
   },
   "1reaywl2ptcmu347fcjpa4lxw": {
     "week": "6",
