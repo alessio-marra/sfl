@@ -65723,7 +65723,206 @@
     "description": "Grasshoppers vs Zürich",
     "competition": "Super League",
     "date": "2026-09-05",
-    "substitutions": {}
+    "substitutions": {
+      "2964943575": {
+        "typeId": "18",
+        "eventIdNum": "451",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "ernbjicg113inzsubzrfm8fyt",
+        "playerName": "A. Hack",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "452"
+      },
+      "2964943577": {
+        "typeId": "19",
+        "eventIdNum": "452",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "exxkv65coe3l769z25gvk1ixg",
+        "playerName": "N. Di Giusto",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "451"
+      },
+      "2964956881": {
+        "typeId": "18",
+        "eventIdNum": "453",
+        "timeMin": "55",
+        "timeSec": "18",
+        "playerId": "2e6rif43men98uldjwrd2kd90",
+        "playerName": "N. Muci",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "454"
+      },
+      "2964956885": {
+        "typeId": "19",
+        "eventIdNum": "454",
+        "timeMin": "55",
+        "timeSec": "18",
+        "playerId": "4db9vewyt9kiqtqd5e0rloodm",
+        "playerName": "L. Plange",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "453"
+      },
+      "2964956973": {
+        "typeId": "18",
+        "eventIdNum": "455",
+        "timeMin": "55",
+        "timeSec": "24",
+        "playerId": "4vbz8hxnbg5sqh54plmcl31t5",
+        "playerName": "Óscar Clemente",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "456"
+      },
+      "2964956977": {
+        "typeId": "19",
+        "eventIdNum": "456",
+        "timeMin": "55",
+        "timeSec": "24",
+        "playerId": "e5e4y8oz2q3qzmedegj7y7x0p",
+        "playerName": "G. Morandi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "455"
+      },
+      "2964957053": {
+        "typeId": "18",
+        "eventIdNum": "457",
+        "timeMin": "55",
+        "timeSec": "28",
+        "playerId": "2epq3qbyzs8mr3g6aaemjirdg",
+        "playerName": "S. Bengondo",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "458"
+      },
+      "2964957055": {
+        "typeId": "19",
+        "eventIdNum": "458",
+        "timeMin": "55",
+        "timeSec": "28",
+        "playerId": "aaafhdv3xfuvzg9xfnkt0trtg",
+        "playerName": "Lee Young-Jun",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "457"
+      },
+      "2964970083": {
+        "typeId": "18",
+        "eventIdNum": "638",
+        "timeMin": "68",
+        "timeSec": "17",
+        "playerId": "bi49lcldxz8jubp72kgeke2y2",
+        "playerName": "K. Spadanuda",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "639"
+      },
+      "2964970091": {
+        "typeId": "19",
+        "eventIdNum": "639",
+        "timeMin": "68",
+        "timeSec": "17",
+        "playerId": "a09c6fnqhxczvv5dle6h4twmi",
+        "playerName": "P. Kény",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "638"
+      },
+      "2964976433": {
+        "typeId": "18",
+        "eventIdNum": "631",
+        "timeMin": "77",
+        "timeSec": "47",
+        "playerId": "8ogdozprbfg9o8hzs3ppug9hw",
+        "playerName": "N. Rissi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "632"
+      },
+      "2964976439": {
+        "typeId": "19",
+        "eventIdNum": "632",
+        "timeMin": "77",
+        "timeSec": "47",
+        "playerId": "q9ptiw2kacxpmw3i9h8rsb56",
+        "playerName": "A. Arigoni",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "631"
+      },
+      "2964976615": {
+        "typeId": "18",
+        "eventIdNum": "633",
+        "timeMin": "78",
+        "timeSec": "2",
+        "playerId": "a3m1qts5gur6mtoj3mam4pc7o",
+        "playerName": "Manex Guibelalde",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "634"
+      },
+      "2964976619": {
+        "typeId": "19",
+        "eventIdNum": "634",
+        "timeMin": "78",
+        "timeSec": "2",
+        "playerId": "9osic22dxne4mjyzix16v5ses",
+        "playerName": "I. Hassane",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "633"
+      },
+      "2964980805": {
+        "typeId": "18",
+        "eventIdNum": "749",
+        "timeMin": "82",
+        "timeSec": "35",
+        "playerId": "8o2iv0qhfft5pgzm75ckuo0es",
+        "playerName": "D. Reverson",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "750"
+      },
+      "2964980821": {
+        "typeId": "19",
+        "eventIdNum": "750",
+        "timeMin": "82",
+        "timeSec": "35",
+        "playerId": "75h4biirv290kb4i6ewzcppn8",
+        "playerName": "D. Ramic",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "749"
+      },
+      "2964981117": {
+        "typeId": "18",
+        "eventIdNum": "751",
+        "timeMin": "82",
+        "timeSec": "53",
+        "playerId": "3lqoaglx4rgtgaxt5316g73mc",
+        "playerName": "U. Emmanuel",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "752"
+      },
+      "2964981127": {
+        "typeId": "19",
+        "eventIdNum": "752",
+        "timeMin": "82",
+        "timeSec": "53",
+        "playerId": "9y9m5go78upxz1f06ozoxda8k",
+        "playerName": "M. Bangoura",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "751"
+      }
+    }
   },
   "1sulxjwnacxfoilpfqj6twb9w": {
     "description": "Young Boys vs Luzern",
