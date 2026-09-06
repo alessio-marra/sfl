@@ -749,7 +749,63 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Grasshoppers",
     "away_name": "Z\u00fcrich",
-    "players": {}
+    "players": {
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "7",
+        "match_label": "Grasshoppers vs Z\u00fcrich"
+      },
+      "997f7zp6733mvgshg53bas3dg": {
+        "player_name": "D. Lichtenstein",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "47",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "7",
+        "match_label": "Grasshoppers vs Z\u00fcrich"
+      },
+      "cpw4hqnhrqja3q3k85fq7bz84": {
+        "player_name": "L. Sch\u00f6dler",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "21",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "7",
+        "match_label": "Grasshoppers vs Z\u00fcrich"
+      },
+      "75h4biirv290kb4i6ewzcppn8": {
+        "player_name": "D. Ramic",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "49",
+        "mins": 7,
+        "raw_mins": 7,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "7",
+        "match_label": "Grasshoppers vs Z\u00fcrich"
+      },
+      "3nqhtkzcrkrta24iyceqk6jv8": {
+        "player_name": "N. Volken",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "43",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "7",
+        "match_label": "Grasshoppers vs Z\u00fcrich"
+      }
+    }
   },
   "1sulxjwnacxfoilpfqj6twb9w": {
     "week": "7",
@@ -757,7 +813,63 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Young Boys",
     "away_name": "Luzern",
-    "players": {}
+    "players": {
+      "canh5hweotiilht8quf90euj8": {
+        "player_name": "E. Etoski",
+        "club_name": "BSC Young Boys",
+        "shirt": "34",
+        "mins": 33,
+        "raw_mins": 33,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "7",
+        "match_label": "Young Boys vs Luzern"
+      },
+      "66daqkioxqbpunys9lz8w7578": {
+        "player_name": "N. Tschanz",
+        "club_name": "BSC Young Boys",
+        "shirt": "52",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "7",
+        "match_label": "Young Boys vs Luzern"
+      },
+      "asdbgcrgmvkyuglv92b9lnc44": {
+        "player_name": "S. Ubaka",
+        "club_name": "BSC Young Boys",
+        "shirt": "54",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "7",
+        "match_label": "Young Boys vs Luzern"
+      },
+      "2rsfj02kbcmosf0da55w9uz2s": {
+        "player_name": "M. Zimmermann",
+        "club_name": "FC Luzern",
+        "shirt": "80",
+        "mins": 82,
+        "raw_mins": 82,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "7",
+        "match_label": "Young Boys vs Luzern"
+      },
+      "8v0e1x2y1a269sok1y7lz3bx0": {
+        "player_name": "S. Wyss",
+        "club_name": "FC Luzern",
+        "shirt": "17",
+        "mins": 8,
+        "raw_mins": 8,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "7",
+        "match_label": "Young Boys vs Luzern"
+      }
+    }
   },
   "1shkupo09azqvz3ex5wjf6wpg": {
     "week": "7",
@@ -765,7 +877,19 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Vaduz",
     "away_name": "Lausanne-Sport",
-    "players": {}
+    "players": {
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "7",
+        "match_label": "Vaduz vs Lausanne-Sport"
+      }
+    }
   },
   "1s4g3c9voyv7ot37z14qqd0k4": {
     "week": "6",
