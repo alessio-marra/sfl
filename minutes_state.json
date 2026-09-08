@@ -5902,25 +5902,9 @@
         "player_name": "M. Aubert",
         "club_name": "FC Stade Nyonnais",
         "shirt": "40",
-        "mins": 68,
-        "status": "Started",
-        "week": "2",
-        "match_label": "Stade Nyonnais vs Rapperswil-Jona"
-      },
-      "9ei0a1ald9djjgqr4x9tvtc7o": {
-        "player_name": "N. Grognuz",
-        "club_name": "FC Stade Nyonnais",
-        "shirt": "15",
-        "mins": 68,
-        "status": "Started",
-        "week": "2",
-        "match_label": "Stade Nyonnais vs Rapperswil-Jona"
-      },
-      "2pdoh2ixtebskdre11kmmljx0": {
-        "player_name": "R. Boulac",
-        "club_name": "FC Stade Nyonnais",
-        "shirt": "2",
-        "mins": 61,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -5929,7 +5913,9 @@
         "player_name": "F. Lentini",
         "club_name": "FC Stade Nyonnais",
         "shirt": "7",
-        "mins": 34,
+        "mins": 22,
+        "raw_mins": 45,
+        "weight": 0.5,
         "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -5938,7 +5924,9 @@
         "player_name": "M. Miguel",
         "club_name": "FC Stade Nyonnais",
         "shirt": "9",
-        "mins": 51,
+        "mins": 67,
+        "raw_mins": 67,
+        "weight": 1.0,
         "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -5948,6 +5936,8 @@
         "club_name": "FC Stade Nyonnais",
         "shirt": "6",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -5956,7 +5946,9 @@
         "player_name": "M. Ishuayed",
         "club_name": "FC Stade Nyonnais",
         "shirt": "19",
-        "mins": 34,
+        "mins": 22,
+        "raw_mins": 45,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -5965,7 +5957,9 @@
         "player_name": "R. Londja",
         "club_name": "FC Stade Nyonnais",
         "shirt": "70",
-        "mins": 34,
+        "mins": 22,
+        "raw_mins": 45,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -5974,26 +5968,10 @@
         "player_name": "E. Ndjoko",
         "club_name": "FC Stade Nyonnais",
         "shirt": "17",
-        "mins": 9,
+        "mins": 12,
+        "raw_mins": 12,
+        "weight": 1.0,
         "status": "Came on as sub",
-        "week": "2",
-        "match_label": "Stade Nyonnais vs Rapperswil-Jona"
-      },
-      "5fzuoyb6dfulcuxsmhohos5ck": {
-        "player_name": "C. Emch",
-        "club_name": "FC Rapperswil-Jona",
-        "shirt": "1",
-        "mins": 90,
-        "status": "Started",
-        "week": "2",
-        "match_label": "Stade Nyonnais vs Rapperswil-Jona"
-      },
-      "epbdulzw6jtzidiobkhx9rytw": {
-        "player_name": "Y. Ryter",
-        "club_name": "FC Rapperswil-Jona",
-        "shirt": "7",
-        "mins": 89,
-        "status": "Started",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
       },
@@ -6002,6 +5980,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "54",
         "mins": 7,
+        "raw_mins": 7,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -6011,6 +5991,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "48",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -6020,6 +6002,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "22",
         "mins": 1,
+        "raw_mins": 1,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -6029,6 +6013,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "49",
         "mins": 21,
+        "raw_mins": 21,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
@@ -6038,6 +6024,8 @@
         "club_name": "FC Rapperswil-Jona",
         "shirt": "19",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Stade Nyonnais vs Rapperswil-Jona"
