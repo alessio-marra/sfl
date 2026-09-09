@@ -2,7 +2,7 @@ name: check-match-schedule
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Every hour
+ #   - cron: "0 * * * *"   # Every hour
   workflow_dispatch:
 
 jobs:
