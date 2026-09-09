@@ -2218,5 +2218,135 @@
     "competition": "Challenge League",
     "stage": "Regular Season",
     "week": "1"
+  },
+  "brautdpphi1pzamza31j3fbbo": {
+    "date": "2026-02-15",
+    "time": "13:00:00",
+    "local_date": "2026-02-15",
+    "local_time": "14:00:00",
+    "description": "Thun vs Sion",
+    "competition": "Super League",
+    "stage": "Regular Season",
+    "week": "25"
+  },
+  "c6c6gxcm6a1awiiihdnm2xc7o": {
+    "date": "2026-03-14",
+    "time": "17:00:00",
+    "local_date": "2026-03-14",
+    "local_time": "18:00:00",
+    "description": "Thun vs Grasshoppers",
+    "competition": "Super League",
+    "stage": "Regular Season",
+    "week": "30"
+  },
+  "3p30mdz22l7cauczzankz5mvo": {
+    "date": "2026-04-25",
+    "time": "18:30:00",
+    "local_date": "2026-04-25",
+    "local_time": "20:30:00",
+    "description": "Thun vs Lugano",
+    "competition": "Super League",
+    "stage": "Championship Round",
+    "week": "34"
+  },
+  "c2ghmdbzrht3z0xwsa94078d0": {
+    "date": "2026-03-05",
+    "time": "19:30:00",
+    "local_date": "2026-03-05",
+    "local_time": "20:30:00",
+    "description": "Thun vs St.Gallen",
+    "competition": "Super League",
+    "stage": "Regular Season",
+    "week": "28"
+  },
+  "3qehdhs2cby9q942dl75tgcus": {
+    "date": "2026-05-02",
+    "time": "18:30:00",
+    "local_date": "2026-05-02",
+    "local_time": "20:30:00",
+    "description": "Basel vs Thun",
+    "competition": "Super League",
+    "stage": "Championship Round",
+    "week": "35"
+  },
+  "c5t1q315up39m0ev3mbnd2cr8": {
+    "date": "2026-03-08",
+    "time": "15:30:00",
+    "local_date": "2026-03-08",
+    "local_time": "16:30:00",
+    "description": "Young Boys vs Thun",
+    "competition": "Super League",
+    "stage": "Regular Season",
+    "week": "29"
+  },
+  "ca92kjuifkydg3be9v8lmfs44": {
+    "date": "2026-03-21",
+    "time": "17:00:00",
+    "local_date": "2026-03-21",
+    "local_time": "18:00:00",
+    "description": "Zürich vs Thun",
+    "competition": "Super League",
+    "stage": "Regular Season",
+    "week": "31"
+  },
+  "cdeo4qe2goygdkiy1qvv93yfo": {
+    "date": "2026-04-04",
+    "time": "16:00:00",
+    "local_date": "2026-04-04",
+    "local_time": "18:00:00",
+    "description": "Lugano vs Thun",
+    "competition": "Super League",
+    "stage": "Regular Season",
+    "week": "32"
+  },
+  "3rvdt38nf7iy8m12o1zev6uc4": {
+    "date": "2026-05-10",
+    "time": "14:30:00",
+    "local_date": "2026-05-10",
+    "local_time": "16:30:00",
+    "description": "Sion vs Thun",
+    "competition": "Super League",
+    "stage": "Championship Round",
+    "week": "36"
+  },
+  "3tzkwpfk94k3p25q780cums5w": {
+    "date": "2026-05-17",
+    "time": "14:30:00",
+    "local_date": "2026-05-17",
+    "local_time": "16:30:00",
+    "description": "St.Gallen vs Thun",
+    "competition": "Super League",
+    "stage": "Championship Round",
+    "week": "38"
+  },
+  "3ta9nx2zegm2rd6u1vgaz3nro": {
+    "date": "2026-05-14",
+    "time": "14:30:00",
+    "local_date": "2026-05-14",
+    "local_time": "16:30:00",
+    "description": "Thun vs Young Boys",
+    "competition": "Super League",
+    "stage": "Championship Round",
+    "week": "37"
+  },
+  "btgd7spmnsw4otmmb27ptanf8": {
+    "date": "2026-02-25",
+    "time": "18:00:00",
+    "local_date": "2026-02-25",
+    "local_time": "19:00:00",
+    "description": "Winterthur vs Thun",
+    "competition": "Super League",
+    "stage": "Regular Season",
+    "week": "26"
+  },
+  "bwl6i66qmq7zxk4bhqgphrhg4": {
+    "date": "2026-02-28",
+    "time": "17:00:00",
+    "local_date": "2026-02-28",
+    "local_time": "18:00:00",
+    "description": "Thun vs Luzern",
+    "competition": "Super League",
+    "stage": "Regular Season",
+    "week": "27"
   }
 }
