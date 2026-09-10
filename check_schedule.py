@@ -377,7 +377,7 @@ def main():
         )
         html = build_email(reschedules=[], new_fixtures=new_fixtures)
         send_graph_email(
-            subject   = f"SFL – {len(new_fixtures)} new fixture(s) — season schedule loaded",
+            subject   = f"SFL – {len(new_fixtures)} new fixture(s)",
             html_body = html,
         )
         print(f"Bootstrap complete — {len(matches)} matches, email sent.")
