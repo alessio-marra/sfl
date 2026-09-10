@@ -181,7 +181,7 @@ def send_graph_email(subject: str, html_body: str):
         "message": {
             "subject": subject,
             "body":    {"contentType": "HTML", "content": html_body},
-            "from":    {"emailAddress": {"address": EMAIL_FROM, "name": "Stats Perform Schedule Monitor"}},
+            "from":    {"emailAddress": {"address": EMAIL_FROM, "name": "SFL Schedule Monitor"}},
             "toRecipients": [{"emailAddress": {"address": r}} for r in recipients],
         },
         "saveToSentItems": "false"
@@ -314,7 +314,7 @@ def build_email(reschedules: list[dict], new_fixtures: list[dict]) -> str:
 
     <div style="background:#1e3a5f;padding:20px 28px;">
       <p style="margin:0;color:#93c5fd;font-size:12px;text-transform:uppercase;letter-spacing:1px;">
-        Stats Perform Monitor</p>
+        SFL Schedule Monitor</p>
       <h1 style="margin:4px 0 0;color:#fff;font-size:20px;">Match Schedule Update</h1>
     </div>
 
@@ -330,7 +330,7 @@ def build_email(reschedules: list[dict], new_fixtures: list[dict]) -> str:
 
     <div style="background:#f8fafc;border-top:1px solid #e5e7eb;padding:12px 28px;
                 font-size:12px;color:#9ca3af;">
-      Automated notification — Stats Perform schedule monitor.
+      Automated notification — SFL schedule monitor.
     </div>
   </div>
 </body>
@@ -377,7 +377,7 @@ def main():
         )
         html = build_email(reschedules=[], new_fixtures=new_fixtures)
         send_graph_email(
-            subject   = f"Stats Perform – {len(new_fixtures)} new fixture(s) — season schedule loaded",
+            subject   = f"SFL – {len(new_fixtures)} new fixture(s) — season schedule loaded",
             html_body = html,
         )
         print(f"Bootstrap complete — {len(matches)} matches, email sent.")
