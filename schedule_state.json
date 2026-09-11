@@ -2418,5 +2418,25 @@
     "competition": "UEFA European Championship Qualifiers",
     "stage": "Qualifying Round",
     "week": "4"
+  },
+  "obq3bjolchrlsf85y3k3d6ok": {
+    "date": "2023-09-11",
+    "time": "18:45:00",
+    "local_date": "2023-09-11",
+    "local_time": "20:45:00",
+    "description": "Slovakia vs Liechtenstein",
+    "competition": "UEFA European Championship Qualifiers",
+    "stage": "Qualifying Round",
+    "week": "6"
+  },
+  "eljjsn5cg0zymohk5quyilhjo": {
+    "date": "2023-06-16",
+    "time": "18:45:00",
+    "local_date": "2023-06-16",
+    "local_time": "20:45:00",
+    "description": "Kosovo vs Romania",
+    "competition": "UEFA European Championship Qualifiers",
+    "stage": "Qualifying Round",
+    "week": "3"
   }
 }
