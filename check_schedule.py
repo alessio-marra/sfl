@@ -70,14 +70,15 @@ def extract_match_data(mi: ET.Element) -> dict:
     comp_el  = mi.find("competition")
     stage_el = mi.find("stage")
     return {
-        "date":        mi.get("date", "").replace("Z", ""),
-        "time":        mi.get("time", "").replace("Z", ""),
-        "local_date":  mi.get("localDate", ""),
-        "local_time":  mi.get("localTime", ""),
-        "description": desc_el.text if desc_el is not None else "",
-        "competition": comp_el.get("name", "") if comp_el is not None else "",
-        "stage":       stage_el.text if stage_el is not None else "",
-        "week":        mi.get("week", ""),
+        "date":           mi.get("date", "").replace("Z", ""),
+        "time":           mi.get("time", "").replace("Z", ""),
+        "local_date":     mi.get("localDate", ""),
+        "local_time":     mi.get("localTime", ""),
+        "description":    desc_el.text if desc_el is not None else "",
+        "competition":    comp_el.get("name", "") if comp_el is not None else "",
+        "competition_id": comp_el.get("id", "") if comp_el is not None else "",
+        "stage":          stage_el.text if stage_el is not None else "",
+        "week":           mi.get("week", ""),
     }
 
 
@@ -404,6 +405,12 @@ def main():
 
         if current is None:
             print(f"    Could not fetch — skipping.")
+            continue
+
+        # Skip matches not in our monitored competitions
+        monitored = set(COMPETITION_IDS.split(","))
+        if current["competition_id"] not in monitored:
+            print(f"    Skipping — competition {current['competition']} not monitored.")
             continue
 
         if match_id not in state:
