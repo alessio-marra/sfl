@@ -156,7 +156,10 @@ def fetch_mar_updated_ids() -> set[str]:
     except Exception as e:
         print(f"  MAR call failed: {e}")
         return set()
-    ids = {mi.get("id") for mi in root.iter("matchInfo") if mi.get("id")}
+    ids = {
+        mi.get("id") for mi in root.iter("matchInfo")
+        if mi.get("id") and mi.get("matchStatus") != "Played"
+    }
     print(f"  MAR returned {len(ids)} updated match(es).")
     return ids
 
