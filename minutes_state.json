@@ -3092,7 +3092,74 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Etoile Carouge",
     "away_name": "Winterthur",
-    "players": {}
+    "players": {
+      "cgnne2m8bqaslb05fwi95xces": {
+        "player_name": "L. Huwiler",
+        "club_name": "Etoile Carouge FC",
+        "shirt": "23",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Etoile Carouge vs Winterthur"
+      },
+      "e1vdfbwpeopk8vczhd24zp1ck": {
+        "player_name": "E. Januario",
+        "club_name": "Etoile Carouge FC",
+        "shirt": "80",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Etoile Carouge vs Winterthur"
+      },
+      "5gcoipks3qsbde767uz8tggt0": {
+        "player_name": "S. Camara",
+        "club_name": "FC Winterthur",
+        "shirt": "4",
+        "mins": 89,
+        "raw_mins": 89,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Etoile Carouge vs Winterthur"
+      },
+      "4mporzlvy59vw5ww6kzxi4e1g": {
+        "player_name": "N. Brogli",
+        "club_name": "FC Winterthur",
+        "shirt": "30",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Etoile Carouge vs Winterthur"
+      },
+      "djvohgvp8zwlfxpfnv92924us": {
+        "player_name": "G. Foro",
+        "club_name": "FC Winterthur",
+        "shirt": "70",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Etoile Carouge vs Winterthur"
+      },
+      "4jlgd5ln0tf7gtlaqlkr4oiz8": {
+        "player_name": "L. Maksutaj",
+        "club_name": "FC Winterthur",
+        "shirt": "17",
+        "mins": 1,
+        "raw_mins": 1,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Etoile Carouge vs Winterthur"
+      }
+    }
   },
   "eyg2g686g88iiyhg1gp94jkes": {
     "week": "8",
@@ -3100,7 +3167,118 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Stade Nyonnais",
     "away_name": "Xamax",
-    "players": {}
+    "players": {
+      "5qg0zclpg1kdgtaribzbtg844": {
+        "player_name": "M. Aubert",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "40",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "wpoornaq4npl818loqa71vro": {
+        "player_name": "R. Philippin",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "66",
+        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "868v7nfa84r7cpe0uxrsahpn8": {
+        "player_name": "F. Lentini",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "7",
+        "mins": 35,
+        "raw_mins": 70,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "9dbhqp45xya5rulyokd1vglxw": {
+        "player_name": "F. Ahuissou",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "6",
+        "mins": 13,
+        "raw_mins": 26,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "bd50h6omze0r1xrfjeeldgj6c": {
+        "player_name": "M. Ishuayed",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "19",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "l3cs4svcg1egw1ctb9qo6m8k": {
+        "player_name": "M. Miguel",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "9",
+        "mins": 20,
+        "raw_mins": 20,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "auf9tz27pgo32n3dyh987zq50": {
+        "player_name": "E. Ndjoko",
+        "club_name": "FC Stade Nyonnais",
+        "shirt": "17",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "81h4mugixhace8q39em2nwis4": {
+        "player_name": "M. Dind",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "25",
+        "mins": 61,
+        "raw_mins": 61,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "awt38idua80bt2qsebqj4knx0": {
+        "player_name": "L. Veya",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "40",
+        "mins": 61,
+        "raw_mins": 61,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      },
+      "7md3kkbn6mxaj8qy3xel5jqj8": {
+        "player_name": "A. Azemi",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "35",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Stade Nyonnais vs Xamax"
+      }
+    }
   },
   "ey2fg5n4t387g6cfg77xih15g": {
     "week": "8",
@@ -3108,7 +3286,74 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Stade-Lausanne-Ouchy",
     "away_name": "Wil",
-    "players": {}
+    "players": {
+      "4d372wwy2cclg6l8e86ngyk2c": {
+        "player_name": "G. Muslija",
+        "club_name": "FC Wil 1900",
+        "shirt": "1",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Stade-Lausanne-Ouchy vs Wil"
+      },
+      "19ifakux3w3z5wipxnvej8nx0": {
+        "player_name": "L. Schreiber",
+        "club_name": "FC Wil 1900",
+        "shirt": "19",
+        "mins": 41,
+        "raw_mins": 82,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Stade-Lausanne-Ouchy vs Wil"
+      },
+      "c2o200897whysk03uc1ulshsk": {
+        "player_name": "X. Aliu",
+        "club_name": "FC Wil 1900",
+        "shirt": "25",
+        "mins": 14,
+        "raw_mins": 27,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Stade-Lausanne-Ouchy vs Wil"
+      },
+      "8g6y8nyfeowov79jxxgxg62hg": {
+        "player_name": "J. Rutz",
+        "club_name": "FC Wil 1900",
+        "shirt": "3",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Stade-Lausanne-Ouchy vs Wil"
+      },
+      "aukgu3wa4j354qlcq08ghocgk": {
+        "player_name": "T. Seferovic",
+        "club_name": "FC Wil 1900",
+        "shirt": "28",
+        "mins": 4,
+        "raw_mins": 8,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Stade-Lausanne-Ouchy vs Wil"
+      },
+      "3ojv6b5xr65ug66z63dwpgu8k": {
+        "player_name": "J. Widmer",
+        "club_name": "FC Wil 1900",
+        "shirt": "29",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Stade-Lausanne-Ouchy vs Wil"
+      }
+    }
   },
   "exor79fazs4qoffzj9bv38jys": {
     "week": "8",
@@ -3116,7 +3361,63 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Rapperswil-Jona",
     "away_name": "Yverdon Sport",
-    "players": {}
+    "players": {
+      "4yhdcuu74b6tpt775q7rokahg": {
+        "player_name": "M. Kurtishi",
+        "club_name": "FC Rapperswil-Jona",
+        "shirt": "54",
+        "mins": 12,
+        "raw_mins": 12,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Rapperswil-Jona vs Yverdon Sport"
+      },
+      "2salmk8nks432oy74njgpnor8": {
+        "player_name": "I. Maslarov",
+        "club_name": "FC Rapperswil-Jona",
+        "shirt": "22",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Rapperswil-Jona vs Yverdon Sport"
+      },
+      "8hdps5c5eossoec01gafzu8lw": {
+        "player_name": "D. Muzz\u00ed",
+        "club_name": "FC Rapperswil-Jona",
+        "shirt": "49",
+        "mins": 1,
+        "raw_mins": 1,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Rapperswil-Jona vs Yverdon Sport"
+      },
+      "doogaqd8kpw43pnfws4ma074k": {
+        "player_name": "E. Bruchez",
+        "club_name": "Yverdon Sport FC",
+        "shirt": "80",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Rapperswil-Jona vs Yverdon Sport"
+      },
+      "2fn6lo78aa995zvlqodpg89hw": {
+        "player_name": "L. Guignard",
+        "club_name": "Yverdon Sport FC",
+        "shirt": "3",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Rapperswil-Jona vs Yverdon Sport"
+      }
+    }
   },
   "exb622d7d5lmoi2ebd008bxg4": {
     "week": "7",
