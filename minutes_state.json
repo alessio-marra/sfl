@@ -701,7 +701,41 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lugano",
     "away_name": "Young Boys",
-    "players": {}
+    "players": {
+      "463dlxday21orkmjn42nrkz6c": {
+        "player_name": "G. Ajdin",
+        "club_name": "FC Lugano",
+        "shirt": "23",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Lugano vs Young Boys"
+      },
+      "canh5hweotiilht8quf90euj8": {
+        "player_name": "E. Etoski",
+        "club_name": "BSC Young Boys",
+        "shirt": "34",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Lugano vs Young Boys"
+      },
+      "66daqkioxqbpunys9lz8w7578": {
+        "player_name": "N. Tschanz",
+        "club_name": "BSC Young Boys",
+        "shirt": "52",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Lugano vs Young Boys"
+      }
+    }
   },
   "1v1xjr7dv6bmt5x2rxn7u3uac": {
     "week": "8",
@@ -709,7 +743,41 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Thun",
     "away_name": "Grasshoppers",
-    "players": {}
+    "players": {
+      "cnsyexfgcdy6m2dfc0l5dfkes": {
+        "player_name": "S. Lengen",
+        "club_name": "FC Thun",
+        "shirt": "80",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Thun vs Grasshoppers"
+      },
+      "blgy8rpn31ugf1g8i27qsx3x0": {
+        "player_name": "O. Mambwa",
+        "club_name": "FC Thun",
+        "shirt": "2",
+        "mins": 35,
+        "raw_mins": 35,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Thun vs Grasshoppers"
+      },
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Thun vs Grasshoppers"
+      }
+    }
   },
   "1uoi9wontsz7hz9hfa8caxfdg": {
     "week": "8",
@@ -717,7 +785,52 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "St.Gallen",
     "away_name": "Sion",
-    "players": {}
+    "players": {
+      "2dwb36l3c83msll70wyl16exg": {
+        "player_name": "N. Scherrer",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "70",
+        "mins": 60,
+        "raw_mins": 60,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "8",
+        "match_label": "St.Gallen vs Sion"
+      },
+      "4o8roh953dufflhb1y3wn1kpg": {
+        "player_name": "D. Besio",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "31",
+        "mins": 15,
+        "raw_mins": 30,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "St.Gallen vs Sion"
+      },
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "St.Gallen vs Sion"
+      },
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 33,
+        "raw_mins": 66,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "8",
+        "match_label": "St.Gallen vs Sion"
+      }
+    }
   },
   "1ub4abxtqhfigwbthkid7qkno": {
     "week": "7",
@@ -3084,7 +3197,118 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Aarau",
     "away_name": "Kriens",
-    "players": {}
+    "players": {
+      "3m27obik4aiqh1r3flyk6hzx0": {
+        "player_name": "D. Coric",
+        "club_name": "FC Aarau",
+        "shirt": "28",
+        "mins": 45,
+        "raw_mins": 45,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "b4lg4vhb7z00rrnbjv311x3pw": {
+        "player_name": "M. Frei",
+        "club_name": "FC Aarau",
+        "shirt": "38",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "60dem379i61fdirmymoev7ggk": {
+        "player_name": "E. Jordan",
+        "club_name": "FC Aarau",
+        "shirt": "23",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "24unujkewve7qqxvmazogymfo": {
+        "player_name": "B. Senyurt",
+        "club_name": "FC Aarau",
+        "shirt": "42",
+        "mins": 6,
+        "raw_mins": 13,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "4otfebxex2uel1pysahbrv5sk": {
+        "player_name": "Z. Tairi",
+        "club_name": "FC Aarau",
+        "shirt": "44",
+        "mins": 25,
+        "raw_mins": 25,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "wkrs6a5c4qupvijtisakal90": {
+        "player_name": "R. Salchli",
+        "club_name": "SC Kriens",
+        "shirt": "1",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "5rs6w235vcsynmiyaa10vau50": {
+        "player_name": "Malek Ishuayed",
+        "club_name": "SC Kriens",
+        "shirt": "11",
+        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "akvdcamsit9bzn18wx5hrws9g": {
+        "player_name": "E. Rufener",
+        "club_name": "SC Kriens",
+        "shirt": "27",
+        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "akgjf709lcowr0b3lx174ep04": {
+        "player_name": "T. Mauch",
+        "club_name": "SC Kriens",
+        "shirt": "22",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      },
+      "anytf8f31v7ax37yaznkdnbbo": {
+        "player_name": "P. Utz",
+        "club_name": "SC Kriens",
+        "shirt": "28",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Aarau vs Kriens"
+      }
+    }
   },
   "eytoijq6jmhkvw68mh2jgwjdg": {
     "week": "8",
