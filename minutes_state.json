@@ -1832,11 +1832,34 @@
   },
   "1n096fusj41maa2nh22faeec4": {
     "week": "4",
-    "date": "2026-08-23",
+    "date": "2026-09-15",
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Grasshoppers",
     "away_name": "Sion",
-    "players": {}
+    "players": {
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Grasshoppers vs Sion"
+      },
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 38,
+        "raw_mins": 75,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Grasshoppers vs Sion"
+      }
+    }
   },
   "1mn1g1nhch4zjastpt1jeaihg": {
     "week": "4",
