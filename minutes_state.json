@@ -1824,11 +1824,67 @@
   },
   "1nderjxo2q4zrb1nrx5th1bmc": {
     "week": "4",
-    "date": "2026-08-23",
+    "date": "2026-09-16",
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lugano",
     "away_name": "St.Gallen",
-    "players": {}
+    "players": {
+      "463dlxday21orkmjn42nrkz6c": {
+        "player_name": "G. Ajdin",
+        "club_name": "FC Lugano",
+        "shirt": "23",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Lugano vs St.Gallen"
+      },
+      "ac4u2ef76tifxjn9up3x5l53o": {
+        "player_name": "A. Ndiaye",
+        "club_name": "FC Lugano",
+        "shirt": "39",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Lugano vs St.Gallen"
+      },
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 30,
+        "raw_mins": 61,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Lugano vs St.Gallen"
+      },
+      "2dwb36l3c83msll70wyl16exg": {
+        "player_name": "N. Scherrer",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "70",
+        "mins": 45,
+        "raw_mins": 45,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Lugano vs St.Gallen"
+      },
+      "4o8roh953dufflhb1y3wn1kpg": {
+        "player_name": "D. Besio",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "31",
+        "mins": 12,
+        "raw_mins": 23,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Lugano vs St.Gallen"
+      }
+    }
   },
   "1n096fusj41maa2nh22faeec4": {
     "week": "4",
@@ -2022,11 +2078,67 @@
   },
   "1nqoabywstohxt1eaalzbvrx0": {
     "week": "4",
-    "date": "2026-08-22",
+    "date": "2026-09-16",
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Thun",
     "away_name": "Servette",
-    "players": {}
+    "players": {
+      "cnsyexfgcdy6m2dfc0l5dfkes": {
+        "player_name": "S. Lengen",
+        "club_name": "FC Thun",
+        "shirt": "80",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Thun vs Servette"
+      },
+      "blgy8rpn31ugf1g8i27qsx3x0": {
+        "player_name": "O. Mambwa",
+        "club_name": "FC Thun",
+        "shirt": "2",
+        "mins": 26,
+        "raw_mins": 26,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Thun vs Servette"
+      },
+      "2wisprsn6msedn7n6hk1wolck": {
+        "player_name": "L. Passavant",
+        "club_name": "FC Thun",
+        "shirt": "54",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Thun vs Servette"
+      },
+      "6g5s0q5cc02urh00w0mme7q50": {
+        "player_name": "E. Haxhiu",
+        "club_name": "Servette FC",
+        "shirt": "39",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "4",
+        "match_label": "Thun vs Servette"
+      },
+      "84hfrakh7xhyd1kwc1jhvdz4k": {
+        "player_name": "I. Izquierdo",
+        "club_name": "Servette FC",
+        "shirt": "42",
+        "mins": 4,
+        "raw_mins": 4,
+        "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Thun vs Servette"
+      }
+    }
   },
   "1ljl51o6tne2kfcjop1qutes4": {
     "week": "3",
@@ -6257,25 +6369,9 @@
         "player_name": "R. Salchli",
         "club_name": "SC Kriens",
         "shirt": "1",
-        "mins": 75,
-        "status": "Started",
-        "week": "2",
-        "match_label": "Kriens vs Winterthur"
-      },
-      "80v0m72fcdpzdvplkacok989g": {
-        "player_name": "E. Heiniger",
-        "club_name": "SC Kriens",
-        "shirt": "15",
-        "mins": 75,
-        "status": "Started",
-        "week": "2",
-        "match_label": "Kriens vs Winterthur"
-      },
-      "bbu4r6xk78dmkfkadvq9afxn8": {
-        "player_name": "Y. Bohon Diet",
-        "club_name": "SC Kriens",
-        "shirt": "25",
-        "mins": 75,
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -6284,7 +6380,9 @@
         "player_name": "E. Rufener",
         "club_name": "SC Kriens",
         "shirt": "27",
-        "mins": 75,
+        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -6293,7 +6391,9 @@
         "player_name": "Malek Ishuayed",
         "club_name": "SC Kriens",
         "shirt": "11",
-        "mins": 60,
+        "mins": 72,
+        "raw_mins": 72,
+        "weight": 1.0,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -6303,16 +6403,9 @@
         "club_name": "SC Kriens",
         "shirt": "22",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
-        "week": "2",
-        "match_label": "Kriens vs Winterthur"
-      },
-      "99gzdabu92tunehaoai1r7ris": {
-        "player_name": "A. Spagnoli",
-        "club_name": "FC Winterthur",
-        "shirt": "75",
-        "mins": 90,
-        "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
       },
@@ -6321,6 +6414,8 @@
         "club_name": "FC Winterthur",
         "shirt": "19",
         "mins": 45,
+        "raw_mins": 45,
+        "weight": 1.0,
         "status": "Started",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -6330,15 +6425,8 @@
         "club_name": "FC Winterthur",
         "shirt": "81",
         "mins": 0,
-        "status": "In squad, did not play",
-        "week": "2",
-        "match_label": "Kriens vs Winterthur"
-      },
-      "2v9nzsylas35kfrdooydkt4wk": {
-        "player_name": "T. Citherlet",
-        "club_name": "FC Winterthur",
-        "shirt": "33",
-        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -6348,6 +6436,8 @@
         "club_name": "FC Winterthur",
         "shirt": "70",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -6356,7 +6446,9 @@
         "player_name": "T. Okafor",
         "club_name": "FC Winterthur",
         "shirt": "40",
-        "mins": 2,
+        "mins": 1,
+        "raw_mins": 2,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "2",
         "match_label": "Kriens vs Winterthur"
@@ -6711,20 +6803,13 @@
     "home_name": "Winterthur",
     "away_name": "Yverdon Sport",
     "players": {
-      "99gzdabu92tunehaoai1r7ris": {
-        "player_name": "A. Spagnoli",
-        "club_name": "FC Winterthur",
-        "shirt": "75",
-        "mins": 90,
-        "status": "Started",
-        "week": "1",
-        "match_label": "Winterthur vs Yverdon Sport"
-      },
       "6oazl5zbikgbve6ql7qm8po2c": {
         "player_name": "Y. Odin",
         "club_name": "FC Winterthur",
         "shirt": "19",
         "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
         "status": "Started",
         "week": "1",
         "match_label": "Winterthur vs Yverdon Sport"
@@ -6734,6 +6819,8 @@
         "club_name": "FC Winterthur",
         "shirt": "81",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Winterthur vs Yverdon Sport"
@@ -6743,6 +6830,8 @@
         "club_name": "FC Winterthur",
         "shirt": "70",
         "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Winterthur vs Yverdon Sport"
@@ -6752,15 +6841,8 @@
         "club_name": "FC Winterthur",
         "shirt": "40",
         "mins": 0,
-        "status": "In squad, did not play",
-        "week": "1",
-        "match_label": "Winterthur vs Yverdon Sport"
-      },
-      "9g4591ffmh21o0hlw3zt17wno": {
-        "player_name": "L. Bittarelli",
-        "club_name": "Yverdon Sport FC",
-        "shirt": "23",
-        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Winterthur vs Yverdon Sport"
@@ -6770,15 +6852,8 @@
         "club_name": "Yverdon Sport FC",
         "shirt": "3",
         "mins": 0,
-        "status": "In squad, did not play",
-        "week": "1",
-        "match_label": "Winterthur vs Yverdon Sport"
-      },
-      "b8lonz0trfj0mjdnaeh3p50d0": {
-        "player_name": "M. Rouiller",
-        "club_name": "Yverdon Sport FC",
-        "shirt": "16",
-        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
         "status": "In squad, did not play",
         "week": "1",
         "match_label": "Winterthur vs Yverdon Sport"
