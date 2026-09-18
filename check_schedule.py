@@ -347,7 +347,7 @@ def build_subject(reschedules: list, new_fixtures: list) -> str:
         parts.append(f"{len(reschedules)} updated fixture(s)")
     if new_fixtures:
         parts.append(f"{len(new_fixtures)} new fixture(s)")
-    return f"Stats Perform – {' & '.join(parts)}"
+    return f"SFL – {' & '.join(parts)}"
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
