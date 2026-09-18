@@ -1271,11 +1271,12 @@
   },
   "1xn3mqqycfzu760uvh61kql90": {
     "date": "2026-09-19",
-    "time": "18:30:00",
+    "time": "16:00:00",
     "local_date": "2026-09-19",
-    "local_time": "20:30:00",
+    "local_time": "18:00:00",
     "description": "Sion vs Zürich",
     "competition": "Super League",
+    "competition_id": "e0lck99w8meo9qoalfrxgo33o",
     "stage": "Regular Season",
     "week": "9"
   },
