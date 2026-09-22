@@ -147,20 +147,38 @@ def fetch_mar_updated_ids() -> set[str]:
     now_utc   = datetime.now(timezone.utc)
     since_str = (now_utc - timedelta(minutes=MAR_LOOKBACK_MIN)).strftime("%Y-%m-%dT%H:%M:%SZ")
     print(f"Checking MAR (type=ma1) since {since_str} ...")
-    url = (
-        f"{BASE_URL}/matchreference/{API_KEY}/"
-        f"?_rt=c&_fmt=xml&type=ma1&_rdlt={since_str}"
-    )
-    try:
-        root = get_xml(url)
-    except Exception as e:
-        print(f"  MAR call failed: {e}")
-        return set()
-    ids = {
-        mi.get("id") for mi in root.iter("matchInfo")
-        if mi.get("id") and mi.get("matchStatus") != "Played"
-    }
-    print(f"  MAR returned {len(ids)} updated match(es).")
+
+    ids  = set()
+    page = 1
+
+    while True:
+        url = (
+            f"{BASE_URL}/matchreference/{API_KEY}/"
+            f"?_rt=c&_fmt=xml&type=ma1&_rdlt={since_str}"
+            f"&_pgSz=1000&_pgNm={page}"
+        )
+        try:
+            root = get_xml(url)
+        except Exception as e:
+            print(f"  MAR page {page} failed: {e}")
+            break
+
+        page_ids = {
+            mi.get("id") for mi in root.iter("matchInfo")
+            if mi.get("id") and mi.get("matchStatus") != "Played"
+        }
+
+        # Stop if page returns no results or an errorCode element
+        error_els = [el for el in root.iter() if el.tag.endswith("errorCode")]
+        if error_els or not page_ids:
+            print(f"  MAR end at page {page}.")
+            break
+
+        ids.update(page_ids)
+        print(f"  MAR page {page}: {len(page_ids)} match(es)")
+        page += 1
+
+    print(f"  MAR total: {len(ids)} updated match(es).")
     return ids
 
 
