@@ -29,7 +29,7 @@ BASE_URL         = "https://api.performfeeds.com/soccerdata"
 HEADERS          = {"Referer": REFERER}
 STATE_FILE       = Path("schedule_state.json")
 COMPETITION_IDS  = "8v97rcbthsxmzqk4ufxws9mug,e0lck99w8meo9qoalfrxgo33o,8872tjohi4vpok4s2mtphxj9x"
-MAR_LOOKBACK_MIN = 90
+MAR_LOOKBACK_MIN = 1300
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
