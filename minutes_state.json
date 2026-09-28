@@ -630,6 +630,39 @@
     "home_name": "Lausanne-Sport",
     "away_name": "Lugano",
     "players": {
+      "8lx7ynn9g358g7icf8f0jxjx0": {
+        "player_name": "I. Bah Mendes",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "51",
+        "mins": 28,
+        "raw_mins": 55,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "9",
+        "match_label": "Lausanne-Sport vs Lugano"
+      },
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "9",
+        "match_label": "Lausanne-Sport vs Lugano"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 2,
+        "raw_mins": 3,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "9",
+        "match_label": "Lausanne-Sport vs Lugano"
+      },
       "463dlxday21orkmjn42nrkz6c": {
         "player_name": "G. Ajdin",
         "club_name": "FC Lugano",
@@ -718,9 +751,9 @@
         "player_name": "L. Dalipi",
         "club_name": "FC Vaduz",
         "shirt": "11",
-        "mins": 45,
+        "mins": 90,
         "raw_mins": 90,
-        "weight": 0.5,
+        "weight": 1.0,
         "status": "Started",
         "week": "9",
         "match_label": "Vaduz vs Thun"
@@ -731,8 +764,30 @@
         "shirt": "37",
         "mins": 0,
         "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "9",
+        "match_label": "Vaduz vs Thun"
+      },
+      "5qc8mchxjeckhyssmzlylc93o": {
+        "player_name": "N. F\u00f6llmi",
+        "club_name": "FC Vaduz",
+        "shirt": "38",
+        "mins": 0,
+        "raw_mins": 0,
         "weight": 0.5,
         "status": "In squad, did not play",
+        "week": "9",
+        "match_label": "Vaduz vs Thun"
+      },
+      "38r0hllx8i1swwgqx7udvhb84": {
+        "player_name": "M. Walker",
+        "club_name": "FC Vaduz",
+        "shirt": "30",
+        "mins": 1,
+        "raw_mins": 2,
+        "weight": 0.5,
+        "status": "Came on as sub",
         "week": "9",
         "match_label": "Vaduz vs Thun"
       },
@@ -742,7 +797,7 @@
         "shirt": "21",
         "mins": 0,
         "raw_mins": 0,
-        "weight": 0.5,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "9",
         "match_label": "Vaduz vs Thun"
@@ -753,7 +808,7 @@
         "shirt": "80",
         "mins": 0,
         "raw_mins": 0,
-        "weight": 0.5,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "9",
         "match_label": "Vaduz vs Thun"
@@ -773,9 +828,9 @@
         "player_name": "L. Passavant",
         "club_name": "FC Thun",
         "shirt": "54",
-        "mins": 2,
+        "mins": 4,
         "raw_mins": 4,
-        "weight": 0.5,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "9",
         "match_label": "Vaduz vs Thun"
@@ -1023,6 +1078,39 @@
     "home_name": "Lausanne-Sport",
     "away_name": "Servette",
     "players": {
+      "8lx7ynn9g358g7icf8f0jxjx0": {
+        "player_name": "I. Bah Mendes",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "51",
+        "mins": 15,
+        "raw_mins": 30,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Lausanne-Sport vs Servette"
+      },
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Lausanne-Sport vs Servette"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 8,
+        "raw_mins": 15,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "8",
+        "match_label": "Lausanne-Sport vs Servette"
+      },
       "84hfrakh7xhyd1kwc1jhvdz4k": {
         "player_name": "I. Izquierdo",
         "club_name": "Servette FC",
@@ -1031,6 +1119,17 @@
         "raw_mins": 0,
         "weight": 1.0,
         "status": "In squad, did not play",
+        "week": "8",
+        "match_label": "Lausanne-Sport vs Servette"
+      },
+      "vc2knr7mu8n12alvmx7fzj10": {
+        "player_name": "T. Ouattara",
+        "club_name": "Servette FC",
+        "shirt": "77",
+        "mins": 8,
+        "raw_mins": 15,
+        "weight": 0.5,
+        "status": "Came on as sub",
         "week": "8",
         "match_label": "Lausanne-Sport vs Servette"
       }
@@ -1546,10 +1645,43 @@
         "player_name": "L. Dalipi",
         "club_name": "FC Vaduz",
         "shirt": "11",
-        "mins": 45,
+        "mins": 90,
         "raw_mins": 90,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "7",
+        "match_label": "Vaduz vs Lausanne-Sport"
+      },
+      "38r0hllx8i1swwgqx7udvhb84": {
+        "player_name": "M. Walker",
+        "club_name": "FC Vaduz",
+        "shirt": "30",
+        "mins": 14,
+        "raw_mins": 29,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "7",
+        "match_label": "Vaduz vs Lausanne-Sport"
+      },
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 22,
+        "raw_mins": 45,
         "weight": 0.5,
         "status": "Started",
+        "week": "7",
+        "match_label": "Vaduz vs Lausanne-Sport"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 7,
+        "raw_mins": 14,
+        "weight": 0.5,
+        "status": "Came on as sub",
         "week": "7",
         "match_label": "Vaduz vs Lausanne-Sport"
       }
@@ -1628,9 +1760,9 @@
         "player_name": "S. Lengen",
         "club_name": "FC Thun",
         "shirt": "80",
-        "mins": 31,
+        "mins": 62,
         "raw_mins": 62,
-        "weight": 0.5,
+        "weight": 1.0,
         "status": "Started",
         "week": "6",
         "match_label": "Thun vs Lausanne-Sport"
@@ -1641,7 +1773,7 @@
         "shirt": "21",
         "mins": 0,
         "raw_mins": 0,
-        "weight": 0.5,
+        "weight": 1.0,
         "status": "In squad, did not play",
         "week": "6",
         "match_label": "Thun vs Lausanne-Sport"
@@ -1650,6 +1782,28 @@
         "player_name": "L. Passavant",
         "club_name": "FC Thun",
         "shirt": "54",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "status": "In squad, did not play",
+        "week": "6",
+        "match_label": "Thun vs Lausanne-Sport"
+      },
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 10,
+        "raw_mins": 19,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "6",
+        "match_label": "Thun vs Lausanne-Sport"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
         "mins": 0,
         "raw_mins": 0,
         "weight": 0.5,
@@ -2101,14 +2255,69 @@
     "home_name": "Lausanne-Sport",
     "away_name": "Z\u00fcrich",
     "players": {
-      "cpw4hqnhrqja3q3k85fq7bz84": {
-        "player_name": "L. Sch\u00f6dler",
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
+        "week": "5",
+        "match_label": "Lausanne-Sport vs Z\u00fcrich"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 18,
+        "raw_mins": 36,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "5",
+        "match_label": "Lausanne-Sport vs Z\u00fcrich"
+      },
+      "ars7lu2hj5ecjpn0cd1mygu1g": {
+        "player_name": "S. Huber",
         "club_name": "FC Z\u00fcrich",
-        "shirt": "21",
+        "shirt": "1",
         "mins": 45,
         "raw_mins": 90,
         "weight": 0.5,
         "status": "Started",
+        "week": "5",
+        "match_label": "Lausanne-Sport vs Z\u00fcrich"
+      },
+      "3mw97uhlizy4327fxiui1wn4k": {
+        "player_name": "S. Walker",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "44",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "5",
+        "match_label": "Lausanne-Sport vs Z\u00fcrich"
+      },
+      "cpw4hqnhrqja3q3k85fq7bz84": {
+        "player_name": "L. Sch\u00f6dler",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "21",
+        "mins": 90,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "status": "Started",
+        "week": "5",
+        "match_label": "Lausanne-Sport vs Z\u00fcrich"
+      },
+      "exxkv65coe3l769z25gvk1ixg": {
+        "player_name": "N. Di Giusto",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "14",
+        "mins": 0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "status": "In squad, did not play",
         "week": "5",
         "match_label": "Lausanne-Sport vs Z\u00fcrich"
       },
@@ -2344,6 +2553,17 @@
     "home_name": "Luzern",
     "away_name": "Lausanne-Sport",
     "players": {
+      "a99zxna7oxwspa405f5a6x1xw": {
+        "player_name": "Bung Meng Freimann",
+        "club_name": "FC Luzern",
+        "shirt": "46",
+        "mins": 45,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "status": "Started",
+        "week": "4",
+        "match_label": "Luzern vs Lausanne-Sport"
+      },
       "2rsfj02kbcmosf0da55w9uz2s": {
         "player_name": "M. Zimmermann",
         "club_name": "FC Luzern",
@@ -2359,9 +2579,9 @@
         "player_name": "S. Meyer",
         "club_name": "FC Luzern",
         "shirt": "71",
-        "mins": 3,
+        "mins": 6,
         "raw_mins": 6,
-        "weight": 0.5,
+        "weight": 1.0,
         "status": "Came on as sub",
         "week": "4",
         "match_label": "Luzern vs Lausanne-Sport"
@@ -2373,6 +2593,28 @@
         "mins": 1,
         "raw_mins": 1,
         "weight": 1.0,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Luzern vs Lausanne-Sport"
+      },
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 10,
+        "raw_mins": 19,
+        "weight": 0.5,
+        "status": "Came on as sub",
+        "week": "4",
+        "match_label": "Luzern vs Lausanne-Sport"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 22,
+        "raw_mins": 45,
+        "weight": 0.5,
         "status": "Came on as sub",
         "week": "4",
         "match_label": "Luzern vs Lausanne-Sport"

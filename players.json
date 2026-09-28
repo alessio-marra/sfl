@@ -9,19 +9,19 @@
     "id": "66daqkioxqbpunys9lz8w7578",
     "firstName": "Noë",
     "lastName": "Tschanz",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "8surxesvvxiqq2t7cpz7l2b6c",
     "firstName": "Tristan Esteban",
     "lastName": "Jost",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "99s7mp9tue9unwu8o7lds2hp0",
     "firstName": "Rhodri",
     "lastName": "Smith",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "asdbgcrgmvkyuglv92b9lnc44",
@@ -45,7 +45,7 @@
     "id": "wvt8dysok3dpjpwaba15di50",
     "firstName": "Felix Emmanuel",
     "lastName": "Tsimba",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "3467py0duaokw31rweau0buac",
@@ -84,9 +84,27 @@
     "weight": 1.0
   },
   {
+    "id": "615ger5z8xeb36lqke8rz7od0",
+    "firstName": "Papa Souleymane",
+    "lastName": "NDiaye",
+    "weight": 0.5
+  },
+  {
+    "id": "7n4obvxgtvcggeyl540j73384",
+    "firstName": "Dircssi",
+    "lastName": "Ngonzo",
+    "weight": 0.5
+  },
+  {
     "id": "8hghkkwywphs83ft8f8q04104",
     "firstName": "Emilien",
     "lastName": "Grosso",
+    "weight": 1.0
+  },
+  {
+    "id": "8lx7ynn9g358g7icf8f0jxjx0",
+    "firstName": "Ibrahim",
+    "lastName": "Bah Mendes",
     "weight": 0.5
   },
   {
@@ -102,10 +120,22 @@
     "weight": 1.0
   },
   {
+    "id": "estivchptwxb349fgc23ahgyc",
+    "firstName": "Tim",
+    "lastName": "Hottiger",
+    "weight": 0.5
+  },
+  {
     "id": "463dlxday21orkmjn42nrkz6c",
     "firstName": "Gjan",
     "lastName": "Ajdin",
     "weight": 1.0
+  },
+  {
+    "id": "4lz1tc8wjji6ll44ks8w7k6qc",
+    "firstName": "Diego",
+    "lastName": "Mina",
+    "weight": 0.5
   },
   {
     "id": "4sa40st446rekhvz11hafgbo4",
@@ -129,7 +159,7 @@
     "id": "97lvadg3r6c02dnq2v163plw4",
     "firstName": "Jason-Lee",
     "lastName": "Parente",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "ac4u2ef76tifxjn9up3x5l53o",
@@ -153,7 +183,7 @@
     "id": "5g00gq09apkl9bqxgpwext7v8",
     "firstName": "Sascha",
     "lastName": "Meyer",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "7522wjx619rbblzexcxds6pec",
@@ -168,6 +198,12 @@
     "weight": 1.0
   },
   {
+    "id": "a99zxna7oxwspa405f5a6x1xw",
+    "firstName": "Bung Meng",
+    "lastName": "Freimann",
+    "weight": 0.5
+  },
+  {
     "id": "vbn0ij9ljlgjk2cdy4q1uj9w",
     "firstName": "Erblin",
     "lastName": "Sadikaj",
@@ -177,7 +213,7 @@
     "id": "vrc090kfslazjqxqg4rr0cgk",
     "firstName": "Demir",
     "lastName": "Xhemalija",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "2gcdbekdku9rg41j9o3zwnxn8",
@@ -192,10 +228,16 @@
     "weight": 1.0
   },
   {
+    "id": "d0xfek1nalpc33ktsotqiqs4",
+    "firstName": "Ryan",
+    "lastName": "Kessler",
+    "weight": 0.5
+  },
+  {
     "id": "dl63f4g3chb44p8nn9ywlm1hw",
     "firstName": "Simon",
     "lastName": "Caillet",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "1pi3bso1gohcatghfcpg35q1g",
@@ -213,12 +255,18 @@
     "id": "3j4u1wo521h535zispf9uw8pg",
     "firstName": "Pascal",
     "lastName": "Büttiker",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "4o8roh953dufflhb1y3wn1kpg",
     "firstName": "Diego",
     "lastName": "Besio",
+    "weight": 1.0
+  },
+  {
+    "id": "8ibag83uzcirmb7vycpdxxw5w",
+    "firstName": "Leon",
+    "lastName": "Frokaj",
     "weight": 0.5
   },
   {
@@ -231,24 +279,30 @@
     "id": "an0tzhrx6uhf75uper52ta3o4",
     "firstName": "Joel",
     "lastName": "Ruiz",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "dldvsl5cgnzd5pqfm2h9uq3h0",
     "firstName": "Corsin",
     "lastName": "Konietzke",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "1i68287toch77w3id9u0ctn2s",
     "firstName": "Leon",
     "lastName": "Grando",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "2wisprsn6msedn7n6hk1wolck",
     "firstName": "Louis Immanuel",
     "lastName": "Passavant",
+    "weight": 1.0
+  },
+  {
+    "id": "5o1par7531o2wpp2z9jf4pkwk",
+    "firstName": "Mats",
+    "lastName": "Seiler",
     "weight": 0.5
   },
   {
@@ -258,22 +312,28 @@
     "weight": 1.0
   },
   {
+    "id": "9x74zsr35hoilwyygkvzsxfro",
+    "firstName": "Amir",
+    "lastName": "Maaroufi",
+    "weight": 0.5
+  },
+  {
     "id": "ag92lrchlo2z1opq3i1loneok",
     "firstName": "Dorian",
     "lastName": "Derbaci",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "cnsyexfgcdy6m2dfc0l5dfkes",
     "firstName": "Simon",
     "lastName": "Lengen",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "crbaj3hvnoqvipn86tvjxrm6s",
     "firstName": "Dario",
     "lastName": "Wälti",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "e1aopqv9jb779vo6qgj9d0wlw",
@@ -285,13 +345,31 @@
     "id": "2pn8sdsirddumo2usvzf9kglw",
     "firstName": "Lutfi",
     "lastName": "Dalipi",
+    "weight": 1.0
+  },
+  {
+    "id": "38r0hllx8i1swwgqx7udvhb84",
+    "firstName": "Mattia Diego",
+    "lastName": "Walker",
+    "weight": 0.5
+  },
+  {
+    "id": "4lbrew3lxtbgoc147pepsgw0k",
+    "firstName": "Ranjan",
+    "lastName": "Neelakandan",
+    "weight": 0.5
+  },
+  {
+    "id": "5qc8mchxjeckhyssmzlylc93o",
+    "firstName": "Nico",
+    "lastName": "Föllmi",
     "weight": 0.5
   },
   {
     "id": "9kb67r0b4yc9q3g9607nih91w",
     "firstName": "Luca",
     "lastName": "Celentano",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "1fy8am84uedboos671t9buxw4",
@@ -312,6 +390,12 @@
     "weight": 1.0
   },
   {
+    "id": "3mw97uhlizy4327fxiui1wn4k",
+    "firstName": "Sebastian",
+    "lastName": "Walker",
+    "weight": 0.5
+  },
+  {
     "id": "3nqhtkzcrkrta24iyceqk6jv8",
     "firstName": "Neil",
     "lastName": "Volken",
@@ -327,13 +411,13 @@
     "id": "6aplj4zsa49j8mhcc17aar8k4",
     "firstName": "Mario",
     "lastName": "Greco",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "6kn4vbabqzpon683ynbsxkkk4",
     "firstName": "David",
     "lastName": "Vujevic",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "75h4biirv290kb4i6ewzcppn8",
@@ -345,6 +429,12 @@
     "id": "997f7zp6733mvgshg53bas3dg",
     "firstName": "Doron",
     "lastName": "Lichtenstein",
+    "weight": 1.0
+  },
+  {
+    "id": "ars7lu2hj5ecjpn0cd1mygu1g",
+    "firstName": "Silas Simon",
+    "lastName": "Huber",
     "weight": 0.5
   },
   {
@@ -357,12 +447,18 @@
     "id": "cpw4hqnhrqja3q3k85fq7bz84",
     "firstName": "Leandro",
     "lastName": "Schödler",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "eh6fscqv4ctdtfzxkkfmtztp0",
     "firstName": "Mattia",
     "lastName": "Rizzo",
+    "weight": 1.0
+  },
+  {
+    "id": "exxkv65coe3l769z25gvk1ixg",
+    "firstName": "Nevio Emanuele",
+    "lastName": "Di Giusto",
     "weight": 0.5
   },
   {
@@ -370,6 +466,12 @@
     "firstName": "Eron",
     "lastName": "Avdullahu",
     "weight": 1.0
+  },
+  {
+    "id": "2epq3qbyzs8mr3g6aaemjirdg",
+    "firstName": "Samuele",
+    "lastName": "Bengondo",
+    "weight": 0.5
   },
   {
     "id": "2p2rcdnfn8gsnjrjbbj12p72s",
@@ -384,6 +486,12 @@
     "weight": 1.0
   },
   {
+    "id": "50hefdi6vr6peyviss9np2gpg",
+    "firstName": "Samuel Sebastian",
+    "lastName": "Krasniqi",
+    "weight": 0.5
+  },
+  {
     "id": "7r85z59jvm8p2pr8qy91u0aac",
     "firstName": "Leart",
     "lastName": "Kabashi",
@@ -394,6 +502,24 @@
     "firstName": "Lionel",
     "lastName": "Thüring",
     "weight": 1.0
+  },
+  {
+    "id": "a0okhowe2uzwwk47jvywi9xxw",
+    "firstName": "Demis",
+    "lastName": "Fiechter",
+    "weight": 0.5
+  },
+  {
+    "id": "b0viyxphw7xe2wf9mkfi2uyvo",
+    "firstName": "Samuel",
+    "lastName": "Marques",
+    "weight": 0.5
+  },
+  {
+    "id": "cy4locjo340pq90psxqe17g2c",
+    "firstName": "Loris",
+    "lastName": "Giandomenico",
+    "weight": 0.5
   },
   {
     "id": "dnbhu3n4vs5c2p0h7i35c0h04",
@@ -426,10 +552,16 @@
     "weight": 1.0
   },
   {
+    "id": "vc2knr7mu8n12alvmx7fzj10",
+    "firstName": "Tiemoko",
+    "lastName": "Ouattara",
+    "weight": 0.5
+  },
+  {
     "id": "3v7qhy9h8w7a0gws2oeij0l5g",
     "firstName": "Cherif Abdoulaye",
     "lastName": "Koroma Haidara",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "4kcoxzn3so6ic4xfvhvw2dt04",
@@ -459,13 +591,25 @@
     "id": "e1vdfbwpeopk8vczhd24zp1ck",
     "firstName": "Eder",
     "lastName": "Januario Iria",
+    "weight": 1.0
+  },
+  {
+    "id": "e6pc260369ih4b2ad60iien10",
+    "firstName": "Leart",
+    "lastName": "Zuka",
+    "weight": 0.5
+  },
+  {
+    "id": "mrfl0vgfn50zhn5ekhok3vh0",
+    "firstName": "Nour Al Islam",
+    "lastName": "Boulkous",
     "weight": 0.5
   },
   {
     "id": "24unujkewve7qqxvmazogymfo",
     "firstName": "Berdan",
     "lastName": "Senyurt",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "3kk35cd6v2hfs9i15gqizhpg4",
@@ -489,7 +633,7 @@
     "id": "60dem379i61fdirmymoev7ggk",
     "firstName": "Eliah",
     "lastName": "Jordan",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "b4lg4vhb7z00rrnbjv311x3pw",
@@ -516,10 +660,22 @@
     "weight": 1.0
   },
   {
+    "id": "4ejk0kwozbcbq9115xfo4f0us",
+    "firstName": "Malík Klaus Modou",
+    "lastName": "Deme",
+    "weight": 0.5
+  },
+  {
     "id": "4yhdcuu74b6tpt775q7rokahg",
     "firstName": "Muhamed",
     "lastName": "Kurtishi",
     "weight": 1.0
+  },
+  {
+    "id": "5fzuoyb6dfulcuxsmhohos5ck",
+    "firstName": "Cyrill",
+    "lastName": "Emch",
+    "weight": 0.5
   },
   {
     "id": "8hdps5c5eossoec01gafzu8lw",
@@ -540,27 +696,45 @@
     "weight": 1.0
   },
   {
+    "id": "epbdulzw6jtzidiobkhx9rytw",
+    "firstName": "Yannis",
+    "lastName": "Ryter",
+    "weight": 0.5
+  },
+  {
+    "id": "2pdoh2ixtebskdre11kmmljx0",
+    "firstName": "Rayan",
+    "lastName": "Boulac",
+    "weight": 0.5
+  },
+  {
     "id": "32hz9akli4s09ib1fzsa0go44",
     "firstName": "Ruben Ezechiel",
     "lastName": "Londja",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "5qg0zclpg1kdgtaribzbtg844",
     "firstName": "Marwan Ryan",
     "lastName": "Aubert",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "868v7nfa84r7cpe0uxrsahpn8",
     "firstName": "Francesco",
     "lastName": "Lentini",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "9dbhqp45xya5rulyokd1vglxw",
     "firstName": "Fabulus Nomann Owolabi",
     "lastName": "Ahuissou Sossou",
+    "weight": 1.0
+  },
+  {
+    "id": "9ei0a1ald9djjgqr4x9tvtc7o",
+    "firstName": "Noah",
+    "lastName": "Grognuz",
     "weight": 0.5
   },
   {
@@ -573,6 +747,12 @@
     "id": "bd50h6omze0r1xrfjeeldgj6c",
     "firstName": "Mohamed",
     "lastName": "Ishuayed",
+    "weight": 1.0
+  },
+  {
+    "id": "e5gjxdlhxqja1duu6pypyjnys",
+    "firstName": "Shahin",
+    "lastName": "Edougué",
     "weight": 0.5
   },
   {
@@ -612,10 +792,22 @@
     "weight": 1.0
   },
   {
+    "id": "bnerqoyjg86eor1viyi4dyadw",
+    "firstName": "Hénoc Manassé",
+    "lastName": "Lukembila",
+    "weight": 0.5
+  },
+  {
+    "id": "ckpl8ict337rocpu9jeyjk93o",
+    "firstName": "Vasco Armando",
+    "lastName": "Tritten",
+    "weight": 0.5
+  },
+  {
     "id": "19ifakux3w3z5wipxnvej8nx0",
     "firstName": "Loris",
     "lastName": "Schreiber",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "3ojv6b5xr65ug66z63dwpgu8k",
@@ -627,19 +819,19 @@
     "id": "4d372wwy2cclg6l8e86ngyk2c",
     "firstName": "Gentrit",
     "lastName": "Muslija",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "8g6y8nyfeowov79jxxgxg62hg",
     "firstName": "Janik",
     "lastName": "Rutz",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "aukgu3wa4j354qlcq08ghocgk",
     "firstName": "Tarik",
     "lastName": "Seferovic",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "b9ijbe1wax32ejcwfutqx02l0",
@@ -651,12 +843,24 @@
     "id": "c2o200897whysk03uc1ulshsk",
     "firstName": "Xhan",
     "lastName": "Aliu",
+    "weight": 1.0
+  },
+  {
+    "id": "ci5o6s3gnwvvvjz8gs13z3wgk",
+    "firstName": "Isaiah Tobechukwu",
+    "lastName": "Okafor",
     "weight": 0.5
   },
   {
     "id": "woohl74ro8d0a67po38xvw9g",
     "firstName": "Yves Amani",
     "lastName": "Allou",
+    "weight": 1.0
+  },
+  {
+    "id": "2v9nzsylas35kfrdooydkt4wk",
+    "firstName": "Tibault",
+    "lastName": "Citherlet",
     "weight": 0.5
   },
   {
@@ -690,6 +894,12 @@
     "weight": 1.0
   },
   {
+    "id": "99gzdabu92tunehaoai1r7ris",
+    "firstName": "Antonio",
+    "lastName": "Spagnoli",
+    "weight": 0.5
+  },
+  {
     "id": "djvohgvp8zwlfxpfnv92924us",
     "firstName": "Giuliano",
     "lastName": "Foro",
@@ -705,7 +915,7 @@
     "id": "ojetnalu7pxbdmttr97uiexg",
     "firstName": "Tobias Chibuzo",
     "lastName": "Okafor Onyekosor",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "1hwkc9oiv27t564914n05zdw4",
@@ -732,6 +942,12 @@
     "weight": 1.0
   },
   {
+    "id": "9z5ltskia2em1srz2vupjtr84",
+    "firstName": "Jean-Daniel",
+    "lastName": "Mayasi",
+    "weight": 0.5
+  },
+  {
     "id": "awt38idua80bt2qsebqj4knx0",
     "firstName": "Loïc",
     "lastName": "Veya",
@@ -750,6 +966,12 @@
     "weight": 1.0
   },
   {
+    "id": "ec7zraloffb84elpg4xop52qc",
+    "firstName": "Janis",
+    "lastName": "Lüthi",
+    "weight": 0.5
+  },
+  {
     "id": "5rs6w235vcsynmiyaa10vau50",
     "firstName": "Malek Sadek",
     "lastName": "Ishuayed Sanchez",
@@ -760,6 +982,12 @@
     "firstName": "Marvin",
     "lastName": "Akahomen",
     "weight": 1.0
+  },
+  {
+    "id": "80v0m72fcdpzdvplkacok989g",
+    "firstName": "Enea",
+    "lastName": "Heiniger",
+    "weight": 0.5
   },
   {
     "id": "akgjf709lcowr0b3lx174ep04",
@@ -780,22 +1008,28 @@
     "weight": 1.0
   },
   {
+    "id": "bbu4r6xk78dmkfkadvq9afxn8",
+    "firstName": "Yuro",
+    "lastName": "Bohon Diet",
+    "weight": 0.5
+  },
+  {
     "id": "cq61geugjyi8hbk80o8nqscus",
     "firstName": "Lorin",
     "lastName": "Jetzer",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "wkrs6a5c4qupvijtisakal90",
     "firstName": "Ruben",
     "lastName": "Salchli",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "2fn6lo78aa995zvlqodpg89hw",
     "firstName": "Loan",
     "lastName": "Guignard",
-    "weight": 0.5
+    "weight": 1.0
   },
   {
     "id": "69oges91zu7jpvtxyxkmi17h0",
@@ -810,9 +1044,21 @@
     "weight": 1.0
   },
   {
+    "id": "9g4591ffmh21o0hlw3zt17wno",
+    "firstName": "Lorenzo",
+    "lastName": "Bittarelli",
+    "weight": 0.5
+  },
+  {
     "id": "b6v74csdiu3lultd38fjmcefo",
     "firstName": "Maximiliano",
     "lastName": "Cuero Ortiz",
+    "weight": 1.0
+  },
+  {
+    "id": "b8lonz0trfj0mjdnaeh3p50d0",
+    "firstName": "Maxime",
+    "lastName": "Rouiller",
     "weight": 0.5
   },
   {
