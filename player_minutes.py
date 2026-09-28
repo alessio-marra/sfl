@@ -91,8 +91,8 @@ def fetch_mar_updated_fixtures(lookback_hours: int = 25) -> set[str]:
     print(f"  -> MAR flagged {len(updated_ids)} globally modified match(es).")
     return updated_ids
 
-ELIGIBILITY_AGE_OFFSET_100 = 20  # born 1 Jan 2005 or after (for 2025/2026 season: > 2004-12-31)
-ELIGIBILITY_AGE_OFFSET_50  = 21  # born 1 Jan 2004 or after (for 2025/2026 season: > 2003-12-31)
+ELIGIBILITY_AGE_OFFSET_100 = 21  # born 1 Jan 2005 or after (for 2025/2026 season: > 2004-12-31)
+ELIGIBILITY_AGE_OFFSET_50  = 22  # born 1 Jan 2004 or after (for 2025/2026 season: > 2003-12-31)
 
 
 def _tm3_squads(tmcl_id: str) -> list:
