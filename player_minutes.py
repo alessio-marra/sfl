@@ -405,7 +405,7 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                 
                 if cname not in clubs_data:
                     clubs_data[cname] = {}
-                                if pname not in clubs_data[cname]:
+                if pname not in clubs_data[cname]:
                     clubs_data[cname][pname] = {"shirt": p["shirt"], "weight": p.get("weight", 1.0), "matches": {}}
                     
                 clubs_data[cname][pname]["matches"][week] = {
