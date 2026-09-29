@@ -432,7 +432,7 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
 
             # Per-player totals using post-cap mins
             player_totals = {
-                pname: sum(m["mins"] for m in pinfo["matches"].values())
+                pname: sum(m.get("weighted_mins", m["mins"]) for m in pinfo["matches"].values())
                 for pname, pinfo in plist.items()
             }
 
@@ -564,7 +564,12 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
   .mins-cell.week-total {{ color: #1e3a5f; }}
   .mins-cell.capped {{ color: #dc2626; }}
   .grand-total {{ background: #dbeafe !important; color: #1e3a5f; font-weight: 700; }}
+  .mins-table tbody tr:hover td {{ background: #eff6ff !important; }}
+  .mins-table td:hover, .mins-table th:hover {{ background: #dbeafe !important; }}
+  .mins-table {{ border-collapse: collapse; }}
+  .mins-table td, .mins-table th {{ transition: background 0.1s; }}
   .total-label {{ background: #f8fafc !important; }}
+  .col-hover {{ background: #dbeafe !important; }}
 
   @media (min-width: 768px) {{
     .header {{ padding: 20px 32px; }}
@@ -601,6 +606,26 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
     body.style.display = isOpen ? 'none' : 'block';
     arrow.classList.toggle('open', !isOpen);
   }}
+</script>
+<script>
+  // Column highlight on hover
+  document.querySelectorAll('.mins-table').forEach(table => {{
+    const cells = table.querySelectorAll('td, th');
+    cells.forEach(cell => {{
+      cell.addEventListener('mouseenter', function() {{
+        const idx = this.cellIndex;
+        table.querySelectorAll('tr').forEach(row => {{
+          if (row.cells[idx]) row.cells[idx].classList.add('col-hover');
+        }});
+      }});
+      cell.addEventListener('mouseleave', function() {{
+        const idx = this.cellIndex;
+        table.querySelectorAll('tr').forEach(row => {{
+          if (row.cells[idx]) row.cells[idx].classList.remove('col-hover');
+        }});
+      }});
+    }});
+  }});
 </script>
 </body>
 </html>"""
