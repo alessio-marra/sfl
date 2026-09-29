@@ -346,6 +346,8 @@ def apply_club_caps(state: dict) -> dict:
                     scale = cap / week_total
                     for match_id, pid, mins in entries:
                         new_mins = round(mins * scale)
+                        # Preserve pre-cap weighted mins for display
+                        state[match_id]["players"][pid]["weighted_mins"] = mins
                         state[match_id]["players"][pid]["mins"] = new_mins
 
                     # Record actual capped total for rolling average
@@ -409,8 +411,9 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                     clubs_data[cname][pname] = {"shirt": p["shirt"], "weight": p.get("weight", 1.0), "matches": {}}
                     
                 clubs_data[cname][pname]["matches"][week] = {
-                    "mins": p["mins"],
-                    "status": p["status"]
+                    "mins":          p["mins"],
+                    "weighted_mins": p.get("weighted_mins", p["mins"]),
+                    "status":        p["status"]
                 }
 
         sorted_weeks = sorted(all_weeks, key=lambda w: int(w) if w.isdigit() else 0)
@@ -424,15 +427,29 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
         
         for cname in sorted_clubs:
             week_headers = "".join(f'<th class="week-th">W{w}</th>' for w in sorted_weeks)
-            
-            plist = clubs_data[cname]
-            player_totals = {pname: sum(m["mins"] for m in pinfo["matches"].values()) for pname, pinfo in plist.items()}
+
+            plist        = clubs_data[cname]
+
+            # Per-player totals using post-cap mins
+            player_totals = {
+                pname: sum(m["mins"] for m in pinfo["matches"].values())
+                for pname, pinfo in plist.items()
+            }
+
+            # Per-week club totals (post-cap) and pre-cap sums to detect capping
+            week_club_total    = {}   # post-cap total per week
+            week_club_precap   = {}   # sum of weighted_mins per week (pre-cap)
+            for pname, pinfo in plist.items():
+                for w, m in pinfo["matches"].items():
+                    week_club_total[w]  = week_club_total.get(w, 0)  + m["mins"]
+                    week_club_precap[w] = week_club_precap.get(w, 0) + m.get("weighted_mins", m["mins"])
+
             sorted_players = sorted(plist.keys(), key=lambda p: player_totals[p], reverse=True)
-            rows_html = ""
-            
+            rows_html      = ""
+
             for pname in sorted_players:
-                pinfo = plist[pname]
-                cells = ""
+                pinfo      = plist[pname]
+                cells      = ""
                 for w in sorted_weeks:
                     m = pinfo["matches"].get(w)
                     if m is None:
@@ -440,22 +457,52 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                     elif m["status"] == "In squad, did not play":
                         cells += '<td class="mins-cell">0</td>'
                     else:
-                        cells += f'<td class="mins-cell">{m["mins"]}</td>'
-                        
-                shirt_str   = f'#{pinfo["shirt"]} ' if pinfo["shirt"] else ""
-                weight      = pinfo.get("weight", 1.0)
+                        # Show weighted_mins (pre-cap) as the player's actual minutes
+                        display = m.get("weighted_mins", m["mins"])
+                        cells  += f'<td class="mins-cell">{display}</td>'
+
+                shirt_str    = f'#{pinfo["shirt"]} ' if pinfo["shirt"] else ""
+                weight       = pinfo.get("weight", 1.0)
                 weight_badge = ' <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span>' if weight == 0.5 else ""
-                rows_html += f"""
+                grand_total  = player_totals[pname]
+                rows_html   += f"""
                 <tr>
                   <td class="player-name">{shirt_str}{pname}{weight_badge}</td>
                   {cells}
-                  <td class="mins-cell total">{player_totals[pname]}</td>
+                  <td class="mins-cell total">{grand_total}</td>
+                </tr>"""
+
+            # Week total row — show capped total, with indicator if capping occurred
+            total_cells = ""
+            club_grand_total = 0
+            for w in sorted_weeks:
+                post = week_club_total.get(w, 0)
+                pre  = week_club_precap.get(w, 0)
+                club_grand_total += post
+                if pre > post:
+                    # Capping occurred — show capped value with indicator
+                    total_cells += (
+                        f'<td class="mins-cell week-total capped" '
+                        f'title="Capped: actual total was {pre} min">'
+                        f'{post}*</td>'
+                    )
+                else:
+                    total_cells += f'<td class="mins-cell week-total">{post}</td>'
+
+            rows_html += f"""
+                <tr class="club-total-row">
+                  <td class="player-name total-label">
+                    <strong>Total</strong>
+                    <span style="font-size:10px;color:#6b7280;margin-left:4px;">* = cap applied</span>
+                  </td>
+                  {total_cells}
+                  <td class="mins-cell total grand-total">{club_grand_total}</td>
                 </tr>"""
 
             clubs_html += f"""
             <div class="club-section">
               <div class="club-header" onclick="toggleClub(this)">
-                <span class="arrow">▶</span> {cname} <span class="club-total-badge">({club_totals[cname]} mins total)</span>
+                <span class="arrow">▶</span> {cname} <span class="club-total-badge">({club_grand_total} mins total)</span>
               </div>
               <div class="club-body" style="display:none;">
                 <div class="table-responsive-wrapper">
@@ -466,7 +513,7 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                 </div>
               </div>
             </div>"""
-
+          
         panels_html += f"""
         <div id="panel-{tmcl_id}" class="tab-panel" style="display:{active_panel};">
           <h2 class="tmcl-title">UBS Youth Trophy</h2>
@@ -513,6 +560,11 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
   .mins-cell {{ padding: 8px 4px; text-align: center; font-size: 12px; font-weight: 600; border-bottom: 1px solid #f1f5f9; color: #1f2937; white-space: nowrap; }}
   .mins-cell.total {{ position: -webkit-sticky; position: sticky; right: 0; color: #1e3a5f; background: #eff6ff; font-weight: 700; box-shadow: -2px 0 5px -2px rgba(0,0,0,0.15); z-index: 2; min-width: 50px; }}
   th.week-th:last-child {{ position: -webkit-sticky; position: sticky; right: 0; background: #f8fafc; z-index: 3; box-shadow: -2px 0 5px -2px rgba(0,0,0,0.15); }}
+  .club-total-row td {{ background: #f8fafc; font-weight: 700; border-top: 2px solid #e5e7eb; }}
+  .mins-cell.week-total {{ color: #1e3a5f; }}
+  .mins-cell.capped {{ color: #dc2626; }}
+  .grand-total {{ background: #dbeafe !important; color: #1e3a5f; font-weight: 700; }}
+  .total-label {{ background: #f8fafc !important; }}
 
   @media (min-width: 768px) {{
     .header {{ padding: 20px 32px; }}
