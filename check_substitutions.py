@@ -61,15 +61,30 @@ def save_state(state: dict):
 
 # ── API calls ─────────────────────────────────────────────────────────────────
 def fetch_mar(since: str) -> list[str]:
-    """Return list of matchIDs updated since `since` (ISO 8601 UTC)."""
-    url = (
-        f"{BASE_URL}/matchreference/{API_KEY}/"
-        f"?_rt=c&_fmt=xml&type=ma3&_rdlt={since}"
-    )
-    r = requests.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    root = ET.fromstring(r.text)
-    return [mi.get("id") for mi in root.findall("matchInfo")]
+    """Return list of matchIDs updated since `since` (ISO 8601 UTC). Paginates all pages."""
+    match_ids = []
+    page      = 1
+
+    while True:
+        url = (
+            f"{BASE_URL}/matchreference/{API_KEY}/"
+            f"?_rt=c&_fmt=xml&type=ma3&_rdlt={since}&_pgSz=1000&_pgNm={page}"
+        )
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        root = ET.fromstring(r.text)
+
+        page_ids = [mi.get("id") for mi in root.findall("matchInfo") if mi.get("id")]
+
+        error_els = [el for el in root.iter() if el.tag.endswith("errorCode")]
+        if error_els or not page_ids:
+            break
+
+        match_ids.extend(page_ids)
+        print(f"  MAR page {page}: {len(page_ids)} match(es)")
+        page += 1
+
+    return match_ids
 
 
 def fetch_match_data(match_id: str) -> dict:
