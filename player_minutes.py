@@ -91,8 +91,8 @@ def fetch_mar_updated_fixtures(lookback_hours: int = 25) -> set[str]:
     print(f"  -> MAR flagged {len(updated_ids)} globally modified match(es).")
     return updated_ids
 
-ELIGIBILITY_AGE_OFFSET_100 = 21  # born 1 Jan 2005 or after (for 2025/2026 season: > 2004-12-31)
-ELIGIBILITY_AGE_OFFSET_50  = 22  # born 1 Jan 2004 or after (for 2025/2026 season: > 2003-12-31)
+ELIGIBILITY_AGE_OFFSET_100 = 22  # cutoff = season_start_year - 22 → 2004-12-31 → born 2005+ = 100%
+ELIGIBILITY_AGE_OFFSET_50  = 23  # cutoff = season_start_year - 23 → 2003-12-31 → born 2004+ = 50%
 
 
 def _tm3_squads(tmcl_id: str) -> list:
@@ -405,8 +405,8 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                 
                 if cname not in clubs_data:
                     clubs_data[cname] = {}
-                if pname not in clubs_data[cname]:
-                    clubs_data[cname][pname] = {"shirt": p["shirt"], "matches": {}}
+                                if pname not in clubs_data[cname]:
+                    clubs_data[cname][pname] = {"shirt": p["shirt"], "weight": p.get("weight", 1.0), "matches": {}}
                     
                 clubs_data[cname][pname]["matches"][week] = {
                     "mins": p["mins"],
@@ -442,10 +442,12 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                     else:
                         cells += f'<td class="mins-cell">{m["mins"]}</td>'
                         
-                shirt_str = f'#{pinfo["shirt"]} ' if pinfo["shirt"] else ""
+                shirt_str   = f'#{pinfo["shirt"]} ' if pinfo["shirt"] else ""
+                weight      = pinfo.get("weight", 1.0)
+                weight_badge = ' <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span>' if weight == 0.5 else ""
                 rows_html += f"""
                 <tr>
-                  <td class="player-name">{shirt_str}{pname}</td>
+                  <td class="player-name">{shirt_str}{pname}{weight_badge}</td>
                   {cells}
                   <td class="mins-cell total">{player_totals[pname]}</td>
                 </tr>"""
