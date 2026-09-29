@@ -42,7 +42,12 @@
   .mins-cell.week-total { color: #1e3a5f; }
   .mins-cell.capped { color: #dc2626; }
   .grand-total { background: #dbeafe !important; color: #1e3a5f; font-weight: 700; }
+  .mins-table tbody tr:hover td { background: #eff6ff !important; }
+  .mins-table td:hover, .mins-table th:hover { background: #dbeafe !important; }
+  .mins-table { border-collapse: collapse; }
+  .mins-table td, .mins-table th { transition: background 0.1s; }
   .total-label { background: #f8fafc !important; }
+  .col-hover { background: #dbeafe !important; }
 
   @media (min-width: 768px) {
     .header { padding: 20px 32px; }
@@ -59,7 +64,7 @@
 <body>
 <div class="header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
   <h1>Player Minutes Monitor Dashboard</h1>
-  <span style="font-size: 12px; opacity: 0.85; background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 20px; white-space: nowrap;">Last data pull: 29.09.2026 14:03</span>
+  <span style="font-size: 12px; opacity: 0.85; background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 20px; white-space: nowrap;">Last data pull: 29.09.2026 14:12</span>
 </div>
 <div class="tabs"><button class="tab-btn active" onclick="showTab('cx0b7yl7kqmgay9wn2c3zyjh0')">Super League - 2026/2027</button><button class="tab-btn " onclick="showTab('akzt9nsp06yyv03a86lz8kdn8')">Challenge League - 2026/2027</button></div>
 <div class="content">
@@ -78,13 +83,13 @@
                     <tbody>
                 <tr>
                   <td class="player-name">#21 L. Schödler</td>
-                  <td class="mins-cell">83</td><td class="mins-cell">62</td><td class="mins-cell">67</td><td class="mins-cell">86</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">731</td>
+                  <td class="mins-cell">83</td><td class="mins-cell">62</td><td class="mins-cell">67</td><td class="mins-cell">86</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">79</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">737</td>
                 </tr>
                 <tr>
                   <td class="player-name">#1 S. Huber</td>
-                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">433</td>
+                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">79</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">439</td>
                 </tr>
                 <tr>
                   <td class="player-name">#43 N. Volken</td>
@@ -93,23 +98,23 @@
                 </tr>
                 <tr>
                   <td class="player-name">#44 S. Walker</td>
-                  <td class="mins-cell">0</td><td class="mins-cell">28</td><td class="mins-cell">0</td><td class="mins-cell">67</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">348</td>
+                  <td class="mins-cell">0</td><td class="mins-cell">28</td><td class="mins-cell">0</td><td class="mins-cell">67</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">79</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">354</td>
                 </tr>
                 <tr>
                   <td class="player-name">#47 D. Lichtenstein</td>
-                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">61</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">316</td>
+                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">61</td><td class="mins-cell">79</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">320</td>
                 </tr>
                 <tr>
                   <td class="player-name">#14 N. Di Giusto</td>
-                  <td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">23</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">26</td><td class="mins-cell">45</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">86</td>
+                  <td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">23</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">26</td><td class="mins-cell">39</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">88</td>
                 </tr>
                 <tr>
                   <td class="player-name">#49 D. Ramic</td>
-                  <td class="mins-cell">7</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">0</td><td class="mins-cell">27</td><td class="mins-cell">7</td><td class="mins-cell">0</td><td class="mins-cell">2</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">40</td>
+                  <td class="mins-cell">7</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">0</td><td class="mins-cell">27</td><td class="mins-cell">6</td><td class="mins-cell">0</td><td class="mins-cell">2</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">42</td>
                 </tr>
                 <tr>
                   <td class="player-name">#33 V. Beck</td>
@@ -131,7 +136,7 @@
                     <strong>Total</strong>
                     <span style="font-size:10px;color:#6b7280;margin-left:4px;">* = cap applied</span>
                   </td>
-                  <td class="mins-cell week-total">180</td><td class="mins-cell week-total">152</td><td class="mins-cell week-total">180</td><td class="mins-cell week-total">153</td><td class="mins-cell week-total">270</td><td class="mins-cell week-total capped" title="Capped: actual total was 384 min">358*</td><td class="mins-cell week-total capped" title="Capped: actual total was 412 min">361*</td><td class="mins-cell week-total">360</td><td class="mins-cell week-total">362</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td>
+                  <td class="mins-cell week-total">180</td><td class="mins-cell week-total">152</td><td class="mins-cell week-total">180</td><td class="mins-cell week-total">153</td><td class="mins-cell week-total">270</td><td class="mins-cell week-total capped" title="Capped: actual total was 384 min">358*</td><td class="mins-cell week-total">361</td><td class="mins-cell week-total">360</td><td class="mins-cell week-total">362</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td>
                   <td class="mins-cell total grand-total">2376</td>
                 </tr></tbody>
                   </table>
@@ -664,90 +669,90 @@
                     <tbody>
                 <tr>
                   <td class="player-name">#40 M. Aubert</td>
-                  <td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">548</td>
+                  <td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">68</td><td class="mins-cell">59</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">61</td><td class="mins-cell">90</td><td class="mins-cell">87</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">725</td>
                 </tr>
                 <tr>
                   <td class="player-name">#2 R. Boulac</td>
-                  <td class="mins-cell">90</td><td class="mins-cell">81</td><td class="mins-cell">58</td><td class="mins-cell">80</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">0</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">451</td>
+                  <td class="mins-cell">90</td><td class="mins-cell">81</td><td class="mins-cell">44</td><td class="mins-cell">52</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">0</td><td class="mins-cell">90</td><td class="mins-cell">87</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">624</td>
                 </tr>
                 <tr>
                   <td class="player-name">#15 N. Grognuz</td>
-                  <td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">66</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">58</td><td class="mins-cell">90</td><td class="mins-cell">20</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">378</td>
+                  <td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">50</td><td class="mins-cell">59</td><td class="mins-cell">90</td><td class="mins-cell">58</td><td class="mins-cell">61</td><td class="mins-cell">20</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">518</td>
                 </tr>
                 <tr>
                   <td class="player-name">#9 M. Miguel</td>
-                  <td class="mins-cell">31</td><td class="mins-cell">67</td><td class="mins-cell">58</td><td class="mins-cell">21</td><td class="mins-cell">58</td><td class="mins-cell">58</td><td class="mins-cell">45</td><td class="mins-cell">20</td><td class="mins-cell">28</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">256</td>
+                  <td class="mins-cell">31</td><td class="mins-cell">67</td><td class="mins-cell">44</td><td class="mins-cell">14</td><td class="mins-cell">58</td><td class="mins-cell">58</td><td class="mins-cell">31</td><td class="mins-cell">20</td><td class="mins-cell">27</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">350</td>
                 </tr>
                 <tr>
                   <td class="player-name">#66 R. Philippin</td>
-                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">18</td><td class="mins-cell">90</td><td class="mins-cell">72</td><td class="mins-cell">32</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">255</td>
-                </tr>
-                <tr>
-                  <td class="player-name">#4 S. Fankhauser <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
-                  <td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">35</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">225</td>
+                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">14</td><td class="mins-cell">59</td><td class="mins-cell">72</td><td class="mins-cell">32</td><td class="mins-cell">61</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">328</td>
                 </tr>
                 <tr>
                   <td class="player-name">#7 F. Lentini</td>
-                  <td class="mins-cell">59</td><td class="mins-cell">45</td><td class="mins-cell">32</td><td class="mins-cell">10</td><td class="mins-cell">—</td><td class="mins-cell">90</td><td class="mins-cell">45</td><td class="mins-cell">70</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">223</td>
+                  <td class="mins-cell">59</td><td class="mins-cell">45</td><td class="mins-cell">24</td><td class="mins-cell">7</td><td class="mins-cell">—</td><td class="mins-cell">90</td><td class="mins-cell">31</td><td class="mins-cell">70</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">326</td>
+                </tr>
+                <tr>
+                  <td class="player-name">#4 S. Fankhauser <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
+                  <td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">34</td><td class="mins-cell">29</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">31</td><td class="mins-cell">35</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">309</td>
                 </tr>
                 <tr>
                   <td class="player-name">#5 J. Mandaka <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
-                  <td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">16</td><td class="mins-cell">12</td><td class="mins-cell">10</td><td class="mins-cell">0</td><td class="mins-cell">32</td><td class="mins-cell">22</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">154</td>
+                  <td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">34</td><td class="mins-cell">10</td><td class="mins-cell">12</td><td class="mins-cell">10</td><td class="mins-cell">0</td><td class="mins-cell">32</td><td class="mins-cell">21</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">209</td>
                 </tr>
                 <tr>
                   <td class="player-name">#6 F. Ahuissou</td>
-                  <td class="mins-cell">20</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">80</td><td class="mins-cell">0</td><td class="mins-cell">71</td><td class="mins-cell">—</td><td class="mins-cell">26</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">121</td>
-                </tr>
-                <tr>
-                  <td class="player-name">#3 E. Gashi <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
-                  <td class="mins-cell">0</td><td class="mins-cell">45</td><td class="mins-cell">36</td><td class="mins-cell">0</td><td class="mins-cell">9</td><td class="mins-cell">29</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">45</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">119</td>
-                </tr>
-                <tr>
-                  <td class="player-name">#10 B. Alili <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
-                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">32</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">2</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">108</td>
-                </tr>
-                <tr>
-                  <td class="player-name">#19 M. Ishuayed</td>
-                  <td class="mins-cell">12</td><td class="mins-cell">45</td><td class="mins-cell">18</td><td class="mins-cell">10</td><td class="mins-cell">58</td><td class="mins-cell">—</td><td class="mins-cell">25</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">107</td>
-                </tr>
-                <tr>
-                  <td class="player-name">#17 E. Ndjoko</td>
-                  <td class="mins-cell">0</td><td class="mins-cell">12</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">14</td><td class="mins-cell">11</td><td class="mins-cell">0</td><td class="mins-cell">85</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">104</td>
+                  <td class="mins-cell">20</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">52</td><td class="mins-cell">0</td><td class="mins-cell">71</td><td class="mins-cell">—</td><td class="mins-cell">26</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">169</td>
                 </tr>
                 <tr>
                   <td class="player-name">#70 R. Londja</td>
-                  <td class="mins-cell">59</td><td class="mins-cell">45</td><td class="mins-cell">0</td><td class="mins-cell">21</td><td class="mins-cell">45</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">104</td>
+                  <td class="mins-cell">59</td><td class="mins-cell">45</td><td class="mins-cell">0</td><td class="mins-cell">14</td><td class="mins-cell">45</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">163</td>
+                </tr>
+                <tr>
+                  <td class="player-name">#10 B. Alili <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
+                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">32</td><td class="mins-cell">45</td><td class="mins-cell">31</td><td class="mins-cell">45</td><td class="mins-cell">2</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">155</td>
+                </tr>
+                <tr>
+                  <td class="player-name">#3 E. Gashi <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
+                  <td class="mins-cell">0</td><td class="mins-cell">45</td><td class="mins-cell">27</td><td class="mins-cell">0</td><td class="mins-cell">9</td><td class="mins-cell">29</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">43</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">153</td>
+                </tr>
+                <tr>
+                  <td class="player-name">#19 M. Ishuayed</td>
+                  <td class="mins-cell">12</td><td class="mins-cell">45</td><td class="mins-cell">14</td><td class="mins-cell">7</td><td class="mins-cell">58</td><td class="mins-cell">—</td><td class="mins-cell">17</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">153</td>
+                </tr>
+                <tr>
+                  <td class="player-name">#17 E. Ndjoko</td>
+                  <td class="mins-cell">0</td><td class="mins-cell">12</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">14</td><td class="mins-cell">7</td><td class="mins-cell">0</td><td class="mins-cell">82</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">115</td>
                 </tr>
                 <tr>
                   <td class="player-name">#27 S. Edougué</td>
-                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">0</td><td class="mins-cell">45</td><td class="mins-cell">20</td><td class="mins-cell">12</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">56</td>
+                  <td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">0</td><td class="mins-cell">31</td><td class="mins-cell">20</td><td class="mins-cell">12</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">63</td>
                 </tr>
                 <tr>
                   <td class="player-name">#22 E. Brandy <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
-                  <td class="mins-cell">45</td><td class="mins-cell">—</td><td class="mins-cell">12</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">37</td>
+                  <td class="mins-cell">45</td><td class="mins-cell">—</td><td class="mins-cell">9</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">54</td>
                 </tr>
                 <tr class="club-total-row">
                   <td class="player-name total-label">
                     <strong>Total</strong>
                     <span style="font-size:10px;color:#6b7280;margin-left:4px;">* = cap applied</span>
                   </td>
-                  <td class="mins-cell week-total capped" title="Capped: actual total was 586 min">359*</td><td class="mins-cell week-total capped" title="Capped: actual total was 610 min">363*</td><td class="mins-cell week-total capped" title="Capped: actual total was 478 min">362*</td><td class="mins-cell week-total capped" title="Capped: actual total was 553 min">362*</td><td class="mins-cell week-total capped" title="Capped: actual total was 601 min">360*</td><td class="mins-cell week-total capped" title="Capped: actual total was 632 min">360*</td><td class="mins-cell week-total capped" title="Capped: actual total was 531 min">362*</td><td class="mins-cell week-total capped" title="Capped: actual total was 538 min">357*</td><td class="mins-cell week-total capped" title="Capped: actual total was 374 min">361*</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td>
+                  <td class="mins-cell week-total capped" title="Capped: actual total was 586 min">359*</td><td class="mins-cell week-total capped" title="Capped: actual total was 610 min">363*</td><td class="mins-cell week-total">362</td><td class="mins-cell week-total">362</td><td class="mins-cell week-total capped" title="Capped: actual total was 601 min">360*</td><td class="mins-cell week-total capped" title="Capped: actual total was 632 min">360*</td><td class="mins-cell week-total">362</td><td class="mins-cell week-total capped" title="Capped: actual total was 538 min">357*</td><td class="mins-cell week-total">361</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td>
                   <td class="mins-cell total grand-total">3246</td>
                 </tr></tbody>
                   </table>
@@ -766,62 +771,62 @@
                 <tr>
                   <td class="player-name">#1 G. Muslija</td>
                   <td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">654</td>
+                  <td class="mins-cell total">810</td>
                 </tr>
                 <tr>
                   <td class="player-name">#23 I. Okafor</td>
                   <td class="mins-cell">2</td><td class="mins-cell">0</td><td class="mins-cell">45</td><td class="mins-cell">78</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">82</td><td class="mins-cell">87</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">444</td>
+                  <td class="mins-cell total">564</td>
                 </tr>
                 <tr>
                   <td class="player-name">#19 L. Schreiber</td>
                   <td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">16</td><td class="mins-cell">81</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">82</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">438</td>
+                  <td class="mins-cell total">539</td>
                 </tr>
                 <tr>
                   <td class="player-name">#20 A. Rexhaj</td>
                   <td class="mins-cell">60</td><td class="mins-cell">81</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">20</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">22</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">298</td>
+                  <td class="mins-cell total">363</td>
                 </tr>
                 <tr>
                   <td class="player-name">#7 P. Weber <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
                   <td class="mins-cell">30</td><td class="mins-cell">45</td><td class="mins-cell">32</td><td class="mins-cell">45</td><td class="mins-cell">40</td><td class="mins-cell">42</td><td class="mins-cell">45</td><td class="mins-cell">32</td><td class="mins-cell">38</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">280</td>
+                  <td class="mins-cell total">349</td>
                 </tr>
                 <tr>
                   <td class="player-name">#14 L. Breedijk <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
                   <td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">14</td><td class="mins-cell">45</td><td class="mins-cell">4</td><td class="mins-cell">36</td><td class="mins-cell">34</td><td class="mins-cell">45</td><td class="mins-cell">45</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">251</td>
+                  <td class="mins-cell total">313</td>
                 </tr>
                 <tr>
                   <td class="player-name">#28 T. Seferovic</td>
                   <td class="mins-cell">0</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">59</td><td class="mins-cell">9</td><td class="mins-cell">1</td><td class="mins-cell">0</td><td class="mins-cell">8</td><td class="mins-cell">13</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">218</td>
+                  <td class="mins-cell total">270</td>
                 </tr>
                 <tr>
                   <td class="player-name">#18 P. Fischer <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
                   <td class="mins-cell">15</td><td class="mins-cell">4</td><td class="mins-cell">30</td><td class="mins-cell">30</td><td class="mins-cell">35</td><td class="mins-cell">44</td><td class="mins-cell">42</td><td class="mins-cell">35</td><td class="mins-cell">34</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">213</td>
+                  <td class="mins-cell total">269</td>
                 </tr>
                 <tr>
                   <td class="player-name">#33 Y. Allou</td>
                   <td class="mins-cell">—</td><td class="mins-cell">10</td><td class="mins-cell">26</td><td class="mins-cell">31</td><td class="mins-cell">61</td><td class="mins-cell">72</td><td class="mins-cell">45</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">193</td>
+                  <td class="mins-cell total">245</td>
                 </tr>
                 <tr>
                   <td class="player-name">#11 B. Keita <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
                   <td class="mins-cell">34</td><td class="mins-cell">40</td><td class="mins-cell">32</td><td class="mins-cell">—</td><td class="mins-cell">0</td><td class="mins-cell">9</td><td class="mins-cell">22</td><td class="mins-cell">32</td><td class="mins-cell">39</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">171</td>
+                  <td class="mins-cell total">208</td>
                 </tr>
                 <tr>
                   <td class="player-name">#25 X. Aliu</td>
                   <td class="mins-cell">23</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">0</td><td class="mins-cell">5</td><td class="mins-cell">27</td><td class="mins-cell">12</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">56</td>
+                  <td class="mins-cell total">67</td>
                 </tr>
                 <tr>
                   <td class="player-name">#30 S. Correia <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
                   <td class="mins-cell">—</td><td class="mins-cell">19</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">4</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">19</td>
+                  <td class="mins-cell total">23</td>
                 </tr>
                 <tr>
                   <td class="player-name">#3 J. Rutz</td>
@@ -856,28 +861,28 @@
                     <tbody>
                 <tr>
                   <td class="player-name">#1 R. Salchli</td>
-                  <td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">761</td>
+                  <td class="mins-cell">76</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">796</td>
                 </tr>
                 <tr>
                   <td class="player-name">#27 E. Rufener</td>
-                  <td class="mins-cell">65</td><td class="mins-cell">90</td><td class="mins-cell">76</td><td class="mins-cell">90</td><td class="mins-cell">77</td><td class="mins-cell">90</td><td class="mins-cell">77</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">701</td>
+                  <td class="mins-cell">55</td><td class="mins-cell">90</td><td class="mins-cell">76</td><td class="mins-cell">90</td><td class="mins-cell">77</td><td class="mins-cell">90</td><td class="mins-cell">77</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">735</td>
                 </tr>
                 <tr>
                   <td class="player-name">#15 E. Heiniger</td>
-                  <td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">671</td>
+                  <td class="mins-cell">76</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">90</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">706</td>
                 </tr>
                 <tr>
                   <td class="player-name">#11 Malek Ishuayed</td>
-                  <td class="mins-cell">45</td><td class="mins-cell">72</td><td class="mins-cell">77</td><td class="mins-cell">90</td><td class="mins-cell">67</td><td class="mins-cell">90</td><td class="mins-cell">66</td><td class="mins-cell">90</td><td class="mins-cell">79</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">638</td>
+                  <td class="mins-cell">38</td><td class="mins-cell">72</td><td class="mins-cell">77</td><td class="mins-cell">90</td><td class="mins-cell">67</td><td class="mins-cell">90</td><td class="mins-cell">66</td><td class="mins-cell">90</td><td class="mins-cell">79</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">669</td>
                 </tr>
                 <tr>
                   <td class="player-name">#25 Y. Bohon Diet</td>
-                  <td class="mins-cell">90</td><td class="mins-cell">90</td><td class="mins-cell">63</td><td class="mins-cell">55</td><td class="mins-cell">10</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
-                  <td class="mins-cell total">266</td>
+                  <td class="mins-cell">76</td><td class="mins-cell">90</td><td class="mins-cell">63</td><td class="mins-cell">55</td><td class="mins-cell">10</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell total">294</td>
                 </tr>
                 <tr>
                   <td class="player-name">#28 P. Utz</td>
@@ -886,12 +891,12 @@
                 </tr>
                 <tr>
                   <td class="player-name">#14 M. Akahomen</td>
-                  <td class="mins-cell">25</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell">21</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
                   <td class="mins-cell total">21</td>
                 </tr>
                 <tr>
                   <td class="player-name">#26 L. Romano <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span></td>
-                  <td class="mins-cell">22</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
+                  <td class="mins-cell">19</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">0</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td><td class="mins-cell">—</td>
                   <td class="mins-cell total">19</td>
                 </tr>
                 <tr>
@@ -909,7 +914,7 @@
                     <strong>Total</strong>
                     <span style="font-size:10px;color:#6b7280;margin-left:4px;">* = cap applied</span>
                   </td>
-                  <td class="mins-cell week-total capped" title="Capped: actual total was 427 min">361*</td><td class="mins-cell week-total capped" title="Capped: actual total was 432 min">360*</td><td class="mins-cell week-total capped" title="Capped: actual total was 396 min">360*</td><td class="mins-cell week-total capped" title="Capped: actual total was 415 min">360*</td><td class="mins-cell week-total">347</td><td class="mins-cell week-total">360</td><td class="mins-cell week-total">347</td><td class="mins-cell week-total">270</td><td class="mins-cell week-total">360</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td>
+                  <td class="mins-cell week-total">361</td><td class="mins-cell week-total capped" title="Capped: actual total was 432 min">360*</td><td class="mins-cell week-total capped" title="Capped: actual total was 396 min">360*</td><td class="mins-cell week-total capped" title="Capped: actual total was 415 min">360*</td><td class="mins-cell week-total">347</td><td class="mins-cell week-total">360</td><td class="mins-cell week-total">347</td><td class="mins-cell week-total">270</td><td class="mins-cell week-total">360</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td><td class="mins-cell week-total">0</td>
                   <td class="mins-cell total grand-total">3125</td>
                 </tr></tbody>
                   </table>
@@ -1404,6 +1409,26 @@
     body.style.display = isOpen ? 'none' : 'block';
     arrow.classList.toggle('open', !isOpen);
   }
+</script>
+<script>
+  // Column highlight on hover
+  document.querySelectorAll('.mins-table').forEach(table => {
+    const cells = table.querySelectorAll('td, th');
+    cells.forEach(cell => {
+      cell.addEventListener('mouseenter', function() {
+        const idx = this.cellIndex;
+        table.querySelectorAll('tr').forEach(row => {
+          if (row.cells[idx]) row.cells[idx].classList.add('col-hover');
+        });
+      });
+      cell.addEventListener('mouseleave', function() {
+        const idx = this.cellIndex;
+        table.querySelectorAll('tr').forEach(row => {
+          if (row.cells[idx]) row.cells[idx].classList.remove('col-hover');
+        });
+      });
+    });
+  });
 </script>
 </body>
 </html>

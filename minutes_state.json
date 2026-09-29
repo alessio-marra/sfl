@@ -2160,7 +2160,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Grasshoppers vs Z\u00fcrich",
-        "weighted_mins": 90
+        "weighted_mins": 79
       },
       "3mw97uhlizy4327fxiui1wn4k": {
         "player_name": "S. Walker",
@@ -2172,7 +2172,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Grasshoppers vs Z\u00fcrich",
-        "weighted_mins": 90
+        "weighted_mins": 79
       },
       "997f7zp6733mvgshg53bas3dg": {
         "player_name": "D. Lichtenstein",
@@ -2184,7 +2184,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Grasshoppers vs Z\u00fcrich",
-        "weighted_mins": 90
+        "weighted_mins": 79
       },
       "cpw4hqnhrqja3q3k85fq7bz84": {
         "player_name": "L. Sch\u00f6dler",
@@ -2196,7 +2196,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Grasshoppers vs Z\u00fcrich",
-        "weighted_mins": 90
+        "weighted_mins": 79
       },
       "exxkv65coe3l769z25gvk1ixg": {
         "player_name": "N. Di Giusto",
@@ -2208,7 +2208,7 @@
         "status": "Came on as sub",
         "week": "7",
         "match_label": "Grasshoppers vs Z\u00fcrich",
-        "weighted_mins": 45
+        "weighted_mins": 39
       },
       "75h4biirv290kb4i6ewzcppn8": {
         "player_name": "D. Ramic",
@@ -2220,7 +2220,7 @@
         "status": "Came on as sub",
         "week": "7",
         "match_label": "Grasshoppers vs Z\u00fcrich",
-        "weighted_mins": 7
+        "weighted_mins": 6
       },
       "3nqhtkzcrkrta24iyceqk6jv8": {
         "player_name": "N. Volken",
@@ -5898,7 +5898,7 @@
         "status": "Started",
         "week": "9",
         "match_label": "Wil vs Stade Nyonnais",
-        "weighted_mins": 90
+        "weighted_mins": 87
       },
       "a5xb0cwaazropk20z87e8ocno": {
         "player_name": "E. Gashi",
@@ -5910,7 +5910,7 @@
         "status": "Started",
         "week": "9",
         "match_label": "Wil vs Stade Nyonnais",
-        "weighted_mins": 45
+        "weighted_mins": 43
       },
       "2pdoh2ixtebskdre11kmmljx0": {
         "player_name": "R. Boulac",
@@ -5922,7 +5922,7 @@
         "status": "Started",
         "week": "9",
         "match_label": "Wil vs Stade Nyonnais",
-        "weighted_mins": 90
+        "weighted_mins": 87
       },
       "6wu24xr09tziwxav5ws7kxno4": {
         "player_name": "J. Mandaka",
@@ -5934,7 +5934,7 @@
         "status": "Started",
         "week": "9",
         "match_label": "Wil vs Stade Nyonnais",
-        "weighted_mins": 22
+        "weighted_mins": 21
       },
       "acyqo1klb3frssjxrtpvclul0": {
         "player_name": "B. Alili",
@@ -5992,7 +5992,7 @@
         "status": "Came on as sub",
         "week": "9",
         "match_label": "Wil vs Stade Nyonnais",
-        "weighted_mins": 28
+        "weighted_mins": 27
       },
       "auf9tz27pgo32n3dyh987zq50": {
         "player_name": "E. Ndjoko",
@@ -6004,7 +6004,7 @@
         "status": "Came on as sub",
         "week": "9",
         "match_label": "Wil vs Stade Nyonnais",
-        "weighted_mins": 85
+        "weighted_mins": 82
       }
     }
   },
@@ -7143,7 +7143,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 90
+        "weighted_mins": 61
       },
       "wpoornaq4npl818loqa71vro": {
         "player_name": "R. Philippin",
@@ -7155,7 +7155,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 90
+        "weighted_mins": 61
       },
       "6chr5u4vg56w8znmpskhnpiqc": {
         "player_name": "S. Fankhauser",
@@ -7167,7 +7167,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 45
+        "weighted_mins": 31
       },
       "9ei0a1ald9djjgqr4x9tvtc7o": {
         "player_name": "N. Grognuz",
@@ -7179,7 +7179,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 90
+        "weighted_mins": 61
       },
       "acyqo1klb3frssjxrtpvclul0": {
         "player_name": "B. Alili",
@@ -7191,7 +7191,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 45
+        "weighted_mins": 31
       },
       "868v7nfa84r7cpe0uxrsahpn8": {
         "player_name": "F. Lentini",
@@ -7203,7 +7203,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 45
+        "weighted_mins": 31
       },
       "l3cs4svcg1egw1ctb9qo6m8k": {
         "player_name": "M. Miguel",
@@ -7215,7 +7215,7 @@
         "status": "Started",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 45
+        "weighted_mins": 31
       },
       "2pdoh2ixtebskdre11kmmljx0": {
         "player_name": "R. Boulac",
@@ -7238,7 +7238,7 @@
         "status": "Came on as sub",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 45
+        "weighted_mins": 31
       },
       "a5xb0cwaazropk20z87e8ocno": {
         "player_name": "E. Gashi",
@@ -7261,7 +7261,7 @@
         "status": "Came on as sub",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 25
+        "weighted_mins": 17
       },
       "6wu24xr09tziwxav5ws7kxno4": {
         "player_name": "J. Mandaka",
@@ -7284,7 +7284,7 @@
         "status": "Came on as sub",
         "week": "7",
         "match_label": "Yverdon Sport vs Stade Nyonnais",
-        "weighted_mins": 11
+        "weighted_mins": 7
       }
     }
   },
@@ -10173,7 +10173,7 @@
         "status": "Started",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 90
+        "weighted_mins": 59
       },
       "6chr5u4vg56w8znmpskhnpiqc": {
         "player_name": "S. Fankhauser",
@@ -10185,7 +10185,7 @@
         "status": "Started",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 45
+        "weighted_mins": 29
       },
       "9ei0a1ald9djjgqr4x9tvtc7o": {
         "player_name": "N. Grognuz",
@@ -10197,7 +10197,7 @@
         "status": "Started",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 90
+        "weighted_mins": 59
       },
       "wpoornaq4npl818loqa71vro": {
         "player_name": "R. Philippin",
@@ -10209,7 +10209,7 @@
         "status": "Started",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 90
+        "weighted_mins": 59
       },
       "2pdoh2ixtebskdre11kmmljx0": {
         "player_name": "R. Boulac",
@@ -10221,7 +10221,7 @@
         "status": "Started",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 80
+        "weighted_mins": 52
       },
       "9dbhqp45xya5rulyokd1vglxw": {
         "player_name": "F. Ahuissou",
@@ -10233,7 +10233,7 @@
         "status": "Started",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 80
+        "weighted_mins": 52
       },
       "a5xb0cwaazropk20z87e8ocno": {
         "player_name": "E. Gashi",
@@ -10256,7 +10256,7 @@
         "status": "Came on as sub",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 10
+        "weighted_mins": 7
       },
       "868v7nfa84r7cpe0uxrsahpn8": {
         "player_name": "F. Lentini",
@@ -10268,7 +10268,7 @@
         "status": "Came on as sub",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 10
+        "weighted_mins": 7
       },
       "32hz9akli4s09ib1fzsa0go44": {
         "player_name": "R. Londja",
@@ -10280,7 +10280,7 @@
         "status": "Came on as sub",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 21
+        "weighted_mins": 14
       },
       "6wu24xr09tziwxav5ws7kxno4": {
         "player_name": "J. Mandaka",
@@ -10292,7 +10292,7 @@
         "status": "Came on as sub",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 16
+        "weighted_mins": 10
       },
       "l3cs4svcg1egw1ctb9qo6m8k": {
         "player_name": "M. Miguel",
@@ -10304,7 +10304,7 @@
         "status": "Came on as sub",
         "week": "4",
         "match_label": "Stade Nyonnais vs Etoile Carouge",
-        "weighted_mins": 21
+        "weighted_mins": 14
       },
       "cgnne2m8bqaslb05fwi95xces": {
         "player_name": "L. Huwiler",
@@ -10684,7 +10684,7 @@
         "status": "Started",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 90
+        "weighted_mins": 68
       },
       "a5xb0cwaazropk20z87e8ocno": {
         "player_name": "E. Gashi",
@@ -10696,7 +10696,7 @@
         "status": "Started",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 36
+        "weighted_mins": 27
       },
       "6chr5u4vg56w8znmpskhnpiqc": {
         "player_name": "S. Fankhauser",
@@ -10708,7 +10708,7 @@
         "status": "Started",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 45
+        "weighted_mins": 34
       },
       "jf2zx6sx28xfoomc56ldlst0": {
         "player_name": "E. Brandy",
@@ -10720,7 +10720,7 @@
         "status": "Started",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 12
+        "weighted_mins": 9
       },
       "2pdoh2ixtebskdre11kmmljx0": {
         "player_name": "R. Boulac",
@@ -10732,7 +10732,7 @@
         "status": "Started",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 58
+        "weighted_mins": 44
       },
       "6wu24xr09tziwxav5ws7kxno4": {
         "player_name": "J. Mandaka",
@@ -10744,7 +10744,7 @@
         "status": "Started",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 45
+        "weighted_mins": 34
       },
       "l3cs4svcg1egw1ctb9qo6m8k": {
         "player_name": "M. Miguel",
@@ -10756,7 +10756,7 @@
         "status": "Started",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 58
+        "weighted_mins": 44
       },
       "9dbhqp45xya5rulyokd1vglxw": {
         "player_name": "F. Ahuissou",
@@ -10779,7 +10779,7 @@
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 66
+        "weighted_mins": 50
       },
       "bd50h6omze0r1xrfjeeldgj6c": {
         "player_name": "M. Ishuayed",
@@ -10791,7 +10791,7 @@
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 18
+        "weighted_mins": 14
       },
       "868v7nfa84r7cpe0uxrsahpn8": {
         "player_name": "F. Lentini",
@@ -10803,7 +10803,7 @@
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 32
+        "weighted_mins": 24
       },
       "32hz9akli4s09ib1fzsa0go44": {
         "player_name": "R. Londja",
@@ -10837,7 +10837,7 @@
         "status": "Came on as sub",
         "week": "3",
         "match_label": "Aarau vs Stade Nyonnais",
-        "weighted_mins": 18
+        "weighted_mins": 14
       }
     }
   },
@@ -13027,7 +13027,7 @@
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens",
-        "weighted_mins": 90
+        "weighted_mins": 76
       },
       "80v0m72fcdpzdvplkacok989g": {
         "player_name": "E. Heiniger",
@@ -13039,7 +13039,7 @@
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens",
-        "weighted_mins": 90
+        "weighted_mins": 76
       },
       "bbu4r6xk78dmkfkadvq9afxn8": {
         "player_name": "Y. Bohon Diet",
@@ -13051,7 +13051,7 @@
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens",
-        "weighted_mins": 90
+        "weighted_mins": 76
       },
       "59xya91i1pk3jzo87ssu09k44": {
         "player_name": "L. Romano",
@@ -13063,7 +13063,7 @@
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens",
-        "weighted_mins": 22
+        "weighted_mins": 19
       },
       "akvdcamsit9bzn18wx5hrws9g": {
         "player_name": "E. Rufener",
@@ -13075,7 +13075,7 @@
         "status": "Started",
         "week": "1",
         "match_label": "Xamax vs Kriens",
-        "weighted_mins": 65
+        "weighted_mins": 55
       },
       "6fmzgev0kcyk4vjw72zb7vspg": {
         "player_name": "M. Akahomen",
@@ -13087,7 +13087,7 @@
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Xamax vs Kriens",
-        "weighted_mins": 25
+        "weighted_mins": 21
       },
       "5rs6w235vcsynmiyaa10vau50": {
         "player_name": "Malek Ishuayed",
@@ -13099,7 +13099,7 @@
         "status": "Came on as sub",
         "week": "1",
         "match_label": "Xamax vs Kriens",
-        "weighted_mins": 45
+        "weighted_mins": 38
       },
       "akgjf709lcowr0b3lx174ep04": {
         "player_name": "T. Mauch",
