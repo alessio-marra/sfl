@@ -328,8 +328,10 @@ def apply_club_caps(state: dict) -> dict:
         tmcl_id = mdata.get("tmcl_id", "")
         week    = mdata.get("week", "")
         for pid, p in mdata.get("players", {}).items():
-            if p["mins"] > 0:
-                comp_club_week[tmcl_id][p["club_name"]][week].append((match_id, pid, p["mins"]))
+            # Always use weighted_mins (pre-cap) as input — mins may already be scaled
+            pre_cap_mins = p.get("weighted_mins", p["mins"])
+            if pre_cap_mins > 0:
+                comp_club_week[tmcl_id][p["club_name"]][week].append((match_id, pid, pre_cap_mins))
 
     # For each club, compute rolling average cap per week and apply
     for tmcl_id, clubs in comp_club_week.items():
@@ -359,6 +361,10 @@ def apply_club_caps(state: dict) -> dict:
 
                     previous_totals.append(round(cap))
                 else:
+                    # Store weighted_mins explicitly even when no cap applied
+                    for match_id, pid, pre_cap in entries:
+                        if "weighted_mins" not in state[match_id]["players"][pid]:
+                            state[match_id]["players"][pid]["weighted_mins"] = pre_cap
                     previous_totals.append(week_total)
 
     return state
