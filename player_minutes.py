@@ -39,15 +39,21 @@ def get_xml(url: str) -> ET.Element:
     return ET.fromstring(r.text)
 
 
-def load_eligible_players() -> dict[str, float]:
-    """Returns {player_id: weight} where weight is 1.0 or 0.5."""
+def load_eligible_players() -> dict[str, dict]:
+    """Returns {player_id: {"weight": float, "dob": str}} ."""
     p_path = Path(PLAYERS_FILE)
     if not p_path.exists():
         print(f"CRITICAL: {PLAYERS_FILE} not found.")
         return {}
-    raw = json.loads(p_path.read_text())
+    raw     = json.loads(p_path.read_text())
     players = raw if isinstance(raw, list) else next(iter(raw.values()), [])
-    return {p["id"]: p.get("weight", 1.0) for p in players if p.get("id")}
+    return {
+        p["id"]: {
+            "weight": p.get("weight", 1.0),
+            "dob":    p.get("dateOfBirth", ""),
+        }
+        for p in players if p.get("id")
+    }
 
 
 def fetch_active_tournament_calendars() -> dict[str, dict]:
@@ -184,6 +190,7 @@ def refresh_eligible_players(active_calendars: dict) -> None:
             "id": pid,
             "firstName": p["firstName"],
             "lastName": p["lastName"],
+            "dateOfBirth": p["dateOfBirth"],
             "weight": weight,
         })
     print(f"[ELIG] {len(eligible)} eligible players after PE2 check")
@@ -268,7 +275,7 @@ def process_match_sheet(match_id: str, eligible_players: dict[str, float], fallb
         for p in lineup.iter("player"):
             pid = p.get("playerId")
             if pid in eligible_players:
-                weight = eligible_players[pid]
+                weight = eligible_players[pid]["weight"]
                 raw_mins = 0
                 for stat in p.findall("stat"):
                     if stat.get("type") == "minsPlayed":
@@ -298,6 +305,7 @@ def process_match_sheet(match_id: str, eligible_players: dict[str, float], fallb
                     "mins": weighted_mins,
                     "raw_mins": raw_mins,
                     "weight": weight,
+                    "dob": eligible_players[pid]["dob"],
                     "status": status,
                     "week": fallback_info.get("week", ""),
                     "match_label": f"{fallback_info.get('home_name', 'TBD')} vs {fallback_info.get('away_name', 'TBD')}"
@@ -342,16 +350,14 @@ def apply_club_caps(state: dict) -> dict:
                 week_total = sum(mins for _, _, mins in entries)
 
                 if week_total > cap:
-                    # Scale down proportionally
                     scale = cap / week_total
                     for match_id, pid, mins in entries:
                         new_mins = round(mins * scale)
-                        # Preserve pre-cap weighted mins for display
                         state[match_id]["players"][pid]["weighted_mins"] = mins
-                        state[match_id]["players"][pid]["mins"] = new_mins
+                        state[match_id]["players"][pid]["mins"]          = new_mins
+                        state[match_id]["players"][pid]["week_cap"]      = round(cap)
 
-                    # Record actual capped total for rolling average
-                    previous_totals.append(cap)
+                    previous_totals.append(round(cap))
                 else:
                     previous_totals.append(week_total)
 
@@ -408,11 +414,18 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                 if cname not in clubs_data:
                     clubs_data[cname] = {}
                 if pname not in clubs_data[cname]:
-                    clubs_data[cname][pname] = {"shirt": p["shirt"], "weight": p.get("weight", 1.0), "matches": {}}
+                    clubs_data[cname][pname] = {
+                        "shirt":  p["shirt"],
+                        "weight": p.get("weight", 1.0),
+                        "dob":    p.get("dob", ""),
+                        "matches": {}
+                    }
                     
                 clubs_data[cname][pname]["matches"][week] = {
                     "mins":          p["mins"],
                     "weighted_mins": p.get("weighted_mins", p["mins"]),
+                    "raw_mins":      p.get("raw_mins", p["mins"]),
+                    "week_cap":      p.get("week_cap"),
                     "status":        p["status"]
                 }
 
@@ -432,17 +445,21 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
 
             # Per-player totals using post-cap mins
             player_totals = {
-                pname: sum(m.get("weighted_mins", m["mins"]) for m in pinfo["matches"].values())
+                pname: sum(m.get("raw_mins", m.get("weighted_mins", m["mins"])) for m in pinfo["matches"].values())
                 for pname, pinfo in plist.items()
             }
 
             # Per-week club totals (post-cap) and pre-cap sums to detect capping
-            week_club_total    = {}   # post-cap total per week
-            week_club_precap   = {}   # sum of weighted_mins per week (pre-cap)
+            week_club_total    = {}
+            week_club_precap   = {}
+            week_club_cap      = {}
             for pname, pinfo in plist.items():
                 for w, m in pinfo["matches"].items():
                     week_club_total[w]  = week_club_total.get(w, 0)  + m["mins"]
                     week_club_precap[w] = week_club_precap.get(w, 0) + m.get("weighted_mins", m["mins"])
+                    # cap is the same for all players in the week — take first non-None value
+                    if w not in week_club_cap and m.get("week_cap") is not None:
+                        week_club_cap[w] = m["week_cap"]
 
             sorted_players = sorted(plist.keys(), key=lambda p: player_totals[p], reverse=True)
             rows_html      = ""
@@ -457,37 +474,41 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                     elif m["status"] == "In squad, did not play":
                         cells += '<td class="mins-cell">0</td>'
                     else:
-                        # Show weighted_mins (pre-cap) as the player's actual minutes
-                        display = m.get("weighted_mins", m["mins"])
+                        display = m.get("raw_mins", m.get("weighted_mins", m["mins"]))
                         cells  += f'<td class="mins-cell">{display}</td>'
 
                 shirt_str    = f'#{pinfo["shirt"]} ' if pinfo["shirt"] else ""
                 weight       = pinfo.get("weight", 1.0)
                 weight_badge = ' <span style="font-size:10px;background:#fef9c3;color:#92400e;padding:1px 5px;border-radius:3px;font-weight:600;">50%</span>' if weight == 0.5 else ""
-                grand_total  = player_totals[pname]
+                dob          = pinfo.get("dob", "")
+                dob_str      = f' <span style="font-size:10px;color:#9ca3af;">({dob})</span>' if dob else ""
+                raw_total    = player_totals[pname]
                 rows_html   += f"""
                 <tr>
-                  <td class="player-name">{shirt_str}{pname}{weight_badge}</td>
+                  <td class="player-name">{shirt_str}{pname}{weight_badge}{dob_str}</td>
                   {cells}
-                  <td class="mins-cell total">{grand_total}</td>
+                  <td class="mins-cell total">{raw_total}</td>
                 </tr>"""
 
             # Week total row — show capped total, with indicator if capping occurred
-            total_cells = ""
+            total_cells      = ""
             club_grand_total = 0
             for w in sorted_weeks:
-                post = week_club_total.get(w, 0)
                 pre  = week_club_precap.get(w, 0)
-                club_grand_total += post
-                if pre > post:
-                    # Capping occurred — show capped value with indicator
+                cap  = week_club_cap.get(w)
+                # Use exact cap value if capping occurred, otherwise use actual sum
+                if cap is not None and pre > cap:
+                    display = cap
+                    club_grand_total += cap
                     total_cells += (
                         f'<td class="mins-cell week-total capped" '
-                        f'title="Capped: actual total was {pre} min">'
-                        f'{post}*</td>'
+                        f'title="Capped from {pre} min">'
+                        f'{display}*</td>'
                     )
                 else:
-                    total_cells += f'<td class="mins-cell week-total">{post}</td>'
+                    display = pre
+                    club_grand_total += pre
+                    total_cells += f'<td class="mins-cell week-total">{display}</td>'
 
             rows_html += f"""
                 <tr class="club-total-row">
