@@ -289,7 +289,7 @@ def process_match_sheet(match_id: str, eligible_players: dict[str, float], fallb
                 # Cap at 90 minutes per Article 6.1
                 capped_mins = min(raw_mins, 90)
                 # Apply weight (1.0 for born >= 2005, 0.5 for born >= 2004)
-                weighted_mins = math.ceil(capped_mins * weight)
+                weighted_mins = capped_mins * weight  # keep as float, round at week total level
               
                 position = p.get("position", "")
                 if raw_mins == 0:
@@ -352,7 +352,7 @@ def apply_club_caps(state: dict) -> dict:
                   
                 # Sum current week minutes for this club
                 entries = weeks_data[week]
-                week_total = sum(mins for _, _, mins in entries)
+                week_total = math.ceil(sum(mins for _, _, mins in entries))
 
                 if week_total > cap:
                     scale = cap / week_total
