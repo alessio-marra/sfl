@@ -341,12 +341,14 @@ def apply_club_caps(state: dict) -> dict:
 
             for week in sorted_weeks:
                 # Determine cap for this week
+                # Per Article 6.2: cap = max(360, rolling_avg of previous weeks)
+                # With no previous weeks, no cap applies yet
                 if previous_totals:
                     rolling_avg = sum(previous_totals) / len(previous_totals)
                     cap = max(360, rolling_avg)
                 else:
-                    cap = 360
-
+                    cap = float("inf")  # No previous weeks → no cap for first matchday
+                  
                 # Sum current week minutes for this club
                 entries = weeks_data[week]
                 week_total = sum(mins for _, _, mins in entries)
