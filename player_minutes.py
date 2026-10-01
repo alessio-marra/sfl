@@ -125,7 +125,11 @@ def _has_disqualifying_foreign_cap(career_data: dict) -> bool:
     for membership in person.get("membership", []):
         if membership.get("contestantType") != "national":
             continue
-        if membership.get("nationality") == "Switzerland":
+        if "Switzerland" in (
+            membership.get("contestantName", ""),
+            membership.get("contestantShortName", ""),
+            membership.get("contestantOptaShortName", ""),
+        ):
             continue
         if membership.get("type") == "youth":
             continue
