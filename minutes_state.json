@@ -2079,6 +2079,19 @@
     "home_name": "Sion",
     "away_name": "Thun",
     "players": {
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 67.0,
+        "raw_mins": 67,
+        "weight": 1.0,
+        "dob": "2006-07-05",
+        "status": "Started",
+        "week": "7",
+        "match_label": "Sion vs Thun",
+        "weighted_mins": 67.0
+      },
       "a24422mcs56f2g43iw1jmknis": {
         "player_name": "L. Chipperfield",
         "club_name": "FC Sion",
