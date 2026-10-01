@@ -21,6 +21,7 @@ API_KEY             = os.environ["SP_API_KEY"]
 REFERER             = os.environ["SP_REFERER"]
 EMAIL_FROM          = os.environ["EMAIL_FROM"]
 EMAIL_TO            = os.environ["EMAIL_TO_SCHEDULE"]
+EMAIL_TO_ADMIN      = os.environ["EMAIL_TO_ADMIN"]
 AZURE_TENANT_ID     = os.environ["AZURE_TENANT_ID"]
 AZURE_CLIENT_ID     = os.environ["AZURE_CLIENT_ID"]
 AZURE_CLIENT_SECRET = os.environ["AZURE_CLIENT_SECRET"]
@@ -199,12 +200,15 @@ def get_graph_token() -> str:
 def send_graph_email(subject: str, html_body: str):
     recipients = [e.strip() for e in EMAIL_TO.split(",")]
     token      = get_graph_token()
-    payload    = {
+
+    # Main email — recipients in BCC so they don't see each other
+    payload = {
         "message": {
             "subject": subject,
             "body":    {"contentType": "HTML", "content": html_body},
-            "from":    {"emailAddress": {"address": EMAIL_FROM, "name": "SFL Schedule Monitor"}},
-            "toRecipients": [{"emailAddress": {"address": r}} for r in recipients],
+            "from":    {"emailAddress": {"address": EMAIL_FROM, "name": "Stats Perform Schedule Monitor"}},
+            "toRecipients": [{"emailAddress": {"address": EMAIL_FROM}}],
+            "bccRecipients": [{"emailAddress": {"address": r}} for r in recipients],
         },
         "saveToSentItems": "false"
     }
@@ -213,10 +217,55 @@ def send_graph_email(subject: str, html_body: str):
         headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
         json=payload, timeout=30,
     )
-    if r.status_code == 202:
-        print(f"Email sent: {subject}")
-    else:
+    if r.status_code != 202:
         raise RuntimeError(f"Graph API send failed: {r.status_code} — {r.text}")
+    print(f"Main email sent (BCC to {len(recipients)} recipient(s)): {subject}")
+
+    # Admin confirmation email
+    recipient_list_html = "".join(f"<li>{r}</li>" for r in recipients)
+    admin_html = f"""<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:0;background:#f3f4f6;font-family:Arial,sans-serif;">
+  <div style="max-width:600px;margin:32px auto;background:#fff;border-radius:8px;
+              overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+    <div style="background:#1e3a5f;padding:16px 24px;">
+      <p style="margin:0;color:#93c5fd;font-size:11px;text-transform:uppercase;letter-spacing:1px;">
+        Stats Perform Schedule Monitor — Delivery Confirmation</p>
+    </div>
+    <div style="padding:20px 24px;font-size:13px;color:#374151;">
+      <p>The following notification was successfully accepted for delivery by Microsoft Graph (HTTP 202):</p>
+      <p style="background:#f1f5f9;padding:10px 14px;border-radius:6px;font-weight:600;">
+        {subject}</p>
+      <p style="margin-top:16px;">Delivered to:</p>
+      <ul style="margin:8px 0;padding-left:20px;color:#374151;">
+        {recipient_list_html}
+      </ul>
+      <p style="margin-top:16px;font-size:11px;color:#9ca3af;">
+        Note: HTTP 202 confirms the email was accepted by the mail server,
+        not that it was read by each recipient.</p>
+    </div>
+  </div>
+</body>
+</html>"""
+
+    admin_payload = {
+        "message": {
+            "subject": f"[Delivery confirmation] {subject}",
+            "body":    {"contentType": "HTML", "content": admin_html},
+            "from":    {"emailAddress": {"address": EMAIL_FROM, "name": "Stats Perform Schedule Monitor"}},
+            "toRecipients": [{"emailAddress": {"address": EMAIL_TO_ADMIN}}],
+        },
+        "saveToSentItems": "false"
+    }
+    r2 = requests.post(
+        f"https://graph.microsoft.com/v1.0/users/{EMAIL_FROM}/sendMail",
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+        json=admin_payload, timeout=30,
+    )
+    if r2.status_code != 202:
+        print(f"WARNING: Admin confirmation email failed: {r2.status_code} — {r2.text}")
+    else:
+        print(f"Admin confirmation sent to {EMAIL_TO_ADMIN}")
 
 
 # ── Email builder ─────────────────────────────────────────────────────────────
