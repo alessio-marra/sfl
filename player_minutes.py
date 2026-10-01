@@ -11,6 +11,7 @@ Stateful Automated Minutes Pipeline (Match-First Architecture)
 
 import os
 import json
+import math
 import requests
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -288,8 +289,8 @@ def process_match_sheet(match_id: str, eligible_players: dict[str, float], fallb
                 # Cap at 90 minutes per Article 6.1
                 capped_mins = min(raw_mins, 90)
                 # Apply weight (1.0 for born >= 2005, 0.5 for born >= 2004)
-                weighted_mins = round(capped_mins * weight)
-
+                weighted_mins = math.ceil(capped_mins * weight)
+              
                 position = p.get("position", "")
                 if raw_mins == 0:
                     status = "In squad, did not play"
@@ -361,7 +362,7 @@ def apply_club_caps(state: dict) -> dict:
                         state[match_id]["players"][pid]["mins"]          = new_mins
                         state[match_id]["players"][pid]["week_cap"]      = round(cap)
 
-                    previous_totals.append(round(cap))
+                    previous_totals.append(week_total)
                 else:
                     # Store weighted_mins explicitly even when no cap applied
                     for match_id, pid, pre_cap in entries:
