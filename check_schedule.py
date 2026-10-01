@@ -165,7 +165,7 @@ def fetch_mar_updated_ids() -> set[str]:
 
         page_ids = {
             mi.get("id") for mi in root.iter("matchInfo")
-            if mi.get("id") and mi.get("matchStatus") != "Played"
+            if mi.get("id") and mi.get("matchStatus") in {"Fixture", "Postponed"}
         }
 
         # Stop if page returns no results or an errorCode element
