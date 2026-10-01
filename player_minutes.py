@@ -507,16 +507,16 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                 cap  = week_club_cap.get(w)
                 # Use exact cap value if capping occurred, otherwise use actual sum
                 if cap is not None and pre > cap:
-                    display = cap
-                    club_grand_total += cap
+                    display = math.ceil(cap)
+                    club_grand_total += math.ceil(cap)
                     total_cells += (
                         f'<td class="mins-cell week-total capped" '
                         f'title="Capped from {pre} min">'
                         f'{display}*</td>'
                     )
                 else:
-                    display = pre
-                    club_grand_total += pre
+                    display = math.ceil(pre)
+                    club_grand_total += math.ceil(pre)
                     total_cells += f'<td class="mins-cell week-total">{display}</td>'
 
             rows_html += f"""
@@ -526,7 +526,7 @@ def build_html_dashboard(state: dict, active_calendars: dict) -> str:
                     <span style="font-size:10px;color:#6b7280;margin-left:4px;">* = cap applied</span>
                   </td>
                   {total_cells}
-                  <td class="mins-cell total grand-total">{club_grand_total}</td>
+                  <td class="mins-cell total grand-total">{math.ceil(club_grand_total)}</td>
                 </tr>"""
 
             clubs_html += f"""
