@@ -98,10 +98,24 @@
     "weight": 1.0
   },
   {
+    "id": "5lzal6hac79nadke98ptdq1g",
+    "firstName": "Oscar",
+    "lastName": "Renovales",
+    "dateOfBirth": "2007-10-24",
+    "weight": 1.0
+  },
+  {
     "id": "615ger5z8xeb36lqke8rz7od0",
     "firstName": "Papa Souleymane",
     "lastName": "NDiaye",
     "dateOfBirth": "2005-11-01",
+    "weight": 1.0
+  },
+  {
+    "id": "6w5a6w6u50sxeh7b1qbtr5no4",
+    "firstName": "Guillem",
+    "lastName": "Moreno Viñas",
+    "dateOfBirth": "2007-12-26",
     "weight": 1.0
   },
   {

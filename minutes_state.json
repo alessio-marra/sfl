@@ -581,7 +581,72 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Vaduz",
     "away_name": "Basel",
-    "players": {}
+    "players": {
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 89.0,
+        "raw_mins": 89,
+        "weight": 1.0,
+        "dob": "2006-05-23",
+        "status": "Started",
+        "week": "10",
+        "match_label": "Vaduz vs Basel",
+        "weighted_mins": 89.0
+      },
+      "dpdsyn6l2oqdyiskbjg4pdsk": {
+        "player_name": "M. Beeli",
+        "club_name": "FC Vaduz",
+        "shirt": "14",
+        "mins": 0.5,
+        "raw_mins": 1,
+        "weight": 0.5,
+        "dob": "2004-02-05",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "Vaduz vs Basel",
+        "weighted_mins": 0.5
+      },
+      "38r0hllx8i1swwgqx7udvhb84": {
+        "player_name": "M. Walker",
+        "club_name": "FC Vaduz",
+        "shirt": "30",
+        "mins": 4.0,
+        "raw_mins": 4,
+        "weight": 1.0,
+        "dob": "2005-02-11",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "Vaduz vs Basel",
+        "weighted_mins": 4.0
+      },
+      "atx9oa26e57zsni9ez1is15hw": {
+        "player_name": "J. Doucoure",
+        "club_name": "FC Basel 1893",
+        "shirt": "41",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2009-03-17",
+        "status": "In squad, did not play",
+        "week": "10",
+        "match_label": "Vaduz vs Basel"
+      },
+      "70kdxr0aur2eq02sd2l6l2olw": {
+        "player_name": "G. Koloto",
+        "club_name": "FC Basel 1893",
+        "shirt": "37",
+        "mins": 19.0,
+        "raw_mins": 19,
+        "weight": 1.0,
+        "dob": "2008-01-31",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "Vaduz vs Basel",
+        "weighted_mins": 19.0
+      }
+    }
   },
   "20knsovvw2sjix6kzftiqeiac": {
     "week": "10",
@@ -589,7 +654,109 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "St.Gallen",
     "away_name": "Lausanne-Sport",
-    "players": {}
+    "players": {
+      "8ibag83uzcirmb7vycpdxxw5w": {
+        "player_name": "L. Frokaj",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "20",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-04-23",
+        "status": "In squad, did not play",
+        "week": "10",
+        "match_label": "St.Gallen vs Lausanne-Sport"
+      },
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 25.0,
+        "raw_mins": 25,
+        "weight": 1.0,
+        "dob": "2006-10-20",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "St.Gallen vs Lausanne-Sport",
+        "weighted_mins": 25.0
+      },
+      "2dwb36l3c83msll70wyl16exg": {
+        "player_name": "N. Scherrer",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "70",
+        "mins": 19.0,
+        "raw_mins": 19,
+        "weight": 1.0,
+        "dob": "2008-04-08",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "St.Gallen vs Lausanne-Sport",
+        "weighted_mins": 19.0
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 82.0,
+        "raw_mins": 82,
+        "weight": 1.0,
+        "dob": "2005-07-31",
+        "status": "Started",
+        "week": "10",
+        "match_label": "St.Gallen vs Lausanne-Sport",
+        "weighted_mins": 82.0
+      },
+      "8lx7ynn9g358g7icf8f0jxjx0": {
+        "player_name": "I. Bah Mendes",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "51",
+        "mins": 8.0,
+        "raw_mins": 8,
+        "weight": 1.0,
+        "dob": "2005-11-22",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "St.Gallen vs Lausanne-Sport",
+        "weighted_mins": 8.0
+      },
+      "6w5a6w6u50sxeh7b1qbtr5no4": {
+        "player_name": "G. Moreno",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "45",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-12-26",
+        "status": "In squad, did not play",
+        "week": "10",
+        "match_label": "St.Gallen vs Lausanne-Sport"
+      },
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 31.0,
+        "raw_mins": 31,
+        "weight": 1.0,
+        "dob": "2005-11-01",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "St.Gallen vs Lausanne-Sport",
+        "weighted_mins": 31.0
+      },
+      "5lzal6hac79nadke98ptdq1g": {
+        "player_name": "O. Renovales",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "59",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-10-24",
+        "status": "In squad, did not play",
+        "week": "10",
+        "match_label": "St.Gallen vs Lausanne-Sport"
+      }
+    }
   },
   "207ds4qr2e6l62g07na2zv1uc": {
     "week": "10",
@@ -597,7 +764,84 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Grasshoppers",
     "away_name": "Young Boys",
-    "players": {}
+    "players": {
+      "8ogdozprbfg9o8hzs3ppug9hw": {
+        "player_name": "N. Rissi",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "57",
+        "mins": 45.0,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "dob": "2004-01-30",
+        "status": "Started",
+        "week": "10",
+        "match_label": "Grasshoppers vs Young Boys",
+        "weighted_mins": 45.0
+      },
+      "50hefdi6vr6peyviss9np2gpg": {
+        "player_name": "S. Krasniqi",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "17",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2005-01-03",
+        "status": "Started",
+        "week": "10",
+        "match_label": "Grasshoppers vs Young Boys",
+        "weighted_mins": 90.0
+      },
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-05-14",
+        "status": "In squad, did not play",
+        "week": "10",
+        "match_label": "Grasshoppers vs Young Boys"
+      },
+      "dnbhu3n4vs5c2p0h7i35c0h04": {
+        "player_name": "D. Sahin",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "56",
+        "mins": 27.0,
+        "raw_mins": 27,
+        "weight": 1.0,
+        "dob": "2008-06-23",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "Grasshoppers vs Young Boys",
+        "weighted_mins": 27.0
+      },
+      "canh5hweotiilht8quf90euj8": {
+        "player_name": "E. Etoski",
+        "club_name": "BSC Young Boys",
+        "shirt": "34",
+        "mins": 6.0,
+        "raw_mins": 6,
+        "weight": 1.0,
+        "dob": "2007-04-02",
+        "status": "Came on as sub",
+        "week": "10",
+        "match_label": "Grasshoppers vs Young Boys",
+        "weighted_mins": 6.0
+      },
+      "66daqkioxqbpunys9lz8w7578": {
+        "player_name": "N. Tschanz",
+        "club_name": "BSC Young Boys",
+        "shirt": "52",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-07-21",
+        "status": "In squad, did not play",
+        "week": "10",
+        "match_label": "Grasshoppers vs Young Boys"
+      }
+    }
   },
   "1zu79814a1njiwz3otdsa3hn8": {
     "week": "10",
