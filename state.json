@@ -178726,5 +178726,232 @@
         "partnerEventId": "754"
       }
     }
+  },
+  "8xrzbcr0u1pa4dtq0xr2hrwgk": {
+    "description": "Thun vs Luzern",
+    "competition": "Super League",
+    "date": "2025-12-06",
+    "substitutions": {
+      "2880572519": {
+        "typeId": "18",
+        "eventIdNum": "562",
+        "timeMin": "58",
+        "timeSec": "43",
+        "playerId": "90h730y2b9ek5k5dcs9rjtg5w",
+        "playerName": "Lucas Ferreira",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "563"
+      },
+      "2880572527": {
+        "typeId": "19",
+        "eventIdNum": "563",
+        "timeMin": "58",
+        "timeSec": "43",
+        "playerId": "a9vq8ojmbb6jiioq3ckn8hx5g",
+        "playerName": "L. Villiger",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "562"
+      },
+      "2880571465": {
+        "typeId": "18",
+        "eventIdNum": "546",
+        "timeMin": "58",
+        "timeSec": "48",
+        "playerId": "8g23yqn52zuls4vk273t55ht6",
+        "playerName": "A. Bajrami",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "547"
+      },
+      "2880571475": {
+        "typeId": "19",
+        "eventIdNum": "547",
+        "timeMin": "58",
+        "timeSec": "48",
+        "playerId": "6jfyypbhovz87gn0qp3cdr2i2",
+        "playerName": "S. Ottiger",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "546"
+      },
+      "2880571653": {
+        "typeId": "18",
+        "eventIdNum": "548",
+        "timeMin": "58",
+        "timeSec": "55",
+        "playerId": "8v0e1x2y1a269sok1y7lz3bx0",
+        "playerName": "S. Wyss",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "549"
+      },
+      "2880571663": {
+        "typeId": "19",
+        "eventIdNum": "549",
+        "timeMin": "58",
+        "timeSec": "55",
+        "playerId": "bi49lcldxz8jubp72kgeke2y2",
+        "playerName": "K. Spadanuda",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "548"
+      },
+      "2880575941": {
+        "typeId": "18",
+        "eventIdNum": "521",
+        "timeMin": "64",
+        "timeSec": "50",
+        "playerId": "4ieudso55331rq8vn8w6sa609",
+        "playerName": "V. Janjicic",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "522"
+      },
+      "2880575947": {
+        "typeId": "19",
+        "eventIdNum": "522",
+        "timeMin": "64",
+        "timeSec": "50",
+        "playerId": "5zy5lh6c1uqc5qqaygdyd3xpm",
+        "playerName": "N. Rupp",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "521"
+      },
+      "2880579493": {
+        "typeId": "18",
+        "eventIdNum": "648",
+        "timeMin": "69",
+        "timeSec": "53",
+        "playerId": "d45fs5pqxxq9nopbmeh6lpoet",
+        "playerName": "A. Grbic",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "649"
+      },
+      "2880579495": {
+        "typeId": "19",
+        "eventIdNum": "649",
+        "timeMin": "69",
+        "timeSec": "53",
+        "playerId": "429znrwois9ll1skdf83puqdw",
+        "playerName": "O. Kabwit",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "648"
+      },
+      "2880580173": {
+        "typeId": "18",
+        "eventIdNum": "560",
+        "timeMin": "70",
+        "timeSec": "55",
+        "playerId": "7k7ov98sovbpoxhq2cv8yoic5",
+        "playerName": "C. Ibayi",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "561"
+      },
+      "2880580181": {
+        "typeId": "19",
+        "eventIdNum": "561",
+        "timeMin": "70",
+        "timeSec": "55",
+        "playerId": "7t8si63b154j9a09mt3wy21hw",
+        "playerName": "M. Gutbub",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "560"
+      },
+      "2880580745": {
+        "typeId": "18",
+        "eventIdNum": "565",
+        "timeMin": "70",
+        "timeSec": "58",
+        "playerId": "axw41pwx0eano6jikljtmjfu1",
+        "playerName": "Genís Montolio",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "566"
+      },
+      "2880580753": {
+        "typeId": "19",
+        "eventIdNum": "566",
+        "timeMin": "70",
+        "timeSec": "58",
+        "playerId": "8yspuotb07c6ke2dz8u7r0bqi",
+        "playerName": "A. Balaruban",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "565"
+      },
+      "2880586067": {
+        "typeId": "18",
+        "eventIdNum": "701",
+        "timeMin": "79",
+        "timeSec": "0",
+        "playerId": "9o9pjlnmupx941har5gjwpbhm",
+        "playerName": "T. Owusu",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "702"
+      },
+      "2880586073": {
+        "typeId": "19",
+        "eventIdNum": "702",
+        "timeMin": "79",
+        "timeSec": "0",
+        "playerId": "bu6td9bdw39k7mrrzg9mhd8no",
+        "playerName": "L. Winkler",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "701"
+      },
+      "2880586091": {
+        "typeId": "18",
+        "eventIdNum": "627",
+        "timeMin": "79",
+        "timeSec": "8",
+        "playerId": "bvw2dsfqohoq9dypgdgt6d1w5",
+        "playerName": "B. Labeau",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "628"
+      },
+      "2880586097": {
+        "typeId": "19",
+        "eventIdNum": "628",
+        "timeMin": "79",
+        "timeSec": "8",
+        "playerId": "2e5japetk410a5spw9pccg6sq",
+        "playerName": "L. Stewart",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "627"
+      },
+      "2880586217": {
+        "typeId": "18",
+        "eventIdNum": "629",
+        "timeMin": "79",
+        "timeSec": "16",
+        "playerId": "aqq2kfm26hmrmwyl3sc6hrdhw",
+        "playerName": "E. Meichtry",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "630"
+      },
+      "2880586225": {
+        "typeId": "19",
+        "eventIdNum": "630",
+        "timeMin": "79",
+        "timeSec": "16",
+        "playerId": "e1aopqv9jb779vo6qgj9d0wlw",
+        "playerName": "A. Ilic",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "629"
+      }
+    }
   }
 }
