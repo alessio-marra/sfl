@@ -170979,35 +170979,13 @@
     "competition": "Challenge League",
     "date": "2026-10-09",
     "substitutions": {
-      "2978888251": {
-        "typeId": "18",
-        "eventIdNum": "647",
-        "timeMin": "61",
-        "timeSec": "19",
-        "playerId": "ce5i8rfbgchs9kxd48b3g2u3t",
-        "playerName": "L. Obexer",
-        "teamId": "1fq3zowe5x1ush6qocmapudhr",
-        "teamName": "Aarau",
-        "partnerEventId": "648"
-      },
-      "2978888259": {
-        "typeId": "19",
-        "eventIdNum": "648",
-        "timeMin": "61",
-        "timeSec": "19",
-        "playerId": "24unujkewve7qqxvmazogymfo",
-        "playerName": "B. Senyurt",
-        "teamId": "1fq3zowe5x1ush6qocmapudhr",
-        "teamName": "Aarau",
-        "partnerEventId": "647"
-      },
       "2978888639": {
         "typeId": "18",
         "eventIdNum": "649",
         "timeMin": "61",
-        "timeSec": "35",
-        "playerId": "2wj81rpl44mgs5xwdvol8tjx0",
-        "playerName": "D. Afriyie",
+        "timeSec": "26",
+        "playerId": "ce5i8rfbgchs9kxd48b3g2u3t",
+        "playerName": "L. Obexer",
         "teamId": "1fq3zowe5x1ush6qocmapudhr",
         "teamName": "Aarau",
         "partnerEventId": "650"
@@ -171016,12 +170994,34 @@
         "typeId": "19",
         "eventIdNum": "650",
         "timeMin": "61",
-        "timeSec": "35",
+        "timeSec": "26",
         "playerId": "aldebe7qu65xgtgaoo7ho8x78",
         "playerName": "M. Guindo",
         "teamId": "1fq3zowe5x1ush6qocmapudhr",
         "teamName": "Aarau",
         "partnerEventId": "649"
+      },
+      "2978888251": {
+        "typeId": "18",
+        "eventIdNum": "647",
+        "timeMin": "61",
+        "timeSec": "41",
+        "playerId": "2wj81rpl44mgs5xwdvol8tjx0",
+        "playerName": "D. Afriyie",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "648"
+      },
+      "2978888259": {
+        "typeId": "19",
+        "eventIdNum": "648",
+        "timeMin": "61",
+        "timeSec": "41",
+        "playerId": "24unujkewve7qqxvmazogymfo",
+        "playerName": "B. Senyurt",
+        "teamId": "1fq3zowe5x1ush6qocmapudhr",
+        "teamName": "Aarau",
+        "partnerEventId": "647"
       },
       "2978896555": {
         "typeId": "18",
