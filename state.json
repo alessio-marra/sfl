@@ -9060,7 +9060,7 @@
         "timeMin": "56",
         "timeSec": "20",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "630"
@@ -32028,7 +32028,7 @@
         "timeMin": "73",
         "timeSec": "22",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "715"
@@ -42293,7 +42293,7 @@
         "timeMin": "90",
         "timeSec": "0",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "881"
@@ -42476,7 +42476,7 @@
         "timeMin": "69",
         "timeSec": "19",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "K. Bah",
+        "playerName": "P. Keassé Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "670"
@@ -42670,7 +42670,7 @@
         "timeMin": "63",
         "timeSec": "7",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "526"
@@ -42930,7 +42930,7 @@
         "timeMin": "82",
         "timeSec": "27",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "730"
@@ -47499,7 +47499,7 @@
         "timeMin": "82",
         "timeSec": "33",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "761"
@@ -48114,7 +48114,7 @@
         "timeMin": "78",
         "timeSec": "9",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "K. Bah",
+        "playerName": "P. Keassé Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "663"
@@ -53078,7 +53078,7 @@
         "timeMin": "37",
         "timeSec": "51",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "383"
@@ -59298,7 +59298,7 @@
         "timeMin": "56",
         "timeSec": "1",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "556"
@@ -179613,7 +179613,7 @@
         "timeMin": "59",
         "timeSec": "40",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "552"
@@ -179807,7 +179807,7 @@
         "timeMin": "72",
         "timeSec": "40",
         "playerId": "bm0vxq9a4auk6da1ipkcaegpg",
-        "playerName": "P. Keassé Bah",
+        "playerName": "K. Bah",
         "teamId": "dw7wscihb8j6cj5r2maemstci",
         "teamName": "Stade-Lausanne-Ouchy",
         "partnerEventId": "642"
@@ -185855,6 +185855,416 @@
         "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
         "teamName": "Zürich",
         "partnerEventId": "671"
+      }
+    }
+  },
+  "a5235lv9y1fylqwa66cq229ec": {
+    "description": "Stade-Lausanne-Ouchy vs Yverdon Sport",
+    "competition": "Challenge League",
+    "date": "2025-12-13",
+    "substitutions": {
+      "2882972333": {
+        "typeId": "18",
+        "eventIdNum": "389",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "4u3a2of48aik9mqbdhryluelm",
+        "playerName": "R. Golliard",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "390"
+      },
+      "2882972337": {
+        "typeId": "19",
+        "eventIdNum": "390",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "3wjgimidzva5b3l3wo5fcob2s",
+        "playerName": "S. Camara",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "389"
+      },
+      "2882972463": {
+        "typeId": "18",
+        "eventIdNum": "391",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "f5jcq31j5jhiijx1e3kwvcbv8",
+        "playerName": "P. Weber",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "392"
+      },
+      "2882972471": {
+        "typeId": "19",
+        "eventIdNum": "392",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "banl2dah01b9j0abhwrtzn66s",
+        "playerName": "C. Saco",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "391"
+      },
+      "2882987593": {
+        "typeId": "18",
+        "eventIdNum": "569",
+        "timeMin": "67",
+        "timeSec": "8",
+        "playerId": "elbedzg8sayxo9n863dy30nah",
+        "playerName": "W. Caddy",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "570"
+      },
+      "2882987597": {
+        "typeId": "19",
+        "eventIdNum": "570",
+        "timeMin": "67",
+        "timeSec": "8",
+        "playerId": "qm8bwm8dy2u2ez29kmvretxw",
+        "playerName": "M. Sartoretti",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "569"
+      },
+      "2882987673": {
+        "typeId": "18",
+        "eventIdNum": "571",
+        "timeMin": "67",
+        "timeSec": "9",
+        "playerId": "25uikh12frf2jkl2eg09u1hih",
+        "playerName": "B. Conus",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "572"
+      },
+      "2882987675": {
+        "typeId": "19",
+        "eventIdNum": "572",
+        "timeMin": "67",
+        "timeSec": "9",
+        "playerId": "3m3yokrwm2icttbh1vkkb16ju",
+        "playerName": "P. Sutter",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "571"
+      },
+      "2882990393": {
+        "typeId": "18",
+        "eventIdNum": "583",
+        "timeMin": "71",
+        "timeSec": "46",
+        "playerId": "aqq3jgzwsorxi47qnegthv2s5",
+        "playerName": "H. Sessolo",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "584"
+      },
+      "2882990403": {
+        "typeId": "19",
+        "eventIdNum": "584",
+        "timeMin": "71",
+        "timeSec": "46",
+        "playerId": "9cduhp13znus4ggnce2o934yd",
+        "playerName": "A. Marchesano",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "583"
+      },
+      "2882990471": {
+        "typeId": "18",
+        "eventIdNum": "585",
+        "timeMin": "71",
+        "timeSec": "47",
+        "playerId": "3es7xkvy781nnzsg39r149dsk",
+        "playerName": "J. Gnakpa",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "586"
+      },
+      "2882990479": {
+        "typeId": "19",
+        "eventIdNum": "586",
+        "timeMin": "71",
+        "timeSec": "47",
+        "playerId": "344rjlcd87gitqlst7f0l6uqc",
+        "playerName": "N. Lemina",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "585"
+      },
+      "2882993589": {
+        "typeId": "18",
+        "eventIdNum": "612",
+        "timeMin": "75",
+        "timeSec": "15",
+        "playerId": "cdjqkzpj5pewf70bya99d4gl",
+        "playerName": "D. Sorgić",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "613"
+      },
+      "2882993595": {
+        "typeId": "19",
+        "eventIdNum": "613",
+        "timeMin": "75",
+        "timeSec": "15",
+        "playerId": "4rgzu5l5hfw24efi6l28fkk8a",
+        "playerName": "M. Ntelo",
+        "teamId": "1zamjwj53fwzcw97cs9awc3hr",
+        "teamName": "Yverdon Sport",
+        "partnerEventId": "612"
+      },
+      "2883001277": {
+        "typeId": "18",
+        "eventIdNum": "713",
+        "timeMin": "84",
+        "timeSec": "50",
+        "playerId": "ckpl8ict337rocpu9jeyjk93o",
+        "playerName": "V. Tritten",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "714"
+      },
+      "2883001279": {
+        "typeId": "19",
+        "eventIdNum": "714",
+        "timeMin": "84",
+        "timeSec": "50",
+        "playerId": "b0s7hq3s74wcn1hfzwkv5x7f9",
+        "playerName": "H. Fargues",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "713"
+      },
+      "2883001477": {
+        "typeId": "18",
+        "eventIdNum": "715",
+        "timeMin": "85",
+        "timeSec": "5",
+        "playerId": "64jvmkj83anqwrc62zdcmx5nt",
+        "playerName": "L. Nomel",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "716"
+      },
+      "2883001481": {
+        "typeId": "19",
+        "eventIdNum": "716",
+        "timeMin": "85",
+        "timeSec": "5",
+        "playerId": "dhsek842r7pm80kf0sjxs7wx6",
+        "playerName": "F. Mendy",
+        "teamId": "dw7wscihb8j6cj5r2maemstci",
+        "teamName": "Stade-Lausanne-Ouchy",
+        "partnerEventId": "715"
+      }
+    }
+  },
+  "7bqv5mgxeu5e9se4c9nnbhgr8": {
+    "description": "Zürich vs Grasshoppers",
+    "competition": "Super League",
+    "date": "2022-10-23",
+    "substitutions": {
+      "2476372395": {
+        "typeId": "18",
+        "eventIdNum": "191",
+        "timeMin": "25",
+        "timeSec": "56",
+        "playerId": "8g12wvgw8lf0l4xi2xzae7d91",
+        "playerName": "A. Abrashi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "192"
+      },
+      "2476372397": {
+        "typeId": "19",
+        "eventIdNum": "192",
+        "timeMin": "25",
+        "timeSec": "56",
+        "playerId": "12395z7ydxxjuz4sj034ane21",
+        "playerName": "C. Herc",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "191"
+      },
+      "2476411605": {
+        "typeId": "18",
+        "eventIdNum": "396",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "eb1g4ku9fvwx9jc7hlwufotii",
+        "playerName": "C. Conde",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "397"
+      },
+      "2476411609": {
+        "typeId": "19",
+        "eventIdNum": "397",
+        "timeMin": "45",
+        "timeSec": "0",
+        "playerId": "cva5o1qtbevwt7ws8kno8m3ca",
+        "playerName": "B. Omeragic",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "396"
+      },
+      "2476433721": {
+        "typeId": "18",
+        "eventIdNum": "561",
+        "timeMin": "65",
+        "timeSec": "32",
+        "playerId": "9cduhp13znus4ggnce2o934yd",
+        "playerName": "A. Marchesano",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "562"
+      },
+      "2476433727": {
+        "typeId": "19",
+        "eventIdNum": "562",
+        "timeMin": "65",
+        "timeSec": "32",
+        "playerId": "cg6v1bdhgjh5gixy1lckrdqi2",
+        "playerName": "B. Viunnyk",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "561"
+      },
+      "2476433559": {
+        "typeId": "18",
+        "eventIdNum": "557",
+        "timeMin": "65",
+        "timeSec": "42",
+        "playerId": "ceagb7xmn5ml1l0vvzufmvluy",
+        "playerName": "B. Krasniqi",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "558"
+      },
+      "2476433563": {
+        "typeId": "19",
+        "eventIdNum": "558",
+        "timeMin": "65",
+        "timeSec": "42",
+        "playerId": "581nre288dpdtmqwfsls02b4l",
+        "playerName": "B. Džemaili",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "557"
+      },
+      "2476433643": {
+        "typeId": "18",
+        "eventIdNum": "559",
+        "timeMin": "65",
+        "timeSec": "45",
+        "playerId": "544reefy86rc8827sl3xh3oph",
+        "playerName": "O. Selnæs",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "560"
+      },
+      "2476433653": {
+        "typeId": "19",
+        "eventIdNum": "560",
+        "timeMin": "65",
+        "timeSec": "45",
+        "playerId": "bodixu40wx3exhjo290dxg8np",
+        "playerName": "D. Avdijaj",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "559"
+      },
+      "2476434867": {
+        "typeId": "18",
+        "eventIdNum": "535",
+        "timeMin": "66",
+        "timeSec": "48",
+        "playerId": "7lc9kv6j8ubytzrf3bb2m1lgp",
+        "playerName": "P. Pušić",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "536"
+      },
+      "2476434873": {
+        "typeId": "19",
+        "eventIdNum": "536",
+        "timeMin": "66",
+        "timeSec": "48",
+        "playerId": "8dst4h2lg2arn41rpqku6jld5",
+        "playerName": "M. Shabani",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "535"
+      },
+      "2476446223": {
+        "typeId": "18",
+        "eventIdNum": "647",
+        "timeMin": "77",
+        "timeSec": "34",
+        "playerId": "aeepk6s3tnzk15rckc3nus8np",
+        "playerName": "Guilherme Schettine",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "648"
+      },
+      "2476446233": {
+        "typeId": "19",
+        "eventIdNum": "648",
+        "timeMin": "77",
+        "timeSec": "34",
+        "playerId": "3sxeqqzvob8nxjn31cad03ofe",
+        "playerName": "F. Momoh",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "647"
+      },
+      "2476446347": {
+        "typeId": "18",
+        "eventIdNum": "649",
+        "timeMin": "77",
+        "timeSec": "46",
+        "playerId": "e5e4y8oz2q3qzmedegj7y7x0p",
+        "playerName": "G. Morandi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "650"
+      },
+      "2476446359": {
+        "typeId": "19",
+        "eventIdNum": "650",
+        "timeMin": "77",
+        "timeSec": "46",
+        "playerId": "3kwbqz6wk00mcjk5hkwqz2uax",
+        "playerName": "R. Dadaşov",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "649"
+      },
+      "2476452095": {
+        "typeId": "18",
+        "eventIdNum": "669",
+        "timeMin": "83",
+        "timeSec": "19",
+        "playerId": "92x4ssmd4sq2upjn0dyws5wq1",
+        "playerName": "O. Aiyegun",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "670"
+      },
+      "2476452101": {
+        "typeId": "19",
+        "eventIdNum": "670",
+        "timeMin": "83",
+        "timeSec": "19",
+        "playerId": "azdsp8umzcewt1t2pm2ldndg5",
+        "playerName": "J. Okita",
+        "teamId": "3sb3j9l7dbjcalwpirp3u2f9g",
+        "teamName": "Zürich",
+        "partnerEventId": "669"
       }
     }
   }
