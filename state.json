@@ -202159,7 +202159,206 @@
     "description": "Young Boys vs St.Gallen",
     "competition": "Super League",
     "date": "2026-10-24",
-    "substitutions": {}
+    "substitutions": {
+      "2987189663": {
+        "typeId": "18",
+        "eventIdNum": "458",
+        "timeMin": "59",
+        "timeSec": "16",
+        "playerId": "1amx0jc0ey5w1z9g3f3nb9t2i",
+        "playerName": "A. Balde",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "459"
+      },
+      "2987189667": {
+        "typeId": "19",
+        "eventIdNum": "459",
+        "timeMin": "59",
+        "timeSec": "16",
+        "playerId": "2dwb36l3c83msll70wyl16exg",
+        "playerName": "N. Scherrer",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "458"
+      },
+      "2987189763": {
+        "typeId": "18",
+        "eventIdNum": "460",
+        "timeMin": "59",
+        "timeSec": "21",
+        "playerId": "eyc3sc46njsmmddsr5iwf7k6h",
+        "playerName": "C. Boukhalfa",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "461"
+      },
+      "2987189771": {
+        "typeId": "19",
+        "eventIdNum": "461",
+        "timeMin": "59",
+        "timeSec": "21",
+        "playerId": "8tqphrtr7fraqeunw67iwwq8l",
+        "playerName": "C. Okoroji",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "460"
+      },
+      "2987197893": {
+        "typeId": "18",
+        "eventIdNum": "800",
+        "timeMin": "72",
+        "timeSec": "12",
+        "playerId": "4gksusc509n6j8ljhyegzgxk9",
+        "playerName": "C. Fassnacht",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "801"
+      },
+      "2987197895": {
+        "typeId": "19",
+        "eventIdNum": "801",
+        "timeMin": "72",
+        "timeSec": "12",
+        "playerId": "iz7cpjfkljo61ndnc8o3nm22",
+        "playerName": "K. Sène",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "800"
+      },
+      "2987197933": {
+        "typeId": "18",
+        "eventIdNum": "802",
+        "timeMin": "72",
+        "timeSec": "16",
+        "playerId": "ahof39nb4cz6xbqgqon20pd04",
+        "playerName": "B. Guirassy",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "803"
+      },
+      "2987197935": {
+        "typeId": "19",
+        "eventIdNum": "803",
+        "timeMin": "72",
+        "timeSec": "16",
+        "playerId": "1zx0huwj0czivtoq6kvfb5roq",
+        "playerName": "A. Virginius",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "802"
+      },
+      "2987202937": {
+        "typeId": "18",
+        "eventIdNum": "624",
+        "timeMin": "79",
+        "timeSec": "17",
+        "playerId": "5b3n7shchd7m2a11l5801d2w9",
+        "playerName": "J. Stanić",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "625"
+      },
+      "2987202939": {
+        "typeId": "19",
+        "eventIdNum": "625",
+        "timeMin": "79",
+        "timeSec": "17",
+        "playerId": "52b3ynt5wz7spc5cijrdzccq2",
+        "playerName": "B. Fazliji",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "624"
+      },
+      "2987204115": {
+        "typeId": "18",
+        "eventIdNum": "848",
+        "timeMin": "80",
+        "timeSec": "30",
+        "playerId": "7z00z2y66vadv1ge09y6ypixg",
+        "playerName": "A. Sanches",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "849"
+      },
+      "2987204125": {
+        "typeId": "19",
+        "eventIdNum": "849",
+        "timeMin": "80",
+        "timeSec": "30",
+        "playerId": "61r6igcudl4mbfr19doqr4n3d",
+        "playerName": "S. Lauper",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "848"
+      },
+      "2987208191": {
+        "typeId": "18",
+        "eventIdNum": "682",
+        "timeMin": "84",
+        "timeSec": "15",
+        "playerId": "1hxi6jvbthhyy1l1oqd7vsnhl",
+        "playerName": "H. Vandermersch",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "683"
+      },
+      "2987208199": {
+        "typeId": "19",
+        "eventIdNum": "683",
+        "timeMin": "84",
+        "timeSec": "15",
+        "playerId": "8ibag83uzcirmb7vycpdxxw5w",
+        "playerName": "L. Frokaj",
+        "teamId": "dty3ktxspuo8ayudnf0egkvx5",
+        "teamName": "St.Gallen",
+        "partnerEventId": "682"
+      },
+      "2987211955": {
+        "typeId": "18",
+        "eventIdNum": "889",
+        "timeMin": "88",
+        "timeSec": "5",
+        "playerId": "bf6s84lavpij33riqec7y8445",
+        "playerName": "S. Essende",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "890"
+      },
+      "2987211965": {
+        "typeId": "19",
+        "eventIdNum": "890",
+        "timeMin": "88",
+        "timeSec": "5",
+        "playerId": "dlwwdyc50t43mk1a4un566zth",
+        "playerName": "G. Wüthrich",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "889"
+      },
+      "2987212027": {
+        "typeId": "18",
+        "eventIdNum": "891",
+        "timeMin": "88",
+        "timeSec": "9",
+        "playerId": "dx47szytc8vttuj4rcn4yzdre",
+        "playerName": "I. Schmidt",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "892"
+      },
+      "2987212033": {
+        "typeId": "19",
+        "eventIdNum": "892",
+        "timeMin": "88",
+        "timeSec": "9",
+        "playerId": "719bo3u7wz5doaadx7k45trdh",
+        "playerName": "S. Janko",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "891"
+      }
+    }
   },
   "f3ravwn31ngli8f5i9hymjg2c": {
     "description": "Aarau vs Etoile Carouge",
