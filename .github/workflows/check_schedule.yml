@@ -9,6 +9,10 @@ on:
         description: "Compare ALL matches against MA1 (bypass MAR)"
         required: false
         default: "false"
+      dry_run:
+        description: "Only print detected changes (no email, no state saved)"
+        required: false
+        default: "false"
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -35,6 +39,7 @@ jobs:
           EMAIL_TO_SCHEDULE:    ${{ secrets.EMAIL_TO_SCHEDULE }}
           EMAIL_TO_ADMIN:       ${{ secrets.EMAIL_TO_ADMIN }}
           FULL_RECONCILE:       ${{ github.event.inputs.full_reconcile || 'false' }}
+          DRY_RUN:              ${{ github.event.inputs.dry_run || 'false' }}
           AZURE_TENANT_ID:      ${{ secrets.AZURE_TENANT_ID }}
           AZURE_CLIENT_ID:      ${{ secrets.AZURE_CLIENT_ID }}
           AZURE_CLIENT_SECRET:  ${{ secrets.AZURE_CLIENT_SECRET }}
