@@ -459,7 +459,15 @@ def main():
 
     # ── Incremental ───────────────────────────────────────────────────────────
     print("=== INCREMENTAL MODE ===")
-    updated_ids = fetch_mar_updated_ids()
+    full_reconcile = os.environ.get("FULL_RECONCILE", "false").lower() == "true"
+    bulk_data      = {}
+
+    if full_reconcile:
+        print("*** FULL RECONCILE MODE — comparing every match against MA1 (MAR bypassed) ***")
+        bulk_data   = fetch_all_matches()
+        updated_ids = set(bulk_data.keys())
+    else:
+        updated_ids = fetch_mar_updated_ids()
 
     if not updated_ids:
         print("No updated matches. Done.")
@@ -471,8 +479,8 @@ def main():
 
     for match_id in updated_ids:
         print(f"  Checking {match_id} ...")
-        current = fetch_match_details(match_id)
-
+        current = bulk_data.get(match_id) if full_reconcile else fetch_match_details(match_id)
+        
         if current is None:
             print(f"    Could not fetch — skipping.")
             continue
