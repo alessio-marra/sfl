@@ -30,7 +30,7 @@ BASE_URL         = "https://api.performfeeds.com/soccerdata"
 HEADERS          = {"Referer": REFERER}
 STATE_FILE       = Path("schedule_state.json")
 COMPETITION_IDS  = "8v97rcbthsxmzqk4ufxws9mug,e0lck99w8meo9qoalfrxgo33o,8872tjohi4vpok4s2mtphxj9x"
-MAR_LOOKBACK_MIN = 90
+MAR_LOOKBACK_MIN = 1440
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -519,6 +519,14 @@ def main():
             state[match_id] = current
         else:
             print(f"    No date/time change.")
+
+    if os.environ.get("DRY_RUN", "false").lower() == "true":
+        print(
+            f"*** DRY RUN: {len(reschedules)} updated fixture(s), "
+            f"{len(new_fixtures)} new fixture(s) detected. "
+            f"No email sent, state NOT saved. ***"
+        )
+        return
 
     save_state(state)
 
