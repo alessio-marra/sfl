@@ -982,14 +982,14 @@
         "player_name": "N. Toggenburger",
         "club_name": "FC Luzern",
         "shirt": "15",
-        "mins": 16.5,
-        "raw_mins": 33,
+        "mins": 17.0,
+        "raw_mins": 34,
         "weight": 0.5,
         "dob": "2004-03-17",
         "status": "Came on as sub",
         "week": "11",
         "match_label": "Z\u00fcrich vs Luzern",
-        "weighted_mins": 16.5
+        "weighted_mins": 17.0
       }
     }
   },
