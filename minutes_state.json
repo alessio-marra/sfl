@@ -8059,7 +8059,110 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Xamax",
     "away_name": "Aarau",
-    "players": {}
+    "players": {
+      "1hwkc9oiv27t564914n05zdw4": {
+        "player_name": "Y. Peverelli",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "77",
+        "mins": 61.0,
+        "raw_mins": 61,
+        "weight": 1.0,
+        "dob": "2007-05-08",
+        "status": "Started",
+        "week": "12",
+        "match_label": "Xamax vs Aarau",
+        "weighted_mins": 61.0
+      },
+      "7md3kkbn6mxaj8qy3xel5jqj8": {
+        "player_name": "A. Azemi",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "35",
+        "mins": 22.0,
+        "raw_mins": 22,
+        "weight": 1.0,
+        "dob": "2009-04-29",
+        "status": "Came on as sub",
+        "week": "12",
+        "match_label": "Xamax vs Aarau",
+        "weighted_mins": 22.0
+      },
+      "bddjlux3x7xhfmwfda7mnzi8k": {
+        "player_name": "A. Bourezak",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "41",
+        "mins": 45.0,
+        "raw_mins": 45,
+        "weight": 1.0,
+        "dob": "2008-09-30",
+        "status": "Came on as sub",
+        "week": "12",
+        "match_label": "Xamax vs Aarau",
+        "weighted_mins": 45.0
+      },
+      "x6384fx309oye30o3ut24nis": {
+        "player_name": "R. Guzzo",
+        "club_name": "FC Aarau",
+        "shirt": "3",
+        "mins": 28.0,
+        "raw_mins": 56,
+        "weight": 0.5,
+        "dob": "2004-07-05",
+        "status": "Started",
+        "week": "12",
+        "match_label": "Xamax vs Aarau",
+        "weighted_mins": 28.0
+      },
+      "24unujkewve7qqxvmazogymfo": {
+        "player_name": "B. Senyurt",
+        "club_name": "FC Aarau",
+        "shirt": "42",
+        "mins": 77.0,
+        "raw_mins": 77,
+        "weight": 1.0,
+        "dob": "2006-09-05",
+        "status": "Started",
+        "week": "12",
+        "match_label": "Xamax vs Aarau",
+        "weighted_mins": 77.0
+      },
+      "3m27obik4aiqh1r3flyk6hzx0": {
+        "player_name": "D. Coric",
+        "club_name": "FC Aarau",
+        "shirt": "28",
+        "mins": 13.0,
+        "raw_mins": 13,
+        "weight": 1.0,
+        "dob": "2007-02-17",
+        "status": "Came on as sub",
+        "week": "12",
+        "match_label": "Xamax vs Aarau",
+        "weighted_mins": 13.0
+      },
+      "b4lg4vhb7z00rrnbjv311x3pw": {
+        "player_name": "M. Frei",
+        "club_name": "FC Aarau",
+        "shirt": "38",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-09-26",
+        "status": "In squad, did not play",
+        "week": "12",
+        "match_label": "Xamax vs Aarau"
+      },
+      "60dem379i61fdirmymoev7ggk": {
+        "player_name": "E. Jordan",
+        "club_name": "FC Aarau",
+        "shirt": "23",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-03-07",
+        "status": "In squad, did not play",
+        "week": "12",
+        "match_label": "Xamax vs Aarau"
+      }
+    }
   },
   "spjygl34fsr0kgrkrcnut5g": {
     "week": "12",
