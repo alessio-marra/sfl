@@ -461,7 +461,107 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Grasshoppers",
     "away_name": "Lausanne-Sport",
-    "players": {}
+    "players": {
+      "8ogdozprbfg9o8hzs3ppug9hw": {
+        "player_name": "N. Rissi",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "57",
+        "mins": 45.0,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "dob": "2004-01-30",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Grasshoppers vs Lausanne-Sport",
+        "weighted_mins": 45.0
+      },
+      "50hefdi6vr6peyviss9np2gpg": {
+        "player_name": "S. Krasniqi",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "17",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2005-01-03",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Grasshoppers vs Lausanne-Sport",
+        "weighted_mins": 90.0
+      },
+      "11r3b08anhuyzqtt610xhvvh0": {
+        "player_name": "E. Avdullahu",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "45",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-02-17",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Grasshoppers vs Lausanne-Sport"
+      },
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-05-14",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Grasshoppers vs Lausanne-Sport"
+      },
+      "dnbhu3n4vs5c2p0h7i35c0h04": {
+        "player_name": "D. Sahin",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "56",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-06-23",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Grasshoppers vs Lausanne-Sport"
+      },
+      "8lx7ynn9g358g7icf8f0jxjx0": {
+        "player_name": "I. Bah Mendes",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "51",
+        "mins": 24.0,
+        "raw_mins": 24,
+        "weight": 1.0,
+        "dob": "2005-11-22",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Grasshoppers vs Lausanne-Sport",
+        "weighted_mins": 24.0
+      },
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-11-01",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Grasshoppers vs Lausanne-Sport"
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-07-31",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Grasshoppers vs Lausanne-Sport"
+      }
+    }
   },
   "27mul0nz4lgnq98mizqcaiuqc": {
     "week": "13",
@@ -469,7 +569,84 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Vaduz",
     "away_name": "Sion",
-    "players": {}
+    "players": {
+      "38r0hllx8i1swwgqx7udvhb84": {
+        "player_name": "M. Walker",
+        "club_name": "FC Vaduz",
+        "shirt": "30",
+        "mins": 36.0,
+        "raw_mins": 36,
+        "weight": 1.0,
+        "dob": "2005-02-11",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Vaduz vs Sion",
+        "weighted_mins": 36.0
+      },
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2006-05-23",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Vaduz vs Sion",
+        "weighted_mins": 90.0
+      },
+      "dpdsyn6l2oqdyiskbjg4pdsk": {
+        "player_name": "M. Beeli",
+        "club_name": "FC Vaduz",
+        "shirt": "14",
+        "mins": 27.0,
+        "raw_mins": 54,
+        "weight": 0.5,
+        "dob": "2004-02-05",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Vaduz vs Sion",
+        "weighted_mins": 27.0
+      },
+      "9kb67r0b4yc9q3g9607nih91w": {
+        "player_name": "L. Celentano",
+        "club_name": "FC Vaduz",
+        "shirt": "37",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-10-21",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Vaduz vs Sion"
+      },
+      "a24422mcs56f2g43iw1jmknis": {
+        "player_name": "L. Chipperfield",
+        "club_name": "FC Sion",
+        "shirt": "21",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "dob": "2004-02-14",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Vaduz vs Sion"
+      },
+      "8ufyjnwuopoiibrpvyx5p4m50": {
+        "player_name": "D. M\u00f6schinger",
+        "club_name": "FC Sion",
+        "shirt": "24",
+        "mins": 6.0,
+        "raw_mins": 6,
+        "weight": 1.0,
+        "dob": "2008-01-10",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Vaduz vs Sion",
+        "weighted_mins": 6.0
+      }
+    }
   },
   "265nj53eflj0xwtzruk13eqs4": {
     "week": "13",
@@ -477,7 +654,83 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Luzern",
     "away_name": "Young Boys",
-    "players": {}
+    "players": {
+      "a99zxna7oxwspa405f5a6x1xw": {
+        "player_name": "Bung Meng Freimann",
+        "club_name": "FC Luzern",
+        "shirt": "46",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2005-12-09",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Luzern vs Young Boys",
+        "weighted_mins": 90.0
+      },
+      "2rsfj02kbcmosf0da55w9uz2s": {
+        "player_name": "M. Zimmermann",
+        "club_name": "FC Luzern",
+        "shirt": "80",
+        "mins": 7.0,
+        "raw_mins": 7,
+        "weight": 1.0,
+        "dob": "2007-08-08",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Luzern vs Young Boys",
+        "weighted_mins": 7.0
+      },
+      "e9i9c07l7cz79zmv0bin1g7bo": {
+        "player_name": "Bung Hua Freimann",
+        "club_name": "FC Luzern",
+        "shirt": "13",
+        "mins": 0.5,
+        "raw_mins": 1,
+        "weight": 0.5,
+        "dob": "2004-07-11",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Luzern vs Young Boys",
+        "weighted_mins": 0.5
+      },
+      "3or1zyirfjexaous1qm6s7ndg": {
+        "player_name": "N. Toggenburger",
+        "club_name": "FC Luzern",
+        "shirt": "15",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "dob": "2004-03-17",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Luzern vs Young Boys"
+      },
+      "vrc090kfslazjqxqg4rr0cgk": {
+        "player_name": "D. Xhemalija",
+        "club_name": "FC Luzern",
+        "shirt": "34",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-06-07",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Luzern vs Young Boys"
+      },
+      "canh5hweotiilht8quf90euj8": {
+        "player_name": "E. Etoski",
+        "club_name": "BSC Young Boys",
+        "shirt": "34",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-04-02",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Luzern vs Young Boys"
+      }
+    }
   },
   "24avw1b0k8na9159ve4zz7uok": {
     "week": "12",
@@ -7649,7 +7902,136 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Winterthur",
     "away_name": "Etoile Carouge",
-    "players": {}
+    "players": {
+      "99gzdabu92tunehaoai1r7ris": {
+        "player_name": "A. Spagnoli",
+        "club_name": "FC Winterthur",
+        "shirt": "75",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2005-05-31",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge",
+        "weighted_mins": 90.0
+      },
+      "5gcoipks3qsbde767uz8tggt0": {
+        "player_name": "S. Camara",
+        "club_name": "FC Winterthur",
+        "shirt": "4",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2007-04-20",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge",
+        "weighted_mins": 90.0
+      },
+      "2v9nzsylas35kfrdooydkt4wk": {
+        "player_name": "T. Citherlet",
+        "club_name": "FC Winterthur",
+        "shirt": "33",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2005-03-05",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge",
+        "weighted_mins": 90.0
+      },
+      "377vgjr1aebnx6w8cxcflnthw": {
+        "player_name": "N. Cavka",
+        "club_name": "FC Winterthur",
+        "shirt": "81",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2010-01-15",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge"
+      },
+      "6o2emfk33ixwrihxddkbvf2ms": {
+        "player_name": "E. Maluvunu",
+        "club_name": "FC Winterthur",
+        "shirt": "37",
+        "mins": 8.5,
+        "raw_mins": 17,
+        "weight": 0.5,
+        "dob": "2004-08-03",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge",
+        "weighted_mins": 8.5
+      },
+      "6oazl5zbikgbve6ql7qm8po2c": {
+        "player_name": "Y. Odin",
+        "club_name": "FC Winterthur",
+        "shirt": "19",
+        "mins": 26.0,
+        "raw_mins": 26,
+        "weight": 1.0,
+        "dob": "2008-08-19",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge",
+        "weighted_mins": 26.0
+      },
+      "bxyzbhin674al3lr2twujk5xw": {
+        "player_name": "L. Sahitaj",
+        "club_name": "FC Winterthur",
+        "shirt": "26",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "dob": "2004-01-12",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge"
+      },
+      "cgnne2m8bqaslb05fwi95xces": {
+        "player_name": "L. Huwiler",
+        "club_name": "Etoile Carouge FC",
+        "shirt": "23",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2007-02-17",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge",
+        "weighted_mins": 90.0
+      },
+      "6ie5odpn7psitk1lcdd68b09g": {
+        "player_name": "M. Dubosson",
+        "club_name": "Etoile Carouge FC",
+        "shirt": "24",
+        "mins": 45.0,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "dob": "2004-11-24",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge",
+        "weighted_mins": 45.0
+      },
+      "5lzal6hac79nadke98ptdq1g": {
+        "player_name": "O. Renovales",
+        "club_name": "Etoile Carouge FC",
+        "shirt": "59",
+        "mins": 11.0,
+        "raw_mins": 11,
+        "weight": 1.0,
+        "dob": "2007-10-24",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Winterthur vs Etoile Carouge",
+        "weighted_mins": 11.0
+      }
+    }
   },
   "1xn9e2pvc7kz0vcr9q7prnro": {
     "week": "13",
