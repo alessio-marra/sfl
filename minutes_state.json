@@ -437,7 +437,71 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Thun",
     "away_name": "Basel",
-    "players": {}
+    "players": {
+      "blgy8rpn31ugf1g8i27qsx3x0": {
+        "player_name": "O. Mambwa",
+        "club_name": "FC Thun",
+        "shirt": "2",
+        "mins": 77.0,
+        "raw_mins": 77,
+        "weight": 1.0,
+        "dob": "2008-12-05",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Thun vs Basel",
+        "weighted_mins": 77.0
+      },
+      "e1aopqv9jb779vo6qgj9d0wlw": {
+        "player_name": "A. Ilic",
+        "club_name": "FC Thun",
+        "shirt": "52",
+        "mins": 56.0,
+        "raw_mins": 56,
+        "weight": 1.0,
+        "dob": "2008-05-03",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Thun vs Basel",
+        "weighted_mins": 56.0
+      },
+      "cnsyexfgcdy6m2dfc0l5dfkes": {
+        "player_name": "S. Lengen",
+        "club_name": "FC Thun",
+        "shirt": "80",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-09-04",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Thun vs Basel"
+      },
+      "aifw5ubx7dl9nh8erwn8li9lg": {
+        "player_name": "T. Spycher",
+        "club_name": "FC Thun",
+        "shirt": "25",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "dob": "2004-04-13",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Thun vs Basel"
+      },
+      "70kdxr0aur2eq02sd2l6l2olw": {
+        "player_name": "G. Koloto",
+        "club_name": "FC Basel 1893",
+        "shirt": "37",
+        "mins": 37.0,
+        "raw_mins": 37,
+        "weight": 1.0,
+        "dob": "2008-01-31",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Thun vs Basel",
+        "weighted_mins": 37.0
+      }
+    }
   },
   "26iv9zat4bnthumhoqghxlyc4": {
     "week": "13",
@@ -445,7 +509,180 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Servette",
     "away_name": "Z\u00fcrich",
-    "players": {}
+    "players": {
+      "a9tmd9tjrbbc78uc6qrolz4es": {
+        "player_name": "J. Simo",
+        "club_name": "Servette FC",
+        "shirt": "20",
+        "mins": 32.5,
+        "raw_mins": 65,
+        "weight": 0.5,
+        "dob": "2004-01-12",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 32.5
+      },
+      "6g5s0q5cc02urh00w0mme7q50": {
+        "player_name": "E. Haxhiu",
+        "club_name": "Servette FC",
+        "shirt": "39",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-09-09",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich"
+      },
+      "bxxfxm8o6uirzgt1keagbwzdg": {
+        "player_name": "D. Mbimbo",
+        "club_name": "Servette FC",
+        "shirt": "40",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-09-26",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich"
+      },
+      "vc2knr7mu8n12alvmx7fzj10": {
+        "player_name": "T. Ouattara",
+        "club_name": "Servette FC",
+        "shirt": "77",
+        "mins": 15.0,
+        "raw_mins": 15,
+        "weight": 1.0,
+        "dob": "2005-05-25",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 15.0
+      },
+      "a188mrg22qdpx8loprtmuy2ac": {
+        "player_name": "A. Vincent",
+        "club_name": "Servette FC",
+        "shirt": "35",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-10-06",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich"
+      },
+      "ars7lu2hj5ecjpn0cd1mygu1g": {
+        "player_name": "S. Huber",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "1",
+        "mins": 82,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2005-07-10",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 90.0,
+        "week_cap": 360
+      },
+      "3mw97uhlizy4327fxiui1wn4k": {
+        "player_name": "S. Walker",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "44",
+        "mins": 82,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2005-10-01",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 90.0,
+        "week_cap": 360
+      },
+      "997f7zp6733mvgshg53bas3dg": {
+        "player_name": "D. Lichtenstein",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "47",
+        "mins": 82,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2006-02-12",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 90.0,
+        "week_cap": 360
+      },
+      "cpw4hqnhrqja3q3k85fq7bz84": {
+        "player_name": "L. Sch\u00f6dler",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "21",
+        "mins": 82,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2006-05-27",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 90.0,
+        "week_cap": 360
+      },
+      "exxkv65coe3l769z25gvk1ixg": {
+        "player_name": "N. Di Giusto",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "14",
+        "mins": 12,
+        "raw_mins": 13,
+        "weight": 1.0,
+        "dob": "2005-03-18",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 13.0,
+        "week_cap": 360
+      },
+      "6aplj4zsa49j8mhcc17aar8k4": {
+        "player_name": "M. Greco",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "28",
+        "mins": 3,
+        "raw_mins": 3,
+        "weight": 1.0,
+        "dob": "2006-09-22",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 3.0,
+        "week_cap": 360
+      },
+      "75h4biirv290kb4i6ewzcppn8": {
+        "player_name": "D. Ramic",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "49",
+        "mins": 18,
+        "raw_mins": 20,
+        "weight": 1.0,
+        "dob": "2008-12-28",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich",
+        "weighted_mins": 20.0,
+        "week_cap": 360
+      },
+      "3nqhtkzcrkrta24iyceqk6jv8": {
+        "player_name": "N. Volken",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "43",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-04-23",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Servette vs Z\u00fcrich"
+      }
+    }
   },
   "26w8wab7xj1h31xypkkromntg": {
     "week": "13",
@@ -453,7 +690,46 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "St.Gallen",
     "away_name": "Lugano",
-    "players": {}
+    "players": {
+      "8ibag83uzcirmb7vycpdxxw5w": {
+        "player_name": "L. Frokaj",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "20",
+        "mins": 10.0,
+        "raw_mins": 10,
+        "weight": 1.0,
+        "dob": "2005-04-23",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "St.Gallen vs Lugano",
+        "weighted_mins": 10.0
+      },
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 23.0,
+        "raw_mins": 23,
+        "weight": 1.0,
+        "dob": "2006-10-20",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "St.Gallen vs Lugano",
+        "weighted_mins": 23.0
+      },
+      "2dwb36l3c83msll70wyl16exg": {
+        "player_name": "N. Scherrer",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "70",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-04-08",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "St.Gallen vs Lugano"
+      }
+    }
   },
   "25sbqkzmaxh9s8hos7thjoefo": {
     "week": "13",
@@ -7894,7 +8170,108 @@
     "tmcl_id": "akzt9nsp06yyv03a86lz8kdn8",
     "home_name": "Yverdon Sport",
     "away_name": "Xamax",
-    "players": {}
+    "players": {
+      "9g4591ffmh21o0hlw3zt17wno": {
+        "player_name": "L. Bittarelli",
+        "club_name": "Yverdon Sport FC",
+        "shirt": "23",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-02-21",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Yverdon Sport vs Xamax"
+      },
+      "2fn6lo78aa995zvlqodpg89hw": {
+        "player_name": "L. Guignard",
+        "club_name": "Yverdon Sport FC",
+        "shirt": "3",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-10-02",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Yverdon Sport vs Xamax"
+      },
+      "barza3wqdheeduel2om6hw45w": {
+        "player_name": "C. Wehren",
+        "club_name": "Yverdon Sport FC",
+        "shirt": "44",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2010-04-25",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Yverdon Sport vs Xamax"
+      },
+      "1hwkc9oiv27t564914n05zdw4": {
+        "player_name": "Y. Peverelli",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "77",
+        "mins": 84.0,
+        "raw_mins": 84,
+        "weight": 1.0,
+        "dob": "2007-05-08",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Yverdon Sport vs Xamax",
+        "weighted_mins": 84.0
+      },
+      "bddjlux3x7xhfmwfda7mnzi8k": {
+        "player_name": "A. Bourezak",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "41",
+        "mins": 61.0,
+        "raw_mins": 61,
+        "weight": 1.0,
+        "dob": "2008-09-30",
+        "status": "Started",
+        "week": "13",
+        "match_label": "Yverdon Sport vs Xamax",
+        "weighted_mins": 61.0
+      },
+      "7md3kkbn6mxaj8qy3xel5jqj8": {
+        "player_name": "A. Azemi",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "35",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2009-04-29",
+        "status": "In squad, did not play",
+        "week": "13",
+        "match_label": "Yverdon Sport vs Xamax"
+      },
+      "81h4mugixhace8q39em2nwis4": {
+        "player_name": "M. Dind",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "25",
+        "mins": 6.0,
+        "raw_mins": 6,
+        "weight": 1.0,
+        "dob": "2009-01-23",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Yverdon Sport vs Xamax",
+        "weighted_mins": 6.0
+      },
+      "awt38idua80bt2qsebqj4knx0": {
+        "player_name": "L. Veya",
+        "club_name": "Neuch\u00e2tel Xamax FCS",
+        "shirt": "40",
+        "mins": 6.0,
+        "raw_mins": 6,
+        "weight": 1.0,
+        "dob": "2007-01-10",
+        "status": "Came on as sub",
+        "week": "13",
+        "match_label": "Yverdon Sport vs Xamax",
+        "weighted_mins": 6.0
+      }
+    }
   },
   "2oyiuxmu4zzgep0hz7o07bis": {
     "week": "13",
