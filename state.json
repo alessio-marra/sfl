@@ -237141,7 +237141,206 @@
     "description": "Luzern vs Sion",
     "competition": "Super League",
     "date": "2026-10-31",
-    "substitutions": {}
+    "substitutions": {
+      "2991115675": {
+        "typeId": "18",
+        "eventIdNum": "582",
+        "timeMin": "60",
+        "timeSec": "41",
+        "playerId": "429znrwois9ll1skdf83puqdw",
+        "playerName": "O. Kabwit",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "583"
+      },
+      "2991115683": {
+        "typeId": "19",
+        "eventIdNum": "583",
+        "timeMin": "60",
+        "timeSec": "41",
+        "playerId": "9o9pjlnmupx941har5gjwpbhm",
+        "playerName": "T. Owusu",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "582"
+      },
+      "2991122949": {
+        "typeId": "18",
+        "eventIdNum": "718",
+        "timeMin": "71",
+        "timeSec": "13",
+        "playerId": "30hr440bvtm7enhh6umvfvr4k",
+        "playerName": "T. Berdayes",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "719"
+      },
+      "2991122953": {
+        "typeId": "19",
+        "eventIdNum": "719",
+        "timeMin": "71",
+        "timeSec": "13",
+        "playerId": "9w8ka8b5aaxqaqlnit33glkb8",
+        "playerName": "F. Surdez",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "718"
+      },
+      "2991123061": {
+        "typeId": "18",
+        "eventIdNum": "720",
+        "timeMin": "71",
+        "timeSec": "19",
+        "playerId": "bgso1x93bjkk2pcjwugolzyzt",
+        "playerName": "K. Hajrizi",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "721"
+      },
+      "2991123067": {
+        "typeId": "19",
+        "eventIdNum": "721",
+        "timeMin": "71",
+        "timeSec": "19",
+        "playerId": "a7ehmifoznpz11r08q58yzgx6",
+        "playerName": "N. Sow",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "720"
+      },
+      "2991123219": {
+        "typeId": "18",
+        "eventIdNum": "724",
+        "timeMin": "71",
+        "timeSec": "21",
+        "playerId": "7p8wvrgk2aucmmrc30uv7j5lg",
+        "playerName": "W. Boteli",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "725"
+      },
+      "2991123223": {
+        "typeId": "19",
+        "eventIdNum": "725",
+        "timeMin": "71",
+        "timeSec": "21",
+        "playerId": "1ae2q6d1nrcaqjzsuf3ecpm95",
+        "playerName": "R. Nivokazi",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "724"
+      },
+      "2991123131": {
+        "typeId": "18",
+        "eventIdNum": "722",
+        "timeMin": "71",
+        "timeSec": "26",
+        "playerId": "5frvf0owdyg0dtc8ckinrf2p6",
+        "playerName": "D. Rrudhani",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "723"
+      },
+      "2991123135": {
+        "typeId": "19",
+        "eventIdNum": "723",
+        "timeMin": "71",
+        "timeSec": "26",
+        "playerId": "4kinfnp5n3u0tzvso9gypxgfe",
+        "playerName": "J. Lukembila",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "722"
+      },
+      "2991128117": {
+        "typeId": "18",
+        "eventIdNum": "735",
+        "timeMin": "77",
+        "timeSec": "8",
+        "playerId": "2rsfj02kbcmosf0da55w9uz2s",
+        "playerName": "M. Zimmermann",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "736"
+      },
+      "2991128125": {
+        "typeId": "19",
+        "eventIdNum": "736",
+        "timeMin": "77",
+        "timeSec": "8",
+        "playerId": "90h730y2b9ek5k5dcs9rjtg5w",
+        "playerName": "Lucas Ferreira",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "735"
+      },
+      "2991128063": {
+        "typeId": "18",
+        "eventIdNum": "733",
+        "timeMin": "77",
+        "timeSec": "9",
+        "playerId": "ad34kukz89dwp05keq0tzm76d",
+        "playerName": "A. Cigaņiks",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "734"
+      },
+      "2991128069": {
+        "typeId": "19",
+        "eventIdNum": "734",
+        "timeMin": "77",
+        "timeSec": "9",
+        "playerId": "3or1zyirfjexaous1qm6s7ndg",
+        "playerName": "N. Toggenburger",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "733"
+      },
+      "2991129343": {
+        "typeId": "18",
+        "eventIdNum": "824",
+        "timeMin": "79",
+        "timeSec": "30",
+        "playerId": "ge9iggeojluopt0tr9sl2yy2",
+        "playerName": "I. Chouaref",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "825"
+      },
+      "2991129353": {
+        "typeId": "19",
+        "eventIdNum": "825",
+        "timeMin": "79",
+        "timeSec": "30",
+        "playerId": "5fbi7ci4io9hfnlbhoc4texh",
+        "playerName": "B. Kololli",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "824"
+      },
+      "2991133757": {
+        "typeId": "18",
+        "eventIdNum": "809",
+        "timeMin": "86",
+        "timeSec": "35",
+        "playerId": "1rqera0cryw0iojnk59skbv2s",
+        "playerName": "D. Mikołajewski",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "810"
+      },
+      "2991133761": {
+        "typeId": "19",
+        "eventIdNum": "810",
+        "timeMin": "86",
+        "timeSec": "35",
+        "playerId": "d45fs5pqxxq9nopbmeh6lpoet",
+        "playerName": "A. Grbic",
+        "teamId": "dk531bvjn5bmeonqs9hbbmfgr",
+        "teamName": "Luzern",
+        "partnerEventId": "809"
+      }
+    }
   },
   "251qtt3jjtikofjpj5eud5z4k": {
     "description": "St.Gallen vs Servette",
