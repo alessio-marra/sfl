@@ -272462,5 +272462,642 @@
         "partnerEventId": "668"
       }
     }
+  },
+  "294alxxnlj5bz5w3ufdudp0yc": {
+    "description": "Sion vs Servette",
+    "competition": "Super League",
+    "date": "2026-11-21",
+    "substitutions": {
+      "2999684111": {
+        "typeId": "18",
+        "eventIdNum": "595",
+        "timeMin": "57",
+        "timeSec": "29",
+        "playerId": "b6xlmbtceux7ynrj1j23x5td5",
+        "playerName": "Pedro Naressi",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "596"
+      },
+      "2999684115": {
+        "typeId": "19",
+        "eventIdNum": "596",
+        "timeMin": "57",
+        "timeSec": "29",
+        "playerId": "d9np2jsg99wf8jbsifwfy78id",
+        "playerName": "D. Douline",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "595"
+      },
+      "2999684137": {
+        "typeId": "18",
+        "eventIdNum": "597",
+        "timeMin": "57",
+        "timeSec": "33",
+        "playerId": "9a4i8i66bch7834l9vmmgg55g",
+        "playerName": "M. Lambourde",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "598"
+      },
+      "2999684139": {
+        "typeId": "19",
+        "eventIdNum": "598",
+        "timeMin": "57",
+        "timeSec": "33",
+        "playerId": "4pl9lnaokb1c3s1q8dm5u1ecp",
+        "playerName": "B. Mazikou",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "597"
+      },
+      "2999693203": {
+        "typeId": "18",
+        "eventIdNum": "717",
+        "timeMin": "71",
+        "timeSec": "15",
+        "playerId": "1ae2q6d1nrcaqjzsuf3ecpm95",
+        "playerName": "R. Nivokazi",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "718"
+      },
+      "2999693209": {
+        "typeId": "19",
+        "eventIdNum": "718",
+        "timeMin": "71",
+        "timeSec": "15",
+        "playerId": "7p8wvrgk2aucmmrc30uv7j5lg",
+        "playerName": "W. Boteli",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "717"
+      },
+      "2999693383": {
+        "typeId": "18",
+        "eventIdNum": "719",
+        "timeMin": "71",
+        "timeSec": "30",
+        "playerId": "5frvf0owdyg0dtc8ckinrf2p6",
+        "playerName": "D. Rrudhani",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "720"
+      },
+      "2999693389": {
+        "typeId": "19",
+        "eventIdNum": "720",
+        "timeMin": "71",
+        "timeSec": "30",
+        "playerId": "1op4tks39vwt6djhzfesy15w4",
+        "playerName": "F. Sylla",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "719"
+      },
+      "2999695461": {
+        "typeId": "18",
+        "eventIdNum": "748",
+        "timeMin": "74",
+        "timeSec": "4",
+        "playerId": "4ailqzdhrb1nct63qnanpb5lg",
+        "playerName": "J. Sida",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "749"
+      },
+      "2999695467": {
+        "typeId": "19",
+        "eventIdNum": "749",
+        "timeMin": "74",
+        "timeSec": "4",
+        "playerId": "6ita8t40qk3b85mrqpq71gjys",
+        "playerName": "D. Fofana",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "748"
+      },
+      "2999695381": {
+        "typeId": "18",
+        "eventIdNum": "746",
+        "timeMin": "74",
+        "timeSec": "5",
+        "playerId": "diu1p03bogaua3qvqvkqq83kk",
+        "playerName": "T. Lopes",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "747"
+      },
+      "2999695391": {
+        "typeId": "19",
+        "eventIdNum": "747",
+        "timeMin": "74",
+        "timeSec": "5",
+        "playerId": "9qztg0hybzpm1og4dh2z0s89h",
+        "playerName": "S. Mráz",
+        "teamId": "ccwv4ymbs3u0q8xaby4hqb0jz",
+        "teamName": "Servette",
+        "partnerEventId": "746"
+      },
+      "2999698567": {
+        "typeId": "18",
+        "eventIdNum": "763",
+        "timeMin": "78",
+        "timeSec": "5",
+        "playerId": "bgso1x93bjkk2pcjwugolzyzt",
+        "playerName": "K. Hajrizi",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "764"
+      },
+      "2999698571": {
+        "typeId": "19",
+        "eventIdNum": "764",
+        "timeMin": "78",
+        "timeSec": "5",
+        "playerId": "a7ehmifoznpz11r08q58yzgx6",
+        "playerName": "N. Sow",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "763"
+      },
+      "2999698677": {
+        "typeId": "18",
+        "eventIdNum": "765",
+        "timeMin": "78",
+        "timeSec": "13",
+        "playerId": "30hr440bvtm7enhh6umvfvr4k",
+        "playerName": "T. Berdayes",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "766"
+      },
+      "2999698683": {
+        "typeId": "19",
+        "eventIdNum": "766",
+        "timeMin": "78",
+        "timeSec": "13",
+        "playerId": "9w8ka8b5aaxqaqlnit33glkb8",
+        "playerName": "F. Surdez",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "765"
+      },
+      "2999701933": {
+        "typeId": "18",
+        "eventIdNum": "797",
+        "timeMin": "82",
+        "timeSec": "1",
+        "playerId": "ge9iggeojluopt0tr9sl2yy2",
+        "playerName": "I. Chouaref",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "798"
+      },
+      "2999701939": {
+        "typeId": "19",
+        "eventIdNum": "798",
+        "timeMin": "82",
+        "timeSec": "1",
+        "playerId": "4kinfnp5n3u0tzvso9gypxgfe",
+        "playerName": "J. Lukembila",
+        "teamId": "b9fc1umgats16gk6wr769wh8a",
+        "teamName": "Sion",
+        "partnerEventId": "797"
+      }
+    }
+  },
+  "29hx4agr5cjnphjt950df3vo4": {
+    "description": "Young Boys vs Thun",
+    "competition": "Super League",
+    "date": "2026-11-21",
+    "substitutions": {
+      "2999557993": {
+        "typeId": "18",
+        "eventIdNum": "552",
+        "timeMin": "58",
+        "timeSec": "53",
+        "playerId": "ahof39nb4cz6xbqgqon20pd04",
+        "playerName": "B. Guirassy",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "553"
+      },
+      "2999558005": {
+        "typeId": "19",
+        "eventIdNum": "553",
+        "timeMin": "58",
+        "timeSec": "53",
+        "playerId": "iz7cpjfkljo61ndnc8o3nm22",
+        "playerName": "K. Sène",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "552"
+      },
+      "2999565603": {
+        "typeId": "18",
+        "eventIdNum": "556",
+        "timeMin": "66",
+        "timeSec": "30",
+        "playerId": "21wz5azwuu0y9843udcjeytxw",
+        "playerName": "P. Kristal",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "557"
+      },
+      "2999565607": {
+        "typeId": "19",
+        "eventIdNum": "557",
+        "timeMin": "66",
+        "timeSec": "30",
+        "playerId": "aoik5g61oq5r3lbbe76f9iicq",
+        "playerName": "N. Reichmuth",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "556"
+      },
+      "2999571201": {
+        "typeId": "18",
+        "eventIdNum": "616",
+        "timeMin": "72",
+        "timeSec": "58",
+        "playerId": "9lhn16j2n4lxtoq8hxrpqd0mi",
+        "playerName": "N. Christoffersson",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "617"
+      },
+      "2999571205": {
+        "typeId": "19",
+        "eventIdNum": "617",
+        "timeMin": "72",
+        "timeSec": "58",
+        "playerId": "5zr7c0xefkk2tmtrw30srieqc",
+        "playerName": "R. Braschi",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "616"
+      },
+      "2999571405": {
+        "typeId": "18",
+        "eventIdNum": "618",
+        "timeMin": "72",
+        "timeSec": "59",
+        "playerId": "9idaop0my5t0o4vrme7ynofai",
+        "playerName": "N. Maier",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "619"
+      },
+      "2999571413": {
+        "typeId": "19",
+        "eventIdNum": "619",
+        "timeMin": "72",
+        "timeSec": "59",
+        "playerId": "84dmxlclmh9hv0ee5dqzqkyne",
+        "playerName": "F. Fehr",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "618"
+      },
+      "2999573155": {
+        "typeId": "18",
+        "eventIdNum": "710",
+        "timeMin": "75",
+        "timeSec": "11",
+        "playerId": "4gksusc509n6j8ljhyegzgxk9",
+        "playerName": "C. Fassnacht",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "711"
+      },
+      "2999573159": {
+        "typeId": "19",
+        "eventIdNum": "711",
+        "timeMin": "75",
+        "timeSec": "11",
+        "playerId": "1zx0huwj0czivtoq6kvfb5roq",
+        "playerName": "A. Virginius",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "710"
+      },
+      "2999573251": {
+        "typeId": "18",
+        "eventIdNum": "712",
+        "timeMin": "75",
+        "timeSec": "17",
+        "playerId": "dx47szytc8vttuj4rcn4yzdre",
+        "playerName": "I. Schmidt",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "713"
+      },
+      "2999573259": {
+        "typeId": "19",
+        "eventIdNum": "713",
+        "timeMin": "75",
+        "timeSec": "17",
+        "playerId": "6qb4ce3qzlcvjdaluqom2vhuc",
+        "playerName": "S. Bukinac",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "712"
+      },
+      "2999580247": {
+        "typeId": "18",
+        "eventIdNum": "769",
+        "timeMin": "83",
+        "timeSec": "5",
+        "playerId": "6uurhe88nry4hyelll8ifzd91",
+        "playerName": "E. Fernandes",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "770"
+      },
+      "2999580253": {
+        "typeId": "19",
+        "eventIdNum": "770",
+        "timeMin": "83",
+        "timeSec": "5",
+        "playerId": "61r6igcudl4mbfr19doqr4n3d",
+        "playerName": "S. Lauper",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "769"
+      },
+      "2999580461": {
+        "typeId": "18",
+        "eventIdNum": "771",
+        "timeMin": "83",
+        "timeSec": "10",
+        "playerId": "9km5yidmp0mbjrqqxlapdztre",
+        "playerName": "A. Gigović",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "772"
+      },
+      "2999580471": {
+        "typeId": "19",
+        "eventIdNum": "772",
+        "timeMin": "83",
+        "timeSec": "10",
+        "playerId": "cag46lcr9rbj6593ftfegc0lw",
+        "playerName": "D. Pech",
+        "teamId": "5fd9f9bti2cdgb6r1lf8l2bc7",
+        "teamName": "Young Boys",
+        "partnerEventId": "771"
+      },
+      "2999584479": {
+        "typeId": "18",
+        "eventIdNum": "725",
+        "timeMin": "87",
+        "timeSec": "5",
+        "playerId": "blgy8rpn31ugf1g8i27qsx3x0",
+        "playerName": "O. Mambwa",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "726"
+      },
+      "2999584489": {
+        "typeId": "19",
+        "eventIdNum": "726",
+        "timeMin": "87",
+        "timeSec": "5",
+        "playerId": "7t8si63b154j9a09mt3wy21hw",
+        "playerName": "M. Gutbub",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "725"
+      },
+      "2999584621": {
+        "typeId": "18",
+        "eventIdNum": "727",
+        "timeMin": "87",
+        "timeSec": "6",
+        "playerId": "539es15hqaq9gnqng4dmdoums",
+        "playerName": "N. Zoukit",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "728"
+      },
+      "2999584627": {
+        "typeId": "19",
+        "eventIdNum": "728",
+        "timeMin": "87",
+        "timeSec": "6",
+        "playerId": "e1aopqv9jb779vo6qgj9d0wlw",
+        "playerName": "A. Ilic",
+        "teamId": "6u0uaryouca843tojxzgwulr2",
+        "teamName": "Thun",
+        "partnerEventId": "727"
+      }
+    }
+  },
+  "28qzz8n70tn8n4s9ijw37atck": {
+    "description": "Lugano vs Grasshoppers",
+    "competition": "Super League",
+    "date": "2026-11-21",
+    "substitutions": {
+      "2999565227": {
+        "typeId": "18",
+        "eventIdNum": "692",
+        "timeMin": "64",
+        "timeSec": "51",
+        "playerId": "e659q6lc7hc6df14k7rxh6hud",
+        "playerName": "R. Steffen",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "693"
+      },
+      "2999565235": {
+        "typeId": "19",
+        "eventIdNum": "693",
+        "timeMin": "64",
+        "timeSec": "51",
+        "playerId": "3g68xop0q3soh8uf8xew8wn2t",
+        "playerName": "E. Alioski",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "692"
+      },
+      "2999565293": {
+        "typeId": "18",
+        "eventIdNum": "694",
+        "timeMin": "64",
+        "timeSec": "57",
+        "playerId": "7424gvk9hiq5up61dj181y66t",
+        "playerName": "K. Behrens",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "695"
+      },
+      "2999565299": {
+        "typeId": "19",
+        "eventIdNum": "695",
+        "timeMin": "64",
+        "timeSec": "57",
+        "playerId": "ytuondt7viem6narft8s22ok",
+        "playerName": "D. Moncada",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "694"
+      },
+      "2999566747": {
+        "typeId": "18",
+        "eventIdNum": "602",
+        "timeMin": "66",
+        "timeSec": "41",
+        "playerId": "a46irqckxabod18j2c0qfixre",
+        "playerName": "K. Goudmijn",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "603"
+      },
+      "2999566755": {
+        "typeId": "19",
+        "eventIdNum": "603",
+        "timeMin": "66",
+        "timeSec": "41",
+        "playerId": "dnbhu3n4vs5c2p0h7i35c0h04",
+        "playerName": "D. Sahin",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "602"
+      },
+      "2999567019": {
+        "typeId": "18",
+        "eventIdNum": "604",
+        "timeMin": "67",
+        "timeSec": "0",
+        "playerId": "8ogdozprbfg9o8hzs3ppug9hw",
+        "playerName": "N. Rissi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "605"
+      },
+      "2999567025": {
+        "typeId": "19",
+        "eventIdNum": "605",
+        "timeMin": "67",
+        "timeSec": "0",
+        "playerId": "lpl8b3l70f75dd64x2kyl2lm",
+        "playerName": "J. von Moos",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "604"
+      },
+      "2999577341": {
+        "typeId": "18",
+        "eventIdNum": "809",
+        "timeMin": "78",
+        "timeSec": "36",
+        "playerId": "91g10pv6w3bd0rw6p4t3hcui2",
+        "playerName": "Y. Cimignani",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "810"
+      },
+      "2999577351": {
+        "typeId": "19",
+        "eventIdNum": "810",
+        "timeMin": "78",
+        "timeSec": "36",
+        "playerId": "5nuj1qknhzifclomzjrhil8us",
+        "playerName": "B. Castro",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "809"
+      },
+      "2999577457": {
+        "typeId": "18",
+        "eventIdNum": "811",
+        "timeMin": "78",
+        "timeSec": "41",
+        "playerId": "bmm78ziormtva1c4tjznkom50",
+        "playerName": "Daniel Dos Santos",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "812"
+      },
+      "2999577461": {
+        "typeId": "19",
+        "eventIdNum": "812",
+        "timeMin": "78",
+        "timeSec": "41",
+        "playerId": "59dtrk7ly4lepf7s0gywhu51w",
+        "playerName": "E. Pihlström",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "811"
+      },
+      "2999580157": {
+        "typeId": "18",
+        "eventIdNum": "704",
+        "timeMin": "81",
+        "timeSec": "35",
+        "playerId": "aaafhdv3xfuvzg9xfnkt0trtg",
+        "playerName": "Lee Young-Jun",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "705"
+      },
+      "2999580165": {
+        "typeId": "19",
+        "eventIdNum": "705",
+        "timeMin": "81",
+        "timeSec": "35",
+        "playerId": "54adx9wk0t34bmndh67efbuhg",
+        "playerName": "S. Stroscio",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "704"
+      },
+      "2999584677": {
+        "typeId": "18",
+        "eventIdNum": "751",
+        "timeMin": "86",
+        "timeSec": "29",
+        "playerId": "e5e4y8oz2q3qzmedegj7y7x0p",
+        "playerName": "G. Morandi",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "752"
+      },
+      "2999584681": {
+        "typeId": "19",
+        "eventIdNum": "752",
+        "timeMin": "86",
+        "timeSec": "29",
+        "playerId": "2e6rif43men98uldjwrd2kd90",
+        "playerName": "N. Muci",
+        "teamId": "9dqlf92t42brv71kvaet67tm4",
+        "teamName": "Grasshoppers",
+        "partnerEventId": "751"
+      },
+      "2999589409": {
+        "typeId": "18",
+        "eventIdNum": "936",
+        "timeMin": "91",
+        "timeSec": "37",
+        "playerId": "62un9vzd314di4v502bkida1g",
+        "playerName": "Martim Marques",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "937"
+      },
+      "2999589421": {
+        "typeId": "19",
+        "eventIdNum": "937",
+        "timeMin": "91",
+        "timeSec": "37",
+        "playerId": "5sbj1q3tlng1yb73hu3np0lm2",
+        "playerName": "J. Bichsel",
+        "teamId": "btqfm8txcvhi29sddmc9nr68",
+        "teamName": "Lugano",
+        "partnerEventId": "936"
+      }
+    }
   }
 }
