@@ -405,7 +405,128 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Z\u00fcrich",
     "away_name": "St.Gallen",
-    "players": {}
+    "players": {
+      "ars7lu2hj5ecjpn0cd1mygu1g": {
+        "player_name": "S. Huber",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "1",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-07-10",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "3mw97uhlizy4327fxiui1wn4k": {
+        "player_name": "S. Walker",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "44",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-10-01",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "997f7zp6733mvgshg53bas3dg": {
+        "player_name": "D. Lichtenstein",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "47",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-02-12",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "cpw4hqnhrqja3q3k85fq7bz84": {
+        "player_name": "L. Sch\u00f6dler",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "21",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-05-27",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "exxkv65coe3l769z25gvk1ixg": {
+        "player_name": "N. Di Giusto",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "14",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-03-18",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "6aplj4zsa49j8mhcc17aar8k4": {
+        "player_name": "M. Greco",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "28",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-09-22",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "75h4biirv290kb4i6ewzcppn8": {
+        "player_name": "D. Ramic",
+        "club_name": "FC Z\u00fcrich",
+        "shirt": "49",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-12-28",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "8ibag83uzcirmb7vycpdxxw5w": {
+        "player_name": "L. Frokaj",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "20",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-04-23",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "an0tzhrx6uhf75uper52ta3o4": {
+        "player_name": "J. Ruiz",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "74",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-10-20",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      },
+      "2dwb36l3c83msll70wyl16exg": {
+        "player_name": "N. Scherrer",
+        "club_name": "FC St.Gallen 1879",
+        "shirt": "70",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-04-08",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Z\u00fcrich vs St.Gallen"
+      }
+    }
   },
   "294alxxnlj5bz5w3ufdudp0yc": {
     "week": "14",
@@ -413,7 +534,58 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Sion",
     "away_name": "Servette",
-    "players": {}
+    "players": {
+      "7p8wvrgk2aucmmrc30uv7j5lg": {
+        "player_name": "W. Boteli",
+        "club_name": "FC Sion",
+        "shirt": "13",
+        "mins": 18.0,
+        "raw_mins": 18,
+        "weight": 1.0,
+        "dob": "2006-07-05",
+        "status": "Came on as sub",
+        "week": "14",
+        "match_label": "Sion vs Servette",
+        "weighted_mins": 18.0
+      },
+      "a24422mcs56f2g43iw1jmknis": {
+        "player_name": "L. Chipperfield",
+        "club_name": "FC Sion",
+        "shirt": "21",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "dob": "2004-02-14",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Sion vs Servette"
+      },
+      "a9tmd9tjrbbc78uc6qrolz4es": {
+        "player_name": "J. Simo",
+        "club_name": "Servette FC",
+        "shirt": "20",
+        "mins": 45.0,
+        "raw_mins": 90,
+        "weight": 0.5,
+        "dob": "2004-01-12",
+        "status": "Started",
+        "week": "14",
+        "match_label": "Sion vs Servette",
+        "weighted_mins": 45.0
+      },
+      "a188mrg22qdpx8loprtmuy2ac": {
+        "player_name": "A. Vincent",
+        "club_name": "Servette FC",
+        "shirt": "35",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-10-06",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Sion vs Servette"
+      }
+    }
   },
   "29hx4agr5cjnphjt950df3vo4": {
     "week": "14",
@@ -421,7 +593,70 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Young Boys",
     "away_name": "Thun",
-    "players": {}
+    "players": {
+      "canh5hweotiilht8quf90euj8": {
+        "player_name": "E. Etoski",
+        "club_name": "BSC Young Boys",
+        "shirt": "34",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-04-02",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Young Boys vs Thun"
+      },
+      "blgy8rpn31ugf1g8i27qsx3x0": {
+        "player_name": "O. Mambwa",
+        "club_name": "FC Thun",
+        "shirt": "2",
+        "mins": 88.0,
+        "raw_mins": 88,
+        "weight": 1.0,
+        "dob": "2008-12-05",
+        "status": "Started",
+        "week": "14",
+        "match_label": "Young Boys vs Thun",
+        "weighted_mins": 88.0
+      },
+      "ag92lrchlo2z1opq3i1loneok": {
+        "player_name": "D. Derbaci",
+        "club_name": "FC Thun",
+        "shirt": "21",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2006-03-25",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Young Boys vs Thun"
+      },
+      "e1aopqv9jb779vo6qgj9d0wlw": {
+        "player_name": "A. Ilic",
+        "club_name": "FC Thun",
+        "shirt": "52",
+        "mins": 2.0,
+        "raw_mins": 2,
+        "weight": 1.0,
+        "dob": "2008-05-03",
+        "status": "Came on as sub",
+        "week": "14",
+        "match_label": "Young Boys vs Thun",
+        "weighted_mins": 2.0
+      },
+      "aifw5ubx7dl9nh8erwn8li9lg": {
+        "player_name": "T. Spycher",
+        "club_name": "FC Thun",
+        "shirt": "25",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 0.5,
+        "dob": "2004-04-13",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Young Boys vs Thun"
+      }
+    }
   },
   "28qzz8n70tn8n4s9ijw37atck": {
     "week": "14",
@@ -429,7 +664,71 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lugano",
     "away_name": "Grasshoppers",
-    "players": {}
+    "players": {
+      "8ogdozprbfg9o8hzs3ppug9hw": {
+        "player_name": "N. Rissi",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "57",
+        "mins": 33.5,
+        "raw_mins": 67,
+        "weight": 0.5,
+        "dob": "2004-01-30",
+        "status": "Started",
+        "week": "14",
+        "match_label": "Lugano vs Grasshoppers",
+        "weighted_mins": 33.5
+      },
+      "50hefdi6vr6peyviss9np2gpg": {
+        "player_name": "S. Krasniqi",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "17",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2005-01-03",
+        "status": "Started",
+        "week": "14",
+        "match_label": "Lugano vs Grasshoppers",
+        "weighted_mins": 90.0
+      },
+      "2p2rcdnfn8gsnjrjbbj12p72s": {
+        "player_name": "D. Papic",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "55",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2008-05-14",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Lugano vs Grasshoppers"
+      },
+      "dnbhu3n4vs5c2p0h7i35c0h04": {
+        "player_name": "D. Sahin",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "56",
+        "mins": 23.0,
+        "raw_mins": 23,
+        "weight": 1.0,
+        "dob": "2008-06-23",
+        "status": "Came on as sub",
+        "week": "14",
+        "match_label": "Lugano vs Grasshoppers",
+        "weighted_mins": 23.0
+      },
+      "7y0stadmtnnrk2vuljdn49s0k": {
+        "player_name": "L. Th\u00fcring",
+        "club_name": "Grasshopper Club Z\u00fcrich",
+        "shirt": "46",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2007-04-30",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Lugano vs Grasshoppers"
+      }
+    }
   },
   "279oxebwseagedqpnv4nyt0k4": {
     "week": "13",
