@@ -273420,33 +273420,11 @@
         "teamName": "Vaduz",
         "partnerEventId": "885"
       },
-      "3000259589": {
-        "typeId": "18",
-        "eventIdNum": "722",
-        "timeMin": "89",
-        "timeSec": "42",
-        "playerId": "187qa5icsve3oak3t90r6rhsl",
-        "playerName": "M. Poaty",
-        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
-        "teamName": "Lausanne-Sport",
-        "partnerEventId": "723"
-      },
-      "3000259593": {
-        "typeId": "19",
-        "eventIdNum": "723",
-        "timeMin": "89",
-        "timeSec": "42",
-        "playerId": "4of4uikysypmvfv1i7suv3b6y",
-        "playerName": "E. Youte",
-        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
-        "teamName": "Lausanne-Sport",
-        "partnerEventId": "722"
-      },
       "3000259695": {
         "typeId": "18",
         "eventIdNum": "724",
         "timeMin": "89",
-        "timeSec": "48",
+        "timeSec": "30",
         "playerId": "4m5w23fmydm3or1ff42hgeqne",
         "playerName": "N. Butler-Oyedeji",
         "teamId": "96jxcq0onij7zd9rwwkal8q1l",
@@ -273457,12 +273435,34 @@
         "typeId": "19",
         "eventIdNum": "725",
         "timeMin": "89",
-        "timeSec": "48",
+        "timeSec": "30",
         "playerId": "3qcjzsb466tfri5yrj35wztw4",
         "playerName": "L. Nene",
         "teamId": "96jxcq0onij7zd9rwwkal8q1l",
         "teamName": "Lausanne-Sport",
         "partnerEventId": "724"
+      },
+      "3000259589": {
+        "typeId": "18",
+        "eventIdNum": "722",
+        "timeMin": "89",
+        "timeSec": "38",
+        "playerId": "187qa5icsve3oak3t90r6rhsl",
+        "playerName": "M. Poaty",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "723"
+      },
+      "3000259593": {
+        "typeId": "19",
+        "eventIdNum": "723",
+        "timeMin": "89",
+        "timeSec": "38",
+        "playerId": "4of4uikysypmvfv1i7suv3b6y",
+        "playerName": "E. Youte",
+        "teamId": "96jxcq0onij7zd9rwwkal8q1l",
+        "teamName": "Lausanne-Sport",
+        "partnerEventId": "722"
       }
     }
   },
