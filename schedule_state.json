@@ -241,11 +241,12 @@
   },
   "2iov2h79t3dvqrc9ybev3u2ac": {
     "date": "2026-12-20",
-    "time": "15:30:00",
+    "time": "13:00:00",
     "local_date": "2026-12-20",
-    "local_time": "16:30:00",
+    "local_time": "14:00:00",
     "description": "Vaduz vs Lugano",
     "competition": "Super League",
+    "competition_id": "e0lck99w8meo9qoalfrxgo33o",
     "stage": "Regular Season",
     "week": "18"
   },
@@ -261,11 +262,12 @@
   },
   "2ibrxxi0qm9cntavpy2eek6xg": {
     "date": "2026-12-20",
-    "time": "13:00:00",
+    "time": "15:30:00",
     "local_date": "2026-12-20",
-    "local_time": "14:00:00",
+    "local_time": "16:30:00",
     "description": "Thun vs Sion",
     "competition": "Super League",
+    "competition_id": "e0lck99w8meo9qoalfrxgo33o",
     "stage": "Regular Season",
     "week": "18"
   },
