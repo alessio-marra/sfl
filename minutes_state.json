@@ -389,7 +389,110 @@
     "tmcl_id": "cx0b7yl7kqmgay9wn2c3zyjh0",
     "home_name": "Lausanne-Sport",
     "away_name": "Vaduz",
-    "players": {}
+    "players": {
+      "8lx7ynn9g358g7icf8f0jxjx0": {
+        "player_name": "I. Bah Mendes",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "51",
+        "mins": 34.0,
+        "raw_mins": 34,
+        "weight": 1.0,
+        "dob": "2005-11-22",
+        "status": "Came on as sub",
+        "week": "14",
+        "match_label": "Lausanne-Sport vs Vaduz",
+        "weighted_mins": 34.0
+      },
+      "615ger5z8xeb36lqke8rz7od0": {
+        "player_name": "S. NDiaye",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "47",
+        "mins": 34.0,
+        "raw_mins": 34,
+        "weight": 1.0,
+        "dob": "2005-11-01",
+        "status": "Came on as sub",
+        "week": "14",
+        "match_label": "Lausanne-Sport vs Vaduz",
+        "weighted_mins": 34.0
+      },
+      "7n4obvxgtvcggeyl540j73384": {
+        "player_name": "D. Ngonzo",
+        "club_name": "FC Lausanne-Sport",
+        "shirt": "5",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-07-31",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Lausanne-Sport vs Vaduz"
+      },
+      "9kb67r0b4yc9q3g9607nih91w": {
+        "player_name": "L. Celentano",
+        "club_name": "FC Vaduz",
+        "shirt": "37",
+        "mins": 76.0,
+        "raw_mins": 76,
+        "weight": 1.0,
+        "dob": "2006-10-21",
+        "status": "Started",
+        "week": "14",
+        "match_label": "Lausanne-Sport vs Vaduz",
+        "weighted_mins": 76.0
+      },
+      "dpdsyn6l2oqdyiskbjg4pdsk": {
+        "player_name": "M. Beeli",
+        "club_name": "FC Vaduz",
+        "shirt": "14",
+        "mins": 38.0,
+        "raw_mins": 76,
+        "weight": 0.5,
+        "dob": "2004-02-05",
+        "status": "Started",
+        "week": "14",
+        "match_label": "Lausanne-Sport vs Vaduz",
+        "weighted_mins": 38.0
+      },
+      "2pn8sdsirddumo2usvzf9kglw": {
+        "player_name": "L. Dalipi",
+        "club_name": "FC Vaduz",
+        "shirt": "11",
+        "mins": 90.0,
+        "raw_mins": 90,
+        "weight": 1.0,
+        "dob": "2006-05-23",
+        "status": "Started",
+        "week": "14",
+        "match_label": "Lausanne-Sport vs Vaduz",
+        "weighted_mins": 90.0
+      },
+      "dldvsl5cgnzd5pqfm2h9uq3h0": {
+        "player_name": "C. Konietzke",
+        "club_name": "FC Vaduz",
+        "shirt": "26",
+        "mins": 27.0,
+        "raw_mins": 27,
+        "weight": 1.0,
+        "dob": "2006-06-21",
+        "status": "Came on as sub",
+        "week": "14",
+        "match_label": "Lausanne-Sport vs Vaduz",
+        "weighted_mins": 27.0
+      },
+      "38r0hllx8i1swwgqx7udvhb84": {
+        "player_name": "M. Walker",
+        "club_name": "FC Vaduz",
+        "shirt": "30",
+        "mins": 0.0,
+        "raw_mins": 0,
+        "weight": 1.0,
+        "dob": "2005-02-11",
+        "status": "In squad, did not play",
+        "week": "14",
+        "match_label": "Lausanne-Sport vs Vaduz"
+      }
+    }
   },
   "280372wggwbhwl26be7og66fo": {
     "week": "14",
